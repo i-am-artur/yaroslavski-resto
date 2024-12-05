@@ -8,6 +8,7 @@
     ]
   },
   "include": [
+    "./styled-system",
     "next-env.d.ts",
     "next.config.mjs",
     "**/*.ts",

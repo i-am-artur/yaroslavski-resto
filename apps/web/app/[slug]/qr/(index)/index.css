@@ -1,0 +1,7 @@
+.pageWrapper {    
+    /* margin-top: 125px; */
+    height: 170px;
+    background-image: url(/qr/assets/site/header.jpg);
+    background-position: center;
+    background-size: cover;
+}

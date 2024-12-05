@@ -1,0 +1,9 @@
+@keyframes from-bottom-animate {
+    0% {
+        transform: translateY(150px)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}

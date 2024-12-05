@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prepare": "panda codegen",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
@@ -10,12 +11,16 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@nextui-org/modal": "^2.0.41",
+    "@nextui-org/react": "^2.4.8",
     "@repo/shared": "workspace:*",
+    "framer-motion": "^11.11.17",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "devDependencies": {
+    "@pandacss/dev": "^0.48.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^20",
