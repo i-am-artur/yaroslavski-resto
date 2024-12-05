@@ -664,4 +664,172 @@ export const products = [
     },
     capacityUnit: 'g',
   },
+  {
+    categories: [10],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Арахіс зі спеціями',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 100,
+          value: 50,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [10],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Фісташки',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 100,
+          value: 100,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [10],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Сухарики житні',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 100,
+          value: 25,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [10],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Чіпси з лаваша з гострими спеціями',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 100,
+          value: 25,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [10],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Ламаджо з баранини та яловичини з гострими спеціями',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 100,
+          value: 50,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [10],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Бастурма',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 100,
+          value: 130,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [10],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Сирні палички',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 100,
+          value: 100,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [10],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Королівська креветка гриль',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 100,
+          value: 100,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
 ];

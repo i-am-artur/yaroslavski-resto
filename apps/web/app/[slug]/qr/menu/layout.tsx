@@ -69,10 +69,6 @@ export default async function MenuLayout(
             flexDirection: 'column',
             sm: {
               flexDirection: 'row',
-              // position: 'fixed',
-              // top: '80px',
-              // left: '0',
-              // right: '0',
             },
           })}
         >

@@ -35,7 +35,6 @@ export default function Menu() {
         const products: any[] = await fetch(
           `${process.env.basePath}/assets/menuData/${cat1}.json`
         ).then((res) => res.json());
-        // pageCtx.setSelectedCategories({ cat1 });
         setStructuredData(
           structureData(categories, cat1, products, qrCtx.categories.setCategories)
         );
@@ -47,7 +46,6 @@ export default function Menu() {
         qrCtx.categories.setCategories(categoriesTmp);
       };
     })();
-    // }, [pageCtx.selectedCategories.cat1, qrCtx.categories.value]);
   }, [categories, searchParams]);
 
   useEffect(() => {
@@ -59,7 +57,6 @@ export default function Menu() {
   return (
     <main
       className={css({
-        // padding: 'side.v',
         backgroundColor: 'white',
         flex: '1',
       })}

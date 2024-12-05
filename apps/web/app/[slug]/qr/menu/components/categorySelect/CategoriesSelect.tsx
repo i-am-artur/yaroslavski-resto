@@ -4,9 +4,8 @@ import { Fragment, useContext, useEffect, useState } from 'react';
 import { qrContext } from '../../../(components)/QrContext';
 import { CategorySelectT } from '../../../../../../src/instances/languages/translation/instances/languages/components/selectCategory/ua';
 import CategoriesSelectLarge from './CategoriesSelectLarge';
-import { SelectedCategories } from './types';
-import { css } from '../../../../../../styled-system/css';
 import CategoriesSelectSmall from './CategoriesSelectSmall';
+import { SelectedCategories } from './types';
 
 export default function CategoriesSelect(props: { t: CategorySelectT }) {
   const ctx = useContext(qrContext);

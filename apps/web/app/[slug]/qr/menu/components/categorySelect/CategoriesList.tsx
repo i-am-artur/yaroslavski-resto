@@ -12,35 +12,37 @@ export default function CategoriesList(props: {
   const lang = usePathname().split('/')[1];
 
   return (
-    <ul
-      className={css({
-        columnGap: 'unit.h',
-        rowGap: 'unit.v',
-        display: 'flex',
-        overflowX: 'auto',
-        overflowY: 'hidden',
-        scrollbarWidth: 'none',
-      })}
-    >
-      {props.list.map((category: any) => {
-        return (
-          <li key={category.id}>
-            <NextLink
-              href={'#' + category.id}
-              className={button({
-                variant: 'solid',
-                color:
-                  category.id === props.selectedCategory?.id ? 'primary' : 'secondary',
-              })}
-              onClick={() => {
-                props.onSelect(category);
-              }}
-            >
-              {category?.name[lang ?? 'ua']}
-            </NextLink>
-          </li>
-        );
-      })}
-    </ul>
+    props.list.length > 0 && (
+      <ul
+        className={css({
+          columnGap: 'unit.h',
+          rowGap: 'unit.v',
+          display: 'flex',
+          overflowX: 'auto',
+          overflowY: 'hidden',
+          scrollbarWidth: 'none',
+        })}
+      >
+        {props.list.map((category: any) => {
+          return (
+            <li key={category.id}>
+              <NextLink
+                href={'#' + category.id}
+                className={button({
+                  variant: 'solid',
+                  color:
+                    category.id === props.selectedCategory?.id ? 'primary' : 'secondary',
+                })}
+                onClick={() => {
+                  props.onSelect(category);
+                }}
+              >
+                {category?.name[lang ?? 'ua']}
+              </NextLink>
+            </li>
+          );
+        })}
+      </ul>
+    )
   );
 }

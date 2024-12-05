@@ -26,6 +26,7 @@ export default function CategoriesSelectSmall(props: {
       <div
         className={css({
           paddingTop: 'side.v',
+          paddingBottom: 'side.v',
           rowGap: 'item.v',
           display: 'flex',
           flexDirection: 'column',
