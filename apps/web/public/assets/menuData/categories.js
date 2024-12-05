@@ -23,8 +23,8 @@ export const categories = [
   { id: 15, name: { en: 'Fish salads', ua: 'Рибні салати' }, parentId: 3 },
 
   // ------------- Main dishes -------------
-  { id: 16, name: { en: 'Fish dishes', ua: 'Рибні страви' }, parentId: 4 },
-  { id: 17, name: { en: 'Meat dishes', ua: 'М`ясні страви' }, parentId: 4 },
+  { id: 16, name: { en: 'Meat dishes', ua: 'М`ясні страви' }, parentId: 4 },
+  { id: 17, name: { en: 'Fish dishes', ua: 'Рибні страви' }, parentId: 4 },
   { id: 18, name: { en: 'Side dishes', ua: 'Гарніри' }, parentId: 4 },
 
   // ------------- Barbecue -------------

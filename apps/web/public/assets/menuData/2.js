@@ -1,0 +1,234 @@
+// TODO check for duplicates ids, price capacity, price value not same
+export const products = [
+  {
+    categories: [11],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Борщ зі сметаною, часником та салом',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [11],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Борщ зелений з яйцем та сметаною',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [11],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Юшка з норвезьким лососем',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [11],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Юшка "Гетьманська" з осетром та норвезьким лососем',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 200,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [11],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Харчо з телятиною',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [11],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Солянка збірна зі сметаною',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [11],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Грибний крем-суп',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [11],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Сирний крем-суп',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [12],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Окрошка з куркою',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [12],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Окрошка з язиком',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 170,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [12],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Окрошка з норвезьким лососем та помідорами',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 170,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+];
