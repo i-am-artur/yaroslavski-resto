@@ -9,6 +9,7 @@ import Modal from '../../../../../../src/instances/ui/modals/Modal';
 import { css } from '../../../../../../styled-system/css';
 import './index.css';
 import Arrows from '../../../../../../src/instances/ui/icons/Arrows';
+
 export default function MainCategorySelect(props: {
   open: boolean;
   onClose?: () => void;
@@ -28,6 +29,7 @@ export default function MainCategorySelect(props: {
           right: 0,
           left: 0,
           bottom: 0,
+          overflowY: 'scroll',
           padding: 'radius.xl',
           backgroundColor: 'white',
           borderTopLeftRadius: 'xl',

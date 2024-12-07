@@ -35,6 +35,8 @@ export default function Menu() {
         const products: any[] = await fetch(
           `${process.env.basePath}/assets/menuData/${cat1}.json`
         ).then((res) => res.json());
+        console.log('🚀 ~ products:', products);
+
         setStructuredData(
           structureData(categories, cat1, products, qrCtx.categories.setCategories)
         );
@@ -64,7 +66,7 @@ export default function Menu() {
       {!loading
         ? parseCategoriesAndProducts(
             structuredData,
-            0,
+            1,
             qrCtx.lang,
             qrCtx.categories.setCategories
           )
@@ -79,6 +81,30 @@ function structureData(
   products: any[],
   setQrCategories: any
 ) {
+  // if(parentId === null){
+  //   return products.filter((product) => product.categories.includes(parentId));
+  // }
+
+  // const topCategory = categories.find((el) => el.id === parentId && el.parentId === null);
+  // if (!!topCategory) {
+  //   const topCategoryProducts = products.filter((product) =>
+  //     product.categories.includes(parentId)
+  //   );
+  //   const children = structureData(categories, parentId, products, setQrCategories);
+  //   // console.log('🚀 ~ .map ~ children:', el, children);
+  //   const childrenHaveProducts =
+  //     children.some((el) => el.childrenHaveProducts) ||
+  //     children.some((el) => el?.products?.length > 0);
+
+  //   return {
+  //     // ...el,
+
+  //     products: topCategoryProducts,
+  //     children,
+  //     childrenHaveProducts: true,
+  //   };
+  // }
+
   const subCategories = categories.filter((el) => el.parentId === parentId);
   if (subCategories.length === 0) return [];
 
@@ -86,10 +112,16 @@ function structureData(
     .sort((a, b) => a.parentId - b.parentId)
     .map((el: any): any => {
       const children = structureData(categories, el.id, products, setQrCategories);
-      const childrenHaveProducts = children.some((el) => el?.products?.length > 0);
+      // console.log('🚀 ~ .map ~ children:', el, children);
+      const childrenHaveProducts =
+        children.some((el) => el.childrenHaveProducts) ||
+        children.some((el) => el?.products?.length > 0);
+      // console.log('🚀 ~ .map ~ childrenHaveProducts:', el, childrenHaveProducts);
+      // const categoryProducts = products.some((el) => el.categories.includes(el.id));
       const categoryProducts = products.filter((product) =>
         product.categories.includes(el.id)
       );
+      console.log('🚀 ~ .map ~ categoryProducts:', el, categoryProducts);
       if (!childrenHaveProducts && categoryProducts.length === 0) {
         setQrCategories((pre: any) =>
           pre.filter((elToFilter: any) => elToFilter.id !== el.id)
@@ -104,7 +136,7 @@ function structureData(
         ...el,
         products: categoryProducts,
         children,
-        childrenHaveProducts,
+        childrenHaveProducts: childrenHaveProducts,
       };
     });
 }
@@ -119,7 +151,7 @@ function parseCategoriesAndProducts(
   return (
     <ul className={css({ display: 'flex', flexDirection: 'column', rowGap: 'unit.v' })}>
       {structuredData.map((el, i) => {
-        // console.log('🚀 ~ {structuredData.map ~ el:', el);
+        console.log('🚀 ~ {structuredData.map ~ el:', el);
         // const productsExist = productsSome(el);
         // if (el.empty) {
         //   setCategories((pre: any) =>
@@ -140,11 +172,14 @@ function parseCategoriesAndProducts(
             <Box
               id={el.id}
               $sx={{
-                scrollMarginTop: level < 2 ? level * 35 + 120 : (level - 1) * 35 + 160,
+                scrollMarginTop:
+                  el.children.length > 0 ? level * 43 + 110 : (level - 1) * 43 + 110,
+                // scrollMarginTop: level * 43 + 120,
               }}
               className={css({
                 fontSize: '1.5rem',
                 transitionTimingFunction: 'ease-out',
+                fontWeight: 600,
               })}
             >
               {el.name[lang]}

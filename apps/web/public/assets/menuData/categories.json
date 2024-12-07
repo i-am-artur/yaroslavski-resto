@@ -56,6 +56,14 @@
     "parentId": null
   },
   {
+    "id": 30,
+    "name": {
+      "en": "Drinks",
+      "ua": "Напитки"
+    },
+    "parentId": null
+  },
+  {
     "id": 8,
     "name": {
       "en": "Cold Appetizers",
@@ -122,16 +130,16 @@
   {
     "id": 16,
     "name": {
-      "en": "Fish dishes",
-      "ua": "Рибні страви"
+      "en": "Meat dishes",
+      "ua": "М`ясні страви"
     },
     "parentId": 4
   },
   {
     "id": 17,
     "name": {
-      "en": "Meat dishes",
-      "ua": "М`ясні страви"
+      "en": "Fish dishes",
+      "ua": "Рибні страви"
     },
     "parentId": 4
   },
@@ -230,5 +238,221 @@
       "ua": "Ярило фірмовий"
     },
     "parentId": 6
+  },
+  {
+    "id": 32,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Безалкогольные"
+    },
+    "parentId": 30
+  },
+  {
+    "id": 31,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Алкогольные"
+    },
+    "parentId": 30
+  },
+  {
+    "id": 33,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Слабоалкоголные "
+    },
+    "parentId": 31
+  },
+  {
+    "id": 34,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Крепкие-алкгольные "
+    },
+    "parentId": 31
+  },
+  {
+    "id": 36,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Вино "
+    },
+    "parentId": 31
+  },
+  {
+    "id": 37,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Коктейли "
+    },
+    "parentId": 31
+  },
+  {
+    "id": 38,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Пиво кеговое"
+    },
+    "parentId": 33
+  },
+  {
+    "id": 39,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Пиво бутылочное"
+    },
+    "parentId": 33
+  },
+  {
+    "id": 40,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Сидр ROYAL ZOLOTONOSHA"
+    },
+    "parentId": 33
+  },
+  {
+    "id": 41,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Виски"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 42,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Джин"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 43,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Текила"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 44,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Ликеры/Настойки/Вермуты"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 45,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Ром"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 46,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Коньяк та Бренди"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 47,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Водка"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 50,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Холодные"
+    },
+    "parentId": 32
+  },
+  {
+    "id": 51,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Горячие"
+    },
+    "parentId": 32
+  },
+  {
+    "id": 52,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Собственное производство"
+    },
+    "parentId": 50
+  },
+  {
+    "id": 53,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Сладкие напитки и вода"
+    },
+    "parentId": 50
+  },
+  {
+    "id": 54,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Кофе"
+    },
+    "parentId": 51
+  },
+  {
+    "id": 55,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Чай"
+    },
+    "parentId": 51
+  },
+  {
+    "id": 56,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Натуральні Лимонади"
+    },
+    "parentId": 52
+  },
+  {
+    "id": 57,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Свіжовичавлений сік"
+    },
+    "parentId": 52
+  },
+  {
+    "id": 58,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Віскі Ірландський"
+    },
+    "parentId": 41
+  },
+  {
+    "id": 59,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Шотландський Віскі"
+    },
+    "parentId": 41
+  },
+  {
+    "id": 60,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Віскі США"
+    },
+    "parentId": 41
   }
 ]

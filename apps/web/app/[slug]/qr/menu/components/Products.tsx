@@ -37,7 +37,7 @@ export default function Products(props: { list: any[]; lang: string }) {
                     flexDirection: 'column',
                   })}
                 >
-                  <div className={css({ fontWeight: 700 })}>
+                  <div className={css({ fontWeight: 500 })}>
                     {product.name[props.lang]}
                   </div>
                   {product.price.qr.length > 0 && (
