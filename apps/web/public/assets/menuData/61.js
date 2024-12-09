@@ -497,11 +497,11 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '1 кулька',
+          capacity: '1',
           value: 30,
         },
       ],
     },
-    capacityUnit: 'qty',
+    capacityUnit: 'ball',
   },
 ];

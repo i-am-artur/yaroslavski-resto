@@ -8,18 +8,18 @@
     "parentId": null
   },
   {
-    "id": 2,
-    "name": {
-      "en": "Soups",
-      "ua": "Перші страви"
-    },
-    "parentId": null
-  },
-  {
     "id": 3,
     "name": {
       "en": "Salads",
       "ua": "Салати"
+    },
+    "parentId": null
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Soups",
+      "ua": "Перші страви"
     },
     "parentId": null
   },
@@ -384,18 +384,18 @@
     "parentId": 51
   },
   {
-    "id": 56,
-    "name": {
-      "en": "Adjarian Khachapuri",
-      "ua": "Натуральні Лимонади"
-    },
-    "parentId": 52
-  },
-  {
     "id": 57,
     "name": {
       "en": "Adjarian Khachapuri",
       "ua": "Свіжовичавлений сік"
+    },
+    "parentId": 52
+  },
+  {
+    "id": 56,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Натуральні Лимонади"
     },
     "parentId": 52
   },

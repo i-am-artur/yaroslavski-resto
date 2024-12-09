@@ -2,8 +2,8 @@
 export const categories = [
   //--------------------------------------
   { id: 1, name: { en: 'Appetizers', ua: 'Смаколики' }, parentId: null },
-  { id: 2, name: { en: 'Soups', ua: 'Перші страви' }, parentId: null },
   { id: 3, name: { en: 'Salads', ua: 'Салати' }, parentId: null },
+  { id: 2, name: { en: 'Soups', ua: 'Перші страви' }, parentId: null },
   { id: 4, name: { en: 'Main dishes', ua: 'Основні страви' }, parentId: null },
   { id: 60, name: { en: 'Sauces', ua: 'Соуси' }, parentId: null },
   { id: 5, name: { en: 'Barbecue', ua: 'Мангал' }, parentId: null },
@@ -87,48 +87,48 @@ export const categories = [
   // ------------- Крепкие-алкгольные -------------
   { id: 41, name: { en: 'Adjarian Khachapuri', ua: 'Виски' }, parentId: 34 },
   { id: 42, name: { en: 'Adjarian Khachapuri', ua: 'Джин' }, parentId: 34 },
-  { id: 43, name: { en: 'Adjarian Khachapuri', ua: 'Текила' }, parentId: 34 },
+  { id: 43, name: { en: 'Adjarian Khachapuri', ua: 'Текіла' }, parentId: 34 },
   {
     id: 44,
-    name: { en: 'Adjarian Khachapuri', ua: 'Ликеры/Настойки/Вермуты' },
+    name: { en: 'Adjarian Khachapuri', ua: 'Лікери, Настоянки, Вермути' },
     parentId: 34,
   },
   { id: 45, name: { en: 'Adjarian Khachapuri', ua: 'Ром' }, parentId: 34 },
   { id: 46, name: { en: 'Adjarian Khachapuri', ua: 'Коньяк та Бренди' }, parentId: 34 },
-  { id: 47, name: { en: 'Adjarian Khachapuri', ua: 'Водка' }, parentId: 34 },
+  { id: 47, name: { en: 'Adjarian Khachapuri', ua: 'Горілка' }, parentId: 34 },
 
   // ------------- Безалкогольные -------------
-  { id: 50, name: { en: 'Adjarian Khachapuri', ua: 'Холодные' }, parentId: 32 },
-  { id: 51, name: { en: 'Adjarian Khachapuri', ua: 'Горячие' }, parentId: 32 },
+  { id: 50, name: { en: 'Adjarian Khachapuri', ua: 'Холодні' }, parentId: 32 },
+  { id: 51, name: { en: 'Adjarian Khachapuri', ua: 'Гарячі' }, parentId: 32 },
 
   // ------------- Холодные -------------
   {
     id: 52,
-    name: { en: 'Adjarian Khachapuri', ua: 'Собственное производство' },
+    name: { en: 'Adjarian Khachapuri', ua: 'Напої власного виробництва' },
     parentId: 50,
   },
   {
     id: 53,
-    name: { en: 'Adjarian Khachapuri', ua: 'Сладкие напитки и вода' },
+    name: { en: 'Adjarian Khachapuri', ua: 'Напої та вода' },
     parentId: 50,
   },
 
   // ------------- Горячие -------------
-  { id: 54, name: { en: 'Adjarian Khachapuri', ua: 'Кофе' }, parentId: 51 },
+  { id: 54, name: { en: 'Adjarian Khachapuri', ua: 'Кава' }, parentId: 51 },
   { id: 55, name: { en: 'Adjarian Khachapuri', ua: 'Чай' }, parentId: 51 },
 
   // ------------- Собственное производство -------------
-  {
-    id: 56,
-    name: { en: 'Adjarian Khachapuri', ua: 'Натуральні Лимонади' },
-    parentId: 52,
-  },
   {
     id: 57,
     name: { en: 'Adjarian Khachapuri', ua: 'Свіжовичавлений сік' },
     parentId: 52,
   },
 
+  {
+    id: 56,
+    name: { en: 'Adjarian Khachapuri', ua: 'Натуральні Лимонади' },
+    parentId: 52,
+  },
   // ------------- Виски -------------
   {
     id: 58,

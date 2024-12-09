@@ -1,8 +1,6 @@
 [
   {
-    "categories": [
-      16
-    ],
+    "categories": [17],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -15,17 +13,15 @@
     "price": {
       "qr": [
         {
-          "capacity": "300h150h50",
-          "value": 350
+          "capacity": "300\\150\\50",
+          "value": 400
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      16
-    ],
+    "categories": [17],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -38,17 +34,15 @@
     "price": {
       "qr": [
         {
-          "capacity": "200h150h50",
-          "value": 250
+          "capacity": "200\\150\\50",
+          "value": 300
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      16
-    ],
+    "categories": [17],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -61,53 +55,7 @@
     "price": {
       "qr": [
         {
-          "capacity": "150h150h50",
-          "value": 350
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      16
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Каре баранини з гострим соте та аджикою"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": "200h150h50",
-          "value": 300
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      16
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Качина грудка з карамелізованої грушою"
-    },
-    "description": {
-      "en": "",
-      "ua": "під вишневим соусом"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": "200h150h50",
+          "capacity": "150\\150\\50",
           "value": 400
         }
       ]
@@ -115,78 +63,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      16
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Тапака з пів курчати Кокле з картоплею по креольські"
-    },
-    "description": {
-      "en": "",
-      "ua": "та соусом Сацебелі"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": "300h150h50",
-          "value": 250
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      16
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Долма з виноградного листя"
-    },
-    "description": {
-      "en": "",
-      "ua": "з соусом \"Мацоні\""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": "200h50",
-          "value": 150
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      17
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Хвости тигрових креветок на дерунах"
-    },
-    "description": {
-      "en": "",
-      "ua": "з вершково шпинатним соусом"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": "100h150h50",
-          "value": 250
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      17
-    ],
+    "categories": [17],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -199,7 +76,7 @@
     "price": {
       "qr": [
         {
-          "capacity": "150h150h50",
+          "capacity": "150\\150\\50",
           "value": 700
         }
       ]
@@ -207,9 +84,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      17
-    ],
+    "categories": [17],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -222,17 +97,36 @@
     "price": {
       "qr": [
         {
-          "capacity": "100h150h50",
-          "value": 400
+          "capacity": "100\\150\\50",
+          "value": 450
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      17
-    ],
+    "categories": [17],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Сьомга в чорному кунжуті на подушці зі шпинату"
+    },
+    "description": {
+      "en": "",
+      "ua": "під соусом бальзамік"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "100\\150\\50",
+          "value": 450
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [17],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -245,17 +139,15 @@
     "price": {
       "qr": [
         {
-          "capacity": "200h150h50",
-          "value": 300
+          "capacity": "200\\150\\50",
+          "value": 350
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      17
-    ],
+    "categories": [17],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -268,17 +160,162 @@
     "price": {
       "qr": [
         {
-          "capacity": "250h150h50",
-          "value": 250
+          "capacity": "250\\150\\50",
+          "value": 300
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      18
-    ],
+    "categories": [17],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Каре баранини з гострим соте та аджикою"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "200\\150\\50",
+          "value": 300
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [17],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Качина грудка з карамелізованої грушою"
+    },
+    "description": {
+      "en": "",
+      "ua": "під вишневим соусом"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "200\\150\\50",
+          "value": 350
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [17],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Тапака з пів курчати Кокле з картоплею по креольські"
+    },
+    "description": {
+      "en": "",
+      "ua": "та соусом Сацебелі"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "300\\150\\50",
+          "value": 300
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [17],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Долма з Телятини у виноградних листях"
+    },
+    "description": {
+      "en": "",
+      "ua": "з соусом \"Мацоні з часником\""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "200\\50",
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [17],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Долма з Качиного м’яса у виноградних листях"
+    },
+    "description": {
+      "en": "",
+      "ua": "та соус \"Мацоні\""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "200\\50",
+          "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [17],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Долма з Лосося у виноградних листях"
+    },
+    "description": {
+      "en": "",
+      "ua": "та соус \"Мацоні зі спеціями\""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "200\\50",
+          "value": 300
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [17],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Парова куряча котлета"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 170,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [18],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -286,7 +323,7 @@
     },
     "description": {
       "en": "",
-      "ua": "пюре з вершками/по-креольські/відварна з кропом смажений по-домашньому з цибулею та грибами/фрі з кетчупом"
+      "ua": "смажена по-домашньому з цибулею та грибами / пюре / по-креольські / відварна з кропом"
     },
     "price": {
       "qr": [
@@ -299,9 +336,28 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      18
-    ],
+    "categories": [18],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Картопля фрі з кетчупом"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "200\\50",
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [18],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -322,9 +378,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      18
-    ],
+    "categories": [18],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -338,16 +392,14 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 100
+          "value": 120
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      18
-    ],
+    "categories": [18],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -368,9 +420,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      18
-    ],
+    "categories": [18],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -391,9 +441,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      18
-    ],
+    "categories": [18],
     "image": "1.jpg",
     "name": {
       "en": "",

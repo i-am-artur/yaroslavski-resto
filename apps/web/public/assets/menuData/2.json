@@ -1,6 +1,8 @@
 [
   {
-    "categories": [11],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -21,7 +23,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [11],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -42,7 +46,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [11],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -63,7 +69,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [11],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -84,7 +92,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [11],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -105,7 +115,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [11],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -126,7 +138,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [11],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -147,7 +161,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [11],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -168,7 +184,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [12],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -189,7 +207,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [12],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -210,7 +230,9 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [12],
+    "categories": [
+      2
+    ],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",

@@ -1,0 +1,506 @@
+[
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Штрудель Яблучний"
+    },
+    "description": {
+      "en": "",
+      "ua": "волоські горіхі, родзинки та кориця, кулька фісташкового морозива та мигдальні пелюстки"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Штрудель Грушевий"
+    },
+    "description": {
+      "en": "",
+      "ua": "волоські горіхі, родзинки та кориця, кулька морозива крем-брюле та мигдальні пелюстки"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Штрудель з вишнею"
+    },
+    "description": {
+      "en": "",
+      "ua": "волоські горіхі, родзинки та кориця, кулька шоколадного морозива та мигдальні пелюстки"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Чизкейк Шоколадний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Чизкейк Карамельний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Чизкейк Пахлава Фісташковий"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Чизкейк Дубай"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 180
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Чизкейк Баскський Сан Себастьян"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Наполеон"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Наполеон з Вишнею та кокосом"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Наполеон Малиновий"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Торт Естерхайзі з волоськими горіхами"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Торт Фісташковий"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Торт медовий \"Казка\""
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Торт Червоний Бархат"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Торт маковий з Ірискою"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Пахлава по Вірменськи"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Безе"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 1,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "qty"
+  },
+  {
+    "categories": [63],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Горіхове"
+    },
+    "description": {
+      "en": "",
+      "ua": "морозиво вершкове, шоколадне, крем-брюле, тертий шоколад, мигдальні пелюстки, топінг карамель та шоколад, горіхи фундук та  мигдаль, вершки"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 140
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [63],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Рафаелло"
+    },
+    "description": {
+      "en": "",
+      "ua": "фісташкове, вершкове і полуничне морозиво, кокосові чіпси згущене молоко, вершки, мигдаль, мигдальні пелюстки, тертий білий шоколад, свіжа м`ята, цукерки Рафаелло"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 140
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [63],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Снікерс"
+    },
+    "description": {
+      "en": "",
+      "ua": "морозиво вершкове, шоколадне та крем-брюле, згущене молоко іриска, вершки, карамель, арахіс солоний, батончик Снікерс"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 140
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [63],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Алкогольне"
+    },
+    "description": {
+      "en": "",
+      "ua": "морозиво вершкове, крем-брюле та шоколадне вірменський коньяк, лікер Бейліс, вершки, волоський горіх та фундук, карамель, тертий чорний шоколад, мигдальні пелюстки"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 220
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [63],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Дитяче"
+    },
+    "description": {
+      "en": "",
+      "ua": "1 кулька морозива баблгам, вершки, M&M`s, маршмеллоу желейні ведмедики, кольорова присипка, міні безе, вафельна трубочка"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 100,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [63],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Морозиво в асортименті"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "1 кулька",
+          "value": 30
+        }
+      ]
+    },
+    "capacityUnit": "qty"
+  }
+]

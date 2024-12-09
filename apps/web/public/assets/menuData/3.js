@@ -196,7 +196,7 @@ export const products = [
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
-      ua: 'Мікс салат з качиної грудкою',
+      ua: 'Мікс салат з качиною грудкою',
     },
     description: {
       en: '',
@@ -276,7 +276,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [15],
+    categories: [14],
     image: '1.jpg',
     name: {
       en: '',
@@ -297,7 +297,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [15],
+    categories: [14],
     image: '1.jpg',
     name: {
       en: '',
@@ -317,48 +317,47 @@ export const products = [
     },
     capacityUnit: 'g',
   },
-  //-----------------------------------------
-  // {
-  //   categories: [13],
-  //   image: '1.jpg',
-  //   name: {
-  //     en: 'Hachapuri Adjarski with cheese',
-  //     ua: 'Мікс салат з ананасом та перцем гриль та авокадо',
-  //   },
-  //   description: {
-  //     en: '',
-  //     ua: 'під соусом білий Бальзамік',
-  //   },
-  //   price: {
-  //     qr: [
-  //       {
-  //         capacity: 300,
-  //         value: 300,
-  //       },
-  //     ],
-  //   },
-  //   capacityUnit: 'g',
-  // },
 
-  // {
-  //   categories: [13],
-  //   image: '1.jpg',
-  //   name: {
-  //     en: 'Hachapuri Adjarski with cheese',
-  //     ua: 'Соте з овочів гриль',
-  //   },
-  //   description: {
-  //     en: '',
-  //     ua: '',
-  //   },
-  //   price: {
-  //     qr: [
-  //       {
-  //         capacity: 200,
-  //         value: 170,
-  //       },
-  //     ],
-  //   },
-  //   capacityUnit: 'g',
-  // },
+  {
+    categories: [14],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Соте з овочів гриль',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 200,
+          value: 170,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [14],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Мікс салат з ананасом та перцем гриль та авокадо',
+    },
+    description: {
+      en: '',
+      ua: 'під соусом білий Бальзамік',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 300,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
 ];

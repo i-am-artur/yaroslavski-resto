@@ -14,7 +14,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '300\x68150\x6850',
+          capacity: '300\\150\\50',
           value: 400,
         },
       ],
@@ -35,7 +35,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '200\x68150\x6850',
+          capacity: '200\\150\\50',
           value: 300,
         },
       ],
@@ -56,7 +56,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '150\x68150\x6850',
+          capacity: '150\\150\\50',
           value: 400,
         },
       ],
@@ -77,7 +77,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '150\x68150\x6850',
+          capacity: '150\\150\\50',
           value: 700,
         },
       ],
@@ -98,7 +98,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '100\x68150\x6850',
+          capacity: '100\\150\\50',
           value: 450,
         },
       ],
@@ -119,7 +119,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '100\x68150\x6850',
+          capacity: '100\\150\\50',
           value: 450,
         },
       ],
@@ -140,7 +140,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '200\x68150\x6850',
+          capacity: '200\\150\\50',
           value: 350,
         },
       ],
@@ -161,7 +161,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '250\x68150\x6850',
+          capacity: '250\\150\\50',
           value: 300,
         },
       ],
@@ -182,7 +182,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '200\x68150\x6850',
+          capacity: '200\\150\\50',
           value: 300,
         },
       ],
@@ -204,7 +204,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '200\x68150\x6850',
+          capacity: '200\\150\\50',
           value: 350,
         },
       ],
@@ -225,7 +225,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '300\x68150\x6850',
+          capacity: '300\\150\\50',
           value: 300,
         },
       ],
@@ -247,7 +247,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '200\x6850',
+          capacity: '200\\50',
           value: 150,
         },
       ],
@@ -268,7 +268,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '200\x6850',
+          capacity: '200\\50',
           value: 200,
         },
       ],
@@ -289,7 +289,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '200\x6850',
+          capacity: '200\\50',
           value: 300,
         },
       ],
@@ -297,7 +297,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [16],
+    categories: [17],
     image: '1.jpg',
     name: {
       en: '',
@@ -333,7 +333,7 @@ export const products = [
   //   price: {
   //     qr: [
   //       {
-  //         capacity: '100\x68150\x6850',
+  //         capacity: '100\\150\\50',
   //         value: 250,
   //       },
   //     ],
@@ -376,7 +376,7 @@ export const products = [
     price: {
       qr: [
         {
-          capacity: '200/50',
+          capacity: '200\\50',
           value: 120,
         },
       ],
