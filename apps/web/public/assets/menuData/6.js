@@ -55,6 +55,31 @@ export const products = [
     image: '1.jpg',
     name: {
       en: '',
+      ua: 'Аджарец з України зі шкварками',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 350,
+          value: 200,
+        },
+        {
+          capacity: 500,
+          value: 250,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [25],
+    image: '1.jpg',
+    name: {
+      en: '',
       ua: 'Аджарець із Парижа с жульєном',
     },
     description: {
@@ -80,7 +105,32 @@ export const products = [
     image: '1.jpg',
     name: {
       en: '',
-      ua: 'Гострий Аджарець з Бастурмой',
+      ua: 'Аджарец з Італії з в’яленими томатами',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 350,
+          value: 250,
+        },
+        {
+          capacity: 500,
+          value: 300,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [25],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Аджарец Гострий з Вірменії з Бастурмою',
     },
     description: {
       en: '',
@@ -105,7 +155,7 @@ export const products = [
     image: '1.jpg',
     name: {
       en: '',
-      ua: 'З м’ясом помідорами Черрі та перцем Чилі',
+      ua: 'Аджарец з Чилі з м’ясом помідорами Черрі та перцем Чилі',
     },
     description: {
       en: '',
@@ -130,7 +180,57 @@ export const products = [
     image: '1.jpg',
     name: {
       en: '',
-      ua: 'З хвостами тигрових Креветок',
+      ua: 'Аджарец з Норвегії з лососем, вершковим сиром та зеленою цибулею',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 350,
+          value: 250,
+        },
+        {
+          capacity: 500,
+          value: 300,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [25],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Аджарец з Іспанії з хвостами тигрових Креветок та вершковим сиром',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 350,
+          value: 250,
+        },
+        {
+          capacity: 500,
+          value: 300,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [25],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Аджарец з Гаваїв з куркою та Ананасом',
     },
     description: {
       en: '',

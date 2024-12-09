@@ -219,13 +219,13 @@ export const products = [
     },
     description: {
       en: '',
-      ua: 'Баклажан, помідор, кабачок, печериці, кукурудза, картопля з салом, перець Болгарський, перець Чілі',
+      ua: 'Баклажан, помідор, печериці, кукурудза, картопля з салом, перець солодкий та Чилі',
     },
     price: {
       qr: [
         {
           capacity: 1000,
-          value: 800,
+          value: 600,
         },
       ],
     },
@@ -247,6 +247,27 @@ export const products = [
         {
           capacity: 200,
           value: 550,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [20],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Сьомга',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 100,
+          value: 300,
         },
       ],
     },
@@ -477,7 +498,7 @@ export const products = [
       qr: [
         {
           capacity: 200,
-          value: 450,
+          value: 400,
         },
       ],
     },
@@ -562,6 +583,27 @@ export const products = [
         {
           capacity: 300,
           value: 120,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [22],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Люля-кебаб Качка',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 200,
+          value: 200,
         },
       ],
     },
@@ -723,7 +765,7 @@ export const products = [
     },
     description: {
       en: '',
-      ua: 'свинячий ошийок, свинячі ребра стейк телятина, куряче філе, курячі крильця',
+      ua: 'свинячий ошийок та ребра, стейк телятина, куряче філе та крильця',
     },
     price: {
       qr: [
@@ -751,112 +793,6 @@ export const products = [
         {
           capacity: 1000,
           value: 700,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-
-  {
-    categories: [24],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Дорблю/Гуакамоле/Баже(горіхова-часниковий)',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 50,
-          value: 80,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [24],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Наршараб/Медово-гірчичний/Чорничний',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 50,
-          value: 60,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [24],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Вершковий/Вершково-шпинатний/Сацебелі',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 50,
-          value: 60,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [24],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Ткемалі/Сирно-часниковий/Аджика/Журавлинний',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 50,
-          value: 50,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [24],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Томатний з зеленню/Білий часниковий',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 50,
-          value: 40,
         },
       ],
     },

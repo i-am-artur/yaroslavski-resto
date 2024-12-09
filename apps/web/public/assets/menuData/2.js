@@ -1,7 +1,7 @@
 // TODO check for duplicates ids, price capacity, price value not same
 export const products = [
   {
-    categories: [11],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -22,7 +22,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [11],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -43,7 +43,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [11],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -64,7 +64,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [11],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -85,7 +85,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [11],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -106,7 +106,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [11],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -127,7 +127,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [11],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -148,7 +148,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [11],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -169,7 +169,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [12],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -190,7 +190,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [12],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
@@ -211,7 +211,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [12],
+    categories: [2],
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',

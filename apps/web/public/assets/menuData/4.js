@@ -1,7 +1,7 @@
 // TODO check for duplicates ids, price capacity, price value not same
 export const products = [
   {
-    categories: [16],
+    categories: [17],
     image: '1.jpg',
     name: {
       en: '',
@@ -15,14 +15,14 @@ export const products = [
       qr: [
         {
           capacity: '300\x68150\x6850',
-          value: 350,
+          value: 400,
         },
       ],
     },
     capacityUnit: 'g',
   },
   {
-    categories: [16],
+    categories: [17],
     image: '1.jpg',
     name: {
       en: '',
@@ -36,14 +36,14 @@ export const products = [
       qr: [
         {
           capacity: '200\x68150\x6850',
-          value: 250,
+          value: 300,
         },
       ],
     },
     capacityUnit: 'g',
   },
   {
-    categories: [16],
+    categories: [17],
     image: '1.jpg',
     name: {
       en: '',
@@ -57,112 +57,7 @@ export const products = [
       qr: [
         {
           capacity: '150\x68150\x6850',
-          value: 350,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [16],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Каре баранини з гострим соте та аджикою',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: '200\x68150\x6850',
-          value: 300,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [16],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Качина грудка з карамелізованої грушою',
-    },
-    description: {
-      en: '',
-      ua: 'під вишневим соусом',
-    },
-    price: {
-      qr: [
-        {
-          capacity: '200\x68150\x6850',
           value: 400,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [16],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Тапака з пів курчати Кокле з картоплею по креольські',
-    },
-    description: {
-      en: '',
-      ua: 'та соусом Сацебелі',
-    },
-    price: {
-      qr: [
-        {
-          capacity: '300\x68150\x6850',
-          value: 250,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [16],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Долма з виноградного листя',
-    },
-    description: {
-      en: '',
-      ua: 'з соусом "Мацоні"',
-    },
-    price: {
-      qr: [
-        {
-          capacity: '200\x6850',
-          value: 150,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [17],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Хвости тигрових креветок на дерунах',
-    },
-    description: {
-      en: '',
-      ua: 'з вершково шпинатним соусом',
-    },
-    price: {
-      qr: [
-        {
-          capacity: '100\x68150\x6850',
-          value: 250,
         },
       ],
     },
@@ -204,7 +99,28 @@ export const products = [
       qr: [
         {
           capacity: '100\x68150\x6850',
-          value: 400,
+          value: 450,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [17],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Сьомга в чорному кунжуті на подушці зі шпинату',
+    },
+    description: {
+      en: '',
+      ua: 'під соусом бальзамік',
+    },
+    price: {
+      qr: [
+        {
+          capacity: '100\x68150\x6850',
+          value: 450,
         },
       ],
     },
@@ -225,7 +141,7 @@ export const products = [
       qr: [
         {
           capacity: '200\x68150\x6850',
-          value: 300,
+          value: 350,
         },
       ],
     },
@@ -246,7 +162,201 @@ export const products = [
       qr: [
         {
           capacity: '250\x68150\x6850',
-          value: 250,
+          value: 300,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [17],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Каре баранини з гострим соте та аджикою',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: '200\x68150\x6850',
+          value: 300,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+
+  {
+    categories: [17],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Качина грудка з карамелізованої грушою',
+    },
+    description: {
+      en: '',
+      ua: 'під вишневим соусом',
+    },
+    price: {
+      qr: [
+        {
+          capacity: '200\x68150\x6850',
+          value: 350,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [17],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Тапака з пів курчати Кокле з картоплею по креольські',
+    },
+    description: {
+      en: '',
+      ua: 'та соусом Сацебелі',
+    },
+    price: {
+      qr: [
+        {
+          capacity: '300\x68150\x6850',
+          value: 300,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+
+  {
+    categories: [17],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Долма з Телятини у виноградних листях',
+    },
+    description: {
+      en: '',
+      ua: 'з соусом "Мацоні з часником"',
+    },
+    price: {
+      qr: [
+        {
+          capacity: '200\x6850',
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [17],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Долма з Качиного м’яса у виноградних листях',
+    },
+    description: {
+      en: '',
+      ua: 'та соус "Мацоні"',
+    },
+    price: {
+      qr: [
+        {
+          capacity: '200\x6850',
+          value: 200,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [17],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Долма з Лосося у виноградних листях',
+    },
+    description: {
+      en: '',
+      ua: 'та соус "Мацоні зі спеціями"',
+    },
+    price: {
+      qr: [
+        {
+          capacity: '200\x6850',
+          value: 300,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [16],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Парова куряча котлета',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 170,
+          value: 120,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  //--------------------------------------------
+
+  // {
+  //   categories: [17],
+  //   image: '1.jpg',
+  //   name: {
+  //     en: '',
+  //     ua: 'Хвости тигрових креветок на дерунах',
+  //   },
+  //   description: {
+  //     en: '',
+  //     ua: 'з вершково шпинатним соусом',
+  //   },
+  //   price: {
+  //     qr: [
+  //       {
+  //         capacity: '100\x68150\x6850',
+  //         value: 250,
+  //       },
+  //     ],
+  //   },
+  //   capacityUnit: 'g',
+  // },
+
+  {
+    categories: [18],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Картопля',
+    },
+    description: {
+      en: '',
+      ua: 'смажена по-домашньому з цибулею та грибами / пюре / по-креольські / відварна з кропом',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 200,
+          value: 80,
         },
       ],
     },
@@ -257,17 +367,17 @@ export const products = [
     image: '1.jpg',
     name: {
       en: '',
-      ua: 'Картопля',
+      ua: 'Картопля фрі з кетчупом',
     },
     description: {
       en: '',
-      ua: 'пюре з вершками/по-креольські/відварна з кропом смажений по-домашньому з цибулею та грибами/фрі з кетчупом',
+      ua: '',
     },
     price: {
       qr: [
         {
-          capacity: 200,
-          value: 80,
+          capacity: '200/50',
+          value: 120,
         },
       ],
     },
@@ -309,7 +419,7 @@ export const products = [
       qr: [
         {
           capacity: 300,
-          value: 100,
+          value: 120,
         },
       ],
     },

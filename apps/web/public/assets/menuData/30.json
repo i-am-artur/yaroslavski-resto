@@ -1,8 +1,6 @@
 [
   {
-    "categories": [
-      52
-    ],
+    "categories": [52],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -16,43 +14,77 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 30
+          "value": 40
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      52
-    ],
+    "categories": [52],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Цитрусовий Натуральни Лимонад"
+      "ua": "Морс"
     },
     "description": {
       "en": "",
-      "ua": "апельсини, лимони, грейпфрут, лайм, м`ята, цукор"
+      "ua": ""
     },
     "price": {
       "qr": [
         {
-          "capacity": 400,
-          "value": 70
-        },
-        {
-          "capacity": 1000,
-          "value": 140
+          "capacity": 200,
+          "value": 50
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      52
-    ],
+    "categories": [57],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Апельсин"
+    },
+    "description": {
+      "en": "",
+      "ua": "Свіжовичавлений сік"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [57],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Грейпфрут"
+    },
+    "description": {
+      "en": "",
+      "ua": "Свіжовичавлений сік"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [52],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -73,9 +105,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      52
-    ],
+    "categories": [52],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -89,20 +119,68 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 30
+          "value": 40
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      56
-    ],
+    "categories": [52],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Червона порiчка Натуральни Лимонад"
+      "ua": "Цитрусовий Натуральний Лимонад"
+    },
+    "description": {
+      "en": "",
+      "ua": "апельсини, лимони, грейпфрут, лайм, м`ята, цукор"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 400,
+          "value": 90
+        },
+        {
+          "capacity": 1000,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [52],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Натуральний Лимонад Чорна смородина"
+    },
+    "description": {
+      "en": "",
+      "ua": "синій базилік, м`ята та лимон"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 400,
+          "value": 90
+        },
+        {
+          "capacity": 1000,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [56],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Червона порiчка Натуральний Лимонад"
     },
     "description": {
       "en": "",
@@ -112,24 +190,22 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 70
+          "value": 90
         },
         {
           "capacity": 1000,
-          "value": 140
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      56
-    ],
+    "categories": [56],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Мохіто"
+      "ua": "Мохіто Натуральний Лимонад"
     },
     "description": {
       "en": "",
@@ -139,24 +215,22 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 70
+          "value": 90
         },
         {
           "capacity": 1000,
-          "value": 140
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      56
-    ],
+    "categories": [56],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Малиновий Мохіто"
+      "ua": "Малиновий Мохіто Натуральний Лимонад"
     },
     "description": {
       "en": "",
@@ -166,24 +240,22 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 70
+          "value": 90
         },
         {
           "capacity": 1000,
-          "value": 140
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      56
-    ],
+    "categories": [56],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Полуничний Мохiто"
+      "ua": "Полуничний Мохiто Натуральний Лимонад"
     },
     "description": {
       "en": "",
@@ -193,24 +265,22 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 70
+          "value": 90
         },
         {
           "capacity": 1000,
-          "value": 140
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      56
-    ],
+    "categories": [56],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Огірковий лимонад"
+      "ua": "Огірковий Натуральний Лимонад"
     },
     "description": {
       "en": "",
@@ -220,24 +290,22 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 70
+          "value": 90
         },
         {
           "capacity": 1000,
-          "value": 140
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      56
-    ],
+    "categories": [56],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Імбирний"
+      "ua": "Імбирний Натуральний Лимонад"
     },
     "description": {
       "en": "",
@@ -247,24 +315,22 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 70
+          "value": 90
         },
         {
           "capacity": 1000,
-          "value": 140
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      56
-    ],
+    "categories": [56],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Апельсиновий"
+      "ua": "Апельсиновий Натуральний Лимонад"
     },
     "description": {
       "en": "",
@@ -274,66 +340,19 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 70
+          "value": 90
         },
         {
           "capacity": 1000,
-          "value": 140
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
+
   {
-    "categories": [
-      57
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Апельсин"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 200,
-          "value": 80
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      57
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Грейпфрут"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 200,
-          "value": 80
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      53
-    ],
+    "categories": [53],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -354,9 +373,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      53
-    ],
+    "categories": [53],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -377,32 +394,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      53
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Сік гранатовий"
-    },
-    "description": {
-      "en": "",
-      "ua": "відновлений натуральний"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 1000,
-          "value": 200
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      53
-    ],
+    "categories": [53],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -423,9 +415,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      53
-    ],
+    "categories": [53],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -446,9 +436,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      53
-    ],
+    "categories": [53],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -469,13 +457,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      54
-    ],
+    "categories": [54],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Кава Еспрессо"
+      "ua": "Кава Еспресо"
     },
     "description": {
       "en": "",
@@ -492,9 +478,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      54
-    ],
+    "categories": [54],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -515,9 +499,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      54
-    ],
+    "categories": [54],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -538,9 +520,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      54
-    ],
+    "categories": [54],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -561,9 +541,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      54
-    ],
+    "categories": [54],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -584,9 +562,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      54
-    ],
+    "categories": [54],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -607,9 +583,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      54
-    ],
+    "categories": [54],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -630,9 +604,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      54
-    ],
+    "categories": [54],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -653,55 +625,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      54
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Лимон"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 25,
-          "value": 20
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      54
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Лайм"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 25,
-          "value": 30
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -726,9 +650,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -753,9 +675,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -780,9 +700,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -807,9 +725,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -834,9 +750,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -857,9 +771,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -880,9 +792,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -903,9 +813,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -913,22 +821,20 @@
     },
     "description": {
       "en": "",
-      "ua": "чай чорний з листям смородини, апельсином та чорною смородиною"
+      "ua": "Чорна смородина та листя, апельсин, чорний чай, мед"
     },
     "price": {
       "qr": [
         {
           "capacity": 1000,
-          "value": 120
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -942,16 +848,14 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 120
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -972,17 +876,15 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Чай з журавлиною"
+      "ua": "Журавлинний чай"
     },
     "description": {
       "en": "",
-      "ua": "апельсин, лимон, кориця та мед"
+      "ua": "Журавлина, апельсин, лимон, кориця та мед"
     },
     "price": {
       "qr": [
@@ -995,17 +897,15 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Чай з обліпихою"
+      "ua": "Обліпиховий чай"
     },
     "description": {
       "en": "",
-      "ua": "апельсин, імбир, м`ята, кориця, бад`ян та мед"
+      "ua": "Обліпиха, апельсин, імбир, м'ята, кориця, бад'ян, мед"
     },
     "price": {
       "qr": [
@@ -1018,9 +918,49 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Виноградний чай"
+    },
+    "description": {
+      "en": "",
+      "ua": "Виноград, апельсин, яблуко, кориця, чорний чай, мед"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 1000,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [55],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Гранатовий чай"
+    },
+    "description": {
+      "en": "",
+      "ua": "Гранат, апельсин, лимон, мандарин, свіжа м’ята, гвоздика, кориця, чорний чай, мед"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 1000,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1028,7 +968,7 @@
     },
     "description": {
       "en": "",
-      "ua": "Ромашка , кориця, бад`ян, родзинки  та мед"
+      "ua": "Ромашка , кориця, бад`ян, родзинки та мед"
     },
     "price": {
       "qr": [
@@ -1041,9 +981,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1051,26 +989,24 @@
     },
     "description": {
       "en": "",
-      "ua": "апельсинами, лимонами, м`ятою та медом"
+      "ua": "апельсинами, лимонами, свіжою м'ятою та медом"
     },
     "price": {
       "qr": [
         {
           "capacity": 1000,
-          "value": 120
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      55
-    ],
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Зелений чай з лаймом, лимоном"
+      "ua": "Зелений чай з апельсином та лаймом"
     },
     "description": {
       "en": "",
@@ -1087,9 +1023,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      38
-    ],
+    "categories": [38],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1114,9 +1048,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      38
-    ],
+    "categories": [38],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1141,36 +1073,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      38
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Охтирське марочне"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 330,
-          "value": 40
-        },
-        {
-          "capacity": 500,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      38
-    ],
+    "categories": [38],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1195,9 +1098,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      39
-    ],
+    "categories": [39],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1218,9 +1119,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      39
-    ],
+    "categories": [39],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1241,9 +1140,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      39
-    ],
+    "categories": [39],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1264,55 +1161,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      39
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Beck`s"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 500,
-          "value": 70
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      39
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Beck`s Non Alco"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 355,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      39
-    ],
+    "categories": [39],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1333,9 +1182,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      39
-    ],
+    "categories": [39],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1348,30 +1195,7 @@
     "price": {
       "qr": [
         {
-          "capacity": 330,
-          "value": 40
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      40
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Яблучний"
-    },
-    "description": {
-      "en": "",
-      "ua": "звичайний напівсолодкий 5% об."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 330,
+          "capacity": 450,
           "value": 60
         }
       ]
@@ -1379,124 +1203,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      40
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Яблучний з Грушою"
-    },
-    "description": {
-      "en": "",
-      "ua": "звичайний солодкий 5% об."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 330,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      40
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Яблучній з Вишнею"
-    },
-    "description": {
-      "en": "",
-      "ua": "звичайний солодкий 5% об."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 330,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      40
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Яблучній з Журавлиною"
-    },
-    "description": {
-      "en": "",
-      "ua": "звичайний солодкий 5% об."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 330,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      40
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Зеро без алкогольний ферментований"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 330,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      40
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "ЗБІТЕНЬ Золотоніський яблучний з прянощами"
-    },
-    "description": {
-      "en": "",
-      "ua": "звичайний солодкий 5% об."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 330,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      58
-    ],
+    "categories": [58],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1517,82 +1224,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      58
-    ],
+    "categories": [58],
     "image": "1.jpg",
     "name": {
       "en": "",
       "ua": "Віскі Jameson Caskmates IPA Edition, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      58
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Віскі Jameson Cold Brew, 30%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      58
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Віскі Jameson Crested, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 130
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      58
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Віскі Jameson Caskmates Stout Edition, 40%"
     },
     "description": {
       "en": "",
@@ -1609,13 +1245,32 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      58
-    ],
+    "categories": [58],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Віскі Jameson Black Barrel, 40%"
+      "ua": "Віскі Jameson Cold Brew, 30%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [58],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Віскі Jameson Crested, 40%"
     },
     "description": {
       "en": "",
@@ -1632,32 +1287,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      58
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Віскі Jameson Limited Reserve 18 років, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 550
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      59
-    ],
+    "categories": [59],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1671,66 +1301,18 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 60
+          "value": 70
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      59
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Віскі Dewar`s Japanese Smooth 8 YO Blended Scotch Whisky, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 80
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      59
-    ],
+    "categories": [59],
     "image": "1.jpg",
     "name": {
       "en": "",
       "ua": "Віскі Dewar`s Caribbean Smooth 8 YO Blended Scotch Whisky, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 80
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      59
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Віскі Dewar`s Portuguese Smooth 8 YO Blended Scotch Whisky, 40%"
     },
     "description": {
       "en": "",
@@ -1747,9 +1329,28 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      59
-    ],
+    "categories": [59],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Віскі Dewar`s Portuguese Smooth 8 YO Blended Scotch Whisky, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [59],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1763,16 +1364,14 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 150
+          "value": 200
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      59
-    ],
+    "categories": [59],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1793,9 +1392,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      59
-    ],
+    "categories": [59],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1816,9 +1413,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      59
-    ],
+    "categories": [59],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1839,9 +1434,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      60
-    ],
+    "categories": [60],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1862,9 +1455,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      60
-    ],
+    "categories": [60],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1885,9 +1476,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      60
-    ],
+    "categories": [60],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1908,9 +1497,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      60
-    ],
+    "categories": [60],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1931,9 +1518,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      60
-    ],
+    "categories": [60],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1954,9 +1539,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      42
-    ],
+    "categories": [42],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -1977,9 +1560,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      42
-    ],
+    "categories": [42],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2000,9 +1581,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      42
-    ],
+    "categories": [42],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2023,9 +1602,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      43
-    ],
+    "categories": [43],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2039,39 +1616,14 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      43
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Текіла Sierra Reposado, 38%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      43
-    ],
+    "categories": [43],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2085,16 +1637,14 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 150
+          "value": 170
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      43
-    ],
+    "categories": [43],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2108,43 +1658,18 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 150
+          "value": 170
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      43
-    ],
+    "categories": [43],
     "image": "1.jpg",
     "name": {
       "en": "",
       "ua": "Текіла Sierra Milenario Blanco, 41,5%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 350
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      43
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Текіла Sierra Milenario Fumado, 41,5%"
     },
     "description": {
       "en": "",
@@ -2161,13 +1686,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      43
-    ],
+    "categories": [43],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Текіла Sierra Milenario Extra-Anejo 100% Agave, 41,5%"
+      "ua": "Текіла Sierra Milenario Fumado, 41,5%"
     },
     "description": {
       "en": "",
@@ -2184,9 +1707,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [44],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2200,66 +1721,18 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 75
+          "value": 85
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [44],
     "image": "1.jpg",
     "name": {
       "en": "",
       "ua": "Лікер Baileys Original, 17%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 85
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      44
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Лікер Baileys Salted Caramel, 17%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 85
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      44
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Лікер Baileys Strawberries & Cream, 17%"
     },
     "description": {
       "en": "",
@@ -2276,9 +1749,49 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [44],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Лікер Baileys Salted Caramel, 17%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 110
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [44],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Лікер Baileys Strawberries & Cream, 17%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [44],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2292,16 +1805,14 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 85
+          "value": 100
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [44],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2315,16 +1826,14 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 85
+          "value": 100
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [44],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2338,20 +1847,39 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 85
+          "value": 100
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [44],
     "image": "1.jpg",
     "name": {
       "en": "",
       "ua": "Лікери De Kuyper"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [44],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Лікерна настоянка на травах Becherovka, 38%"
     },
     "description": {
       "en": "",
@@ -2368,32 +1896,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Лікерна настоянка на травах Becherovka, 38%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      44
-    ],
+    "categories": [44],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -2407,20 +1910,81 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 60
+          "value": 70
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [44],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Настоянка лікерна Becherovka Unfiltered, 38%"
+      "ua": "Настоянка Xenta Absenta, 70%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [44],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Настоянка Aperol Aperetivo"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [44],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Вермут Martini Bianco, 15%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 50
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [45],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Ром Bacardi Spiced, 40%"
     },
     "description": {
       "en": "",
@@ -2437,13 +2001,95 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [45],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Настоянка Xenta Absenta, 70%"
+      "ua": "Ром Bacardi Carta Blanca, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [45],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Ром Bacardi Carta Negra, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [45],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Ромовий напій Bacardi Oakheart Original, 35%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат 3 зірки, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат 5 зірок, 40%"
     },
     "description": {
       "en": "",
@@ -2460,13 +2106,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [46],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Медова з перцем/с хроном на імбире/Лимонна, 40%"
+      "ua": "Арарат Ani 7 років, 40%"
     },
     "description": {
       "en": "",
@@ -2476,20 +2120,18 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 35
+          "value": 130
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [46],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Абрикосова/Журавлинна, 40%"
+      "ua": "Арарат Ахтамар 10 років, 40%"
     },
     "description": {
       "en": "",
@@ -2499,20 +2141,18 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 40
+          "value": 170
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      44
-    ],
+    "categories": [46],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Вермут Martini Bianco, 15%"
+      "ua": "Арарат Двін 10 років витримки, 50%"
     },
     "description": {
       "en": "",
@@ -2522,20 +2162,121 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 40
+          "value": 400
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      45
-    ],
+    "categories": [46],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Ром Bacardi Spiced, 40%"
+      "ua": "Арарат Васпуракан 15 років, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 400
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Coffee 30%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Apricot 30%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },{
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Cherry 30%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },{
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Honey 30%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Бренди Асканелі 3 річний"
     },
     "description": {
       "en": "",
@@ -2552,13 +2293,53 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      45
-    ],
+    "categories": [46],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Ром Bacardi Carta Blanca, 40%"
+      "ua": "Бренди Асканелі 5 річний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Грузинський 3 зірки"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 50
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Вірменський 5 зірок"
     },
     "description": {
       "en": "",
@@ -2575,13 +2356,32 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      45
-    ],
+    "categories": [47],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Ром Bacardi Carta Negra, 40%"
+      "ua": "Горілка Absolut Elyx, 42,3% "
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [47],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Absolut 40%"
     },
     "description": {
       "en": "",
@@ -2598,82 +2398,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      45
-    ],
+    "categories": [47],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Ромовий напій Bacardi Oakheart Original, 35%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      45
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Ром Bacardi Gran Reserva 8 років витримки, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 150
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      45
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Ром Bacardi Gran Reserva Diez 10 років витримки, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 200
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      46
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат 3 зірки, 40%"
+      "ua": "Finlandia Біла, 40%"
     },
     "description": {
       "en": "",
@@ -2690,174 +2419,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      46
-    ],
+    "categories": [47],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Арарат 5 зірок, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 75
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      46
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Ani 7 років, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      46
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Ахтамар 10 років, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 150
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      46
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Двін 10 років витримки, 50%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 300
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      46
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Васпуракан 15 років, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 300
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      46
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Бренди Асканелі 3 річний"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 50
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      46
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Бренди Асканелі 5 річний"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 55
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      46
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Грузинський 3 зірки"
+      "ua": "Гетьман"
     },
     "description": {
       "en": "",
@@ -2874,216 +2440,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      46
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Вірменський 5 зірок"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 50
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      47
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Finlandia Біла, 40%/Grapefruit, 37,5%/Lime, 37,5%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      47
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Absolut 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 50
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      47
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Іджеван плодова 50% Абрикос"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 85
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      47
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Іджеван плодова 50% Гранат"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 85
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      47
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Іджеван плодова 50% Кизил"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 85
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      47
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Іджеван плодова 50% Шовковиця"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 85
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      47
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Іджеван плодова 50% Дика груша"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 85
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      47
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Президентський Стандарт"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 35
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      47
-    ],
+    "categories": [47],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3097,16 +2454,14 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 35
+          "value": 40
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      47
-    ],
+    "categories": [47],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3120,16 +2475,14 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 35
+          "value": 30
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3143,20 +2496,81 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 1000
+          "value": 1300
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Кіндзмараулі"
+    },
+    "description": {
+      "en": "",
+      "ua": "червоне напівсолодке"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 750,
+          "value": 650
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
       "ua": "Мукузані"
+    },
+    "description": {
+      "en": "",
+      "ua": "червоне сухе"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 750,
+          "value": 600
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [36],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Пиросмани"
+    },
+    "description": {
+      "en": "",
+      "ua": "червоне напівсухе"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 750,
+          "value": 500
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [36],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Сапераві"
     },
     "description": {
       "en": "",
@@ -3173,78 +2587,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Кіндзмараулі"
-    },
-    "description": {
-      "en": "",
-      "ua": "червоне напівсолодке"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 750,
-          "value": 550
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      36
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Пиросмани"
-    },
-    "description": {
-      "en": "",
-      "ua": "червоне напівсухе"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 750,
-          "value": 400
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      36
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Сапераві"
-    },
-    "description": {
-      "en": "",
-      "ua": "червоне сухе"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 750,
-          "value": 400
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3258,16 +2601,14 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 400
+          "value": 500
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3281,16 +2622,14 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 400
+          "value": 500
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3304,16 +2643,14 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 200
+          "value": 300
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3327,20 +2664,39 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 200
+          "value": 300
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
       "ua": "Conde de Monterroso La Mancha Crianza 2017р"
+    },
+    "description": {
+      "en": "",
+      "ua": "червоне сухе"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 750,
+          "value": 350
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [36],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Conde de Monterroso La Mancha Tempranillo"
     },
     "description": {
       "en": "",
@@ -3357,36 +2713,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Conde de Monterroso La Mancha Tempranillo"
-    },
-    "description": {
-      "en": "",
-      "ua": "червоне сухе"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 750,
-          "value": 270
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      36
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Martini Asti DOCG, Brut, Prosecco Rose"
+      "ua": "Martini Asti DOCG, Prosecco"
     },
     "description": {
       "en": "",
@@ -3396,131 +2727,98 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 650
+          "value": 800
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Fontale Fragolino"
+      "ua": "Padery Alty Frizzantino DRY"
     },
     "description": {
       "en": "",
-      "ua": "Вianco/Pesca"
+      "ua": "ігристе біле сухе віно"
     },
     "price": {
       "qr": [
         {
           "capacity": 750,
-          "value": 280
+          "value": 450
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Іджеван Сапераві"
+      "ua": "Padery Alty Lambrusco Rosso Emilia IGP AMABILE"
     },
     "description": {
       "en": "",
-      "ua": "червоне напівсолодке / сухе"
+      "ua": "ігристе червоне напівсолодке віно"
     },
     "price": {
       "qr": [
         {
           "capacity": 750,
-          "value": 550
+          "value": 450
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Іджеван Чайна Троянда"
+      "ua": "Padery Alty Lambrusco Rosato Emilia IGP AMABILE"
     },
     "description": {
       "en": "",
-      "ua": "рожеве напівсолодке"
+      "ua": "ігристе розове напівсолодке віно"
     },
     "price": {
       "qr": [
         {
           "capacity": 750,
-          "value": 600
+          "value": 450
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Іджеван"
+      "ua": "Padery Alty Lambrusco Bianco Emilia IGP AMABILE"
     },
     "description": {
       "en": "",
-      "ua": "біле напівсолодке / біле сухе"
+      "ua": "ігристе біле напівсолодке віно"
     },
     "price": {
       "qr": [
         {
           "capacity": 750,
-          "value": 550
+          "value": 450
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      36
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Іджеван Вишня/Гранат/Кизил/Ожина"
-    },
-    "description": {
-      "en": "",
-      "ua": "плодове напівсолодке"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 750,
-          "value": 600
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      36
-    ],
+    "categories": [36],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3533,17 +2831,15 @@
     "price": {
       "qr": [
         {
-          "capacity": 750,
-          "value": 25
+          "capacity": 100,
+          "value": 30
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      37
-    ],
+    "categories": [37],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3557,16 +2853,14 @@
       "qr": [
         {
           "capacity": 280,
-          "value": 120
+          "value": 140
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      37
-    ],
+    "categories": [37],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3580,16 +2874,77 @@
       "qr": [
         {
           "capacity": 130,
-          "value": 140
+          "value": 160
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      37
-    ],
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Бе-Тон"
+    },
+    "description": {
+      "en": "",
+      "ua": "бехеровка, тоник"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Блакитний Говаї"
+    },
+    "description": {
+      "en": "",
+      "ua": "малібу, білий ром, лікер Блю-Курасау, сік апельсину"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 190,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Блакитна Логуна"
+    },
+    "description": {
+      "en": "",
+      "ua": "лікер Блю-Курасау, горілка, спрайт"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 180,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [37],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3603,16 +2958,56 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 140
+          "value": 180
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      37
-    ],
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Лонг Айленд"
+    },
+    "description": {
+      "en": "",
+      "ua": "білий ром, трипл сек, горілка, текіла, джин, кока-кола, лімоний фреш"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 350,
+          "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Куба-Лібре"
+    },
+    "description": {
+      "en": "",
+      "ua": "чорний ром, кока-кола"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [37],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3626,16 +3021,14 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 60
+          "value": 80
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      37
-    ],
+    "categories": [37],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3656,9 +3049,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      37
-    ],
+    "categories": [37],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3672,16 +3063,35 @@
       "qr": [
         {
           "capacity": 60,
-          "value": 120
+          "value": 150
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      37
-    ],
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Хиросима"
+    },
+    "description": {
+      "en": "",
+      "ua": "самбука бейліс, абсент"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 60,
+          "value": 140
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [37],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3695,43 +3105,18 @@
       "qr": [
         {
           "capacity": 25,
-          "value": 80
+          "value": 100
         }
       ]
     },
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      37
-    ],
+    "categories": [37],
     "image": "1.jpg",
     "name": {
       "en": "",
       "ua": "Мохіто"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 250,
-          "value": 120
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      37
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Малиновий Мохіто"
     },
     "description": {
       "en": "",
@@ -3748,9 +3133,28 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      37
-    ],
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Малиновий Мохіто"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [37],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -3765,6 +3169,27 @@
         {
           "capacity": 250,
           "value": 140
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Апероль Шприц"
+    },
+    "description": {
+      "en": "",
+      "ua": "апероль, проссеко, швепс"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 200
         }
       ]
     },

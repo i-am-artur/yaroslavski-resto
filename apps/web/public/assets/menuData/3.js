@@ -5,27 +5,6 @@ export const products = [
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
-      ua: 'Мікс салат з ананасом та перцем гриль та авокадо',
-    },
-    description: {
-      en: '',
-      ua: 'під соусом білий Бальзамік',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 300,
-          value: 300,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [13],
-    image: '1.jpg',
-    name: {
-      en: 'Hachapuri Adjarski with cheese',
       ua: 'Грецький салат',
     },
     description: {
@@ -68,27 +47,6 @@ export const products = [
     image: '1.jpg',
     name: {
       en: 'Hachapuri Adjarski with cheese',
-      ua: 'Соте з овочів гриль',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 200,
-          value: 170,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [13],
-    image: '1.jpg',
-    name: {
-      en: 'Hachapuri Adjarski with cheese',
       ua: 'Домашній салат',
     },
     description: {
@@ -121,6 +79,113 @@ export const products = [
         {
           capacity: 200,
           value: 120,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [13],
+    image: '1.jpg',
+    name: {
+      en: 'Hachapuri Adjarski with cheese',
+      ua: 'Олів’є з яловичим язиком',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 200,
+          value: 150,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [13],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Цезар зі слабо солоним норвезьким лососем',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 300,
+          value: 350,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [13],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Салат з морепродуктів та авокадо',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 250,
+          value: 400,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+
+  {
+    categories: [13],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Салат з сьомгою та авокадо',
+    },
+    description: {
+      en: '',
+      ua: 'слабо солоний норвезький лосось, авокадо, помідори, болгарський перець, листя салату, рукола, оливкова олія та лимон та червона цибуля',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 250,
+          value: 400,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+
+  {
+    categories: [13],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Салат Філадельфія',
+    },
+    description: {
+      en: '',
+      ua: 'Слабо солоний норвезький лосось, кульки із сиру  Філадельфія у кунжуті, салатний мікс огірки, помідори черрі, під сиром Пармезан та апельсинова-медовою заправкою',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 350,
+          value: 400,
         },
       ],
     },
@@ -211,53 +276,11 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [14],
-    image: '1.jpg',
-    name: {
-      en: 'Hachapuri Adjarski with cheese',
-      ua: 'Олів’є з яловичим язиком',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 200,
-          value: 150,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
     categories: [15],
     image: '1.jpg',
     name: {
       en: '',
       ua: 'Цезар з креветками гриль',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 300,
-          value: 350,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [15],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Цезар зі слабо солоним норвезьким лососем',
     },
     description: {
       en: '',
@@ -294,46 +317,48 @@ export const products = [
     },
     capacityUnit: 'g',
   },
-  {
-    categories: [15],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Салат з морепродуктів та авокадо',
-    },
-    description: {
-      en: '',
-      ua: '',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 250,
-          value: 400,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
-  {
-    categories: [15],
-    image: '1.jpg',
-    name: {
-      en: '',
-      ua: 'Салат з сьомгою та авокадо',
-    },
-    description: {
-      en: '',
-      ua: 'слабо солоний норвезький лосось, авокадо, помідори, болгарський перець, листя салату, рукола, оливкова олія та лимон та червона цибуля',
-    },
-    price: {
-      qr: [
-        {
-          capacity: 250,
-          value: 400,
-        },
-      ],
-    },
-    capacityUnit: 'g',
-  },
+  //-----------------------------------------
+  // {
+  //   categories: [13],
+  //   image: '1.jpg',
+  //   name: {
+  //     en: 'Hachapuri Adjarski with cheese',
+  //     ua: 'Мікс салат з ананасом та перцем гриль та авокадо',
+  //   },
+  //   description: {
+  //     en: '',
+  //     ua: 'під соусом білий Бальзамік',
+  //   },
+  //   price: {
+  //     qr: [
+  //       {
+  //         capacity: 300,
+  //         value: 300,
+  //       },
+  //     ],
+  //   },
+  //   capacityUnit: 'g',
+  // },
+
+  // {
+  //   categories: [13],
+  //   image: '1.jpg',
+  //   name: {
+  //     en: 'Hachapuri Adjarski with cheese',
+  //     ua: 'Соте з овочів гриль',
+  //   },
+  //   description: {
+  //     en: '',
+  //     ua: '',
+  //   },
+  //   price: {
+  //     qr: [
+  //       {
+  //         capacity: 200,
+  //         value: 170,
+  //       },
+  //     ],
+  //   },
+  //   capacityUnit: 'g',
+  // },
 ];

@@ -1,32 +1,35 @@
 // TODO: create function that checks if no double ids (Can product have more that one parent?)
 export const categories = [
   //--------------------------------------
-  { id: 1, name: { en: 'Appetizers', ua: 'Закуски' }, parentId: null },
-  { id: 2, name: { en: 'Soups', ua: 'Суп' }, parentId: null },
+  { id: 1, name: { en: 'Appetizers', ua: 'Смаколики' }, parentId: null },
+  { id: 2, name: { en: 'Soups', ua: 'Перші страви' }, parentId: null },
   { id: 3, name: { en: 'Salads', ua: 'Салати' }, parentId: null },
   { id: 4, name: { en: 'Main dishes', ua: 'Основні страви' }, parentId: null },
+  { id: 60, name: { en: 'Sauces', ua: 'Соуси' }, parentId: null },
   { id: 5, name: { en: 'Barbecue', ua: 'Мангал' }, parentId: null },
   { id: 6, name: { en: 'Khachapuri', ua: 'Хачапурі' }, parentId: null },
   { id: 7, name: { en: 'Pizza', ua: 'Піца' }, parentId: null },
   { id: 30, name: { en: 'Drinks', ua: 'Напитки' }, parentId: null },
+  { id: 61, name: { en: 'Desserts', ua: 'Десерти' }, parentId: null },
 
   // ------------- Appetizers -------------
-  { id: 8, name: { en: 'Cold Appetizers', ua: 'Холодні закуски' }, parentId: 1 },
-  { id: 9, name: { en: 'Hot Appetizers', ua: 'Гарячі закуски' }, parentId: 1 },
-  { id: 10, name: { en: 'Beer snacks', ua: 'Закуски до пива' }, parentId: 1 },
-  // ------------- Soups -------------
-  { id: 11, name: { en: 'Hot soups', ua: 'Гарячі супи' }, parentId: 2 },
-  { id: 12, name: { en: 'Cold Soups', ua: 'Холодні супи' }, parentId: 2 },
+  { id: 9, name: { en: 'Hot Appetizers', ua: 'Гарячі смаколики' }, parentId: 1 },
+  { id: 8, name: { en: 'Cold Appetizers', ua: 'Холодні смаколики' }, parentId: 1 },
+  { id: 11, name: { en: 'Cold Appetizers', ua: 'Лавашні смаколики' }, parentId: 1 },
+  // { id: 10, name: { en: 'Beer snacks', ua: 'Закуски до пива' }, parentId: 1 },
+  // // ------------- Soups -------------
+  // { id: 11, name: { en: 'Hot soups', ua: 'Гарячі супи' }, parentId: 2 },
+  // { id: 12, name: { en: 'Cold Soups', ua: 'Холодні супи' }, parentId: 2 },
 
   // ------------- Salads -------------
-  { id: 13, name: { en: 'Vegetable salads', ua: 'Овочеві салати' }, parentId: 3 },
-  { id: 14, name: { en: 'Meat salads', ua: 'М`ясні салати' }, parentId: 3 },
-  { id: 15, name: { en: 'Fish salads', ua: 'Рибні салати' }, parentId: 3 },
+  { id: 13, name: { en: 'Salads', ua: 'Салати' }, parentId: 3 },
+  { id: 14, name: { en: 'Warm Salads', ua: 'Теплі Салати' }, parentId: 3 },
 
   // ------------- Main dishes -------------
-  { id: 16, name: { en: 'Meat dishes', ua: 'М`ясні страви' }, parentId: 4 },
-  { id: 17, name: { en: 'Fish dishes', ua: 'Рибні страви' }, parentId: 4 },
-  { id: 18, name: { en: 'Side dishes', ua: 'Гарніри' }, parentId: 4 },
+  // { id: 16, name: { en: 'Meat dishes', ua: 'М`ясні страви' }, parentId: 4 },
+  // { id: 17, name: { en: 'Fish dishes', ua: 'Рибні страви' }, parentId: 4 },
+  { id: 17, name: { en: 'Main dishes', ua: 'Основні страви' }, parentId: 4 },
+  { id: 18, name: { en: 'Side dishes', ua: 'Додаткові страви' }, parentId: 4 },
 
   // ------------- Barbecue -------------
   {
@@ -45,12 +48,6 @@ export const categories = [
     },
     parentId: 5,
   },
-  {
-    id: 24,
-    name: { en: 'Sauces', ua: 'Соуси' },
-    parentId: 5,
-  },
-
   // ------------- Khachapuri -------------
   { id: 25, name: { en: 'Adjarian Khachapuri', ua: 'Аджарский' }, parentId: 6 },
   { id: 26, name: { en: 'Megrelian Khachapuri', ua: 'Мегрельський' }, parentId: 6 },
@@ -81,11 +78,11 @@ export const categories = [
   // ------------- Слабоалкоголные -------------
   { id: 38, name: { en: 'Adjarian Khachapuri', ua: 'Пиво кеговое' }, parentId: 33 },
   { id: 39, name: { en: 'Adjarian Khachapuri', ua: 'Пиво бутылочное' }, parentId: 33 },
-  {
-    id: 40,
-    name: { en: 'Adjarian Khachapuri', ua: 'Сидр ROYAL ZOLOTONOSHA' },
-    parentId: 33,
-  },
+  // {
+  //   id: 40,
+  //   name: { en: 'Adjarian Khachapuri', ua: 'Сидр ROYAL ZOLOTONOSHA' },
+  //   parentId: 33,
+  // },
 
   // ------------- Крепкие-алкгольные -------------
   { id: 41, name: { en: 'Adjarian Khachapuri', ua: 'Виски' }, parentId: 34 },
@@ -147,5 +144,17 @@ export const categories = [
     id: 60,
     name: { en: 'Adjarian Khachapuri', ua: 'Віскі США' },
     parentId: 41,
+  },
+
+  // ------------- Десерти -------------
+  {
+    id: 62,
+    name: { en: 'Desserts', ua: 'Десерти' },
+    parentId: 61,
+  },
+  {
+    id: 63,
+    name: { en: 'Ice Cream', ua: 'Морозиво' },
+    parentId: 61,
   },
 ];
