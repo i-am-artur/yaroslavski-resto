@@ -102,9 +102,7 @@ function parseCategories(props: {
                 )}
                 onClick={() => {
                   const cat = 'cat' + props.level;
-                  console.log('🚀 ~ cat:', cat, el.id);
                   props.onChange?.({ ...props.selectedCategories, [cat]: el.id });
-                  console.log('🚀 ~ selectedCategories:', props.selectedCategories);
                   // props.onChange?.({ cat1: el.id });
                 }}
               >

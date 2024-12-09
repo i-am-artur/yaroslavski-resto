@@ -1,5 +1,3 @@
-import { css } from '../../../../styled-system/css';
-
 export default function Logo(props: {
   lang: string;
   width?: string;

@@ -42,10 +42,6 @@ export default function CategoriesSelect(props: { t: CategorySelectT }) {
           selectedCategories={selectedCategories}
           t={props.t}
           onChange={(selectedCategories) => {
-            console.log(
-              '🚀 ~ CategoriesSelect ~ selectedCategories:',
-              selectedCategories
-            );
             setSelectedCategories(selectedCategories);
           }}
         />

@@ -1,12 +1,10 @@
 // 'use client';
-import React, { Suspense } from 'react';
-import LanguageSelect from '../../../../src/instances/languages/components/LanguageSelect';
-import { css } from '../../../../styled-system/css';
-import CategoriesSelect from './components/categorySelect/CategoriesSelect';
-import Logo from '../../../../src/instances/ui/logo/Logo';
 import { Metadata } from 'next';
-import Header from './components/Header';
+import React, { Suspense } from 'react';
+import { css } from '../../../../styled-system/css';
 import MenuContext from './components/Context';
+import Header from './components/Header';
+import CategoriesSelect from './components/categorySelect/CategoriesSelect';
 export default async function MenuLayout(
   props: Readonly<{
     params: Promise<{ slug: string }>;

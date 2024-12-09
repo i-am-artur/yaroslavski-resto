@@ -25,18 +25,19 @@ export default function ScrollToTop() {
       className={cx(
         css({
           display: visible ? 'inline-block' : 'none',
-          width: 40,
-          height: 40,
+          width: 60,
+          height: 60,
           position: 'fixed',
           bottom: 30,
-          right: 30,
-          fontSize: '1.5rem',
+          right: 20,
+          fontSize: '1.8rem',
           lineHeight: 0,
           // fontWeight: 'bold',
           border: 0,
           color: 'white',
           borderRadius: '50%',
           backgroundColor: 'primary',
+          rotate: '-90deg',
         })
       )}
       onClick={() => {
@@ -45,7 +46,7 @@ export default function ScrollToTop() {
         });
       }}
     >
-      &#11165;
+      &#10140;
     </button>
   );
 }

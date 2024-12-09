@@ -13,7 +13,6 @@ export default function Menu() {
   const searchParams = useSearchParams();
   const [oldSearchParam, setOldSearchParam] = useState(-1);
   const [structuredData, setStructuredData] = useState<any[]>([]);
-  console.log('🚀 ~ Menu ~ structuredData1:', structuredData);
   const [loading, setLoading] = useState(true);
   // const [categories, setCategories] = useState<any>(qrCtx.categories.value);
   const menuCtx = useContext(menuContext);
@@ -37,7 +36,6 @@ export default function Menu() {
         const products: any[] = await fetch(
           `${process.env.basePath}/assets/menuData/${cat1}.json`
         ).then((res) => res.json());
-        console.log('🚀 ~ products:', products);
 
         const categoryProducts = products.filter((product) =>
           product.categories.includes(cat1)
@@ -127,7 +125,6 @@ function structureData(
   // }
 
   const subCategories = categories.filter((el) => el.parentId === parentId);
-  console.log('🚀 ~ subCategories:', subCategories);
   if (subCategories.length === 0) return [];
 
   return subCategories
@@ -143,7 +140,6 @@ function structureData(
       const categoryProducts = products.filter((product) =>
         product.categories.includes(el.id)
       );
-      console.log('🚀 ~ .map ~ categoryProducts:', el, categoryProducts);
       if (!childrenHaveProducts && categoryProducts.length === 0) {
         setMenuCategories((pre: any) =>
           pre.filter((elToFilter: any) => elToFilter.id !== el.id)
@@ -173,7 +169,6 @@ function parseCategoriesAndProducts(
   return (
     <ul className={css({ display: 'flex', flexDirection: 'column', rowGap: 'unit.v' })}>
       {structuredData.map((el, i) => {
-        console.log('🚀 ~ {structuredData.map ~ el:', el);
         // const productsExist = productsSome(el);
         // if (el.empty) {
         //   setCategories((pre: any) =>

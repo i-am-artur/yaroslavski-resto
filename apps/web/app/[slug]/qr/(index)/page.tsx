@@ -1,4 +1,5 @@
 // 'use client';
+import type { Metadata } from 'next';
 import LanguageSelect from '../../../../src/instances/languages/components/LanguageSelect';
 import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
 import Logo from '../../../../src/instances/ui/logo/Logo';
@@ -7,7 +8,6 @@ import { card } from '../../../../styled-system/recipes';
 import ClientPage from './components/ClientPage';
 import Footer from './components/Footer';
 import './index.css';
-import type { Metadata, ResolvingMetadata } from 'next';
 
 export default async function QRPage(
   props: Readonly<{
