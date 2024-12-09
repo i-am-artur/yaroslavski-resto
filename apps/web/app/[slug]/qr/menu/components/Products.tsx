@@ -55,6 +55,11 @@ export default function Products(props: { list: any[]; lang: string }) {
                               switch (product.capacityUnit) {
                                 case 'g':
                                   return props.lang === 'ua' ? 'гр' : 'g';
+                                case 'ball':
+                                  return props.lang === 'ua' ? 'кулька' : 'ball';
+
+                                case 'qty':
+                                  return props.lang === 'ua' ? 'шт' : 'qty';
                                 default:
                                   return '';
                               }
@@ -77,7 +82,7 @@ export default function Products(props: { list: any[]; lang: string }) {
                   </div>
                 </div>
                 <img
-                  src={`${process.env.basePath}/assets/products/images/${product.image}`}
+                  src={`${process.env.basePath}/assets/site/food.gif`}
                   width='100'
                   height='100'
                   className={css({
