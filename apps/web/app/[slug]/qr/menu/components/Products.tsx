@@ -82,7 +82,7 @@ export default function Products(props: { list: any[]; lang: string }) {
                   </div>
                 </div>
                 <img
-                  src={`${process.env.basePath}/assets/site/food.gif`}
+                  src={`${process.env.basePath}/assets/site/food1.gif`}
                   width='100'
                   height='100'
                   className={css({

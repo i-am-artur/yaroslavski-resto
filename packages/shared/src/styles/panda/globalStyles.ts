@@ -4,11 +4,14 @@ export const globalCss = defineGlobalStyles({
   'html, body': {
     maxWidth: '100vw',
     scrollBehavior: 'smooth',
+    marginBottom: '50px',
+
     // maxWidth: '1024px',
     // overflowX: 'hidden',
   },
 
   body: {
+    // marginBottom: '50px',
     /* background-color: #f6f6f6; */
     // backgroundColor: '#f3f3f3',
   },
