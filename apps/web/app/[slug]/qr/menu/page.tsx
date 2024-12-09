@@ -6,6 +6,7 @@ import { qrContext } from '../(components)/QrContext';
 import { css } from '../../../../styled-system/css';
 import Products from './components/Products';
 import { menuContext } from './components/Context';
+import ScrollToTop from '../../../../src/instances/ui/buttons/ScrollToTop';
 
 export default function Menu() {
   const qrCtx = useContext(qrContext);
@@ -82,12 +83,15 @@ export default function Menu() {
         flex: '1',
       })}
     >
-      {parseCategoriesAndProducts(
-        structuredData,
-        1,
-        qrCtx.lang
-        // menu.se
-      )}
+      {!loading
+        ? parseCategoriesAndProducts(
+            structuredData,
+            1,
+            qrCtx.lang
+            // menu.se
+          )
+        : 'loading...'}
+      <ScrollToTop />
     </main>
   );
 }

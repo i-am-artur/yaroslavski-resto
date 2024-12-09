@@ -45,7 +45,6 @@ export default async function MenuLayout(
         >
           <Suspense>
             <CategoriesSelect t={t} />
-            {props.children}
           </Suspense>
           <MenuContext lang={lang}>
             <Suspense>{props.children}</Suspense>
