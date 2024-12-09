@@ -240,18 +240,18 @@
     "parentId": 6
   },
   {
-    "id": 32,
-    "name": {
-      "en": "Adjarian Khachapuri",
-      "ua": "Безалкогольные"
-    },
-    "parentId": 30
-  },
-  {
     "id": 31,
     "name": {
       "en": "Adjarian Khachapuri",
       "ua": "Алкогольные"
+    },
+    "parentId": 30
+  },
+  {
+    "id": 32,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Безалкогольные"
     },
     "parentId": 30
   },

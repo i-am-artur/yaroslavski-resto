@@ -5,6 +5,8 @@ import { css } from '../../../../styled-system/css';
 import CategoriesSelect from './components/categorySelect/CategoriesSelect';
 import Logo from '../../../../src/instances/ui/logo/Logo';
 import { Metadata } from 'next';
+import Header from './components/Header';
+import MenuContext from './components/Context';
 export default async function MenuLayout(
   props: Readonly<{
     params: Promise<{ slug: string }>;
@@ -28,38 +30,7 @@ export default async function MenuLayout(
           marginRight: 'auto',
         })}
       >
-        <header
-          className={css({
-            padding: 'side.v',
-            rowGap: 'item.v',
-            display: 'flex',
-            flexDirection: 'column',
-            backgroundColor: 'white',
-            sm: {
-              position: 'sticky',
-              top: 0,
-              left: 0,
-              right: 0,
-              zIndex: 5,
-            },
-          })}
-        >
-          <div
-            className={css({
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-            })}
-          >
-            <Logo
-              lang={lang}
-              height='50%'
-              width='50%'
-              className={css({ maxWidth: '215px' })}
-            />
-            <LanguageSelect t={t} />
-          </div>
-        </header>
+        <Header lang={lang} t={t} />
         <div
           className={css({
             padding: 'side.h',
@@ -74,8 +45,11 @@ export default async function MenuLayout(
         >
           <Suspense>
             <CategoriesSelect t={t} />
+            {props.children}
           </Suspense>
-          <Suspense>{props.children}</Suspense>
+          <MenuContext lang={lang}>
+            <Suspense>{props.children}</Suspense>
+          </MenuContext>
         </div>
       </div>
     </body>

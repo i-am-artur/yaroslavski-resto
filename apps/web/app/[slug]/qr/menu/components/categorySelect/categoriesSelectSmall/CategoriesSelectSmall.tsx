@@ -1,11 +1,11 @@
 'use client';
 import { useContext, useState } from 'react';
-import { qrContext } from '../../../(components)/QrContext';
-import { CategorySelectT } from '../../../../../../src/instances/languages/translation/instances/languages/components/selectCategory/ua';
-import { css } from '../../../../../../styled-system/css';
+import { qrContext } from '../../../../(components)/QrContext';
+import { CategorySelectT } from '../../../../../../../src/instances/languages/translation/instances/languages/components/selectCategory/ua';
+import { css } from '../../../../../../../styled-system/css';
 import CategoriesList from './CategoriesList';
-import MainCategorySelect from './MainCategorySelect';
-import { SelectedCategories } from './types';
+import MainCategorySelect from '../MainCategorySelect';
+import { SelectedCategories } from '../types';
 
 export default function CategoriesSelectSmall(props: {
   selectedCategories: SelectedCategories;

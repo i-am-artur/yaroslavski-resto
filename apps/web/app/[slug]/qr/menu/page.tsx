@@ -5,8 +5,7 @@ import { useContext, useEffect, useState } from 'react';
 import { qrContext } from '../(components)/QrContext';
 import { css } from '../../../../styled-system/css';
 import Products from './components/Products';
-import { EOL } from 'os';
-import { Metadata } from 'next';
+import { menuContext } from './components/Context';
 
 export default function Menu() {
   const qrCtx = useContext(qrContext);
@@ -15,7 +14,8 @@ export default function Menu() {
   const [structuredData, setStructuredData] = useState<any[]>([]);
   console.log('🚀 ~ Menu ~ structuredData1:', structuredData);
   const [loading, setLoading] = useState(true);
-  const [categories, setCategories] = useState<any>([]);
+  // const [categories, setCategories] = useState<any>(qrCtx.categories.value);
+  const menuCtx = useContext(menuContext);
 
   useEffect(() => {
     (async () => {
@@ -24,37 +24,56 @@ export default function Menu() {
         const cat1Number = parseInt(cat1Param);
         return isNaN(cat1Number) ? 2 : cat1Number;
       })();
-      if (categories.length > 0 && oldSearchParam !== cat1) {
+
+      if (!qrCtx.categories.loading && oldSearchParam !== cat1) {
         setLoading(true);
 
-        const categoriesTmp = [...categories];
-        setCategories([]);
-        qrCtx.categories.setCategories(categoriesTmp);
-
+        // const categoriesTmp = [...categories];
+        // setCategories([]);
+        // menuCtx.setFilteredCategories(qrCtx.categories.value);
         setOldSearchParam(cat1);
+
         const products: any[] = await fetch(
           `${process.env.basePath}/assets/menuData/${cat1}.json`
         ).then((res) => res.json());
         console.log('🚀 ~ products:', products);
 
-        setStructuredData(
-          structureData(categories, cat1, products, qrCtx.categories.setCategories)
+        const categoryProducts = products.filter((product) =>
+          product.categories.includes(cat1)
         );
+        const category = qrCtx.categories.value.find((el) => el.id === cat1);
+
+        const topCategory = {
+          ...category,
+          products: categoryProducts,
+        };
+
+        setStructuredData([
+          {
+            ...topCategory,
+            children: structureData(
+              qrCtx.categories.value,
+              cat1,
+              products,
+              menuCtx.setFilteredCategories
+            ),
+          },
+        ]);
         setLoading(false);
       }
-      return () => {
-        const categoriesTmp = [...categories];
-        setCategories([]);
-        qrCtx.categories.setCategories(categoriesTmp);
-      };
+      // return () => {
+      //   const categoriesTmp = [...categories];
+      //   setCategories([]);
+      //   qrCtx.categories.setCategories(categoriesTmp);
+      // };
     })();
-  }, [categories, searchParams]);
+  }, [qrCtx.categories.loading, searchParams]);
 
-  useEffect(() => {
-    if (categories.length === 0) {
-      setCategories(qrCtx.categories.value);
-    }
-  }, [qrCtx.categories.value]);
+  // useEffect(() => {
+  //   if (categories.length === 0) {
+  //     setCategories(qrCtx.categories.value);
+  //   }
+  // }, [qrCtx.categories.value]);
 
   return (
     <main
@@ -63,14 +82,12 @@ export default function Menu() {
         flex: '1',
       })}
     >
-      {!loading
-        ? parseCategoriesAndProducts(
-            structuredData,
-            1,
-            qrCtx.lang,
-            qrCtx.categories.setCategories
-          )
-        : 'loading...'}
+      {parseCategoriesAndProducts(
+        structuredData,
+        1,
+        qrCtx.lang
+        // menu.se
+      )}
     </main>
   );
 }
@@ -79,7 +96,7 @@ function structureData(
   categories: any[],
   parentId: number | null,
   products: any[],
-  setQrCategories: any
+  setMenuCategories: any
 ) {
   // if(parentId === null){
   //   return products.filter((product) => product.categories.includes(parentId));
@@ -106,12 +123,13 @@ function structureData(
   // }
 
   const subCategories = categories.filter((el) => el.parentId === parentId);
+  console.log('🚀 ~ subCategories:', subCategories);
   if (subCategories.length === 0) return [];
 
   return subCategories
     .sort((a, b) => a.parentId - b.parentId)
     .map((el: any): any => {
-      const children = structureData(categories, el.id, products, setQrCategories);
+      const children = structureData(categories, el.id, products, setMenuCategories);
       // console.log('🚀 ~ .map ~ children:', el, children);
       const childrenHaveProducts =
         children.some((el) => el.childrenHaveProducts) ||
@@ -123,7 +141,7 @@ function structureData(
       );
       console.log('🚀 ~ .map ~ categoryProducts:', el, categoryProducts);
       if (!childrenHaveProducts && categoryProducts.length === 0) {
-        setQrCategories((pre: any) =>
+        setMenuCategories((pre: any) =>
           pre.filter((elToFilter: any) => elToFilter.id !== el.id)
         );
         return {
@@ -144,8 +162,8 @@ function structureData(
 function parseCategoriesAndProducts(
   structuredData: any[],
   level: number,
-  lang: string,
-  setCategories: any
+  lang: string
+  // setCategories: any
 ) {
   if (!structuredData.length) return '';
   return (
@@ -173,7 +191,7 @@ function parseCategoriesAndProducts(
               id={el.id}
               $sx={{
                 scrollMarginTop:
-                  el.children.length > 0 ? level * 43 + 110 : (level - 1) * 43 + 110,
+                  el.children.length > 0 ? level * 43 + 65 : (level - 1) * 43 + 65,
                 // scrollMarginTop: level * 43 + 120,
               }}
               className={css({
@@ -185,7 +203,7 @@ function parseCategoriesAndProducts(
               {el.name[lang]}
             </Box>
             <Products list={el.products} lang={lang} />
-            {parseCategoriesAndProducts(el.children, level + 1, lang, setCategories)}
+            {parseCategoriesAndProducts(el.children, level + 1, lang)}
           </li>
         );
       })}
