@@ -57,7 +57,8 @@ export default function Products(props: { list: any[]; lang: string }) {
                                   return props.lang === 'ua' ? 'гр' : 'g';
                                 case 'ball':
                                   return props.lang === 'ua' ? 'кулька' : 'ball';
-
+                                case 'ml':
+                                  return props.lang === 'ua' ? 'мл' : 'ml';
                                 case 'qty':
                                   return props.lang === 'ua' ? 'шт' : 'qty';
                                 default:
@@ -87,8 +88,9 @@ export default function Products(props: { list: any[]; lang: string }) {
                   height='100'
                   className={css({
                     borderRadius: 'std',
+                    opacity: 0.3,
                   })}
-                  alt='product.description.en'
+                  alt={product.description[props.lang]}
                   loading='lazy'
                 />
               </div>

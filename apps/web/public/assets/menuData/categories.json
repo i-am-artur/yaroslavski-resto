@@ -176,10 +176,18 @@
     "parentId": 5
   },
   {
+    "id": 64,
+    "name": {
+      "en": "Sauces",
+      "ua": "Соуси"
+    },
+    "parentId": 5
+  },
+  {
     "id": 25,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Аджарский"
+      "ua": "Аджарський"
     },
     "parentId": 6
   },
@@ -219,7 +227,7 @@
     "id": 32,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Безалкогольные"
+      "ua": "Безалкогольні"
     },
     "parentId": 30
   },
@@ -227,7 +235,7 @@
     "id": 31,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Алкогольные"
+      "ua": "Алкогольні"
     },
     "parentId": 30
   },
@@ -235,7 +243,7 @@
     "id": 33,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Слабоалкоголные "
+      "ua": "Слабоалкогольні"
     },
     "parentId": 31
   },
@@ -243,7 +251,7 @@
     "id": 34,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Крепкие-алкгольные "
+      "ua": "Міцні-алкогольні"
     },
     "parentId": 31
   },
@@ -259,7 +267,7 @@
     "id": 37,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Коктейли "
+      "ua": "Коктейлі "
     },
     "parentId": 31
   },
@@ -267,7 +275,7 @@
     "id": 38,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Пиво кеговое"
+      "ua": "Пиво кег"
     },
     "parentId": 33
   },
@@ -275,7 +283,7 @@
     "id": 39,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Пиво бутылочное"
+      "ua": "Пиво пляшка"
     },
     "parentId": 33
   },
@@ -283,7 +291,7 @@
     "id": 41,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Виски"
+      "ua": "Віскі"
     },
     "parentId": 34
   },
@@ -299,7 +307,7 @@
     "id": 43,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Текила"
+      "ua": "Текіла"
     },
     "parentId": 34
   },
@@ -307,7 +315,7 @@
     "id": 44,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Ликеры/Настойки/Вермуты"
+      "ua": "Лікери, Настоянки, Вермути"
     },
     "parentId": 34
   },
@@ -331,7 +339,7 @@
     "id": 47,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Водка"
+      "ua": "Горілка"
     },
     "parentId": 34
   },
@@ -339,7 +347,7 @@
     "id": 50,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Холодные"
+      "ua": "Холодні"
     },
     "parentId": 32
   },
@@ -347,7 +355,7 @@
     "id": 51,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Горячие"
+      "ua": "Гарячі"
     },
     "parentId": 32
   },
@@ -355,7 +363,7 @@
     "id": 52,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Собственное производство"
+      "ua": "Напої власного виробництва"
     },
     "parentId": 50
   },
@@ -363,7 +371,7 @@
     "id": 53,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Сладкие напитки и вода"
+      "ua": "Напої та вода"
     },
     "parentId": 50
   },
@@ -371,7 +379,7 @@
     "id": 54,
     "name": {
       "en": "Adjarian Khachapuri",
-      "ua": "Кофе"
+      "ua": "Кава"
     },
     "parentId": 51
   },

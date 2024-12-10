@@ -1,8 +1,6 @@
 [
   {
-    "categories": [
-      60
-    ],
+    "categories": [60, 64],
     "image": "1.jpg",
     "name": {
       "en": "",

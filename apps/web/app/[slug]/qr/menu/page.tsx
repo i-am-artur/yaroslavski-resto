@@ -190,12 +190,14 @@ function parseCategoriesAndProducts(
               id={el.id}
               $sx={{
                 scrollMarginTop:
-                  el.children.length > 0 ? level * 43 + 65 : (level - 1) * 43 + 65,
-                // scrollMarginTop: level * 43 + 120,
+                  el.children.length > 0 ? level * 43 + 35 : (level - 1) * 43 + 35,
+                // el.children.length > 0 ? level * 43 + 65 : (level - 1) * 43 + 65,
               }}
               className={css({
-                fontSize: '1.5rem',
-                transitionTimingFunction: 'ease-out',
+                // display: 'none',
+                height: 0,
+                fontSize: '0px',
+                // transitionTimingFunction: 'ease-out',
                 fontWeight: 600,
               })}
             >

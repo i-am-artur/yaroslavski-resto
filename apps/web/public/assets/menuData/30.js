@@ -19,7 +19,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [52],
@@ -44,7 +44,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [52],
@@ -65,7 +65,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [52],
@@ -86,7 +86,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [56],
@@ -111,7 +111,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [56],
@@ -136,7 +136,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [56],
@@ -161,7 +161,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [56],
@@ -186,7 +186,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [56],
@@ -211,7 +211,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [56],
@@ -236,7 +236,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [56],
@@ -261,7 +261,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [57],
@@ -282,7 +282,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [57],
@@ -303,7 +303,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [53],
@@ -324,7 +324,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [53],
@@ -345,7 +345,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [53],
@@ -366,7 +366,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [53],
@@ -387,7 +387,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [53],
@@ -408,7 +408,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [53],
@@ -429,7 +429,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -450,7 +450,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -471,7 +471,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -492,7 +492,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -513,7 +513,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -534,7 +534,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -555,7 +555,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -576,7 +576,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -597,7 +597,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -618,7 +618,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [54],
@@ -639,7 +639,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -664,7 +664,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -689,7 +689,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -714,7 +714,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -739,7 +739,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -764,7 +764,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -785,7 +785,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -806,7 +806,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -827,7 +827,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -848,7 +848,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -869,7 +869,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -890,7 +890,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -911,7 +911,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -932,7 +932,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -953,7 +953,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -974,7 +974,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [55],
@@ -995,7 +995,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [38],
@@ -1020,7 +1020,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [38],
@@ -1045,7 +1045,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [38],
@@ -1070,7 +1070,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [38],
@@ -1095,7 +1095,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [39],
@@ -1116,7 +1116,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [39],
@@ -1137,7 +1137,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [39],
@@ -1158,7 +1158,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [39],
@@ -1179,7 +1179,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [39],
@@ -1200,7 +1200,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [39],
@@ -1221,7 +1221,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [39],
@@ -1242,7 +1242,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [40],
@@ -1263,7 +1263,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [40],
@@ -1284,7 +1284,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [40],
@@ -1305,7 +1305,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [40],
@@ -1326,7 +1326,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [40],
@@ -1347,7 +1347,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [40],
@@ -1368,7 +1368,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [58],
@@ -1389,7 +1389,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [58],
@@ -1410,7 +1410,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [58],
@@ -1431,7 +1431,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [58],
@@ -1452,7 +1452,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [58],
@@ -1473,7 +1473,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [58],
@@ -1494,7 +1494,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [58],
@@ -1515,7 +1515,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [59],
@@ -1536,7 +1536,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [59],
@@ -1557,7 +1557,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [59],
@@ -1578,7 +1578,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [59],
@@ -1599,7 +1599,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [59],
@@ -1620,7 +1620,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [59],
@@ -1641,7 +1641,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [59],
@@ -1662,7 +1662,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [59],
@@ -1683,7 +1683,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [60],
@@ -1704,7 +1704,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [60],
@@ -1725,7 +1725,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [60],
@@ -1746,7 +1746,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [60],
@@ -1767,7 +1767,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [60],
@@ -1788,7 +1788,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [42],
@@ -1809,7 +1809,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [42],
@@ -1830,7 +1830,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [42],
@@ -1851,7 +1851,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [43],
@@ -1872,7 +1872,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [43],
@@ -1893,7 +1893,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [43],
@@ -1914,7 +1914,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [43],
@@ -1935,7 +1935,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [43],
@@ -1956,7 +1956,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [43],
@@ -1977,7 +1977,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [43],
@@ -1998,7 +1998,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2019,7 +2019,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2040,7 +2040,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2061,7 +2061,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2082,7 +2082,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2103,7 +2103,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2124,7 +2124,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2145,7 +2145,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2166,7 +2166,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2187,7 +2187,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2208,7 +2208,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2229,7 +2229,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2250,7 +2250,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2271,7 +2271,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2292,7 +2292,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [44],
@@ -2313,7 +2313,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [45],
@@ -2334,7 +2334,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [45],
@@ -2355,7 +2355,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [45],
@@ -2376,7 +2376,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [45],
@@ -2397,7 +2397,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [45],
@@ -2418,7 +2418,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [45],
@@ -2439,7 +2439,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2460,7 +2460,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2481,7 +2481,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2502,7 +2502,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2523,7 +2523,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2544,7 +2544,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2565,7 +2565,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2586,7 +2586,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2607,7 +2607,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2628,7 +2628,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [46],
@@ -2649,7 +2649,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2670,7 +2670,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2691,7 +2691,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2712,7 +2712,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2733,7 +2733,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2754,7 +2754,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2775,7 +2775,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2796,7 +2796,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2817,7 +2817,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2838,7 +2838,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [47],
@@ -2859,7 +2859,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -2880,7 +2880,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -2901,7 +2901,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -2922,7 +2922,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -2943,7 +2943,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -2964,7 +2964,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -2985,7 +2985,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3006,7 +3006,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3027,7 +3027,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3048,7 +3048,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3069,7 +3069,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3090,7 +3090,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3111,7 +3111,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3132,7 +3132,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3153,7 +3153,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3174,7 +3174,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3195,7 +3195,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3216,7 +3216,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [36],
@@ -3237,7 +3237,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3258,7 +3258,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3279,7 +3279,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3300,7 +3300,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3321,7 +3321,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3342,7 +3342,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3363,7 +3363,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3384,7 +3384,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3405,7 +3405,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3426,7 +3426,7 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
   {
     categories: [37],
@@ -3447,6 +3447,6 @@ export const products = [
         },
       ],
     },
-    capacityUnit: 'g',
+    capacityUnit: 'ml',
   },
 ];

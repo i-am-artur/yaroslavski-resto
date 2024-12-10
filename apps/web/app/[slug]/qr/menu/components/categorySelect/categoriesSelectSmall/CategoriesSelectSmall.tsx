@@ -21,6 +21,7 @@ export default function CategoriesSelectSmall(props: {
         display: { base: 'block', sm: 'none' },
         position: 'sticky',
         top: -1,
+        zIndex: 1,
       })}
     >
       <div

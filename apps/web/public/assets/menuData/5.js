@@ -798,4 +798,110 @@ export const products = [
     },
     capacityUnit: 'g',
   },
+  //-------------------- sauces
+  {
+    categories: [64],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Дорблю/Гуакамоле/Баже(горіхова-часниковий)',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 50,
+          value: 90,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [64],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Наршараб/Медово-гірчичний/Чорничний',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 50,
+          value: 70,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [64],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Вершковий/Вершково-шпинатний/Сацебелі',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 50,
+          value: 70,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [64],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Ткемалі/Сирно-часниковий/Аджика/Журавлинний',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 50,
+          value: 60,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
+  {
+    categories: [64],
+    image: '1.jpg',
+    name: {
+      en: '',
+      ua: 'Томатний з зеленню/Білий часниковий',
+    },
+    description: {
+      en: '',
+      ua: '',
+    },
+    price: {
+      qr: [
+        {
+          capacity: 50,
+          value: 50,
+        },
+      ],
+    },
+    capacityUnit: 'g',
+  },
 ];

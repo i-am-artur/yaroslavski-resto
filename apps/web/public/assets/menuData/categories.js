@@ -48,8 +48,10 @@ export const categories = [
     },
     parentId: 5,
   },
+  { id: 64, name: { en: 'Sauces', ua: 'Соуси' }, parentId: 5 },
+
   // ------------- Khachapuri -------------
-  { id: 25, name: { en: 'Adjarian Khachapuri', ua: 'Аджарский' }, parentId: 6 },
+  { id: 25, name: { en: 'Adjarian Khachapuri', ua: 'Аджарський' }, parentId: 6 },
   { id: 26, name: { en: 'Megrelian Khachapuri', ua: 'Мегрельський' }, parentId: 6 },
   {
     id: 27,
@@ -62,22 +64,22 @@ export const categories = [
   // ------------- Pizza -------------
 
   // ------------- Drinks -------------
-  { id: 32, name: { en: 'Adjarian Khachapuri', ua: 'Безалкогольные' }, parentId: 30 },
-  { id: 31, name: { en: 'Adjarian Khachapuri', ua: 'Алкогольные' }, parentId: 30 },
+  { id: 32, name: { en: 'Adjarian Khachapuri', ua: 'Безалкогольні' }, parentId: 30 },
+  { id: 31, name: { en: 'Adjarian Khachapuri', ua: 'Алкогольні' }, parentId: 30 },
 
   // ------------- Алкогольные -------------
-  { id: 33, name: { en: 'Adjarian Khachapuri', ua: 'Слабоалкоголные ' }, parentId: 31 },
+  { id: 33, name: { en: 'Adjarian Khachapuri', ua: 'Слабоалкогольні' }, parentId: 31 },
   {
     id: 34,
-    name: { en: 'Adjarian Khachapuri', ua: 'Крепкие-алкгольные ' },
+    name: { en: 'Adjarian Khachapuri', ua: 'Міцні-алкогольні' },
     parentId: 31,
   },
   { id: 36, name: { en: 'Adjarian Khachapuri', ua: 'Вино ' }, parentId: 31 },
-  { id: 37, name: { en: 'Adjarian Khachapuri', ua: 'Коктейли ' }, parentId: 31 },
+  { id: 37, name: { en: 'Adjarian Khachapuri', ua: 'Коктейлі ' }, parentId: 31 },
 
   // ------------- Слабоалкоголные -------------
-  { id: 38, name: { en: 'Adjarian Khachapuri', ua: 'Пиво кеговое' }, parentId: 33 },
-  { id: 39, name: { en: 'Adjarian Khachapuri', ua: 'Пиво бутылочное' }, parentId: 33 },
+  { id: 38, name: { en: 'Adjarian Khachapuri', ua: 'Пиво кег' }, parentId: 33 },
+  { id: 39, name: { en: 'Adjarian Khachapuri', ua: 'Пиво пляшка' }, parentId: 33 },
   // {
   //   id: 40,
   //   name: { en: 'Adjarian Khachapuri', ua: 'Сидр ROYAL ZOLOTONOSHA' },
@@ -85,7 +87,7 @@ export const categories = [
   // },
 
   // ------------- Крепкие-алкгольные -------------
-  { id: 41, name: { en: 'Adjarian Khachapuri', ua: 'Виски' }, parentId: 34 },
+  { id: 41, name: { en: 'Adjarian Khachapuri', ua: 'Віскі' }, parentId: 34 },
   { id: 42, name: { en: 'Adjarian Khachapuri', ua: 'Джин' }, parentId: 34 },
   { id: 43, name: { en: 'Adjarian Khachapuri', ua: 'Текіла' }, parentId: 34 },
   {
