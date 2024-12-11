@@ -83,12 +83,20 @@ export default function Products(props: { list: any[]; lang: string }) {
                   </div>
                 </div>
                 <img
-                  src={`${process.env.basePath}/assets/site/food1.gif`}
+                  src={(function () {
+                    if (!Array.isArray(product.image))
+                      return `${process.env.basePath}/assets/site/food1.gif`;
+
+                    const thumb = product.image?.find((el: any) => !!el['thumb'])?.thumb;
+                    return thumb
+                      ? `${process.env.basePath}/assets/products/images/${thumb}`
+                      : `${process.env.basePath}/assets/site/food1.gif`;
+                  })()}
                   width='100'
                   height='100'
                   className={css({
                     borderRadius: 'std',
-                    opacity: 0.3,
+                    // opacity: 0.3,
                   })}
                   alt={product.description[props.lang]}
                   loading='lazy'

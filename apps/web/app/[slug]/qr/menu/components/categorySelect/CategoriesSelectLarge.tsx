@@ -29,6 +29,7 @@ export default function CategoriesSelectLarge(props: {
           minWidth: '180px',
           '& > ul': {
             position: 'fixed',
+            maxWidth: '200px',
           },
         },
       })}
@@ -98,6 +99,7 @@ function parseCategories(props: {
                   }),
                   css({
                     fontWeight: selected ? '600' : '400',
+                    whiteSpace: 'break-spaces',
                   })
                 )}
                 onClick={() => {

@@ -1,7 +1,10 @@
 [
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "5.webp",
+      "full": "5b.webp"
+    },
     "name": {
       "en": "",
       "ua": "Мікс овочі на мангалі"
@@ -22,7 +25,10 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "6.webp",
+      "full": "6b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Ананас гриль з перцем Чилі"
@@ -43,7 +49,10 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "7.jpg",
+      "full": "7b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Баклажан"
@@ -64,7 +73,7 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Кабачок"
@@ -85,7 +94,7 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Помідор"
@@ -106,7 +115,10 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "8.jpg",
+      "full": "8b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Перець Болгарський"
@@ -127,7 +139,10 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "9.jpg",
+      "full": "9b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Перець Чилі"
@@ -148,7 +163,10 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "10.jpg",
+      "full": "10b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Картопля з салом підчеревина"
@@ -169,7 +187,10 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "11.jpg",
+      "full": "11b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Печериці з сиром сулугуні на мангалі"
@@ -190,7 +211,10 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "12.webp",
+      "full": "12b.webp"
+    },
     "name": {
       "en": "",
       "ua": "Кукурудза на мангалі"
@@ -211,7 +235,7 @@
   },
   {
     "categories": [19],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Овочі асорті"
@@ -232,7 +256,10 @@
   },
   {
     "categories": [20],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "13.webp",
+      "full": "13b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Стейк лосося"
@@ -253,7 +280,10 @@
   },
   {
     "categories": [20],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "14.jpg",
+      "full": "14b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Сьомга"
@@ -274,7 +304,10 @@
   },
   {
     "categories": [20],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "15.jpg",
+      "full": "15b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Осетр"
@@ -295,7 +328,10 @@
   },
   {
     "categories": [20],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "16b.jpg",
+      "full": "16b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Сом"
@@ -316,7 +352,10 @@
   },
   {
     "categories": [20],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "17.webp",
+      "full": "17b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Дорадо"
@@ -337,7 +376,10 @@
   },
   {
     "categories": [20],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "18.jpg",
+      "full": "18b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Скумбрія"
@@ -358,7 +400,10 @@
   },
   {
     "categories": [20],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "19.webp",
+      "full": "19b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Рибне асорті"
@@ -379,7 +424,10 @@
   },
   {
     "categories": [21],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "20.webp",
+      "full": "20b.webp"
+    },
     "name": {
       "en": "",
       "ua": "Солодкі свинячі реберця"
@@ -400,7 +448,10 @@
   },
   {
     "categories": [21],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "21.jpg",
+      "full": "21b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Свинячий ошийок"
@@ -421,7 +472,10 @@
   },
   {
     "categories": [21],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "22.webp",
+      "full": "22b.webp"
+    },
     "name": {
       "en": "",
       "ua": "Свинячі реберця"
@@ -442,7 +496,10 @@
   },
   {
     "categories": [21],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "23.jpg",
+      "full": "23b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Чалагач зі свинячої корейки"
@@ -526,7 +583,10 @@
   },
   {
     "categories": [22],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "24.webp",
+      "full": "24b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Куряче філе"
@@ -547,7 +607,10 @@
   },
   {
     "categories": [22],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "25.webp",
+      "full": "25b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Курячі крильця"
@@ -568,7 +631,10 @@
   },
   {
     "categories": [22],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "26.jpg",
+      "full": "26b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Курячі крильця в медовій глазурі з кунжутом"
@@ -610,7 +676,10 @@
   },
   {
     "categories": [22],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "27.jpg",
+      "full": "27b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Люля-кебаб Курка"
@@ -631,7 +700,10 @@
   },
   {
     "categories": [22],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "28.jpg",
+      "full": "28b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Люля-кебаб Курка з сиром"
@@ -652,7 +724,10 @@
   },
   {
     "categories": [23],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "29.webp",
+      "full": "29b.webp"
+    },
     "name": {
       "en": "",
       "ua": "Баранина каре"
@@ -673,7 +748,10 @@
   },
   {
     "categories": [23],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "30.jpg",
+      "full": "30b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Стейк з телятини"
@@ -694,7 +772,10 @@
   },
   {
     "categories": [23],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "31.jpg",
+      "full": "31b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Люля-кебаб Телятина"
@@ -715,7 +796,10 @@
   },
   {
     "categories": [23],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "31.jpg",
+      "full": "31b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Люля-кебаб Телятина з сиром"
@@ -736,7 +820,10 @@
   },
   {
     "categories": [23],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "32b.webp",
+      "full": "32b.webp"
+    },
     "name": {
       "en": "",
       "ua": "Люля-кебаб 50 на 50 телятина и курка"
@@ -757,7 +844,10 @@
   },
   {
     "categories": [23],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "33.webp",
+      "full": "33b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "М`ясне асорті"
@@ -778,7 +868,10 @@
   },
   {
     "categories": [23],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "34.jpg",
+      "full": "34b.jpg"
+    },
     "name": {
       "en": "",
       "ua": "Люля кебаб асорті"
@@ -799,10 +892,13 @@
   },
   {
     "categories": [64],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "36.jpg",
+      "full": "36b.jpg"
+    },
     "name": {
       "en": "",
-      "ua": "Дорблю/Гуакамоле/Баже(горіхова-часниковий)"
+      "ua": "Дорблю"
     },
     "description": {
       "en": "",
@@ -820,10 +916,58 @@
   },
   {
     "categories": [64],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
-      "ua": "Наршараб/Медово-гірчичний/Чорничний"
+      "ua": "Баже(горіхова-часниковий)"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 90
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "35.jpg",
+      "full": "35b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Гуакамоле"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 90
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "37.jpg",
+      "full": "37b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Наршараб"
     },
     "description": {
       "en": "",
@@ -841,10 +985,13 @@
   },
   {
     "categories": [64],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "38.jpg",
+      "full": "38b.jpg"
+    },
     "name": {
       "en": "",
-      "ua": "Вершковий/Вершково-шпинатний/Сацебелі"
+      "ua": "Медово-гірчичний"
     },
     "description": {
       "en": "",
@@ -862,10 +1009,109 @@
   },
   {
     "categories": [64],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "39.jpg",
+      "full": "39b.jpg"
+    },
     "name": {
       "en": "",
-      "ua": "Ткемалі/Сирно-часниковий/Аджика/Журавлинний"
+      "ua": "Чорничний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "43.jpg",
+      "full": "43b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Сацебелі"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "42.jpg",
+      "full": "42b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Вершково-шпинатний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "40.jpg",
+      "full": "41b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Вершковий"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "47.jpg",
+      "full": "47b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Журавлинний"
     },
     "description": {
       "en": "",
@@ -883,10 +1129,109 @@
   },
   {
     "categories": [64],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "46.jpg",
+      "full": "46b.jpg"
+    },
     "name": {
       "en": "",
-      "ua": "Томатний з зеленню/Білий часниковий"
+      "ua": "Аджика"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "45.jpg",
+      "full": "45b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Сирно-часниковий"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "44.jpg",
+      "full": "44b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Ткемалі"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "48.jpg",
+      "full": "48b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Томатний з зеленню"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 50
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [64],
+    "image": {
+      "thumb": "49.jpg",
+      "full": "49b.jpg"
+    },
+    "name": {
+      "en": "",
+      "ua": "Білий часниковий"
     },
     "description": {
       "en": "",

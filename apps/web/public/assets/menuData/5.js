@@ -2,7 +2,10 @@
 export const products = [
   {
     categories: [19],
-    image: '1.jpg',
+    image: {
+      thumb: '5.webp',
+      full: '5b.webp',
+    },
     name: {
       en: '',
       ua: 'Мікс овочі на мангалі',
@@ -23,7 +26,10 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: {
+      thumb: '6.webp',
+      full: '6b.jpg',
+    },
     name: {
       en: '',
       ua: 'Ананас гриль з перцем Чилі',
@@ -44,7 +50,10 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: {
+      thumb: '7.jpg',
+      full: '7b.jpg',
+    },
     name: {
       en: '',
       ua: 'Баклажан',
@@ -65,7 +74,7 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Кабачок',
@@ -86,7 +95,7 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Помідор',
@@ -128,7 +137,10 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: {
+      thumb: '9.jpg',
+      full: '9b.jpg',
+    },
     name: {
       en: '',
       ua: 'Перець Чилі',
@@ -149,7 +161,10 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: {
+      thumb: '10.jpg',
+      full: '10b.jpg',
+    },
     name: {
       en: '',
       ua: 'Картопля з салом підчеревина',
@@ -170,7 +185,10 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: {
+      thumb: '11.jpg',
+      full: '11b.jpg',
+    },
     name: {
       en: '',
       ua: 'Печериці з сиром сулугуні на мангалі',
@@ -191,7 +209,10 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: {
+      thumb: '12.jpg',
+      full: '12b.jpg',
+    },
     name: {
       en: '',
       ua: 'Кукурудза на мангалі',

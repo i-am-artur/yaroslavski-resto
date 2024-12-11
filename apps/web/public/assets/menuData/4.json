@@ -1,7 +1,12 @@
 [
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [
+      { "thumb": "50.jpg" },
+      { "full": "50b.jpg" },
+      { "full": "50b1.jpg" },
+      { "full": "50b2.jpg" }
+    ],
     "name": {
       "en": "",
       "ua": "Солодкі свинячі реберця з ананасом гриль"
@@ -22,7 +27,7 @@
   },
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [{ "thumb": "51.webp" }, { "full": "51b.jpg" }],
     "name": {
       "en": "",
       "ua": "Стейк з телятини з гарніром \"Єреван\""
@@ -43,7 +48,7 @@
   },
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [{ "thumb": "52.webp" }, { "full": "52b.webp" }],
     "name": {
       "en": "",
       "ua": "Медальйони з телячої вирізки з кукурудзою гриль"
@@ -85,7 +90,7 @@
   },
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [{ "thumb": "54.jpg" }, { "full": "54b.jpg" }],
     "name": {
       "en": "",
       "ua": "Сьомга з овочами гриль та гранатовим соусом"
@@ -106,7 +111,7 @@
   },
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [{ "thumb": "55.webp" }, { "full": "55b.webp" }],
     "name": {
       "en": "",
       "ua": "Сьомга в чорному кунжуті на подушці зі шпинату"
@@ -148,7 +153,12 @@
   },
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [
+      { "thumb": "56.webp" },
+      { "full": "56b.jpg" },
+      { "full": "56b1.jpg" },
+      { "full": "56b2.jpg" }
+    ],
     "name": {
       "en": "",
       "ua": "Скумбрія на грилі з припущеним  шпинатом"
@@ -169,7 +179,7 @@
   },
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [{ "thumb": "57.jpg" }, { "full": "57b.jpg" }],
     "name": {
       "en": "",
       "ua": "Каре баранини з гострим соте та аджикою"
@@ -190,7 +200,7 @@
   },
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [{ "thumb": "58.jpg" }, { "full": "58b.jpg" }],
     "name": {
       "en": "",
       "ua": "Качина грудка з карамелізованої грушою"
@@ -211,7 +221,7 @@
   },
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [{ "thumb": "59.webp" }, { "full": "59b.webp" }],
     "name": {
       "en": "",
       "ua": "Тапака з пів курчати Кокле з картоплею по креольські"
@@ -232,7 +242,7 @@
   },
   {
     "categories": [17],
-    "image": "1.jpg",
+    "image": [{ "thumb": "60.jpg" }, { "full": "60b.jpg" }],
     "name": {
       "en": "",
       "ua": "Долма з Телятини у виноградних листях"
@@ -316,14 +326,14 @@
   },
   {
     "categories": [18],
-    "image": "1.jpg",
+    "image": [{ "thumb": "64.jpg" }, { "full": "64b.jpg" }],
     "name": {
       "en": "",
-      "ua": "Картопля"
+      "ua": "Картопля відварна з кропом"
     },
     "description": {
       "en": "",
-      "ua": "смажена по-домашньому з цибулею та грибами / пюре / по-креольські / відварна з кропом"
+      "ua": ""
     },
     "price": {
       "qr": [
@@ -337,7 +347,75 @@
   },
   {
     "categories": [18],
-    "image": "1.jpg",
+    "image": [
+      { "thumb": "63.webp" },
+      { "full": "63b.webp" },
+      { "full": "63b1.jpg" },
+      { "full": "63b2.jpg" }
+    ],
+    "name": {
+      "en": "",
+      "ua": "Картопля по-креольські"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [18],
+    "image": [{ "thumb": "61.jpg" }, { "full": "61b.jpg" }],
+    "name": {
+      "en": "",
+      "ua": "Картопля смажена по-домашньому"
+    },
+    "description": {
+      "en": "",
+      "ua": "з цибулею та грибами"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [18],
+    "image": [{ "thumb": "62.jpg" }, { "full": "62b.jpg" }],
+    "name": {
+      "en": "",
+      "ua": "Пюре"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [18],
+    "image": [{ "thumb": "65.webp" }, { "full": "65b.webp" }, { "full": "65b1.jpg" }],
     "name": {
       "en": "",
       "ua": "Картопля фрі з кетчупом"
@@ -358,7 +436,7 @@
   },
   {
     "categories": [18],
-    "image": "1.jpg",
+    "image": [{ "thumb": "66.webp" }, { "full": "66b.webp" }, { "full": "66b1.jpg" }],
     "name": {
       "en": "",
       "ua": "Булгур"
@@ -379,7 +457,13 @@
   },
   {
     "categories": [18],
-    "image": "1.jpg",
+    "image": [
+      { "thumb": "67.webp" },
+      { "full": "67b.jpg" },
+      { "full": "67b1.jpg" },
+      { "full": "67b2.jpg" },
+      { "full": "67b3.jpg" }
+    ],
     "name": {
       "en": "",
       "ua": "Гарнір \"Єреван\""
@@ -400,7 +484,7 @@
   },
   {
     "categories": [18],
-    "image": "1.jpg",
+    "image": [{ "thumb": "68.webp" }, { "full": "68b.jpg" }, { "full": "68b1.jpg" }],
     "name": {
       "en": "",
       "ua": "Припущений шпинат з цибулею"
@@ -442,7 +526,12 @@
   },
   {
     "categories": [18],
-    "image": "1.jpg",
+    "image": [
+      { "thumb": "69.webp" },
+      { "full": "69b.jpg" },
+      { "full": "69b1.jpg" },
+      { "full": "69b2.jpg" }
+    ],
     "name": {
       "en": "",
       "ua": "Овочі ВОК"

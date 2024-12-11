@@ -1,7 +1,7 @@
 [
   {
     "categories": [52],
-    "image": "1.jpg",
+    "image": [{ "thumb": "53.webp" }, { "full": "53b.webp" }],
     "name": {
       "en": "",
       "ua": "Узвар"
@@ -22,7 +22,7 @@
   },
   {
     "categories": [52],
-    "image": "1.jpg",
+    "image": [{ "thumb": "2.webp" }, { "full": "2b.webp" }],
     "name": {
       "en": "",
       "ua": "Морс"
@@ -106,7 +106,7 @@
   },
   {
     "categories": [52],
-    "image": "1.jpg",
+    "image": [{ "thumb": "1.webp" }, { "full": "1b.webp" }],
     "name": {
       "en": "",
       "ua": "Тан"
@@ -127,7 +127,7 @@
   },
   {
     "categories": [52],
-    "image": "1.jpg",
+    "image": [{ "thumb": "3.webp" }, { "full": "3b.webp" }],
     "name": {
       "en": "",
       "ua": "Цитрусовий Натуральний Лимонад"
@@ -227,7 +227,7 @@
   },
   {
     "categories": [56],
-    "image": "1.jpg",
+    "image": [{ "thumb": "4.webp" }, { "full": "4b.jpg" }],
     "name": {
       "en": "",
       "ua": "Малиновий Мохіто Натуральний Лимонад"
@@ -2209,7 +2209,8 @@
       ]
     },
     "capacityUnit": "ml"
-  },{
+  },
+  {
     "categories": [46],
     "image": "1.jpg",
     "name": {
@@ -2229,7 +2230,8 @@
       ]
     },
     "capacityUnit": "ml"
-  },{
+  },
+  {
     "categories": [46],
     "image": "1.jpg",
     "name": {
