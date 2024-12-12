@@ -3,7 +3,7 @@
     "categories": [19],
     "image": {
       "thumb": "5.webp",
-      "full": "5b.webp"
+      "full": ["5b.webp"]
     },
     "name": {
       "en": "",
@@ -27,7 +27,7 @@
     "categories": [19],
     "image": {
       "thumb": "6.webp",
-      "full": "6b.jpg"
+      "full": ["6b.jpg"]
     },
     "name": {
       "en": "",
@@ -51,7 +51,7 @@
     "categories": [19],
     "image": {
       "thumb": "7.jpg",
-      "full": "7b.jpg"
+      "full": ["7b.jpg"]
     },
     "name": {
       "en": "",
@@ -117,7 +117,7 @@
     "categories": [19],
     "image": {
       "thumb": "8.jpg",
-      "full": "8b.jpg"
+      "full": ["8b.jpg"]
     },
     "name": {
       "en": "",
@@ -141,7 +141,7 @@
     "categories": [19],
     "image": {
       "thumb": "9.jpg",
-      "full": "9b.jpg"
+      "full": ["9b.jpg"]
     },
     "name": {
       "en": "",
@@ -165,7 +165,7 @@
     "categories": [19],
     "image": {
       "thumb": "10.jpg",
-      "full": "10b.jpg"
+      "full": ["10b.jpg"]
     },
     "name": {
       "en": "",
@@ -189,7 +189,7 @@
     "categories": [19],
     "image": {
       "thumb": "11.jpg",
-      "full": "11b.jpg"
+      "full": ["11b.jpg"]
     },
     "name": {
       "en": "",
@@ -213,7 +213,7 @@
     "categories": [19],
     "image": {
       "thumb": "12.webp",
-      "full": "12b.webp"
+      "full": ["12b.webp"]
     },
     "name": {
       "en": "",
@@ -258,7 +258,7 @@
     "categories": [20],
     "image": {
       "thumb": "13.webp",
-      "full": "13b.jpg"
+      "full": ["13b.jpg"]
     },
     "name": {
       "en": "",
@@ -282,7 +282,7 @@
     "categories": [20],
     "image": {
       "thumb": "14.jpg",
-      "full": "14b.jpg"
+      "full": ["14b.jpg"]
     },
     "name": {
       "en": "",
@@ -306,7 +306,7 @@
     "categories": [20],
     "image": {
       "thumb": "15.jpg",
-      "full": "15b.jpg"
+      "full": ["15b.jpg"]
     },
     "name": {
       "en": "",
@@ -330,7 +330,7 @@
     "categories": [20],
     "image": {
       "thumb": "16b.jpg",
-      "full": "16b.jpg"
+      "full": ["16b.jpg"]
     },
     "name": {
       "en": "",
@@ -354,7 +354,7 @@
     "categories": [20],
     "image": {
       "thumb": "17.webp",
-      "full": "17b.jpg"
+      "full": ["17b.jpg"]
     },
     "name": {
       "en": "",
@@ -378,7 +378,7 @@
     "categories": [20],
     "image": {
       "thumb": "18.jpg",
-      "full": "18b.jpg"
+      "full": ["18b.jpg"]
     },
     "name": {
       "en": "",
@@ -402,7 +402,7 @@
     "categories": [20],
     "image": {
       "thumb": "19.webp",
-      "full": "19b.jpg"
+      "full": ["19b.jpg"]
     },
     "name": {
       "en": "",
@@ -426,7 +426,7 @@
     "categories": [21],
     "image": {
       "thumb": "20.webp",
-      "full": "20b.webp"
+      "full": ["20b.webp"]
     },
     "name": {
       "en": "",
@@ -450,7 +450,7 @@
     "categories": [21],
     "image": {
       "thumb": "21.jpg",
-      "full": "21b.jpg"
+      "full": ["21b.jpg"]
     },
     "name": {
       "en": "",
@@ -474,7 +474,7 @@
     "categories": [21],
     "image": {
       "thumb": "22.webp",
-      "full": "22b.webp"
+      "full": ["22b.webp"]
     },
     "name": {
       "en": "",
@@ -498,7 +498,7 @@
     "categories": [21],
     "image": {
       "thumb": "23.jpg",
-      "full": "23b.jpg"
+      "full": ["23b.jpg"]
     },
     "name": {
       "en": "",
@@ -520,7 +520,7 @@
   },
   {
     "categories": [21],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Люля-кебаб Свинина"
@@ -541,7 +541,7 @@
   },
   {
     "categories": [22],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Качине філе"
@@ -562,7 +562,7 @@
   },
   {
     "categories": [22],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Перепілка"
@@ -585,7 +585,7 @@
     "categories": [22],
     "image": {
       "thumb": "24.webp",
-      "full": "24b.jpg"
+      "full": ["24b.jpg"]
     },
     "name": {
       "en": "",
@@ -609,7 +609,7 @@
     "categories": [22],
     "image": {
       "thumb": "25.webp",
-      "full": "25b.jpg"
+      "full": ["25b.jpg"]
     },
     "name": {
       "en": "",
@@ -633,7 +633,7 @@
     "categories": [22],
     "image": {
       "thumb": "26.jpg",
-      "full": "26b.jpg"
+      "full": ["26b.jpg"]
     },
     "name": {
       "en": "",
@@ -655,7 +655,7 @@
   },
   {
     "categories": [22],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Люля-кебаб Качка"
@@ -678,7 +678,7 @@
     "categories": [22],
     "image": {
       "thumb": "27.jpg",
-      "full": "27b.jpg"
+      "full": ["27b.jpg"]
     },
     "name": {
       "en": "",
@@ -702,7 +702,7 @@
     "categories": [22],
     "image": {
       "thumb": "28.jpg",
-      "full": "28b.jpg"
+      "full": ["28b.jpg"]
     },
     "name": {
       "en": "",
@@ -726,7 +726,7 @@
     "categories": [23],
     "image": {
       "thumb": "29.webp",
-      "full": "29b.webp"
+      "full": ["29b.webp"]
     },
     "name": {
       "en": "",
@@ -750,7 +750,7 @@
     "categories": [23],
     "image": {
       "thumb": "30.jpg",
-      "full": "30b.jpg"
+      "full": ["30b.jpg"]
     },
     "name": {
       "en": "",
@@ -774,7 +774,7 @@
     "categories": [23],
     "image": {
       "thumb": "31.jpg",
-      "full": "31b.jpg"
+      "full": ["31b.jpg"]
     },
     "name": {
       "en": "",
@@ -798,7 +798,7 @@
     "categories": [23],
     "image": {
       "thumb": "31.jpg",
-      "full": "31b.jpg"
+      "full": ["31b.jpg"]
     },
     "name": {
       "en": "",
@@ -822,7 +822,7 @@
     "categories": [23],
     "image": {
       "thumb": "32b.webp",
-      "full": "32b.webp"
+      "full": ["32b.webp"]
     },
     "name": {
       "en": "",
@@ -846,7 +846,7 @@
     "categories": [23],
     "image": {
       "thumb": "33.webp",
-      "full": "33b.jpg"
+      "full": ["33b.jpg"]
     },
     "name": {
       "en": "",
@@ -870,7 +870,7 @@
     "categories": [23],
     "image": {
       "thumb": "34.jpg",
-      "full": "34b.jpg"
+      "full": ["34b.jpg"]
     },
     "name": {
       "en": "",
@@ -894,7 +894,7 @@
     "categories": [64],
     "image": {
       "thumb": "36.jpg",
-      "full": "36b.jpg"
+      "full": ["36b.jpg"]
     },
     "name": {
       "en": "",
@@ -939,7 +939,7 @@
     "categories": [64],
     "image": {
       "thumb": "35.jpg",
-      "full": "35b.jpg"
+      "full": ["35b.jpg"]
     },
     "name": {
       "en": "",
@@ -963,7 +963,7 @@
     "categories": [64],
     "image": {
       "thumb": "37.jpg",
-      "full": "37b.jpg"
+      "full": ["37b.jpg"]
     },
     "name": {
       "en": "",
@@ -987,7 +987,7 @@
     "categories": [64],
     "image": {
       "thumb": "38.jpg",
-      "full": "38b.jpg"
+      "full": ["38b.jpg"]
     },
     "name": {
       "en": "",
@@ -1011,7 +1011,7 @@
     "categories": [64],
     "image": {
       "thumb": "39.jpg",
-      "full": "39b.jpg"
+      "full": ["39b.jpg"]
     },
     "name": {
       "en": "",
@@ -1035,7 +1035,7 @@
     "categories": [64],
     "image": {
       "thumb": "43.jpg",
-      "full": "43b.jpg"
+      "full": ["43b.jpg"]
     },
     "name": {
       "en": "",
@@ -1059,7 +1059,7 @@
     "categories": [64],
     "image": {
       "thumb": "42.jpg",
-      "full": "42b.jpg"
+      "full": ["42b.jpg"]
     },
     "name": {
       "en": "",
@@ -1083,7 +1083,7 @@
     "categories": [64],
     "image": {
       "thumb": "40.jpg",
-      "full": "41b.jpg"
+      "full": ["41b.jpg"]
     },
     "name": {
       "en": "",
@@ -1107,7 +1107,7 @@
     "categories": [64],
     "image": {
       "thumb": "47.jpg",
-      "full": "47b.jpg"
+      "full": ["47b.jpg"]
     },
     "name": {
       "en": "",
@@ -1131,7 +1131,7 @@
     "categories": [64],
     "image": {
       "thumb": "46.jpg",
-      "full": "46b.jpg"
+      "full": ["46b.jpg"]
     },
     "name": {
       "en": "",
@@ -1155,7 +1155,7 @@
     "categories": [64],
     "image": {
       "thumb": "45.jpg",
-      "full": "45b.jpg"
+      "full": ["45b.jpg"]
     },
     "name": {
       "en": "",
@@ -1179,7 +1179,7 @@
     "categories": [64],
     "image": {
       "thumb": "44.jpg",
-      "full": "44b.jpg"
+      "full": ["44b.jpg"]
     },
     "name": {
       "en": "",
@@ -1203,7 +1203,7 @@
     "categories": [64],
     "image": {
       "thumb": "48.jpg",
-      "full": "48b.jpg"
+      "full": ["48b.jpg"]
     },
     "name": {
       "en": "",
@@ -1227,7 +1227,7 @@
     "categories": [64],
     "image": {
       "thumb": "49.jpg",
-      "full": "49b.jpg"
+      "full": ["49b.jpg"]
     },
     "name": {
       "en": "",

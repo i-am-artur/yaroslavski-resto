@@ -1,7 +1,10 @@
 [
   {
     "categories": [52],
-    "image": [{ "thumb": "53.webp" }, { "full": "53b.webp" }],
+    "image": {
+      "thumb": "53.webp",
+      "full": ["53b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Узвар"
@@ -22,7 +25,10 @@
   },
   {
     "categories": [52],
-    "image": [{ "thumb": "2.webp" }, { "full": "2b.webp" }],
+    "image": {
+      "thumb": "2.webp",
+      "full": ["2b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Морс"
@@ -43,7 +49,7 @@
   },
   {
     "categories": [57],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Апельсин"
@@ -64,7 +70,7 @@
   },
   {
     "categories": [57],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Грейпфрут"
@@ -85,7 +91,7 @@
   },
   {
     "categories": [52],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Молочний коктейль"
@@ -106,7 +112,10 @@
   },
   {
     "categories": [52],
-    "image": [{ "thumb": "1.webp" }, { "full": "1b.webp" }],
+    "image": {
+      "thumb": "1.webp",
+      "full": ["1b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Тан"
@@ -127,7 +136,10 @@
   },
   {
     "categories": [52],
-    "image": [{ "thumb": "3.webp" }, { "full": "3b.webp" }],
+    "image": {
+      "thumb": "3.webp",
+      "full": ["3b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Цитрусовий Натуральний Лимонад"
@@ -152,7 +164,7 @@
   },
   {
     "categories": [52],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Натуральний Лимонад Чорна смородина"
@@ -177,7 +189,7 @@
   },
   {
     "categories": [56],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Червона порiчка Натуральний Лимонад"
@@ -202,7 +214,7 @@
   },
   {
     "categories": [56],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Мохіто Натуральний Лимонад"
@@ -227,7 +239,10 @@
   },
   {
     "categories": [56],
-    "image": [{ "thumb": "4.webp" }, { "full": "4b.jpg" }],
+    "image": {
+      "thumb": "4.webp",
+      "full": ["4b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Малиновий Мохіто Натуральний Лимонад"
@@ -252,7 +267,7 @@
   },
   {
     "categories": [56],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Полуничний Мохiто Натуральний Лимонад"
@@ -277,7 +292,7 @@
   },
   {
     "categories": [56],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Огірковий Натуральний Лимонад"
@@ -302,7 +317,7 @@
   },
   {
     "categories": [56],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Імбирний Натуральний Лимонад"
@@ -327,7 +342,7 @@
   },
   {
     "categories": [56],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Апельсиновий Натуральний Лимонад"
@@ -353,7 +368,7 @@
 
   {
     "categories": [53],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "\"Грузинський букет\""
@@ -374,7 +389,7 @@
   },
   {
     "categories": [53],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Соки в асортименті"
@@ -395,7 +410,7 @@
   },
   {
     "categories": [53],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Вода Моршинська Premium"
@@ -416,7 +431,7 @@
   },
   {
     "categories": [53],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Боржомі"

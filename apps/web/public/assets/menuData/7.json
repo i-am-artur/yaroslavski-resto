@@ -1,8 +1,6 @@
 [
   {
-    "categories": [
-      7
-    ],
+    "categories": [7],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -23,9 +21,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
+    "categories": [7],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -46,10 +42,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
-    "image": "1.jpg",
+    "categories": [7],
+    "image": {
+      "thumb": "98.jpg",
+      "full": ["98b.jpg", "98b1.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Салямі"
@@ -69,10 +66,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
-    "image": "1.jpg",
+    "categories": [7],
+    "image": {
+      "thumb": "99.webp",
+      "full": ["99b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Чилі"
@@ -92,10 +90,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
-    "image": "1.jpg",
+    "categories": [7],
+    "image": {
+      "thumb": "100.webp",
+      "full": ["100b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Філадельфія"
@@ -115,10 +114,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
-    "image": "1.jpg",
+    "categories": [7],
+    "image": {
+      "thumb": "101.webp",
+      "full": ["101b.jpg", "101b1.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Морепродуктами"
@@ -138,10 +138,8 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
-    "image": "1.jpg",
+    "categories": [7],
+    "image": null,
     "name": {
       "en": "",
       "ua": "Маре Верде"
@@ -161,10 +159,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
-    "image": "1.jpg",
+    "categories": [7],
+    "image": {
+      "thumb": "102.jpg",
+      "full": ["102b.jpg", "102b1.jpg", "102b2.jpg", "102b3.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Прошутто"
@@ -184,9 +183,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
+    "categories": [7],
     "image": "1.jpg",
     "name": {
       "en": "",
@@ -207,10 +204,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
-    "image": "1.jpg",
+    "categories": [7],
+    "image": {
+      "thumb": "103.webp",
+      "full": ["103b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Дитяча"
@@ -230,10 +228,18 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      7
-    ],
-    "image": "1.jpg",
+    "categories": [7],
+    "image": {
+      "thumb": "104.webp",
+      "full": [
+        "104b.webp",
+        "104b1.jpg",
+        "104b2.jpg",
+        "104b3.jpg",
+        "104b4.jpg",
+        "104b5.jpg"
+      ]
+    },
     "name": {
       "en": "",
       "ua": "Чотири сири"

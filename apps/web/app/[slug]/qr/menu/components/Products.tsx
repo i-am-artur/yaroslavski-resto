@@ -84,12 +84,11 @@ export default function Products(props: { list: any[]; lang: string }) {
                 </div>
                 <img
                   src={(function () {
-                    if (!Array.isArray(product.image))
-                      return `${process.env.basePath}/assets/site/food1.gif`;
+                    // if (!Array.isArray(product.image))
+                    //   return `${process.env.basePath}/assets/site/food1.gif`;
 
-                    const thumb = product.image?.find((el: any) => !!el['thumb'])?.thumb;
-                    return thumb
-                      ? `${process.env.basePath}/assets/products/images/${thumb}`
+                    return product.image?.thumb
+                      ? `${process.env.basePath}/assets/products/images/${product.image.thumb}`
                       : `${process.env.basePath}/assets/site/food1.gif`;
                   })()}
                   width='100'

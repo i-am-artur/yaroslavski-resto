@@ -4,7 +4,7 @@ export const products = [
     categories: [19],
     image: {
       thumb: '5.webp',
-      full: '5b.webp',
+      full: ['5b.webp'],
     },
     name: {
       en: '',
@@ -28,7 +28,7 @@ export const products = [
     categories: [19],
     image: {
       thumb: '6.webp',
-      full: '6b.jpg',
+      full: ['6b.jpg'],
     },
     name: {
       en: '',
@@ -52,7 +52,7 @@ export const products = [
     categories: [19],
     image: {
       thumb: '7.jpg',
-      full: '7b.jpg',
+      full: ['7b.jpg'],
     },
     name: {
       en: '',
@@ -116,7 +116,7 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Перець Болгарський',
@@ -139,7 +139,7 @@ export const products = [
     categories: [19],
     image: {
       thumb: '9.jpg',
-      full: '9b.jpg',
+      full: ['9b.jpg'],
     },
     name: {
       en: '',
@@ -163,7 +163,7 @@ export const products = [
     categories: [19],
     image: {
       thumb: '10.jpg',
-      full: '10b.jpg',
+      full: ['10b.jpg'],
     },
     name: {
       en: '',
@@ -187,7 +187,7 @@ export const products = [
     categories: [19],
     image: {
       thumb: '11.jpg',
-      full: '11b.jpg',
+      full: ['11b.jpg'],
     },
     name: {
       en: '',
@@ -211,7 +211,7 @@ export const products = [
     categories: [19],
     image: {
       thumb: '12.jpg',
-      full: '12b.jpg',
+      full: ['12b.jpg'],
     },
     name: {
       en: '',
@@ -233,7 +233,7 @@ export const products = [
   },
   {
     categories: [19],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Овочі асорті',
@@ -254,7 +254,7 @@ export const products = [
   },
   {
     categories: [20],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Стейк лосося',
@@ -275,7 +275,7 @@ export const products = [
   },
   {
     categories: [20],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Сьомга',
@@ -296,7 +296,7 @@ export const products = [
   },
   {
     categories: [20],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Осетр',
@@ -317,7 +317,7 @@ export const products = [
   },
   {
     categories: [20],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Сом',
@@ -338,7 +338,7 @@ export const products = [
   },
   {
     categories: [20],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Дорадо',
@@ -359,7 +359,7 @@ export const products = [
   },
   {
     categories: [20],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Скумбрія',
@@ -380,7 +380,7 @@ export const products = [
   },
   {
     categories: [20],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Рибне асорті',
@@ -401,7 +401,7 @@ export const products = [
   },
   {
     categories: [21],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Солодкі свинячі реберця',
@@ -422,7 +422,7 @@ export const products = [
   },
   {
     categories: [21],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Свинячий ошийок',
@@ -443,7 +443,7 @@ export const products = [
   },
   {
     categories: [21],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Свинячі реберця',
@@ -464,7 +464,7 @@ export const products = [
   },
   {
     categories: [21],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Чалагач зі свинячої корейки',
@@ -485,7 +485,7 @@ export const products = [
   },
   {
     categories: [21],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Люля-кебаб Свинина',
@@ -506,7 +506,7 @@ export const products = [
   },
   {
     categories: [22],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Качине філе',
@@ -527,7 +527,7 @@ export const products = [
   },
   {
     categories: [22],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Перепілка',
@@ -548,7 +548,7 @@ export const products = [
   },
   {
     categories: [22],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Куряче філе',
@@ -569,7 +569,7 @@ export const products = [
   },
   {
     categories: [22],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Курячі крильця',
@@ -590,7 +590,7 @@ export const products = [
   },
   {
     categories: [22],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Курячі крильця в медовій глазурі з кунжутом',
@@ -611,7 +611,7 @@ export const products = [
   },
   {
     categories: [22],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Люля-кебаб Качка',
@@ -632,7 +632,7 @@ export const products = [
   },
   {
     categories: [22],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Люля-кебаб Курка',
@@ -653,7 +653,7 @@ export const products = [
   },
   {
     categories: [22],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Люля-кебаб Курка з сиром',
@@ -674,7 +674,7 @@ export const products = [
   },
   {
     categories: [23],
-    image: '1.jpg',
+    image: null,
     name: {
       en: '',
       ua: 'Баранина каре',

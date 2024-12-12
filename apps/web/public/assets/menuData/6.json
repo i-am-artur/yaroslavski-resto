@@ -1,7 +1,7 @@
 [
   {
     "categories": [25],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "Класичний"
@@ -26,7 +26,10 @@
   },
   {
     "categories": [25],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "71.jpg",
+      "full": ["71b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Чотири сири с кунжутом"
@@ -151,7 +154,10 @@
   },
   {
     "categories": [25],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "73.jpg",
+      "full": ["73b.jpg", "73b1.jpg", "73b2.jpg", "73b3.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Аджарец з Чилі з м’ясом помідорами Черрі та перцем Чилі"
@@ -201,7 +207,10 @@
   },
   {
     "categories": [25],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "74.webp",
+      "full": ["74b.jpg", "74b1.jpg", "74b2.jpg", "74b3.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Аджарец з Іспанії з хвостами тигрових Креветок та вершковим сиром"
@@ -226,7 +235,10 @@
   },
   {
     "categories": [25],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "75.webp",
+      "full": ["75b.jpg", "75b1.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Аджарец з Гаваїв з куркою та Ананасом"
@@ -251,7 +263,7 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "З сиром"
@@ -276,7 +288,7 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "З сиром та овочами"
@@ -301,7 +313,7 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "",
       "ua": "З сиром та грибами"
@@ -326,7 +338,10 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "76.webp",
+      "full": ["76b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "М`ясом та сиром"
@@ -351,7 +366,10 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "77.webp",
+      "full": ["77b.jpg", "77b1.webp", "77b2.jpg", "77b3.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Шпинатом і крем сиром"
@@ -376,7 +394,10 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "78.jpg",
+      "full": ["78b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Чотири сири"
@@ -401,7 +422,10 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "79.jpg",
+      "full": ["79b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Бастурма та помідори"
@@ -426,7 +450,10 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "80.jpg",
+      "full": ["80b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Груша-Хачапурі"
@@ -451,7 +478,10 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "81.webp",
+      "full": ["81b.webp", "81b1.webp", "81b2.webp", "81b3.webp"]
+    },
     "name": {
       "en": "",
       "ua": "М`ясний з помідорами Черрі"
@@ -476,7 +506,10 @@
   },
   {
     "categories": [26],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "82.jpg",
+      "full": ["82b.jpg", "82b1.webp", "82b2.webp", "82b3.webp", "82b4.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Хачапурі Чилі"
@@ -501,7 +534,10 @@
   },
   {
     "categories": [27],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "83.webp",
+      "full": ["83b.webp", "83b1.webp"]
+    },
     "name": {
       "en": "",
       "ua": "З сиром"
@@ -526,7 +562,10 @@
   },
   {
     "categories": [27],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "83.webp",
+      "full": ["83b.webp", "83b1.webp"]
+    },
     "name": {
       "en": "",
       "ua": "З м`ясом та сиром"
@@ -551,7 +590,10 @@
   },
   {
     "categories": [27],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "84.jpg",
+      "full": ["84b.jpg", "84b1.jpg", "84b2.jpg", "84b3.jpg"]
+    },
     "name": {
       "en": "",
       "ua": ""
@@ -626,7 +668,10 @@
   },
   {
     "categories": [27],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "85.jpg",
+      "full": ["85b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "З лососем та крем сиром"
@@ -651,7 +696,10 @@
   },
   {
     "categories": [27],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "86.jpg",
+      "full": ["86b.jpg", "86b1.jpg", "86b2.jpg", "86b3.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "З айвою, прошутто та крем сиром"
@@ -935,7 +983,10 @@
   },
   {
     "categories": [29],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "87.webp",
+      "full": ["87b.webp", "87b1.webp", "87b2.webp"]
+    },
     "name": {
       "en": "",
       "ua": "З сиром Камамбер та помідорами Черрі"

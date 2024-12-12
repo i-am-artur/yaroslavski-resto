@@ -1,9 +1,10 @@
 [
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "88.jpg",
+      "full": ["88b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Борщ зі сметаною, часником та салом"
@@ -23,10 +24,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "89.jpg",
+      "full": ["89b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Борщ зелений з яйцем та сметаною"
@@ -46,10 +48,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "90.jpg",
+      "full": ["90b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Юшка з норвезьким лососем"
@@ -69,9 +72,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
+    "categories": [2],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -92,10 +93,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "91.jpg",
+      "full": ["91b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Харчо з телятиною"
@@ -115,10 +117,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "92.jpg",
+      "full": ["92b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Солянка збірна зі сметаною"
@@ -138,10 +141,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "93.webp",
+      "full": ["93b.webp"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Грибний крем-суп"
@@ -161,10 +165,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "94.webp",
+      "full": ["94b.jpg", "94b1.webp"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Сирний крем-суп"
@@ -184,10 +189,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "95.jpg",
+      "full": ["95b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Окрошка з куркою"
@@ -207,10 +213,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "96.jpg",
+      "full": ["96b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Окрошка з язиком"
@@ -230,10 +237,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      2
-    ],
-    "image": "1.jpg",
+    "categories": [2],
+    "image": {
+      "thumb": "97.jpg",
+      "full": ["87b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Окрошка з норвезьким лососем та помідорами"
