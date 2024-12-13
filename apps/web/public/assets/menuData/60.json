@@ -1,10 +1,13 @@
 [
   {
-    "categories": [60, 64],
-    "image": "1.jpg",
+    "categories": [60],
+    "image": {
+      "thumb": "36.jpg",
+      "full": ["36b.jpg"]
+    },
     "name": {
       "en": "",
-      "ua": "Дорблю/Гуакамоле/Баже(горіхова-часниковий)"
+      "ua": "Дорблю"
     },
     "description": {
       "en": "",
@@ -21,13 +24,59 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      60
-    ],
-    "image": "1.jpg",
+    "categories": [60],
+    "image": null,
     "name": {
       "en": "",
-      "ua": "Наршараб/Медово-гірчичний/Чорничний"
+      "ua": "Баже(горіхова-часниковий)"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 90
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "35.jpg",
+      "full": ["35b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Гуакамоле"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 90
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "37.jpg",
+      "full": ["37b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Наршараб"
     },
     "description": {
       "en": "",
@@ -44,13 +93,14 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      60
-    ],
-    "image": "1.jpg",
+    "categories": [60],
+    "image": {
+      "thumb": "38.jpg",
+      "full": ["38b.jpg"]
+    },
     "name": {
       "en": "",
-      "ua": "Вершковий/Вершково-шпинатний/Сацебелі"
+      "ua": "Медово-гірчичний"
     },
     "description": {
       "en": "",
@@ -67,13 +117,110 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      60
-    ],
-    "image": "1.jpg",
+    "categories": [60],
+    "image": {
+      "thumb": "39.jpg",
+      "full": ["39b.jpg"]
+    },
     "name": {
       "en": "",
-      "ua": "Ткемалі/Сирно-часниковий/Аджика/Журавлинний"
+      "ua": "Чорничний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "43.jpg",
+      "full": ["43b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Сацебелі"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "42.jpg",
+      "full": ["42b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Вершково-шпинатний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "40.jpg",
+      "full": ["41b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Вершковий"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "47.jpg",
+      "full": ["47b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Журавлинний"
     },
     "description": {
       "en": "",
@@ -90,13 +237,110 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      60
-    ],
-    "image": "1.jpg",
+    "categories": [60],
+    "image": {
+      "thumb": "46.jpg",
+      "full": ["46b.jpg"]
+    },
     "name": {
       "en": "",
-      "ua": "Томатний з зеленню/Білий часниковий"
+      "ua": "Аджика"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "45.jpg",
+      "full": ["45b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Сирно-часниковий"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "44.jpg",
+      "full": ["44b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Ткемалі"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "48.jpg",
+      "full": ["48b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Томатний з зеленню"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 50
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [60],
+    "image": {
+      "thumb": "49.jpg",
+      "full": ["49b.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Білий часниковий"
     },
     "description": {
       "en": "",
