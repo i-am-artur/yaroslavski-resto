@@ -1,7 +1,10 @@
 [
   {
     "categories": [13],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "129.webp",
+      "full": ["129b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Грецький салат"
@@ -22,7 +25,10 @@
   },
   {
     "categories": [13],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "130.webp",
+      "full": ["130b.webp"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Грецький салат з виноградом"
@@ -43,7 +49,10 @@
   },
   {
     "categories": [13],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "131.webp",
+      "full": ["131b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Домашній салат"
@@ -64,7 +73,7 @@
   },
   {
     "categories": [13],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Зелений салат"
@@ -85,7 +94,7 @@
   },
   {
     "categories": [13],
-    "image": "1.jpg",
+    "image": null,
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Олів’є з яловичим язиком"
@@ -106,7 +115,10 @@
   },
   {
     "categories": [13],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "132.jpg",
+      "full": ["132b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Цезар зі слабо солоним норвезьким лососем"
@@ -127,7 +139,10 @@
   },
   {
     "categories": [13],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "133.jpg",
+      "full": ["133b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Салат з морепродуктів та авокадо"
@@ -148,7 +163,10 @@
   },
   {
     "categories": [13],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "134.webp",
+      "full": ["134b.webp", "134b1.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Салат з сьомгою та авокадо"
@@ -190,7 +208,10 @@
   },
   {
     "categories": [14],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "135.jpg",
+      "full": ["135b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Мікс салат з качиною грудкою"
@@ -211,7 +232,10 @@
   },
   {
     "categories": [14],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "136.webp",
+      "full": ["136b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Гострий салат зі свинини з мангала"
@@ -253,7 +277,10 @@
   },
   {
     "categories": [14],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "137.webp",
+      "full": ["137b.webp"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Цезар з куркою гриль"
@@ -274,7 +301,10 @@
   },
   {
     "categories": [14],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "138.jpg",
+      "full": ["138b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Цезар з креветками гриль"
@@ -295,7 +325,10 @@
   },
   {
     "categories": [14],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "139.webp",
+      "full": ["139b.webp", "13b1.webp", "13b2.webp", "13b3.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Телячий Стейк салат с міксом та в’яленими помідорами"
@@ -316,7 +349,10 @@
   },
   {
     "categories": [14],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "140.jpg",
+      "full": ["140b.jpg", "140b1.jpg", "140b2.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Соте з овочів гриль"
@@ -337,7 +373,10 @@
   },
   {
     "categories": [14],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "141.webp",
+      "full": ["141b.jpg", "141b1.jpg", "141b2.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Мікс салат з ананасом та перцем гриль та авокадо"

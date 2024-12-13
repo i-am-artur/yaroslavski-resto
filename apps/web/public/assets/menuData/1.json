@@ -1,8 +1,6 @@
 [
   {
-    "categories": [
-      8
-    ],
+    "categories": [8],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -27,9 +25,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
+    "categories": [8],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -54,10 +50,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
+    "categories": [8],
+    "image": {
+      "thumb": "105.jpg",
+      "full": ["105b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Овочеве асорті із зеленню"
@@ -81,10 +78,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
+    "categories": [8],
+    "image": {
+      "thumb": "106.webp",
+      "full": ["106b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Смаколикі під горілки"
@@ -104,10 +102,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
+    "categories": [8],
+    "image": {
+      "thumb": "107.jpg",
+      "full": ["107b.jpg", "107b1.jpg", "107b2.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Оселедець слабо солоний норвезький з картоплею та цибулею"
@@ -127,9 +126,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
+    "categories": [8],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -150,10 +147,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
+    "categories": [8],
+    "image": {
+      "thumb": "108.jpg",
+      "full": ["108b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Сирна нарізка"
@@ -173,9 +171,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
+    "categories": [8],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -196,10 +192,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
+    "categories": [8],
+    "image": {
+      "thumb": "109.jpg",
+      "full": ["109b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "М`ясна нарізка"
@@ -219,10 +216,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
+    "categories": [8],
+    "image": {
+      "thumb": "110.jpg",
+      "full": ["110b.jpg", "110b1.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Рибна нарізка"
@@ -242,13 +240,14 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
+    "categories": [8],
+    "image": {
+      "thumb": "111.jpg",
+      "full": ["111b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
-      "ua": "Млинці з крем сиром та слабо солоним  норвезьким лососем"
+      "ua": "Млинці з крем сиром та слабо солоним норвезьким лососем"
     },
     "description": {
       "en": "",
@@ -265,33 +264,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
-    "name": {
-      "en": "Hachapuri Adjarski with cheese",
-      "ua": "Млинці з крем сиром та слабо солоним  норвезьким лососем"
+    "categories": [8],
+    "image": {
+      "thumb": "112.webp",
+      "full": ["112b.webp", "112b1.jpg", "112b2.jpg"]
     },
-    "description": {
-      "en": "",
-      "ua": "вершковим крем сирим, кропом та маслинами"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 170,
-          "value": 150
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Пхали бадріджані з помідорами та горіхами"
@@ -311,9 +288,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
+    "categories": [8],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -334,10 +309,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
-    "image": "1.jpg",
+    "categories": [8],
+    "image": {
+      "thumb": "109.jpg",
+      "full": ["109b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Бастурма"
@@ -357,9 +333,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
+    "categories": [8],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -380,9 +354,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
+    "categories": [8],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -403,9 +375,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
+    "categories": [8],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -426,9 +396,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      8
-    ],
+    "categories": [8],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -449,10 +417,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
-    "image": "1.jpg",
+    "categories": [9],
+    "image": {
+      "thumb": "114.webp",
+      "full": ["114b.jpg", "114b1.webp", "114b2.webp"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Сулугуні смажений в кунжуті"
@@ -472,10 +441,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
-    "image": "1.jpg",
+    "categories": [9],
+    "image": {
+      "thumb": "115.jpg",
+      "full": ["115b.jpg", "115b1.jpg", "115b2.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Сулугуні смажений в чорному кунжуті"
@@ -495,10 +465,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
-    "image": "1.jpg",
+    "categories": [9],
+    "image": {
+      "thumb": "116.jpg",
+      "full": ["116b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Сулугуні смажений у сухарях"
@@ -518,10 +489,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
-    "image": "1.jpg",
+    "categories": [9],
+    "image": {
+      "thumb": "117.jpg",
+      "full": ["117b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Сулугуні смажений на мангалі"
@@ -541,9 +513,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
+    "categories": [9],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -564,10 +534,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
-    "image": "1.jpg",
+    "categories": [9],
+    "image": {
+      "thumb": "118.jpg",
+      "full": ["118b.jpg", "118b1.jpg", "118b2.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Кільця кальмара в клярі з сирна-часниковим соусом"
@@ -587,10 +558,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
-    "image": "1.jpg",
+    "categories": [9],
+    "image": {
+      "thumb": "119.webp",
+      "full": ["119b.jpg", "119b1.jpg", "119b2.webp"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Млинці з курячим жульєном в паніровці"
@@ -610,10 +582,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
-    "image": "1.jpg",
+    "categories": [9],
+    "image": {
+      "thumb": "120.webp",
+      "full": ["120b.jpg", "120b1.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Деруни з Хвостами тигрових креветок"
@@ -633,10 +606,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
-    "image": "1.jpg",
+    "categories": [9],
+    "image": {
+      "thumb": "121.webp",
+      "full": ["121b.webp", "121b1.webp"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Деруни зі слабо солоним норвезьким лососем та крем сиром"
@@ -656,10 +630,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
-    "image": "1.jpg",
+    "categories": [9],
+    "image": {
+      "thumb": "122.jpg",
+      "full": ["122b.jpg", "122b1.jpg", "122b2.jpg", "122b3.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Деруни картопляно-бурякові з прошутто, крем сиром та каперсами"
@@ -679,9 +654,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
+    "categories": [9],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -702,9 +675,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
+    "categories": [9],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -725,9 +696,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      9
-    ],
+    "categories": [9],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -748,10 +717,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      11
-    ],
-    "image": "1.jpg",
+    "categories": [11],
+    "image": {
+      "thumb": "113.jpg",
+      "full": ["113b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Роли з лаваша з слабо солоним норвезьким лососем"
@@ -771,9 +741,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      11
-    ],
+    "categories": [11],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -794,10 +762,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      11
-    ],
-    "image": "1.jpg",
+    "categories": [11],
+    "image": {
+      "thumb": "123.jpg",
+      "full": ["123b.jpg", "123b1.jpg", "123b2.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Хурджин з Язиком та печерицями"
@@ -817,10 +786,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      11
-    ],
-    "image": "1.jpg",
+    "categories": [11],
+    "image": {
+      "thumb": "124.jpg",
+      "full": ["124b.jpg", "124b1.jpg", "124b2.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Хурджин з Сьомгою"
@@ -840,9 +810,7 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      11
-    ],
+    "categories": [11],
     "image": "1.jpg",
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -863,10 +831,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      11
-    ],
-    "image": "1.jpg",
+    "categories": [11],
+    "image": {
+      "thumb": "125.webp",
+      "full": ["125b.jpg", "125b1.webp", "125b2.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Лавашбургер з сиром Чедер та Моцареллой"
@@ -886,10 +855,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      11
-    ],
-    "image": "1.jpg",
+    "categories": [11],
+    "image": {
+      "thumb": "126.jpg",
+      "full": ["126b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Бртуч з лаваша з м’ясом гриль"
@@ -909,10 +879,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      11
-    ],
-    "image": "1.jpg",
+    "categories": [11],
+    "image": {
+      "thumb": "128.jpg",
+      "full": ["128b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Бртуч з лаваша з сиром сулугуні та зеленню"
@@ -932,10 +903,11 @@
     "capacityUnit": "g"
   },
   {
-    "categories": [
-      11
-    ],
-    "image": "1.jpg",
+    "categories": [11],
+    "image": {
+      "thumb": "127.jpg",
+      "full": ["127b.jpg"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Бртуч з лаваша \"Овочі та зелень\""

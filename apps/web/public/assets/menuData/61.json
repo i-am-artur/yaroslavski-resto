@@ -64,7 +64,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "142.webp",
+      "full": ["142b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Чизкейк Шоколадний"
@@ -85,7 +88,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "143.webp",
+      "full": ["143b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Чизкейк Карамельний"
@@ -106,7 +112,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "144.jpg",
+      "full": ["144b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Чизкейк Пахлава Фісташковий"
@@ -169,7 +178,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "145.webp",
+      "full": ["145b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Наполеон"
@@ -190,7 +202,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "146.webp",
+      "full": ["146b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Наполеон з Вишнею та кокосом"
@@ -211,7 +226,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "147.webp",
+      "full": ["147b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Наполеон Малиновий"
@@ -232,7 +250,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "148.webp",
+      "full": ["148b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Торт Естерхайзі з волоськими горіхами"
@@ -253,7 +274,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "149.webp",
+      "full": ["149b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Торт Фісташковий"
@@ -274,7 +298,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "150.webp",
+      "full": ["150b.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Торт медовий \"Казка\""
@@ -295,7 +322,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "151.webp",
+      "full": ["151b.webp", "151b.webp", "151b1.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Торт Червоний Бархат"
@@ -337,7 +367,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "152.webp",
+      "full": ["152b.jpg", "152b1.jpg"]
+    },
     "name": {
       "en": "",
       "ua": "Пахлава по Вірменськи"
@@ -358,7 +391,10 @@
   },
   {
     "categories": [62],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "153.webp",
+      "full": ["153b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Безе"
