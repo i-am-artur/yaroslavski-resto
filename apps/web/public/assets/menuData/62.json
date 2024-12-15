@@ -1,0 +1,221 @@
+[
+  {
+    "categories": [62],
+    "image": { "thumb": "64.jpg", "full": ["64b.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Картопля відварна з кропом"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": {
+      "thumb": "63.webp",
+      "full": ["63b.webp", "63b1.jpg", "63b2.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Картопля по-креольські"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": { "thumb": "61.jpg", "full": ["61b.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Картопля смажена по-домашньому"
+    },
+    "description": {
+      "en": "",
+      "ua": "з цибулею та грибами"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": { "thumb": "62.jpg", "full": ["62b.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Пюре"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": { "thumb": "65.webp", "full": ["65b.webp", "65b1.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Картопля фрі з кетчупом"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "200\\50",
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": { "thumb": "66.webp", "full": ["66b.webp", "66b1.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Булгур"
+    },
+    "description": {
+      "en": "",
+      "ua": "з обсмаженою зеленою цибулею, сиром та зеленню"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": {
+      "thumb": "67.webp",
+      "full": ["67b.jpg", "67b1.jpg", "67b2.jpg", "67b3.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Гарнір \"Єреван\""
+    },
+    "description": {
+      "en": "",
+      "ua": "спаржева квасоля з помідорами та яйцем"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": { "thumb": "68.webp", "full": ["68b.jpg", "68b1.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Припущений шпинат з цибулею"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Печериці з шпинатом у вершках"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [62],
+    "image": {
+      "thumb": "69.webp",
+      "full": ["69b.jpg", "69b1.jpg", "69b2.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Овочі ВОК"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  }
+]

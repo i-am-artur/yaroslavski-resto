@@ -48,15 +48,15 @@
     "capacityUnit": "ml"
   },
   {
-    "categories": [57],
+    "categories": [52],
     "image": null,
     "name": {
       "en": "",
-      "ua": "Апельсин"
+      "ua": "Свіжовичавлений сік Апельсин"
     },
     "description": {
       "en": "",
-      "ua": "Свіжовичавлений сік"
+      "ua": ""
     },
     "price": {
       "qr": [
@@ -69,15 +69,15 @@
     "capacityUnit": "ml"
   },
   {
-    "categories": [57],
+    "categories": [52],
     "image": null,
     "name": {
       "en": "",
-      "ua": "Грейпфрут"
+      "ua": "Свіжовичавлений сік Грейпфрут"
     },
     "description": {
       "en": "",
-      "ua": "Свіжовичавлений сік"
+      "ua": ""
     },
     "price": {
       "qr": [
@@ -135,14 +135,14 @@
     "capacityUnit": "ml"
   },
   {
-    "categories": [52],
+    "categories": [56],
     "image": {
       "thumb": "3.webp",
       "full": ["3b.webp"]
     },
     "name": {
       "en": "",
-      "ua": "Цитрусовий Натуральний Лимонад"
+      "ua": "Натуральний Лимонад Цитрусовий"
     },
     "description": {
       "en": "",
@@ -163,7 +163,7 @@
     "capacityUnit": "ml"
   },
   {
-    "categories": [52],
+    "categories": [56],
     "image": null,
     "name": {
       "en": "",
@@ -192,7 +192,7 @@
     "image": null,
     "name": {
       "en": "",
-      "ua": "Червона порiчка Натуральний Лимонад"
+      "ua": "Натуральний Лимонад Червона порiчка"
     },
     "description": {
       "en": "",
@@ -217,7 +217,7 @@
     "image": null,
     "name": {
       "en": "",
-      "ua": "Мохіто Натуральний Лимонад"
+      "ua": "Натуральний Лимонад Мохіто"
     },
     "description": {
       "en": "",
@@ -245,7 +245,7 @@
     },
     "name": {
       "en": "",
-      "ua": "Малиновий Мохіто Натуральний Лимонад"
+      "ua": "Натуральний Лимонад Малиновий Мохіто"
     },
     "description": {
       "en": "",
@@ -270,7 +270,7 @@
     "image": null,
     "name": {
       "en": "",
-      "ua": "Полуничний Мохiто Натуральний Лимонад"
+      "ua": "Натуральний Лимонад Полуничний Мохiто"
     },
     "description": {
       "en": "",
@@ -295,7 +295,7 @@
     "image": null,
     "name": {
       "en": "",
-      "ua": "Огірковий Натуральний Лимонад"
+      "ua": "Натуральний Лимонад Огірковий"
     },
     "description": {
       "en": "",
@@ -320,7 +320,7 @@
     "image": null,
     "name": {
       "en": "",
-      "ua": "Імбирний Натуральний Лимонад"
+      "ua": "Натуральний Лимонад Імбирний"
     },
     "description": {
       "en": "",
@@ -345,7 +345,7 @@
     "image": null,
     "name": {
       "en": "",
-      "ua": "Апельсиновий Натуральний Лимонад"
+      "ua": "Натуральний Лимонад Апельсиновий"
     },
     "description": {
       "en": "",
@@ -417,7 +417,7 @@
     },
     "description": {
       "en": "",
-      "ua": ""
+      "ua": "газ / не газ/"
     },
     "price": {
       "qr": [
@@ -518,11 +518,11 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Кава Лате"
+      "ua": "Кава Лате з вершками"
     },
     "description": {
       "en": "",
-      "ua": "з вершками, тертим шоколадом, карамеллю та снікерсом"
+      "ua": "з тертим шоколадом, карамеллю та снікерсом"
     },
     "price": {
       "qr": [
@@ -811,11 +811,11 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Полуниця з малиною базиліком та м`ятою"
+      "ua": "Полуничний чай"
     },
     "description": {
       "en": "",
-      "ua": ""
+      "ua": "полуниця базилік, свіжа м’ята, мед"
     },
     "price": {
       "qr": [
@@ -1042,7 +1042,7 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Stella Artois"
+      "ua": "Пиво кег Stella Artois"
     },
     "description": {
       "en": "",
@@ -1067,7 +1067,7 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Hoegaarden"
+      "ua": "Пиво кег Hoegaarden"
     },
     "description": {
       "en": "",
@@ -1092,7 +1092,7 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Повна Діжка"
+      "ua": "Пиво кег Повна Діжка"
     },
     "description": {
       "en": "",
@@ -1117,7 +1117,7 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Hoegaarden Wit-Blanche"
+      "ua": "Пиво Hoegaarden Wit-Blanche"
     },
     "description": {
       "en": "",
@@ -1138,7 +1138,7 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Corona Extra"
+      "ua": "Пиво Corona Extra"
     },
     "description": {
       "en": "",
@@ -1159,7 +1159,7 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Stella Artois Premium/N.A."
+      "ua": "Пиво Stella Artois Premium/N.A."
     },
     "description": {
       "en": "",
@@ -1180,7 +1180,7 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Bud"
+      "ua": "Пиво Bud"
     },
     "description": {
       "en": "",
@@ -1201,7 +1201,7 @@
     "image": "1.jpg",
     "name": {
       "en": "",
-      "ua": "Повна Діжка"
+      "ua": "Пиво Повна Діжка"
     },
     "description": {
       "en": "",
@@ -1211,6 +1211,783 @@
       "qr": [
         {
           "capacity": 450,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Піно Колада"
+    },
+    "description": {
+      "en": "",
+      "ua": "білий ром, малибу, ананасовий сік, вершки"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 280,
+          "value": 140
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Маргарита"
+    },
+    "description": {
+      "en": "",
+      "ua": "текіла, куантро, лимонний фреш"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 130,
+          "value": 160
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Бе-Тон"
+    },
+    "description": {
+      "en": "",
+      "ua": "бехеровка, тоник"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Блакитний Говаї"
+    },
+    "description": {
+      "en": "",
+      "ua": "малібу, білий ром, лікер Блю-Курасау, сік апельсину"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 190,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Блакитна Логуна"
+    },
+    "description": {
+      "en": "",
+      "ua": "лікер Блю-Курасау, горілка, спрайт"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 180,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Секс на пляжі"
+    },
+    "description": {
+      "en": "",
+      "ua": "лікер персиковий, горілка, сік апельсиновий, морс"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 180
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Лонг Айленд"
+    },
+    "description": {
+      "en": "",
+      "ua": "білий ром, трипл сек, горілка, текіла, джин, кока-кола, лімоний фреш"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 350,
+          "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Куба-Лібре"
+    },
+    "description": {
+      "en": "",
+      "ua": "чорний ром, кока-кола"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Кривава Мері"
+    },
+    "description": {
+      "en": "",
+      "ua": "горілка, сік томатний, тобаско"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Зелений мексиканець"
+    },
+    "description": {
+      "en": "",
+      "ua": "текіла, Піза, лимонний фреш"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 60,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Чорний мексиканець"
+    },
+    "description": {
+      "en": "",
+      "ua": "абсент, калуа, лимонний фреш"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 60,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Хиросима"
+    },
+    "description": {
+      "en": "",
+      "ua": "самбука бейліс, абсент"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 60,
+          "value": 140
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Муха в Самбуці"
+    },
+    "description": {
+      "en": "",
+      "ua": "самбука, кава"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 25,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Мохіто"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 140
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Малиновий Мохіто"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Мохіто Чорна смородина"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 140
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [37],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Апероль Шприц"
+    },
+    "description": {
+      "en": "",
+      "ua": "апероль, проссеко, швепс"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [47],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Горілка Absolut Elyx, 42,3% "
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [47],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Горілка Absolut 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [47],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Горілка Finlandia Біла, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 65
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [47],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "ГорілкаГетьман"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 40
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [47],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Чача 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 40
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [47],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Горілка Чарочка"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 30
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат 3 зірки, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат 5 зірок, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Ani 7 років, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 130
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Ахтамар 10 років, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 170
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Двін 10 років витримки, 50%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 400
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Васпуракан 15 років, 40%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 400
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Coffee 30%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Apricot 30%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Cherry 30%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Арарат Honey 30%"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Бренди Асканелі 3 річний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Бренди Асканелі 5 річний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Грузинський 3 зірки"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
+          "value": 50
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [46],
+    "image": "1.jpg",
+    "name": {
+      "en": "",
+      "ua": "Вірменський 5 зірок"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 50,
           "value": 60
         }
       ]
@@ -2058,426 +2835,6 @@
     "capacityUnit": "ml"
   },
   {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат 3 зірки, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 80
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат 5 зірок, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Ani 7 років, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 130
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Ахтамар 10 років, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 170
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Двін 10 років витримки, 50%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 400
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Васпуракан 15 років, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 400
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Coffee 30%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 120
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Apricot 30%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 120
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Cherry 30%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 120
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Арарат Honey 30%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 120
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Бренди Асканелі 3 річний"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Бренди Асканелі 5 річний"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 70
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Грузинський 3 зірки"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 50
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [46],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Вірменський 5 зірок"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [47],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Горілка Absolut Elyx, 42,3% "
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [47],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Absolut 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 60
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [47],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Finlandia Біла, 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 65
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [47],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Гетьман"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 40
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [47],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Чача 40%"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 40
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [47],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Чарочка"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 30
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
     "categories": [36],
     "image": "1.jpg",
     "name": {
@@ -2829,363 +3186,6 @@
         {
           "capacity": 100,
           "value": 30
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Піно Колада"
-    },
-    "description": {
-      "en": "",
-      "ua": "білий ром, малибу, ананасовий сік, вершки"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 280,
-          "value": 140
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Маргарита"
-    },
-    "description": {
-      "en": "",
-      "ua": "текіла, куантро, лимонний фреш"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 130,
-          "value": 160
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Бе-Тон"
-    },
-    "description": {
-      "en": "",
-      "ua": "бехеровка, тоник"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 200,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Блакитний Говаї"
-    },
-    "description": {
-      "en": "",
-      "ua": "малібу, білий ром, лікер Блю-Курасау, сік апельсину"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 190,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Блакитна Логуна"
-    },
-    "description": {
-      "en": "",
-      "ua": "лікер Блю-Курасау, горілка, спрайт"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 180,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Секс на пляжі"
-    },
-    "description": {
-      "en": "",
-      "ua": "лікер персиковий, горілка, сік апельсиновий, морс"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 250,
-          "value": 180
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Лонг Айленд"
-    },
-    "description": {
-      "en": "",
-      "ua": "білий ром, трипл сек, горілка, текіла, джин, кока-кола, лімоний фреш"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 350,
-          "value": 200
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Куба-Лібре"
-    },
-    "description": {
-      "en": "",
-      "ua": "чорний ром, кока-кола"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 150,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Кривава Мері"
-    },
-    "description": {
-      "en": "",
-      "ua": "горілка, сік томатний, тобаско"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 200,
-          "value": 80
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Зелений мексиканець"
-    },
-    "description": {
-      "en": "",
-      "ua": "текіла, Піза, лимонний фреш"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 60,
-          "value": 80
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Чорний мексиканець"
-    },
-    "description": {
-      "en": "",
-      "ua": "абсент, калуа, лимонний фреш"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 60,
-          "value": 150
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Хиросима"
-    },
-    "description": {
-      "en": "",
-      "ua": "самбука бейліс, абсент"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 60,
-          "value": 140
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Муха в Самбуці"
-    },
-    "description": {
-      "en": "",
-      "ua": "самбука, кава"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 25,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Мохіто"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 250,
-          "value": 140
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Малиновий Мохіто"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 250,
-          "value": 150
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Мохіто Чорна смородина"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 250,
-          "value": 140
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [37],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Апероль Шприц"
-    },
-    "description": {
-      "en": "",
-      "ua": "апероль, проссеко, швепс"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 250,
-          "value": 200
         }
       ]
     },

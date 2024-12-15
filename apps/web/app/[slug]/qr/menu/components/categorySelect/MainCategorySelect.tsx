@@ -25,7 +25,7 @@ export default function MainCategorySelect(props: {
     <Modal open={props.open} onClose={props.onClose}>
       <div
         className={css({
-          height: '40%',
+          height: '565px',
           right: 0,
           left: 0,
           bottom: 0,

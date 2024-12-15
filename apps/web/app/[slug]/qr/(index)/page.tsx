@@ -33,7 +33,7 @@ export default async function QRPage(
           'pageWrapper'
         )}
       >
-        <LanguageSelect t={t} />
+        {/* <LanguageSelect t={t} /> */}
         <div
           className={css({
             marginTop: '70px',

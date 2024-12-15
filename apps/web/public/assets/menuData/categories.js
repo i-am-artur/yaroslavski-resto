@@ -5,8 +5,9 @@ export const categories = [
   { id: 3, name: { en: 'Salads', ua: 'Салати' }, parentId: null },
   { id: 2, name: { en: 'Soups', ua: 'Перші страви' }, parentId: null },
   { id: 4, name: { en: 'Main dishes', ua: 'Основні страви' }, parentId: null },
-  { id: 60, name: { en: 'Sauces', ua: 'Соуси' }, parentId: null },
+  { id: 62, name: { en: 'Side dishes', ua: 'Додаткові страви' }, parentId: null },
   { id: 5, name: { en: 'Barbecue', ua: 'Мангал' }, parentId: null },
+  { id: 60, name: { en: 'Sauces', ua: 'Соуси' }, parentId: null },
   { id: 6, name: { en: 'Khachapuri', ua: 'Хачапурі' }, parentId: null },
   { id: 7, name: { en: 'Pizza', ua: 'Піца' }, parentId: null },
   { id: 30, name: { en: 'Drinks', ua: 'Напитки' }, parentId: null },
@@ -32,11 +33,6 @@ export const categories = [
   { id: 18, name: { en: 'Side dishes', ua: 'Додаткові страви' }, parentId: 4 },
 
   // ------------- Barbecue -------------
-  {
-    id: 19,
-    name: { en: 'Vegetables on the grill', ua: 'Овочі на мангалі' },
-    parentId: 5,
-  },
   { id: 20, name: { en: 'Grilled fish', ua: 'Мангал риба' }, parentId: 5 },
   { id: 21, name: { en: 'Barbecue pork', ua: 'Мангал свинина' }, parentId: 5 },
   { id: 22, name: { en: 'Barbecue bird', ua: 'Мангал птиця' }, parentId: 5 },
@@ -46,6 +42,11 @@ export const categories = [
       en: 'Barbecue veal, lamb and assorted',
       ua: 'Мангал телятина баранина та асорті',
     },
+    parentId: 5,
+  },
+  {
+    id: 19,
+    name: { en: 'Vegetables on the grill', ua: 'Овочі на мангалі' },
     parentId: 5,
   },
   { id: 64, name: { en: 'Sauces', ua: 'Соуси' }, parentId: 5 },
@@ -87,7 +88,10 @@ export const categories = [
   // },
 
   // ------------- Крепкие-алкгольные -------------
+  { id: 47, name: { en: 'Adjarian Khachapuri', ua: 'Горілка' }, parentId: 34 },
+  { id: 46, name: { en: 'Adjarian Khachapuri', ua: 'Коньяк та Бренди' }, parentId: 34 },
   { id: 41, name: { en: 'Adjarian Khachapuri', ua: 'Віскі' }, parentId: 34 },
+  { id: 45, name: { en: 'Adjarian Khachapuri', ua: 'Ром' }, parentId: 34 },
   { id: 42, name: { en: 'Adjarian Khachapuri', ua: 'Джин' }, parentId: 34 },
   { id: 43, name: { en: 'Adjarian Khachapuri', ua: 'Текіла' }, parentId: 34 },
   {
@@ -95,9 +99,6 @@ export const categories = [
     name: { en: 'Adjarian Khachapuri', ua: 'Лікери, Настоянки, Вермути' },
     parentId: 34,
   },
-  { id: 45, name: { en: 'Adjarian Khachapuri', ua: 'Ром' }, parentId: 34 },
-  { id: 46, name: { en: 'Adjarian Khachapuri', ua: 'Коньяк та Бренди' }, parentId: 34 },
-  { id: 47, name: { en: 'Adjarian Khachapuri', ua: 'Горілка' }, parentId: 34 },
 
   // ------------- Безалкогольные -------------
   { id: 50, name: { en: 'Adjarian Khachapuri', ua: 'Холодні' }, parentId: 32 },

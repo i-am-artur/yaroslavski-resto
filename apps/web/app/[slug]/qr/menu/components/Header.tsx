@@ -34,7 +34,7 @@ export default function Header(props: { lang: string; t: any }) {
           width='50%'
           className={css({ maxWidth: '215px' })}
         />
-        <LanguageSelect t={props.t} />
+        {/* <LanguageSelect t={props.t} /> */}
       </div>
     </header>
   );

@@ -7,7 +7,7 @@
     },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
-      "ua": "Борщ зі сметаною, часником та салом"
+      "ua": "Борщ зі сметаною, пампушками, часником та салом"
     },
     "description": {
       "en": "",
@@ -135,6 +135,30 @@
         {
           "capacity": 300,
           "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [2],
+    "image": {
+      "thumb": "154.webp",
+      "full": ["154b.jpg", "154b1.jpg", "154b2.webp"]
+    },
+    "name": {
+      "en": "Hachapuri Adjarski with cheese",
+      "ua": "Суп з курячими потрошками"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 120
         }
       ]
     },
