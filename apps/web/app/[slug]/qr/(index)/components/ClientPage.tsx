@@ -29,7 +29,10 @@ export default function ClientPage() {
                   return (
                     <li key={category.id}>
                       <NextLink
-                        href={`/${currentLanguage}/qr/menu?cat1=${category.id}`}
+                        href={`/${currentLanguage}/qr/menu?cat1=${category.id}${(() => {
+                          const searchParams = location.search.substring(1);
+                          return searchParams.length > 0 ? `&${searchParams}` : '';
+                        })()}`}
                         className={css({
                           display: 'flex',
                           fontSize: '1.5rem',

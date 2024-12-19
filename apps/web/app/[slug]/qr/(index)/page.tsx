@@ -8,6 +8,8 @@ import { card } from '../../../../styled-system/recipes';
 import ClientPage from './components/ClientPage';
 import Footer from './components/Footer';
 import './index.css';
+import { Suspense } from 'react';
+import CallService from '../menu/components/_header/CallService';
 
 export default async function QRPage(
   props: Readonly<{
@@ -58,6 +60,9 @@ export default async function QRPage(
             <h1 className={css({ fontSize: '1.3rem', fontWeight: 500 })}>{t.name}</h1>
             <address>{t.address}</address>
           </header>
+          <Suspense>
+            <CallService />
+          </Suspense>
           <div
             className={css({
               display: 'flex',

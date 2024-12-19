@@ -1,7 +1,9 @@
 // 'use client';
-import LanguageSelect from '../../../../../src/instances/languages/components/LanguageSelect';
-import Logo from '../../../../../src/instances/ui/logo/Logo';
-import { css } from '../../../../../styled-system/css';
+import { Suspense } from 'react';
+import LanguageSelect from '../../../../../../src/instances/languages/components/LanguageSelect';
+import Logo from '../../../../../../src/instances/ui/logo/Logo';
+import { css } from '../../../../../../styled-system/css';
+import CallService from './CallService';
 
 export default function Header(props: { lang: string; t: any }) {
   return (
@@ -25,15 +27,19 @@ export default function Header(props: { lang: string; t: any }) {
         className={css({
           display: 'flex',
           justifyContent: 'space-between',
-          alignItems: 'center',
+          alignItems: 'start',
+          columnGap: 'unit.h',
         })}
       >
         <Logo
           lang={props.lang}
-          height='50%'
-          width='50%'
+          height='45%'
+          width='45%'
           className={css({ maxWidth: '215px' })}
         />
+        <Suspense>
+          <CallService />
+        </Suspense>
         {/* <LanguageSelect t={props.t} /> */}
       </div>
     </header>

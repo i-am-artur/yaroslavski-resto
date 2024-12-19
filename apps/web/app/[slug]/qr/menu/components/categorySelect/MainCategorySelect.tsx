@@ -71,7 +71,9 @@ export default function MainCategorySelect(props: {
                   '?' +
                   searchParams
                     .toString()
-                    .replace(`cat1=${props.cat1}`, `cat1=${category.id}`)
+                    .replace(`&cat1=${props.cat1}`, '')
+                    .replace(`cat1=${props.cat1}`, '')
+                    .concat(`&cat1=${category.id}`)
                 }
                 onClick={() => {
                   // pageCtx.setSelectedCategories({ cat1: category.id });
