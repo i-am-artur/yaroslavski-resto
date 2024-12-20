@@ -2,6 +2,7 @@
 import { Fragment } from 'react';
 import { css } from '../../../../../../styled-system/css';
 import Prices from './Prices';
+
 export default function Product(props: { value: any; lang: string }) {
   return (
     <Fragment>

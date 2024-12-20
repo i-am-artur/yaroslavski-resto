@@ -1,6 +1,7 @@
 // 'use client';
 import { css } from '../../../../../styled-system/css';
 import Product from './_product/Products';
+
 export default function Products(props: { list: any[]; lang: string }) {
   return (
     props.list.length > 0 && (

@@ -82,12 +82,7 @@ export default function Menu() {
       })}
     >
       {!loading
-        ? parseCategoriesAndProducts(
-            structuredData,
-            1,
-            qrCtx.lang
-            // menu.se
-          )
+        ? parseCategoriesAndProducts(structuredData, 1, qrCtx.lang)
         : 'loading...'}
       <ScrollToTop />
     </main>
