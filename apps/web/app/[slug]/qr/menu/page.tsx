@@ -1,7 +1,7 @@
 'use client';
 import { Box } from '@repo/shared/src/styles/StyledComponents/components/Layouts';
 import { useSearchParams } from 'next/navigation';
-import { useContext, useEffect, useState } from 'react';
+import { Suspense, useContext, useEffect, useState } from 'react';
 import { qrContext } from '../(components)/QrContext';
 import { css } from '../../../../styled-system/css';
 import Products from './components/Products';
@@ -198,7 +198,9 @@ function parseCategoriesAndProducts(
             >
               {el.name[lang]}
             </Box>
-            <Products list={el.products} lang={lang} />
+            <Suspense>
+              <Products list={el.products} lang={lang} />
+            </Suspense>
             {parseCategoriesAndProducts(el.children, level + 1, lang)}
           </li>
         );

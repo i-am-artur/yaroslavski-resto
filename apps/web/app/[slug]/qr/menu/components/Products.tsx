@@ -1,6 +1,6 @@
 // 'use client';
 import { css } from '../../../../../styled-system/css';
-import Product from './_product/Products';
+import Product from './_product/Product';
 
 export default function Products(props: { list: any[]; lang: string }) {
   return (

@@ -5,24 +5,14 @@ import Logo from '../../../../../../src/instances/ui/logo/Logo';
 import { css, cx } from '../../../../../../styled-system/css';
 import { button } from '../../../../../../styled-system/recipes/button.mjs';
 import { useEffect, useState } from 'react';
+import useTable from '../../../../../../src/hooks/useTable';
 
 // TODO: add English to button
 
 export default function CallService() {
   const searchParams = useSearchParams();
   const tbl = searchParams.get('tbl');
-  const [table, setTable] = useState('');
-
-  useEffect(() => {
-    tbl &&
-      (async () => {
-        fetch(`${process.env.basePath}/assets/tables.json`)
-          .then((res) => res.json())
-          .then((res) =>
-            setTable(res.find((t: any) => t.id === parseInt(tbl ?? ''))?.name ?? '')
-          );
-      })();
-  }, [tbl]);
+  const { table } = useTable();
 
   return (
     table && (

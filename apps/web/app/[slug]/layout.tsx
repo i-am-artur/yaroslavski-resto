@@ -1,5 +1,8 @@
 import { defaultFont } from '@repo/shared/src/styles/js/vars/font';
 import QrContext from './qr/(components)/QrContext';
+// import AppSearchParams from './qr/(components)/AppSearchParams';
+// import { Suspense } from 'react';
+
 export async function generateStaticParams() {
   return ['ua', 'en'].map((lang) => ({
     slug: lang,

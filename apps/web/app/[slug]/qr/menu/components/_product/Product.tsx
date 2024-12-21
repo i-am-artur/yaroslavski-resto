@@ -1,9 +1,16 @@
-// 'use client';
-import { Fragment } from 'react';
+'use client';
+import { Fragment, useState } from 'react';
 import { css } from '../../../../../../styled-system/css';
 import Prices from './Prices';
+import { useSearchParams } from 'next/navigation';
+import useTable from '../../../../../../src/hooks/useTable';
+import dynamic from 'next/dynamic';
+// import FullView from './FullView';
+const FullView = dynamic(() => import('./FullView'));
 
 export default function Product(props: { value: any; lang: string }) {
+  const [fullViewOpen, setFullViewOpen] = useState(false);
+
   return (
     <Fragment>
       <div
@@ -31,12 +38,23 @@ export default function Product(props: { value: any; lang: string }) {
             flexDirection: 'column',
           })}
         >
-          <div className={css({ fontWeight: 500 })}>{props.value.name[props.lang]}</div>
-          {/* {props.value.price.qr.length > 0 } */}
-          <Prices value={props.value.price.qr} lang={props.lang} />
-          <div className={css({ fontSize: '14px', color: '#808080' })}>
-            {props.value.description[props.lang]}
+          <div
+            className={css({ fontWeight: 500 })}
+            onClick={() => {
+              setFullViewOpen(true);
+            }}
+          >
+            {props.value.name[props.lang]}
           </div>
+          {/* {props.value.price.qr.length > 0 } */}
+          <Prices
+            value={props.value.price.qr}
+            capacityUnit={props.value.capacityUnit}
+            lang={props.lang}
+          />
+          <p className={css({ fontSize: '14px', color: '#808080' })}>
+            {props.value.description[props.lang]}
+          </p>
         </div>
         <img
           src={(function () {
@@ -47,6 +65,9 @@ export default function Product(props: { value: any; lang: string }) {
               ? `${process.env.basePath}/assets/products/images/${props.value.image.thumb}`
               : `${process.env.basePath}/assets/site/food1.gif`;
           })()}
+          onClick={() => {
+            setFullViewOpen(true);
+          }}
           width='100'
           height='100'
           className={css({
@@ -57,6 +78,12 @@ export default function Product(props: { value: any; lang: string }) {
           loading='lazy'
         />
       </div>
+      <FullView
+        open={fullViewOpen}
+        onClose={() => setFullViewOpen(false)}
+        product={props.value}
+        lang={props.lang}
+      />
     </Fragment>
   );
 }

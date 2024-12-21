@@ -11,10 +11,12 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@nextui-org/modal": "^2.0.41",
-    "@nextui-org/react": "^2.4.8",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@repo/shared": "workspace:*",
-    "framer-motion": "^11.11.17",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
