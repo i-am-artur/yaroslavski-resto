@@ -6,12 +6,14 @@ import Modal from '../../../ui/modals/Modal';
 import { languages } from '../../data';
 import './index.css';
 import Arrows from '../../../ui/icons/Arrows';
+import useCloseModalOnHistoryPop from '../../../../hooks/useCloseModalOnHistoryPop';
 
 export default function LanguageList(props: {
   open: boolean;
   onClose?: () => void;
   t: { chooseLanguage: string };
 }) {
+  props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
   const router = useRouter();
   const pathname = usePathname();
   // const pageCtx = useContext(pageContext);

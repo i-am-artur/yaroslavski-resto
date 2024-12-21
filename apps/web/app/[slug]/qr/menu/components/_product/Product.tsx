@@ -78,12 +78,14 @@ export default function Product(props: { value: any; lang: string }) {
           loading='lazy'
         />
       </div>
-      <FullView
-        open={fullViewOpen}
-        onClose={() => setFullViewOpen(false)}
-        product={props.value}
-        lang={props.lang}
-      />
+      {fullViewOpen && (
+        <FullView
+          open={fullViewOpen}
+          onClose={() => setFullViewOpen(false)}
+          product={props.value}
+          lang={props.lang}
+        />
+      )}
     </Fragment>
   );
 }

@@ -9,6 +9,7 @@ import Modal from '../../../../../../src/instances/ui/modals/Modal';
 import { css } from '../../../../../../styled-system/css';
 import './index.css';
 import Arrows from '../../../../../../src/instances/ui/icons/Arrows';
+import useCloseModalOnHistoryPop from '../../../../../../src/hooks/useCloseModalOnHistoryPop';
 
 export default function MainCategorySelect(props: {
   open: boolean;
@@ -17,7 +18,7 @@ export default function MainCategorySelect(props: {
   cat1: number;
 }) {
   const qrCtx = useContext(qrContext);
-  // const pageCtx = useContext(pageContext);
+  props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -25,7 +26,7 @@ export default function MainCategorySelect(props: {
     <Modal open={props.open} onClose={props.onClose}>
       <div
         className={css({
-          height: '565px',
+          height: '88%',
           right: 0,
           left: 0,
           bottom: 0,
