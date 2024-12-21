@@ -13,7 +13,7 @@ export default function LanguageList(props: {
   onClose?: () => void;
   t: { chooseLanguage: string };
 }) {
-  props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
+  // props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
   const router = useRouter();
   const pathname = usePathname();
   // const pageCtx = useContext(pageContext);

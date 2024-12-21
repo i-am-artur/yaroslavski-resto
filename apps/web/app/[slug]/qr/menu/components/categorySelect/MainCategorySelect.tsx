@@ -18,7 +18,7 @@ export default function MainCategorySelect(props: {
   cat1: number;
 }) {
   const qrCtx = useContext(qrContext);
-  props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
+  // props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
   const pathname = usePathname();
   const searchParams = useSearchParams();
 

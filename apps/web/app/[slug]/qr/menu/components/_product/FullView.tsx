@@ -18,7 +18,7 @@ export default function FullView(props: {
   product: any;
   lang: string;
 }) {
-  props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
+  // props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
   // console.log('🚀 ~ file: FullView.tsx:24 ~ pathname:', location);
 
   // useEffect(() => {

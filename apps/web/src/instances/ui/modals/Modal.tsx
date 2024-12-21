@@ -3,18 +3,22 @@ import { ReactNode, useEffect } from 'react';
 import { css } from '../../../../styled-system/css';
 import './index.css';
 import { Box } from '@repo/shared/src/styles/StyledComponents/components/Layouts';
+import useCloseModalOnHistoryPop from '../../../hooks/useCloseModalOnHistoryPop';
 
 export default function Modal(props: {
   open: boolean;
   onClose?: () => void;
   children?: ReactNode | ReactNode[];
 }) {
+  props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
   useEffect(() => {
     if (props.open) {
       document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
     }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
   }, [props.open]);
 
   return (
