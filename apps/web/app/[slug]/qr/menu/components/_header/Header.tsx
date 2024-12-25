@@ -1,47 +1,58 @@
 // 'use client';
 import { Suspense } from 'react';
-import LanguageSelect from '../../../../../../src/instances/languages/components/LanguageSelect';
 import Logo from '../../../../../../src/instances/ui/logo/Logo';
 import { css } from '../../../../../../styled-system/css';
 import CallService from './CallService';
+import ShowBasket from './ShowBasket';
+import Header from '../../../(components)/Header';
 
-export default function Header(props: { lang: string; t: any }) {
+export default function MenuHeader(props: { lang: string; t: any }) {
   return (
-    <header
-      className={css({
-        padding: 'side.v',
-        rowGap: 'item.v',
-        display: 'flex',
-        flexDirection: 'column',
-        backgroundColor: 'white',
-        sm: {
-          position: 'sticky',
-          top: 0,
-          left: 0,
-          right: 0,
-          zIndex: 5,
-        },
-      })}
-    >
-      <div
-        className={css({
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'start',
-          columnGap: 'unit.h',
-        })}
-      >
-        <Logo
-          lang={props.lang}
-          height='45%'
-          width='45%'
-          className={css({ maxWidth: '215px' })}
-        />
-        <Suspense>
-          <CallService />
-        </Suspense>
-        {/* <LanguageSelect t={props.t} /> */}
-      </div>
-    </header>
+    <Header lang={props.lang} t={props.t}>
+      <Suspense>
+        <CallService />
+      </Suspense>
+      <ShowBasket />
+      {/* <LanguageSelect t={props.t} /> */}
+    </Header>
+    // <header
+    //   className={css({
+    //     paddingTop: 'side.v',
+    //     paddingLeft: 'side.v',
+    //     paddingRight: 'side.v',
+    //     rowGap: 'unit.v',
+    //     display: 'flex',
+    //     flexDirection: 'column',
+    //     backgroundColor: 'white',
+    //     sm: {
+    //       position: 'sticky',
+    //       top: 0,
+    //       left: 0,
+    //       right: 0,
+    //       zIndex: 5,
+    //     },
+    //   })}
+    // >
+    //   <Logo
+    //     lang={props.lang}
+    //     height='45%'
+    //     width='45%'
+    //     className={css({ maxWidth: '215px' })}
+    //   />
+    //   <div
+    //     className={css({
+    //       display: 'flex',
+    //       // justifyContent: 'space-between',
+    //       alignItems: 'start',
+    //       columnGap: 'unit.h',
+    //     })}
+    //   >
+    //     <Suspense>
+    //       <CallService />
+    //     </Suspense>
+    //     <ShowBasket />
+    //     {/* <LanguageSelect t={props.t} /> */}
+    //   </div>
+    // </header>
   );
 }

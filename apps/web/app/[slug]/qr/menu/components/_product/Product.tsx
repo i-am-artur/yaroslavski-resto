@@ -1,10 +1,13 @@
 'use client';
 import { Fragment, useState } from 'react';
-import { css } from '../../../../../../styled-system/css';
+import { css, cx } from '../../../../../../styled-system/css';
 import Prices from './Prices';
 import { useSearchParams } from 'next/navigation';
 import useTable from '../../../../../../src/hooks/useTable';
 import dynamic from 'next/dynamic';
+import { button } from '../../../../../../styled-system/recipes/button';
+import { faBasketShopping } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import FullView from './FullView';
 const FullView = dynamic(() => import('./FullView'));
 
@@ -46,15 +49,24 @@ export default function Product(props: { value: any; lang: string }) {
           >
             {props.value.name[props.lang]}
           </div>
-          {/* {props.value.price.qr.length > 0 } */}
-          <Prices
-            value={props.value.price.qr}
-            capacityUnit={props.value.capacityUnit}
-            lang={props.lang}
-          />
+          {/* {props.value.price.qr.length > 0 } */}{' '}
           <p className={css({ fontSize: '14px', color: '#808080' })}>
             {props.value.description[props.lang]}
           </p>
+          <div
+            className={css({
+              display: 'flex',
+              flexDirection: 'column',
+              columnGap: 'unit.v',
+              // rowGap: 'unit.v',
+            })}
+          >
+            <Prices
+              value={props.value}
+              // capacityUnit={props.value.capacityUnit}
+              lang={props.lang}
+            />
+          </div>
         </div>
         <img
           src={(function () {

@@ -5,6 +5,7 @@ import { css } from '../../../../styled-system/css';
 import MenuContext from './components/Context';
 import Header from './components/_header/Header';
 import CategoriesSelect from './components/categorySelect/CategoriesSelect';
+import MenuHeader from './components/_header/Header';
 
 export default async function MenuLayout(
   props: Readonly<{
@@ -29,7 +30,7 @@ export default async function MenuLayout(
           marginRight: 'auto',
         })}
       >
-        <Header lang={lang} t={t} />
+        <MenuHeader lang={lang} t={t} />
         <div
           className={css({
             padding: 'side.h',
