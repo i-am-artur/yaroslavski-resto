@@ -16,9 +16,12 @@ export default function Header(props: {
         paddingRight: 'side.v',
         rowGap: 'unit.v',
         display: 'flex',
-        flexDirection: 'column',
         backgroundColor: 'white',
+        flexDirection: 'column',
         sm: {
+          alignItems: 'center',
+          // alignItems: 'flex-start',
+          flexDirection: 'row',
           position: 'sticky',
           top: 0,
           left: 0,

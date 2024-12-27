@@ -1,5 +1,6 @@
 import { defaultFont } from '@repo/shared/src/styles/js/vars/font';
 import QrContext from './qr/(components)/QrContext';
+import { Suspense } from 'react';
 // import AppSearchParams from './qr/(components)/AppSearchParams';
 // import { Suspense } from 'react';
 
@@ -18,7 +19,9 @@ export default async function QRLayout(
 
   return (
     <html lang={slug} className={defaultFont.className}>
-      <QrContext lang={slug}>{props.children}</QrContext>
+      <Suspense>
+        <QrContext lang={slug}>{props.children}</QrContext>
+      </Suspense>
     </html>
   );
 }

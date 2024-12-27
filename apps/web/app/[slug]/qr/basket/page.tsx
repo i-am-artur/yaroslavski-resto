@@ -1,9 +1,6 @@
 // 'use client';
-import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import { css } from '../../../../styled-system/css';
-import Header from '../(components)/Header';
-import CallService from '../menu/components/_header/CallService';
-import { useCart } from '../(components)/QrContext';
 import ClientPage from './_components/ClientPage';
 // import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
 
@@ -19,14 +16,20 @@ export default async function BasketPage() {
 
   return (
     <body>
-      <Header lang={'ua'} t={{}}>
+      {/* <Header lang={'ua'} t={{}}>
         <CallService />
         <h1 className={css({ marginTop: 'box.v', fontSize: '1.3rem', fontWeight: 500 })}>
           Замовити вибране
         </h1>
-      </Header>
+      </Header> */}
 
-      <ClientPage />
+      <div
+        className={css({ marginLeft: 'auto', marginRight: 'auto', maxWidth: '1024px' })}
+      >
+        <Suspense>
+          <ClientPage />
+        </Suspense>
+      </div>
     </body>
   );
 }

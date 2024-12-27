@@ -1,13 +1,8 @@
 'use client';
-import { Fragment, useState } from 'react';
-import { css, cx } from '../../../../../../styled-system/css';
-import Prices from './Prices';
-import { useSearchParams } from 'next/navigation';
-import useTable from '../../../../../../src/hooks/useTable';
 import dynamic from 'next/dynamic';
-import { button } from '../../../../../../styled-system/recipes/button';
-import { faBasketShopping } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Fragment, useState } from 'react';
+import { css } from '../../../../../../styled-system/css';
+import Prices from './Prices';
 // import FullView from './FullView';
 const FullView = dynamic(() => import('./FullView'));
 

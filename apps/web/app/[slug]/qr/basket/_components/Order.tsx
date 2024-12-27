@@ -1,13 +1,16 @@
 'use client';
 import { button } from '@repo/shared/styled-system/recipes';
-import { css, cx } from '../../../../../styled-system/css';
-import { useCart } from '../../(components)/QrContext';
+import { useCart, useCartDispatch } from '../../(components)/QrContext';
+import useTable from '../../../../../src/hooks/useTable';
 import { telegramMessage } from '../../../../../src/service';
+import { css, cx } from '../../../../../styled-system/css';
 
 // import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
 
-export default function Order() {
+export default function Order(props: { onOrder: () => void }) {
   const cart = useCart();
+  const cartDispatch = useCartDispatch();
+  const { table } = useTable();
 
   return (
     <button
@@ -29,7 +32,6 @@ export default function Order() {
                   return '';
               }
             })();
-
             return {
               value:
                 acc.value +
@@ -43,8 +45,16 @@ export default function Order() {
           (acc, curr) => acc + curr.selectedPrice.value * curr.quantity,
           0
         );
-        telegramMessage(message.value + '\n' + `Загальна сума: ${total} грн.`);
-        // console.log(message.value + '\n' + `Загальна сума: ${total} грн.`);
+        telegramMessage(
+          'Заказ: Стол ' +
+            table +
+            '\n' +
+            message.value +
+            '\n' +
+            `Загальна сума: ${total} грн.`
+        );
+        cartDispatch.setCartItems([]);
+        props.onOrder();
       }}
       className={cx(
         button({ variant: 'solid', color: 'primary' }),
@@ -53,6 +63,11 @@ export default function Order() {
           display: 'flex',
           width: '100%',
           justifyContent: 'center',
+          sm: {
+            width: 'fit-content',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+          },
         })
       )}
     >

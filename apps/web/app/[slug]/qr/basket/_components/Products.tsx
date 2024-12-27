@@ -1,8 +1,6 @@
 'use client';
-import { useCart } from '../../(components)/QrContext';
 import { css } from '../../../../../styled-system/css';
 import Product from './Product';
-import Total from './Total';
 
 // import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
 

@@ -42,12 +42,15 @@ export default function QrContext(props: {
 }) {
   const categories = useCategories();
   const [tables, setTables] = useState<any[]>([]);
-  const [cartItems, setCartItems] = useState<any[]>(
-    localStorage.getItem('cartItems')
-      ? JSON.parse(localStorage.getItem('cartItems') as string)
-      : []
-  );
-  console.log('🚀 ~ file: QrContext.tsx:46 ~ cartItems:', cartItems);
+  const lsCartItems = (() => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem('cartItems')
+        ? JSON.parse(localStorage.getItem('cartItems') as string)
+        : [];
+    }
+    return [];
+  })();
+  const [cartItems, setCartItems] = useState<any[]>(lsCartItems);
 
   useEffect(() => {
     (async () => {
@@ -58,7 +61,7 @@ export default function QrContext(props: {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    window.localStorage.setItem('cartItems', JSON.stringify(cartItems));
   }, [cartItems]);
 
   return (

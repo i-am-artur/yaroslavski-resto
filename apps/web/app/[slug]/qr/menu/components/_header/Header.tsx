@@ -1,18 +1,25 @@
 // 'use client';
 import { Suspense } from 'react';
-import Logo from '../../../../../../src/instances/ui/logo/Logo';
+import Header from '../../../(components)/Header';
 import { css } from '../../../../../../styled-system/css';
 import CallService from './CallService';
 import ShowBasket from './ShowBasket';
-import Header from '../../../(components)/Header';
 
 export default function MenuHeader(props: { lang: string; t: any }) {
   return (
     <Header lang={props.lang} t={props.t}>
-      <Suspense>
-        <CallService />
-      </Suspense>
-      <ShowBasket />
+      <div
+        className={css({
+          display: 'flex',
+          columnGap: 'unit.h',
+          sm: { width: 'fit-content', marginLeft: 'auto' },
+        })}
+      >
+        <Suspense>
+          <CallService />
+        </Suspense>
+        <ShowBasket />
+      </div>
       {/* <LanguageSelect t={props.t} /> */}
     </Header>
     // <header

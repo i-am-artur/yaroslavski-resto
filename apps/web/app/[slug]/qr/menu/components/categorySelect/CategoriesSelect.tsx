@@ -1,6 +1,6 @@
 'use client';
 import { useSearchParams } from 'next/navigation';
-import { Fragment, useContext, useEffect, useState } from 'react';
+import { Fragment, Suspense, useContext, useEffect, useState } from 'react';
 import { qrContext } from '../../../(components)/QrContext';
 import { CategorySelectT } from '../../../../../../src/instances/languages/translation/instances/languages/components/selectCategory/ua';
 import CategoriesSelectLarge from './CategoriesSelectLarge';
@@ -38,13 +38,15 @@ export default function CategoriesSelect(props: { t: CategorySelectT }) {
           t={props.t}
           onChange={(selectedCategories) => setSelectedCategories(selectedCategories)}
         />
-        <CategoriesSelectLarge
-          selectedCategories={selectedCategories}
-          t={props.t}
-          onChange={(selectedCategories) => {
-            setSelectedCategories(selectedCategories);
-          }}
-        />
+        <Suspense>
+          <CategoriesSelectLarge
+            selectedCategories={selectedCategories}
+            t={props.t}
+            onChange={(selectedCategories) => {
+              setSelectedCategories(selectedCategories);
+            }}
+          />
+        </Suspense>
       </Fragment>
     )
   );

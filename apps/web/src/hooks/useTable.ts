@@ -16,5 +16,6 @@ export default function useTable() {
 
   return {
     table,
+    tblSearchParam: tbl,
   };
 }

@@ -1,12 +1,9 @@
 'use client';
 
-import { faTrash } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { css, cx } from '../../../../../styled-system/css';
+import { css } from '../../../../../styled-system/css';
 import CapacityUnit from '../../menu/components/_product/CapacityUnit';
-import QuantityController from './QuantityController';
-import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 import Delete from './Delete';
+import QuantityController from './QuantityController';
 
 export default function Product({ item, lang }: { item: any; lang: string }) {
   return (

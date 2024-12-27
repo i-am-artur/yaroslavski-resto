@@ -1,16 +1,7 @@
 'use client';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import useTable from '../../../../../../src/hooks/useTable';
-import { css } from '../../../../../../styled-system/css';
-import { faCirclePlus } from '@fortawesome/free-solid-svg-icons/faCirclePlus';
-import { cx } from '@repo/shared/styled-system/css';
-import { button } from '../../../../../../styled-system/recipes/button';
-import { faBasketShopping } from '@fortawesome/free-solid-svg-icons/faBasketShopping';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons/faArrowRight';
-import { faRightLong } from '@fortawesome/free-solid-svg-icons/faRightLong';
-import Modal from '../../../../../../src/instances/ui/modals/Modal';
 import CloseIconButton from '../../../../../../src/instances/ui/buttons/CloseIconButton';
-import useCloseModalOnHistoryPop from '../../../../../../src/hooks/useCloseModalOnHistoryPop';
+import Modal from '../../../../../../src/instances/ui/modals/Modal';
+import { css } from '../../../../../../styled-system/css';
 
 export default function FullView(props: {
   open: boolean;

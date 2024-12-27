@@ -1,5 +1,5 @@
 'use client';
-import { useContext, useState } from 'react';
+import { Suspense, useContext, useState } from 'react';
 import { qrContext } from '../../../../(components)/QrContext';
 import { CategorySelectT } from '../../../../../../../src/instances/languages/translation/instances/languages/components/selectCategory/ua';
 import { css } from '../../../../../../../styled-system/css';
@@ -103,12 +103,14 @@ export default function CategoriesSelectSmall(props: {
           />
         </nav>
       </div>
-      <MainCategorySelect
-        open={showMainCategorySelect}
-        onClose={() => setShowMainCategorySelect(false)}
-        cat1={props.selectedCategories.cat1}
-        t={props.t}
-      />
+      <Suspense>
+        <MainCategorySelect
+          open={showMainCategorySelect}
+          onClose={() => setShowMainCategorySelect(false)}
+          cat1={props.selectedCategories.cat1}
+          t={props.t}
+        />
+      </Suspense>
     </div>
   );
 }

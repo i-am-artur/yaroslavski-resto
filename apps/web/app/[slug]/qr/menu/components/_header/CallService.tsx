@@ -1,5 +1,4 @@
 'use client';
-import { useSearchParams } from 'next/navigation';
 import useTable from '../../../../../../src/hooks/useTable';
 import { css, cx } from '../../../../../../styled-system/css';
 import { button } from '../../../../../../styled-system/recipes/button.mjs';
@@ -10,8 +9,6 @@ import { telegramMessage } from '../../../../../../src/service';
 // TODO: add English to button
 
 export default function CallService() {
-  const searchParams = useSearchParams();
-  // const tbl = searchParams.get('tbl');
   const { table } = useTable();
 
   return (
@@ -28,12 +25,19 @@ export default function CallService() {
           css({
             display: 'flex',
             columnGap: 'unit.v',
-            flexBasis: '1',
+            // flexBasis: '1',
             maxHeight: '34px',
             alignItems: 'center',
             // lineHeight: '1rem',
-            flex: '1',
+            // flex: '1',
+
             justifyContent: 'center',
+            sm: {
+              width: 'fit-content',
+              alignSelf: 'center',
+              marginLeft: 'auto',
+              // flexBasis: 'initial',
+            },
           })
         )}
       >

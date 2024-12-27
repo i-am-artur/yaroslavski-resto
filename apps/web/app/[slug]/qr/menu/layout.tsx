@@ -3,9 +3,8 @@ import { Metadata } from 'next';
 import React, { Suspense } from 'react';
 import { css } from '../../../../styled-system/css';
 import MenuContext from './components/Context';
-import Header from './components/_header/Header';
-import CategoriesSelect from './components/categorySelect/CategoriesSelect';
 import MenuHeader from './components/_header/Header';
+import CategoriesSelect from './components/categorySelect/CategoriesSelect';
 
 export default async function MenuLayout(
   props: Readonly<{

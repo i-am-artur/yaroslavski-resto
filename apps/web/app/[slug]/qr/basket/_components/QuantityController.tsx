@@ -1,6 +1,6 @@
 'use client';
 
-import { faMinus, faPlus, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useCartDispatch } from '../../(components)/QrContext';
 import { css, cx } from '../../../../../styled-system/css';
