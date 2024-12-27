@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/qr',
+  basePath: '/yaroslavski',
   output: 'export',
   trailingSlash: true,
   typescript: {
