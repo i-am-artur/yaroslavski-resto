@@ -1,0 +1,13 @@
+.headerBg {
+  height: 170px;
+  background-image: url(/yaroslavski/assets/site/header.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  /* background-color: #ce1e1e; */
+}
+
+.pageBackground {
+  z-index: -2;
+  background-color: #f3f3f3;
+}

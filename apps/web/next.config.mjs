@@ -11,7 +11,7 @@ const nextConfig = {
     styledComponents: true,
   },
   env: {
-    basePath: '/qr',
+    basePath: '/yaroslavski',
   },
 };
 

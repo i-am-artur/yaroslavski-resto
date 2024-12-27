@@ -10,8 +10,12 @@ import {
   useState,
 } from 'react';
 import { lsGetTableInfo, lsTableKey } from '../../localStorage/table';
+import useCategories, { Categories } from '../hooks/useCategories';
 
-export type IAppContext = { table: { id: number; time: number } | null };
+export type IAppContext = {
+  table: { id: number; time: number } | null;
+  categories: { value: Categories['value']; loading: Categories['loading'] };
+};
 
 interface IAppContextDispatch {
   setTable: Dispatch<
@@ -20,6 +24,7 @@ interface IAppContextDispatch {
       time: number;
     } | null>
   >;
+  setCategories: Categories['setValue'];
 }
 
 const appContext = createContext<IAppContext | null>(null);
@@ -32,6 +37,7 @@ export default function AppContext({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   const [table, setTable] = useState<IAppContext['table']>(null);
+  const categories = useCategories();
 
   useEffect(() => {
     setTable(lsGetTableInfo());
@@ -41,9 +47,15 @@ export default function AppContext({
     <appContext.Provider
       value={{
         table,
+        categories: {
+          value: categories.value,
+          loading: categories.loading,
+        },
       }}
     >
-      <appContextDispatch.Provider value={{ setTable }}>
+      <appContextDispatch.Provider
+        value={{ setTable, setCategories: categories.setValue }}
+      >
         {children}
       </appContextDispatch.Provider>
     </appContext.Provider>

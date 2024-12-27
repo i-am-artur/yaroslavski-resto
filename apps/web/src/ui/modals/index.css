@@ -1,0 +1,5 @@
+.fx > * > body {
+  position: 'fixed';
+  height: 100vh;
+  overflow-y: hidden;
+}

@@ -1,11 +1,8 @@
 'use client';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useEffect } from 'react';
-import { useAppContextDispatch } from '../../../_instances/app/context/AppContext';
-import {
-  lsDeleteTableInfo,
-  lsSaveTableInfo,
-} from '../../../_instances/localStorage/table';
+import { useAppContextDispatch } from '../../../src/app/context/AppContext';
+import { lsDeleteTableInfo, lsSaveTableInfo } from '../../../src/localStorage/table';
 
 export default function ClientPage() {
   const searchParams = useSearchParams();

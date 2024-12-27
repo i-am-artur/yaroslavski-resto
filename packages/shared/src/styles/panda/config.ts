@@ -4,6 +4,7 @@ import { tokens } from './tokens';
 import { utilities } from './utilities';
 import { globalCss } from './globalStyles';
 import { button } from './recipes/button';
+import { stack } from './recipes/layout/stack';
 
 export const config = {
   // minify: true,
@@ -34,6 +35,7 @@ export const config = {
       recipes: {
         card,
         button,
+        stack,
       },
     },
   },

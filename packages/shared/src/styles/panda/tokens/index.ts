@@ -32,19 +32,6 @@ export const tokens = {
       h: { value: body.padding.h + 'px' },
       v: { value: body.padding.v + 'px' },
     },
-    sideReverse: {
-      h: { value: -body.padding.h + 'px' },
-      v: { value: -body.padding.v + 'px' },
-    },
-    sideDoubleReverse: {
-      h: { value: -2 * body.padding.h + 'px' },
-      v: { value: -2 * body.padding.v + 'px' },
-    },
-    radius: {
-      xl: { value: radius.xl + 'px' },
-      big: { value: radius.big + 'px' },
-      std: { value: radius.std + 'px' },
-    },
   },
   radii: {
     xl: { value: radius.xl + 'px' },
