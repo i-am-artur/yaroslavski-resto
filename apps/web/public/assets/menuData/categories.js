@@ -144,7 +144,7 @@ export const categories = [
     parentId: 41,
   },
   {
-    id: 60,
+    id: 65,
     name: { en: 'Adjarian Khachapuri', ua: 'Віскі США' },
     parentId: 41,
   },

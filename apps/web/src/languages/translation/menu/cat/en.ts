@@ -1,10 +1,10 @@
 import { languageSelect } from '../../instances/languages/components/languageSelect/en';
 import { categorySelect } from '../../instances/languages/components/selectCategory/en';
-import { QrMenuT } from './ua';
+import { CatT } from './ua';
 
-export const qrMenuT = {
+export const catT = {
   ...languageSelect,
   ...categorySelect,
-} satisfies QrMenuT;
+} satisfies CatT;
 
-export default qrMenuT;
+export default catT;

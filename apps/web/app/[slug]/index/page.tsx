@@ -1,13 +1,11 @@
 // 'use client';
-import { Fragment } from 'react';
 import Logo from '../../../src/app/logo/Logo';
 import { IndexT } from '../../../src/languages/translation/menu/index/ua';
 import { css, cx } from '../../../styled-system/css';
-import './index.css';
-import { token } from '../../../styled-system/tokens';
-import { card, stack } from '../../../styled-system/recipes';
+import { stack } from '../../../styled-system/recipes';
 import Categories from './_components/Categories';
 import Footer from './_components/Footer';
+import './index.css';
 
 export default async function MenuPage(
   props: Readonly<{
