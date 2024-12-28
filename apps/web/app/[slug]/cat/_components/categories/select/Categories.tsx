@@ -6,10 +6,23 @@ import Option from './Category';
 
 export default function Select({ categories }: { categories: any[] }) {
   return (
-    <select className={css({ top: '{spacing.side.v}', position: 'sticky' })}>
-      {categories?.map((category) => {
-        return <Option key={category.id} category={category} />;
+    <div
+      className={css({
+        padding: '{spacing.side.v} 0',
+        top: '0',
+        position: 'sticky',
+        backgroundColor: 'white',
       })}
-    </select>
+    >
+      <select
+        className={css({
+          width: '100%',
+        })}
+      >
+        {categories?.map((category) => {
+          return <Option key={category.id} category={category} />;
+        })}
+      </select>
+    </div>
   );
 }

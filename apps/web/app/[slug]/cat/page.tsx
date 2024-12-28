@@ -19,7 +19,7 @@ export default async function CatPage(
   return (
     <>
       <header>
-        <Logo lang={lang} />
+        <Logo lang={lang} width={'50%'} />
       </header>
       <Categories />
       <div className={css({ height: '150vh' })}>df</div>

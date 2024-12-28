@@ -48,7 +48,7 @@ export default async function MenuPage(
           backgroundColor: 'white',
         })}
       >
-        <Logo lang='ua' />
+        <Logo lang='ua' width='100%' />
         <h1 className={css({ fontSize: '1.3rem', fontWeight: 500 })}>{t.name}</h1>
         <address>{t.address}</address>
       </header>
