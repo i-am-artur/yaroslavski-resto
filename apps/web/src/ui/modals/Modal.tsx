@@ -1,16 +1,17 @@
 'use client';
 import { ReactNode, useEffect } from 'react';
-import { css } from '../../../../styled-system/css';
+import { css } from '../../../styled-system/css';
 import './index.css';
-import { Box } from '@repo/shared/src/styles/StyledComponents/components/Layouts';
-import useCloseModalOnHistoryPop from '../../../hooks/useCloseModalOnHistoryPop';
+import { useRouter } from 'next/navigation';
+// import useCloseModalOnHistoryPop from '../../../hooks/useCloseModalOnHistoryPop';
 
 export default function Modal(props: {
   open: boolean;
   onClose?: () => void;
   children?: ReactNode | ReactNode[];
 }) {
-  props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
+  const router = useRouter();
+  // props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
   useEffect(() => {
     if (props.open) {
       document.body.style.overflow = 'hidden';
@@ -21,9 +22,22 @@ export default function Modal(props: {
     };
   }, [props.open]);
 
+  useEffect(() => {
+    window.history.pushState(null, document.title, window.location.href);
+    const handlePopState = (event: PopStateEvent) => {
+      window.history.pushState(null, document.title, window.location.href);
+      props.onClose?.();
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, [router]);
+
   return (
     props.open && (
-      <Box
+      <div
         onClick={(e) => {
           if (e.target == e.currentTarget) props?.onClose?.();
         }}
@@ -34,23 +48,11 @@ export default function Modal(props: {
           right: 0,
           bottom: 0,
           backgroundColor: 'transparent.modal',
-          zIndex: '20 !important',
+          zIndex: '20',
         })}
-
-        // className={cx(
-        //   css({
-        //     position: 'absolute',
-        //     top: 0,
-        //     left: 0,
-        //     right: 0,
-        //     bottom: 0,
-        //     backgroundColor: 'transparent.modal',
-        //   }),
-        //   'modalBg'
-        // )}
       >
         {props?.children}
-      </Box>
+      </div>
     )
   );
 }

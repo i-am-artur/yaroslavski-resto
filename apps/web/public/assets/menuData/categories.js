@@ -151,7 +151,7 @@ export const categories = [
 
   // ------------- Десерти -------------
   {
-    id: 62,
+    id: 66,
     name: { en: 'Desserts', ua: 'Десерти' },
     parentId: 61,
   },

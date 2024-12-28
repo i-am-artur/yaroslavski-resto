@@ -1,6 +1,6 @@
 'use client';
 import { ButtonHTMLAttributes } from 'react';
-import { css } from '../../../../styled-system/css';
+import { css } from '../../../styled-system/css';
 
 export default function CloseIconButton(props: ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
@@ -10,6 +10,7 @@ export default function CloseIconButton(props: ButtonHTMLAttributes<HTMLButtonEl
         border: 'none',
         cursor: 'pointer',
         fontSize: 'inherit',
+        color: 'grey',
       })}
       {...props}
     >

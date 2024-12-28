@@ -10,7 +10,7 @@ export default function Category({ category }: { category: any }) {
   return (
     <li key={category.id}>
       <NextLink
-        href={`/${currentLanguage}/cat?cat1=${category.id}`}
+        href={`/${currentLanguage}/menu?cat1=${category.id}`}
         className={css({
           display: 'flex',
           fontSize: '1.5rem',

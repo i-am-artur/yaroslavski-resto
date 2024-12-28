@@ -1,11 +1,11 @@
 // 'use client';
 import Logo from '../../../src/app/logo/Logo';
-import { IndexT } from '../../../src/languages/translation/menu/index/ua';
+import { IndexT } from '../../../src/languages/translation/app/index/ua';
 import { css, cx } from '../../../styled-system/css';
 import { stack } from '../../../styled-system/recipes';
 import Categories from './_components/Categories';
 import Footer from './_components/Footer';
-import './index.css';
+import s from './index.module.css';
 
 export default async function MenuPage(
   props: Readonly<{
@@ -14,7 +14,7 @@ export default async function MenuPage(
   }>
 ) {
   const lang = (await props.params).slug;
-  const t = (await import(`../../../src/languages/translation/menu/index/${lang}`).then(
+  const t = (await import(`../../../src/languages/translation/app/index/${lang}`).then(
     (module) => module.default
   )) as IndexT;
 
@@ -30,13 +30,13 @@ export default async function MenuPage(
             position: 'fixed',
             padding: 'unit.h',
           }),
-          'pageBackground'
+          s.pageBackground
         )}
       />
       <div
         className={cx(
           css({ top: 0, left: 0, right: 0, position: 'absolute' }),
-          'headerBg'
+          s.headerBg
         )}
       />
       <header

@@ -1,12 +1,10 @@
 import { languageSelect } from '../../instances/languages/components/languageSelect/ua';
 import { categorySelect } from '../../instances/languages/components/selectCategory/ua';
 
-export const catT = {
+export const menuT = {
   ...languageSelect,
   ...categorySelect,
 };
-export default catT;
+export default menuT;
 
-export type CatT = typeof catT;
-
-// export default t;
+export type MenuT = typeof menuT;
