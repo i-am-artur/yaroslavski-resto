@@ -1,19 +1,19 @@
 'use client';
 import dynamic from 'next/dynamic';
 import { Fragment, useState } from 'react';
-import { css } from '../../../../../../styled-system/css';
-import Prices from './Prices';
+// import Prices from './Prices';
 import { usePathname } from 'next/navigation';
-import Divider from '../../../../../../../src/ui/divider';
+import Divider from '../../../../../../../src/ui/Divider';
+import { css } from '../../../../../../../styled-system/css';
 // import FullView from './FullView';
-const FullView = dynamic(() => import('./FullView'));
+// const FullView = dynamic(() => import('./FullView'));
 
-export default function Product(props: { value: any }) {
+export default function Product(props: { product: any }) {
   const [fullViewOpen, setFullViewOpen] = useState(false);
   const lang = usePathname().split('/')[1] ?? 'ua';
 
   return (
-    <Fragment>
+    <li>
       <Divider />
       <div
         className={css({
@@ -36,10 +36,10 @@ export default function Product(props: { value: any }) {
               setFullViewOpen(true);
             }}
           >
-            {props.value.name[lang]}
+            {props.product.name[lang]}
           </div>
           <p className={css({ fontSize: '14px', color: '#808080' })}>
-            {props.value.description[lang]}
+            {props.product.description[lang]}
           </p>
           <div
             className={css({
@@ -48,17 +48,17 @@ export default function Product(props: { value: any }) {
               columnGap: 'unit.v',
             })}
           >
-            <Prices
+            {/* <Prices
               value={props.value}
               // capacityUnit={props.value.capacityUnit}
               lang={lang}
-            />
+            /> */}
           </div>
         </div>
         <img
           src={(() => {
-            return props.value.image?.thumb
-              ? `${process.env.basePath}/assets/products/images/${props.value.image.thumb}`
+            return props.product.image?.thumb
+              ? `${process.env.basePath}/assets/products/images/${props.product.image.thumb}`
               : `${process.env.basePath}/assets/site/food1.gif`;
           })()}
           onClick={() => {
@@ -70,7 +70,7 @@ export default function Product(props: { value: any }) {
             borderRadius: 'std',
             // opacity: 0.3,
           })}
-          alt={props.value.description[lang]}
+          alt={props.product.description[lang]}
           loading='lazy'
         />
       </div>
@@ -82,6 +82,6 @@ export default function Product(props: { value: any }) {
           lang={props.lang}
         />
       )} */}
-    </Fragment>
+    </li>
   );
 }

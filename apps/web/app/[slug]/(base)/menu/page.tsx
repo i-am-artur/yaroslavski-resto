@@ -19,9 +19,9 @@ export default async function MenuPage(
     <>
       <Categories t={t} />
       <main className={css({ height: '150vh' })}>
-        <Suspense fallback={<Loading />}>
-          <Products />
-        </Suspense>
+        {/* <Suspense fallback={<Loading />}> */}
+        <Products />
+        {/* </Suspense> */}
       </main>
     </>
   );
