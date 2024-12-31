@@ -1,63 +1,64 @@
 'use client';
-
-import { useSearchParams } from 'next/navigation';
-import { Fragment, useEffect, useState } from 'react';
+// import { useSearchParams } from 'next/navigation';
+import { useEffect, useState } from 'react';
 import { useAppContext } from '../../../../../../src/app/context/AppContext';
+import { useMenuContext, useMenuContextDispatch } from '../context/Context';
+import Product from './_product/Product';
+import { css } from '../../../../../../styled-system/css';
 
 export default function Products() {
-  const searchParams = useSearchParams();
-
+  // const searchParams = useSearchParams();
+  const menuCtx = useMenuContext();
   const appCtx = useAppContext();
+  const menuCtxDispatch = useMenuContextDispatch();
   const categories = appCtx?.categories.value ?? [];
   const [structuredData, setStructuredData] = useState<any[]>([]);
-  console.log('🚀 ~ file: Products.tsx:24 ~ structuredData:', structuredData);
-
-  const cat1Param = searchParams.get('cat1') ?? '2';
-  const cat1Number = parseInt(cat1Param);
-  const cat1 = isNaN(cat1Number) ? 2 : cat1Number;
+  const cat1 = menuCtx?.appSearchParams?.cat1;
+  // const cat1 = (() => {
+  //   const cat1Param = searchParams.get('cat1') ?? '2';
+  //   const cat1Number = parseInt(cat1Param);
+  //   return isNaN(cat1Number) ? 2 : cat1Number;
+  // })();
 
   useEffect(() => {
     (async () => {
-      const products: any[] = await fetch(
-        `${process.env.basePath}/assets/menuData/${cat1}.json`
-      ).then((res) => res.json());
-      const category = categories?.find((el) => el.id == cat1);
-      // const structuredData = structureData(categories, category, products);
-      // console.log('🚀 ~ file: Products.tsx:26 ~ structuredData:', structuredData);
-      setStructuredData(structureData(categories, category, products));
+      if (categories?.length > 0) {
+        const productsRes = await fetch(
+          `${process.env.basePath}/assets/menuData/${cat1}.json`
+        );
+        const products = await productsRes.json();
+        menuCtxDispatch?.setProducts(products);
+        const category = categories?.find((el) => el.id == cat1);
+        setStructuredData([structureData(categories, category, products)]);
+      }
     })();
   }, [cat1, categories]);
 
-  // return '';
-  // return JSON.stringify(structuredData);
   return parseCategoriesAndProducts(structuredData);
 }
 
 function parseCategoriesAndProducts(structuredData: any[]) {
-  console.log('🚀 ~ file: Products.tsx:37 ~ structuredData:', structuredData);
-
-  return (
-    structuredData?.length > 0 &&
-    structuredData?.map((data, i) => {
-      return (
-        <div key={data?.category?.name['ua'] + Math.random()}>
-          <h2>{data?.category?.name['ua']}</h2>
-
-          {/* {data.products?.length > 0 && (
-            <>
-              // <h2>{data.category.name['ua']}</h2>
-              <ul>
-                {data.products.map((product: any) => (
-                  <li key={product.name['ua']}>{product.name['ua']}</li>
-                ))}
-              </ul>
-            </>
-          )} */}
-          {parseCategoriesAndProducts(data.subCategories)}
-        </div>
-      );
-    })
-  );
+  return structuredData.map((data, i) => {
+    return (
+      <ul key={data.category.id}>
+        {data.products?.length > 0 ? (
+          <h2 className={css({ marginTop: 'box.v' })}>{data.category.name['ua']}</h2>
+        ) : (
+          <div id={data.category.id} />
+        )}
+        {data.products?.length > 0 && (
+          <ul>
+            {data.products.map((product: any, i: number) => (
+              <li key={product.name['ua'] + i} className={css({ marginTop: 'box.v' })}>
+                <Product value={product} />
+              </li>
+            ))}
+          </ul>
+        )}
+        {parseCategoriesAndProducts(data.subCategories)}
+      </ul>
+    );
+  });
 }
 
 function structureData(categories: any[], category: any, products: any[]): any {
@@ -69,14 +70,12 @@ function structureData(categories: any[], category: any, products: any[]): any {
     structureData(categories, subCategory, products)
   );
 
-  return [
-    {
-      category,
-      products: categoryProducts,
-      subCategories: structuredSubCategories,
-      childrenHaveNoProducts: structuredSubCategories.every(
-        (el) => el[0].products.length === 0 && el[0].childrenHaveNoProducts
-      ),
-    },
-  ];
+  return {
+    category,
+    products: categoryProducts,
+    subCategories: structuredSubCategories,
+    childrenHaveNoProducts: structuredSubCategories.every(
+      (el) => el.products.length === 0 && el.childrenHaveNoProducts
+    ),
+  };
 }

@@ -1,12 +1,12 @@
 'use client';
 import dynamic from 'next/dynamic';
 import { Fragment, useState } from 'react';
-import { css } from '../../../../../../styled-system/css';
 import Prices from './Prices';
 import { usePathname } from 'next/navigation';
-import Divider from '../../../../../../../src/ui/divider';
+import Divider from '../../../../../../../src/ui/Divider';
+import { css } from '../../../../../../../styled-system/css';
 // import FullView from './FullView';
-const FullView = dynamic(() => import('./FullView'));
+// const FullView = dynamic(() => import('./FullView'));
 
 export default function Product(props: { value: any }) {
   const [fullViewOpen, setFullViewOpen] = useState(false);
@@ -48,11 +48,7 @@ export default function Product(props: { value: any }) {
               columnGap: 'unit.v',
             })}
           >
-            <Prices
-              value={props.value}
-              // capacityUnit={props.value.capacityUnit}
-              lang={lang}
-            />
+            <Prices value={props.value} />
           </div>
         </div>
         <img

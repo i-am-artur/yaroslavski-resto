@@ -2,14 +2,18 @@
 import dynamic from 'next/dynamic';
 import { useState } from 'react';
 import { useAppContext } from '../../../../../../../src/app/context/AppContext';
-import { CatT } from '../../../../../../../src/languages/translation/app/menu/ua';
+import { MenuT } from '../../../../../../../src/languages/translation/app/menu/ua';
 import { css } from '../../../../../../../styled-system/css';
 import Categories from './Categories';
+import { useMenuContext } from '../../context/Context';
 
-const MainCategories = dynamic(() => import('./mainCategories/MainCategories'));
+const SelectMainCategories = dynamic(
+  () => import('./mainCategories/SelectMainCategories')
+);
 
-export default function Select({ t }: { t: CatT }) {
+export default function Select({ t }: { t: MenuT }) {
   const appCtx = useAppContext();
+  const menuCtx = useMenuContext();
   const [showMainCategories, setShowMainCategories] = useState(false);
 
   return (
@@ -19,6 +23,7 @@ export default function Select({ t }: { t: CatT }) {
         top: '0',
         position: 'sticky',
         backgroundColor: 'white',
+        zIndex: '5',
       })}
     >
       <select
@@ -26,6 +31,8 @@ export default function Select({ t }: { t: CatT }) {
         className={css({
           width: '100%',
         })}
+        value={menuCtx?.appSearchParams?.cat1}
+        onChange={() => null}
         onClick={(e) => {
           e.preventDefault();
           e.currentTarget.blur();
@@ -35,7 +42,7 @@ export default function Select({ t }: { t: CatT }) {
         <Categories categories={appCtx?.categories.value ?? []} />
       </select>
       {showMainCategories && (
-        <MainCategories
+        <SelectMainCategories
           open={showMainCategories}
           onSelect={() => setShowMainCategories(false)}
           categories={appCtx?.categories.value ?? []}

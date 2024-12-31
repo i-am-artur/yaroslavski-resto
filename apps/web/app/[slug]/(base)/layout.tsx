@@ -1,5 +1,6 @@
 // 'use client';
 import Logo from '../../../src/app/logo/Logo';
+import CartContext from './_components/CartContext';
 
 export default async function BaseLayout(
   props: Readonly<{
@@ -10,11 +11,11 @@ export default async function BaseLayout(
   const lang = (await props.params).slug;
 
   return (
-    <>
+    <CartContext>
       <header>
         <Logo lang={lang} width={'50%'} />
       </header>
       {props.children}
-    </>
+    </CartContext>
   );
 }

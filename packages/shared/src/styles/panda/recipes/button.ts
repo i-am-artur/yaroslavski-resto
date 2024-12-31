@@ -7,7 +7,7 @@ export const button = defineRecipe({
     display: 'inline-block',
     fontWeight: 500,
     whiteSpace: 'nowrap',
-    position: 'relative',
+    // position: 'relative',
     fontFamily: 'Roboto Condensed, Arial !important',
     fontSize: 'calc(15/16 * 1rem) !important',
     alignItems: 'center',

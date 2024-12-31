@@ -1,56 +1,45 @@
 'use client';
-import { Suspense } from 'react';
-import CloseIconButton from '../../../../../../../../src/ui/buttons/CloseIconButton';
-import Modal from '../../../../../../../../src/ui/modals/Modal';
-import { css, cx } from '../../../../../../../../styled-system/css';
-import s from './index.module.css';
-import ParentCategories from './MainCategoryItem';
-import { MenuT } from '../../../../../../../../src/languages/translation/app/menu/ua';
+import NextLink from 'next/link';
+import { usePathname } from 'next/navigation';
+import Arrows from '../../../../../../../../src/ui/icons/Arrows';
+import { css } from '../../../../../../../../styled-system/css';
+import { useMenuContext } from '../../../context/Context';
 
 export default function MainCategories(props: {
-  open: boolean;
-  onSelect?: () => void;
-  t: MenuT;
   categories: any[];
+  onSelect?: () => void;
 }) {
-  return (
-    <Modal open={props.open} onClose={props.onSelect}>
-      <div
-        className={cx(
-          s.animation,
-          css({
-            right: 0,
-            left: 0,
-            bottom: 0,
-            padding: 'box.h',
-            height: '78%',
-            position: 'fixed',
-            overflowY: 'scroll',
-            backgroundColor: 'white',
-            borderTopLeftRadius: 'xl',
-            borderTopRightRadius: 'xl',
-            zIndex: 80,
-          })
-        )}
-      >
-        <h2
+  const menuCtx = useMenuContext();
+  const pathname = usePathname();
+  const lang = pathname.split('/')[1] ?? 'ua';
+  const searchParams = new URLSearchParams(
+    Array.from(menuCtx?.appSearchParams?.value.entries() as URLSearchParams)
+  );
+  searchParams.delete('cat1');
+
+  return props.categories
+    .filter((el) => el.parentId === null)
+    .map((category) => (
+      <li key={category.id}>
+        <NextLink
+          href={(() => {
+            searchParams.set('cat1', category.id);
+            return pathname + '?' + searchParams.toString();
+          })()}
+          onClick={() => {
+            props?.onSelect?.();
+          }}
           className={css({
-            marginBottom: 'item.v',
+            marginTop: 'item.v',
+            width: '100%',
             justifyContent: 'space-between',
+            alignItems: 'center',
             display: 'flex',
-            fontSize: '1.5rem',
+            fontSize: '1.3rem',
           })}
         >
-          {props.t.selectCategory}
-          <CloseIconButton onClick={props.onSelect} />
-        </h2>
-
-        <ul>
-          <Suspense>
-            <ParentCategories categories={props.categories} onSelect={props?.onSelect} />
-          </Suspense>
-        </ul>
-      </div>
-    </Modal>
-  );
+          {category.name[lang]} <Arrows />
+        </NextLink>
+      </li>
+    ));
 }
