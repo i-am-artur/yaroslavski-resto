@@ -4,30 +4,27 @@ import { cva } from '../../../../styled-system/css';
 export const button = defineRecipe({
   className: 'button',
   base: {
-    display: 'inline-block',
-    fontWeight: 500,
-    whiteSpace: 'nowrap',
-    // position: 'relative',
+    display: 'flex',
+    padding: '5px',
+    // fontWeight: 500,
     fontFamily: 'Roboto Condensed, Arial !important',
     fontSize: 'calc(15/16 * 1rem) !important',
     alignItems: 'center',
-    maxHeight: '31px',
+    width: 'fit-content',
+    columnGap: 'unit.h',
+    rowGap: 'unit.h',
+    // maxHeight: '31px',
+    backgroundColor: 'transparent',
     border: 'none',
-    // color: 'secondary.text',
-    // backgroundColor: 'secondary',
-    borderRadius: 'big',
+    borderRadius: 'std',
   },
   defaultVariants: {
-    variant: 'plain',
-    color: 'secondary',
+    color: 'primary',
   },
   variants: {
     variant: {
-      plain: {
-        padding: '4px',
-      },
       solid: {
-        padding: 'unit.h',
+        backgroundColor: 'initial',
       },
     },
     color: {
@@ -35,11 +32,18 @@ export const button = defineRecipe({
         color: 'primary',
       },
       secondary: {
-        color: 'secondary.text',
+        color: 'secondary',
       },
     },
   },
   compoundVariants: [
+    {
+      variant: 'solid',
+      css: {
+        color: 'primary.text',
+        backgroundColor: 'primary',
+      },
+    },
     {
       variant: 'solid',
       color: 'primary',
@@ -52,6 +56,7 @@ export const button = defineRecipe({
       variant: 'solid',
       color: 'secondary',
       css: {
+        color: 'secondary.text',
         backgroundColor: 'secondary',
       },
     },

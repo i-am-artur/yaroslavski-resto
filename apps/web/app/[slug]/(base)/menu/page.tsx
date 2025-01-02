@@ -1,11 +1,11 @@
-import { Suspense } from 'react';
+import { cx } from '@repo/shared/styled-system/css';
 import { MenuT } from '../../../../src/languages/translation/app/menu/ua';
 import { css } from '../../../../styled-system/css';
+import { stack } from '../../../../styled-system/recipes';
 import Categories from './_components/categories/Categories';
-import Loading from '../../../../src/ui/loading/Loading';
-import Products from './_components/products/Products';
 import MenuContext from './_components/context/Context';
-import SearchParams from './_components/context/SearchParams';
+import Products from './_components/products/Products';
+import SubCategories from './_components/subCategories/SubCategories';
 
 export default async function MenuPage(
   props: Readonly<{
@@ -19,11 +19,11 @@ export default async function MenuPage(
 
   return (
     <MenuContext>
-      <Suspense fallback={<Loading />}>
-        <SearchParams />
-      </Suspense>
       <main>
         <Categories t={t} />
+        <nav className={cx(stack(), css({ display: 'flex', rowGap: 'side.v' }))}>
+          <SubCategories />
+        </nav>
         <Products />
       </main>
     </MenuContext>

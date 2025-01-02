@@ -41,15 +41,7 @@ export default function Product(props: { value: any }) {
           <p className={css({ fontSize: '14px', color: '#808080' })}>
             {props.value.description[lang]}
           </p>
-          <div
-            className={css({
-              display: 'flex',
-              flexDirection: 'column',
-              columnGap: 'unit.v',
-            })}
-          >
-            <Prices value={props.value} />
-          </div>
+          <Prices value={props.value} />
         </div>
         <img
           src={(() => {

@@ -1,7 +1,7 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import { useMenuContextDispatch } from './Context';
+import { useMenuContextDispatch } from './context/Context';
 import { useEffect } from 'react';
 
 export default function SearchParams() {

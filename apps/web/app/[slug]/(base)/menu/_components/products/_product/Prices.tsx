@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import dynamic from 'next/dynamic';
 import { Fragment, useState } from 'react';
 import { css, cx } from '../../../../../../../styled-system/css';
-import { button } from '../../../../../../../styled-system/recipes';
+import { button, stack } from '../../../../../../../styled-system/recipes';
 import { usePathname } from 'next/navigation';
 import { capacityUnit } from '../../../../../../../src/product/utils';
 import { useAppContext } from '../../../../../../../src/app/context/AppContext';
@@ -25,12 +25,14 @@ export default function Prices(props: { value: any }) {
     props.value.price.qr.length > 0 && (
       <Fragment>
         <ul
-          className={css({
-            display: 'flex',
-            columnGap: 'unit.v',
-            rowGap: 'unit.v',
-            flexDirection: appCtx?.table ? 'row' : 'column',
-          })}
+          className={cx(
+            stack(),
+            css({
+              rowGap: 'item.v',
+              flexDirection: appCtx?.table ? 'row' : 'column',
+              columnGap: 'unit.h',
+            })
+          )}
         >
           {props.value.price.qr.map((el: any) => {
             return (
@@ -51,12 +53,6 @@ export default function Prices(props: { value: any }) {
                     onClick={() => setSelectedPrice(el)}
                     disabled={appCtx?.table ? false : true}
                     className={cx(
-                      appCtx?.table &&
-                        button({
-                          variant: 'plain',
-                          color: 'primary',
-                        }),
-                      css({ position: 'initial' }),
                       appCtx?.table &&
                         css({
                           zIndex: 0,
@@ -107,19 +103,19 @@ export default function Prices(props: { value: any }) {
               setShowAddedOrder(true);
             }}
             className={cx(
-              css({
-                display: 'flex',
-                columnGap: 'unit.h',
-                width: 'fit-content',
-                padding: '5px',
-                marginTop: '15px',
-                background: 'none !important',
-                color: 'primary',
-                border: 'none',
-              })
+              button()
+              // css({
+              // display: 'flex',
+              // columnGap: 'unit.h',
+              // width: 'fit-content',
+              // padding: '5px',
+              // marginTop: '15px',
+              // background: 'none !important',
+              // color: 'primary',
+              // border: 'none',
+              // })
             )}
           >
-            {/* <FontAwesomeIcon icon={faBasketShopping} /> */}
             <FontAwesomeIcon icon={faUtensils} size='lg' />
             Додати до замовлення
           </button>

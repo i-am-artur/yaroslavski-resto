@@ -16,6 +16,7 @@ export default function AddedOrder(props: { open: boolean; onClose?: () => void 
   return (
     <div
       className={css({
+        display: props.open ? 'block' : 'none',
         position: 'fixed',
         marginLeft: 'auto',
         marginRight: 'auto',
@@ -27,7 +28,7 @@ export default function AddedOrder(props: { open: boolean; onClose?: () => void 
         color: 'white',
         textAlign: 'center',
         fontSize: '1.5rem',
-        zIndex: 50,
+        zIndex: 20,
         ...(!props.open && { opacity: 0, transition: 'all 250ms linear 2s' }),
         maxWidth: '350px',
         sm: {
