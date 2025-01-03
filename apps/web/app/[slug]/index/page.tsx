@@ -1,4 +1,5 @@
 // 'use client';
+import { Fragment } from 'react';
 import Logo from '../../../src/app/logo/Logo';
 import { IndexT } from '../../../src/languages/translation/app/index/ua';
 import CallService from '../../../src/ui/buttons/CallService';
@@ -20,7 +21,7 @@ export default async function MenuPage(
   )) as IndexT;
 
   return (
-    <div className={cx(stack({ rGap: 'box' }))}>
+    <Fragment>
       <div
         className={cx(
           css({
@@ -40,26 +41,53 @@ export default async function MenuPage(
           s.headerBg
         )}
       />
-      <header className={cx(stack(), css({ rowGap: 'inherit' }))}>
+      <div
+        className={cx(
+          stack({ rGap: 'box' }),
+          css({
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            maxWidth: '1024px',
+          })
+        )}
+      >
+        <header className={cx(stack(), css({ rowGap: 'inherit' }))}>
+          <div
+            className={css({
+              marginTop: '70px',
+              padding: 'item.h',
+              textAlign: 'center',
+              borderRadius: 'big',
+              backgroundColor: 'white',
+            })}
+          >
+            <Logo lang='ua' className={css({ maxWidth: '100%' })} />
+            <h1 className={css({ fontSize: '1.3rem', fontWeight: 500 })}>{t.name}</h1>
+            <address>{t.address}</address>
+          </div>
+          <CallService />
+        </header>
         <div
-          className={css({
-            marginTop: '70px',
-            padding: 'item.h',
-            textAlign: 'center',
-            borderRadius: 'big',
-            backgroundColor: 'white',
-          })}
+          className={cx(
+            stack({ cGap: 'box' }),
+            css({
+              rowGap: 'inherit',
+              sm: { flexDirection: 'row', flex: '1 1 50%' },
+            })
+          )}
         >
-          <Logo lang='ua' width='100%' />
-          <h1 className={css({ fontSize: '1.3rem', fontWeight: 500 })}>{t.name}</h1>
-          <address>{t.address}</address>
+          <main
+            className={cx(
+              css({
+                sm: { flex: '0 1 50%' },
+              })
+            )}
+          >
+            <Categories />
+          </main>
+          <Footer t={t} />
         </div>
-        <CallService />
-      </header>
-      <main>
-        <Categories />
-      </main>
-      <Footer t={t} />
-    </div>
+      </div>
+    </Fragment>
   );
 }

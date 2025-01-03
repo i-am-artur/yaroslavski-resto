@@ -34,7 +34,10 @@ export default function CallService() {
             // justifyContent: 'center',
             width: '100%',
 
-            sm: {},
+            sm: {
+              alignSelf: 'flex-end',
+              width: 'fit-content',
+            },
           })
         )}
       >

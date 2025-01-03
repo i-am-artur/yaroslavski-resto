@@ -11,6 +11,8 @@ import { Fragment } from 'react';
 import CallService from '../../../../src/ui/buttons/CallService';
 import ShowBasket from './_components/products/_product/ShowBasket';
 import Options from './_components/Options';
+import Logo from '../../../../src/app/logo/Logo';
+import CartContext from '../_components/CartContext';
 
 export default async function MenuPage(
   props: Readonly<{
@@ -23,8 +25,22 @@ export default async function MenuPage(
   )) as MenuT;
 
   return (
-    <>
-      <Options />
+    <CartContext>
+      <header
+        className={cx(stack({ dir: 'column' }), css({ justifyContent: 'space-between' }))}
+      >
+        <Logo lang={lang} width={'50%'} />
+        {/* <Options /> */}
+        <div
+          className={cx(
+            stack({ dir: 'row', cGap: 'unit' }),
+            css({ margin: '{spacing.unit.v} 0' })
+          )}
+        >
+          <CallService />
+          <ShowBasket />
+        </div>
+      </header>
       <MenuContext>
         <main>
           <Categories t={t} />
@@ -33,6 +49,6 @@ export default async function MenuPage(
           <ScrollToTop />
         </main>
       </MenuContext>
-    </>
+    </CartContext>
   );
 }

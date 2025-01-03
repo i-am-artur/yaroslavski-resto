@@ -20,7 +20,7 @@ const s = {
 
 export default function Footer(props: { t: IndexT }) {
   return (
-    <footer className={cx(card(), stack({ rGap: 'item' }))}>
+    <footer className={cx(stack({ rGap: 'item' }))}>
       <h2 className={css({ fontSize: '1.3rem', fontWeight: 500 })}>{props.t.about}</h2>
       <address>{props.t.address}</address>
       <p className={s.contacts.box}>
