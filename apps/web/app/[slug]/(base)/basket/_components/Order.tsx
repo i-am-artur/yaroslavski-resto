@@ -43,7 +43,9 @@ export default function Order(props: { onOrder: (error?: any) => void }) {
           telegramMessage(
             'Заказ: Стол ' +
               appCtx?.table?.name +
-              '\n' +
+              ' (' +
+              new Date().toLocaleString() +
+              ')\n' +
               message.value +
               '\n' +
               `Загальна сума: ${total} грн.`

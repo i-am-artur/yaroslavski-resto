@@ -35,7 +35,13 @@ export default function Products() {
   //   })();
   // }, [cat1, categories]);
 
-  return menuCtx ? parseCategoriesAndProducts(menuCtx?.structuredData) : '';
+  return menuCtx?.structuredData?.length > 0 ? (
+    <div className={css({ width: '100%' })}>
+      {parseCategoriesAndProducts(menuCtx?.structuredData ?? [])}
+    </div>
+  ) : (
+    'loading'
+  );
 }
 
 function parseCategoriesAndProducts(structuredData: any[]) {

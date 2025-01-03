@@ -27,6 +27,9 @@ export const button = defineRecipe({
       solid: {
         backgroundColor: 'initial',
       },
+      plain: {
+        backgroundColor: 'transparent',
+      },
     },
     color: {
       primary: {

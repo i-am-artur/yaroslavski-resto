@@ -48,11 +48,13 @@ export default async function MenuPage(
           </div>
         </Header>
         <MenuContext>
-          <main>
+          <main
+            className={cx(
+              stack(),
+              css({ sm: { flexDirection: 'row', columnGap: 'box.h' } })
+            )}
+          >
             <Categories t={t} />
-            <nav
-              className={cx(stack(), css({ display: 'flex', rowGap: 'side.v' }))}
-            ></nav>
             <Products />
             <ScrollToTop />
           </main>

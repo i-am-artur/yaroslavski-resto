@@ -19,18 +19,6 @@ export default function Select({ t }: { t: MenuT }) {
   const [showMainCategories, setShowMainCategories] = useState(false);
   const [yOffset, setYOffset] = useState(0);
 
-  // useLayoutEffect(() => {
-  //   const categoriesSelector = document.getElementById('categories-selector');
-
-  //   if (categoriesSelector) {
-  //     const y = categoriesSelector.getBoundingClientRect().top;
-  //     console.log('🚀 ~ file: Select.tsx:27 ~ y:', y);
-
-  //     // setYOffset(y);
-  //   }
-  //   const yOffset = 0;
-  //   // const y = (categoryEl?.getBoundingClientRect()?.top ?? 0) + window.scrollY + yOffset;
-  // });
   return (
     <div
       id='categories-selector'
@@ -42,6 +30,9 @@ export default function Select({ t }: { t: MenuT }) {
           position: 'sticky',
           backgroundColor: 'white',
           zIndex: '5',
+          sm: {
+            display: 'none',
+          },
         })
       )}
     >

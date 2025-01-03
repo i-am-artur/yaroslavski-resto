@@ -16,7 +16,7 @@ export default function Header({ children }: { children: ReactNode }) {
         })
       )}
     >
-      <Logo lang={'ua'} />
+      <Logo lang={'ua'} className={css({ maxWidth: 200 })} />
       {children}
     </header>
   );
