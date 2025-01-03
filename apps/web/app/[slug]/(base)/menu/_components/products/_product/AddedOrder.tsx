@@ -2,7 +2,6 @@
 import { useEffect } from 'react';
 import { css } from '../../../../../../../styled-system/css';
 import ShowBasket from './ShowBasket';
-// import ShowBasket from '../_header/ShowBasket';
 
 export default function AddedOrder(props: { open: boolean; onClose?: () => void }) {
   useEffect(() => {
@@ -24,7 +23,7 @@ export default function AddedOrder(props: { open: boolean; onClose?: () => void 
         left: '0',
         right: '0',
         padding: 'box.v',
-        backgroundColor: '#3a933a',
+        backgroundColor: '#357960',
         color: 'white',
         textAlign: 'center',
         fontSize: '1.5rem',
@@ -32,7 +31,7 @@ export default function AddedOrder(props: { open: boolean; onClose?: () => void 
         ...(!props.open && { opacity: 0, transition: 'all 250ms linear 2s' }),
         maxWidth: '350px',
         sm: {
-          top: 40,
+          top: 10,
           borderRadius: 8,
         },
       })}

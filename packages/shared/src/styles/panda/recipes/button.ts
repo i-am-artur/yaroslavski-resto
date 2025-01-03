@@ -10,6 +10,7 @@ export const button = defineRecipe({
     fontFamily: 'Roboto Condensed, Arial !important',
     fontSize: 'calc(15/16 * 1rem) !important',
     alignItems: 'center',
+    justifyContent: 'center',
     width: 'fit-content',
     columnGap: 'unit.h',
     rowGap: 'unit.h',

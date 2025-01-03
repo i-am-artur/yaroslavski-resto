@@ -6,7 +6,7 @@ export function lsSaveTableInfo(props: { id: number | null; time?: number }) {
   if (typeof window !== 'undefined') {
     window.localStorage.setItem(
       lsTableKey,
-      JSON.stringify({ id: props.id, time: props.time ?? new Date().getTime() })
+      JSON.stringify({ ...props, time: props.time ?? new Date().getTime() })
     );
   }
 }

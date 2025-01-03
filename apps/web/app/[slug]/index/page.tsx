@@ -1,6 +1,7 @@
 // 'use client';
 import Logo from '../../../src/app/logo/Logo';
 import { IndexT } from '../../../src/languages/translation/app/index/ua';
+import CallService from '../../../src/ui/buttons/CallService';
 import { css, cx } from '../../../styled-system/css';
 import { stack } from '../../../styled-system/recipes';
 import Categories from './_components/Categories';
@@ -39,18 +40,21 @@ export default async function MenuPage(
           s.headerBg
         )}
       />
-      <header
-        className={css({
-          marginTop: '70px',
-          padding: 'item.h',
-          textAlign: 'center',
-          borderRadius: 'big',
-          backgroundColor: 'white',
-        })}
-      >
-        <Logo lang='ua' width='100%' />
-        <h1 className={css({ fontSize: '1.3rem', fontWeight: 500 })}>{t.name}</h1>
-        <address>{t.address}</address>
+      <header className={cx(stack(), css({ rowGap: 'inherit' }))}>
+        <div
+          className={css({
+            marginTop: '70px',
+            padding: 'item.h',
+            textAlign: 'center',
+            borderRadius: 'big',
+            backgroundColor: 'white',
+          })}
+        >
+          <Logo lang='ua' width='100%' />
+          <h1 className={css({ fontSize: '1.3rem', fontWeight: 500 })}>{t.name}</h1>
+          <address>{t.address}</address>
+        </div>
+        <CallService />
       </header>
       <main>
         <Categories />

@@ -5,7 +5,8 @@ import { stack } from '../../../../styled-system/recipes';
 import Categories from './_components/categories/Categories';
 import MenuContext from './_components/context/Context';
 import Products from './_components/products/Products';
-import SubCategories from './_components/subCategories/SubCategories';
+import SubCategories from './_components/categories/select/subCategories/SubCategories';
+import ScrollToTop from '../../../../src/ui/buttons/ScrollToTop';
 
 export default async function MenuPage(
   props: Readonly<{
@@ -21,10 +22,9 @@ export default async function MenuPage(
     <MenuContext>
       <main>
         <Categories t={t} />
-        <nav className={cx(stack(), css({ display: 'flex', rowGap: 'side.v' }))}>
-          <SubCategories />
-        </nav>
+        <nav className={cx(stack(), css({ display: 'flex', rowGap: 'side.v' }))}></nav>
         <Products />
+        <ScrollToTop />
       </main>
     </MenuContext>
   );

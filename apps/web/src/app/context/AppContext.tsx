@@ -13,7 +13,7 @@ import { lsGetTableInfo, lsTableKey } from '../../localStorage/table';
 import useCategories, { Categories } from '../hooks/useCategories';
 
 export type IAppContext = {
-  table: { id: number; time: number } | null;
+  table: { id: number; name: string; time: number } | null;
   categories: { value: Categories['value']; loading: Categories['loading'] };
 };
 
@@ -21,6 +21,7 @@ interface IAppContextDispatch {
   setTable: Dispatch<
     SetStateAction<{
       id: number;
+      name: string;
       time: number;
     } | null>
   >;
@@ -39,9 +40,20 @@ export default function AppContext({
   const [table, setTable] = useState<IAppContext['table']>(null);
   const categories = useCategories();
 
-  useEffect(() => {
-    setTable(lsGetTableInfo());
-  }, []);
+  // setTimeout(() => setTable(lsGetTableInfo()), 1000);
+  // useEffect(() => {
+
+  // const onPageLoad = () => {
+  // setTable(lsGetTableInfo());
+  // };
+
+  // if (document.readyState === 'complete') {
+  //   onPageLoad();
+  // } else {
+  //   window.addEventListener('load', onPageLoad, false);
+  //   return () => window.removeEventListener('load', onPageLoad);
+  // }
+  // }, []);
 
   return (
     <appContext.Provider

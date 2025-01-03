@@ -120,9 +120,9 @@ export default function Prices(props: { value: any }) {
             Додати до замовлення
           </button>
         )}
-        {/* {showAddedOrder && ( */}
-        <AddedOrder open={showAddedOrder} onClose={() => setShowAddedOrder(false)} />
-        {/* )} */}
+        {showAddedOrder && appCtx?.table && (
+          <AddedOrder open={showAddedOrder} onClose={() => setShowAddedOrder(false)} />
+        )}
       </Fragment>
     )
   );

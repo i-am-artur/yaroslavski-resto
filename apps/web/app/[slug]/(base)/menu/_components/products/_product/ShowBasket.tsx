@@ -21,17 +21,12 @@ export default function ShowBasket() {
         className={cx(
           button({ variant: 'solid', color: 'primary' }),
           css({
-            display: 'flex',
-            columnGap: 'unit.v',
-            flex: '1',
-            justifyContent: 'center',
-            fontFamily: 'inherit',
-            backgroundColor: isDisabled ? '#a1a1a1 !important' : 'primary',
+            justifySelf: 'center',
           })
         )}
       >
         <FontAwesomeIcon icon={faUtensils} />
-        Замовити вибране {cart.cartItems.length > 0 && `(${cart.cartItems.length})`}
+        Замовити обране {cart.cartItems.length > 0 && `(${cart.cartItems.length})`}
       </NextLink>
     )
   );
