@@ -13,6 +13,7 @@ import ShowBasket from './_components/products/_product/ShowBasket';
 import Options from './_components/Options';
 import Logo from '../../../../src/app/logo/Logo';
 import CartContext from '../_components/CartContext';
+import Header from '../_components/Header';
 
 export default async function MenuPage(
   props: Readonly<{
@@ -25,30 +26,38 @@ export default async function MenuPage(
   )) as MenuT;
 
   return (
-    <CartContext>
-      <header
-        className={cx(stack({ dir: 'column' }), css({ justifyContent: 'space-between' }))}
-      >
-        <Logo lang={lang} width={'50%'} />
-        {/* <Options /> */}
-        <div
-          className={cx(
-            stack({ dir: 'row', cGap: 'unit' }),
-            css({ margin: '{spacing.unit.v} 0' })
-          )}
-        >
-          <CallService />
-          <ShowBasket />
-        </div>
-      </header>
-      <MenuContext>
-        <main>
-          <Categories t={t} />
-          <nav className={cx(stack(), css({ display: 'flex', rowGap: 'side.v' }))}></nav>
-          <Products />
-          <ScrollToTop />
-        </main>
-      </MenuContext>
-    </CartContext>
+    <div
+      className={cx(
+        css({
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          maxWidth: '1024px',
+        })
+      )}
+    >
+      <CartContext>
+        <Header>
+          <div
+            className={cx(
+              stack({ dir: 'row', cGap: 'unit' }),
+              css({ margin: '{spacing.unit.v} 0' })
+            )}
+          >
+            <CallService />
+            <ShowBasket />
+          </div>
+        </Header>
+        <MenuContext>
+          <main>
+            <Categories t={t} />
+            <nav
+              className={cx(stack(), css({ display: 'flex', rowGap: 'side.v' }))}
+            ></nav>
+            <Products />
+            <ScrollToTop />
+          </main>
+        </MenuContext>
+      </CartContext>
+    </div>
   );
 }

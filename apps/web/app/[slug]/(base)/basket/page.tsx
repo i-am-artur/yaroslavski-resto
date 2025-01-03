@@ -4,6 +4,8 @@ import { css, cx } from '../../../../styled-system/css';
 import ClientPage from './_components/ClientPage';
 import CallService from '../../../../src/ui/buttons/CallService';
 import { stack } from '../../../../styled-system/recipes';
+import Header from '../_components/Header';
+import CartContext from '../_components/CartContext';
 // import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
 
 export default async function BasketPage() {
@@ -31,12 +33,23 @@ export default async function BasketPage() {
         css({ marginLeft: 'auto', marginRight: 'auto', maxWidth: '1024px' })
       )}
     >
-      <CallService />
-      <main>
-        {/* <Suspense> */}
-        <ClientPage />
-        {/* </Suspense> */}
-      </main>
+      <CartContext>
+        <Header>
+          <CallService />
+        </Header>
+        <main
+          className={css({
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            width: '100%',
+            maxWidth: 700,
+          })}
+        >
+          {/* <Suspense> */}
+          <ClientPage />
+          {/* </Suspense> */}
+        </main>
+      </CartContext>
     </div>
   );
 }
