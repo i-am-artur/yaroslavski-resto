@@ -10,6 +10,7 @@ import ScrollToTop from '../../../../src/ui/buttons/ScrollToTop';
 import { Fragment } from 'react';
 import CallService from '../../../../src/ui/buttons/CallService';
 import ShowBasket from './_components/products/_product/ShowBasket';
+import Options from './_components/Options';
 
 export default async function MenuPage(
   props: Readonly<{
@@ -22,16 +23,8 @@ export default async function MenuPage(
   )) as MenuT;
 
   return (
-    <Fragment>
-      <div
-        className={cx(
-          stack({ dir: 'row', cGap: 'unit' }),
-          css({ padding: `{spacing.side.v} 0` })
-        )}
-      >
-        <CallService />
-        <ShowBasket />
-      </div>
+    <>
+      <Options />
       <MenuContext>
         <main>
           <Categories t={t} />
@@ -40,6 +33,6 @@ export default async function MenuPage(
           <ScrollToTop />
         </main>
       </MenuContext>
-    </Fragment>
+    </>
   );
 }
