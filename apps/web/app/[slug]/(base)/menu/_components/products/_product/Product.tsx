@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import Divider from '../../../../../../../src/ui/Divider';
 import { css } from '../../../../../../../styled-system/css';
 // import FullView from './FullView';
-// const FullView = dynamic(() => import('./FullView'));
+const FullView = dynamic(() => import('./FullView'));
 
 export default function Product(props: { value: any }) {
   const [fullViewOpen, setFullViewOpen] = useState(false);
@@ -62,14 +62,14 @@ export default function Product(props: { value: any }) {
           loading='lazy'
         />
       </div>
-      {/* {fullViewOpen && (
+      {fullViewOpen && (
         <FullView
           open={fullViewOpen}
           onClose={() => setFullViewOpen(false)}
           product={props.value}
-          lang={props.lang}
+          lang={lang}
         />
-      )} */}
+      )}
     </Fragment>
   );
 }

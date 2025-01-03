@@ -1,7 +1,8 @@
 'use client';
-import CloseIconButton from '../../../../../../src/instances/ui/buttons/CloseIconButton';
-import Modal from '../../../../../../src/instances/ui/modals/Modal';
-import { css } from '../../../../../../styled-system/css';
+
+import CloseIconButton from '../../../../../../../src/ui/buttons/CloseIconButton';
+import Modal from '../../../../../../../src/ui/modals/Modal';
+import { css } from '../../../../../../../styled-system/css';
 
 export default function FullView(props: {
   open: boolean;
@@ -74,6 +75,7 @@ export default function FullView(props: {
       >
         <div
           className={css({
+            padding: 'item.h',
             display: 'flex',
             flexDirection: 'column',
             rowGap: 'box.v',
@@ -98,6 +100,11 @@ export default function FullView(props: {
             className={css({
               overflowX: 'auto',
               width: '100%',
+              scrollbarWidth: 'none',
+              '&::-webkit-scrollbar': {
+                width: 0,
+                background: 'transparent',
+              },
             })}
           >
             <ul
@@ -115,7 +122,8 @@ export default function FullView(props: {
                   <li key={i}>
                     <img
                       className={css({
-                        maxHeight: '380px',
+                        maxHeight: '320px',
+                        // height: '60%'
                       })}
                       src={`${process.env.basePath}/assets/products/images/${el}`}
                       alt={props.product.name[props.lang]}

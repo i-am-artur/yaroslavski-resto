@@ -11,6 +11,7 @@ import { telegramMessage } from '../../../../../src/services/service';
 
 export default function Order(props: { onOrder: () => void }) {
   const cart = useCart();
+  console.log('🚀 ~ file: Order.tsx:14 ~ cart:', cart);
   const cartDispatch = useCartDispatch();
   const appCtx = useAppContext();
   const lang = usePathname().split('/')[1] ?? 'ua';
@@ -25,7 +26,7 @@ export default function Order(props: { onOrder: () => void }) {
             return {
               value:
                 acc.value +
-                `${acc.index + 1}. ${curr.name.ua} ${curr.selectedPrice.capacity}${capacityUnit(curr.selectedPrice.capacity, lang)}-${curr.selectedPrice.value}грн (${curr.quantity} шт.)\n`,
+                `${acc.index + 1}. ${curr.name.ua} ${curr.selectedPrice.capacity}${capacityUnit(curr.capacityUnit, lang)}-${curr.selectedPrice.value}грн (${curr.quantity} шт.)\n`,
               index: acc.index + 1,
             };
           },
@@ -37,7 +38,7 @@ export default function Order(props: { onOrder: () => void }) {
         );
         telegramMessage(
           'Заказ: Стол ' +
-            appCtx?.table?.id +
+            appCtx?.table?.name +
             '\n' +
             message.value +
             '\n' +

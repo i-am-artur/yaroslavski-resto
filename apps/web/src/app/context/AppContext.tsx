@@ -41,19 +41,20 @@ export default function AppContext({
   const categories = useCategories();
 
   // setTimeout(() => setTable(lsGetTableInfo()), 1000);
-  // useEffect(() => {
+  useEffect(() => {
+    // setTable(lsGetTableInfo());
 
-  // const onPageLoad = () => {
-  // setTable(lsGetTableInfo());
-  // };
+    const onPageLoad = () => {
+      setTable(lsGetTableInfo());
+    };
 
-  // if (document.readyState === 'complete') {
-  //   onPageLoad();
-  // } else {
-  //   window.addEventListener('load', onPageLoad, false);
-  //   return () => window.removeEventListener('load', onPageLoad);
-  // }
-  // }, []);
+    if (document.readyState === 'complete') {
+      onPageLoad();
+    } else {
+      window.addEventListener('load', onPageLoad, false);
+      return () => window.removeEventListener('load', onPageLoad);
+    }
+  }, []);
 
   return (
     <appContext.Provider

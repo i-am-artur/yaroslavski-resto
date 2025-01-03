@@ -7,6 +7,9 @@ import MenuContext from './_components/context/Context';
 import Products from './_components/products/Products';
 import SubCategories from './_components/categories/select/subCategories/SubCategories';
 import ScrollToTop from '../../../../src/ui/buttons/ScrollToTop';
+import { Fragment } from 'react';
+import CallService from '../../../../src/ui/buttons/CallService';
+import ShowBasket from './_components/products/_product/ShowBasket';
 
 export default async function MenuPage(
   props: Readonly<{
@@ -19,13 +22,24 @@ export default async function MenuPage(
   )) as MenuT;
 
   return (
-    <MenuContext>
-      <main>
-        <Categories t={t} />
-        <nav className={cx(stack(), css({ display: 'flex', rowGap: 'side.v' }))}></nav>
-        <Products />
-        <ScrollToTop />
-      </main>
-    </MenuContext>
+    <Fragment>
+      <div
+        className={cx(
+          stack({ dir: 'row', cGap: 'unit' }),
+          css({ padding: `{spacing.side.v} 0` })
+        )}
+      >
+        <CallService />
+        <ShowBasket />
+      </div>
+      <MenuContext>
+        <main>
+          <Categories t={t} />
+          <nav className={cx(stack(), css({ display: 'flex', rowGap: 'side.v' }))}></nav>
+          <Products />
+          <ScrollToTop />
+        </main>
+      </MenuContext>
+    </Fragment>
   );
 }

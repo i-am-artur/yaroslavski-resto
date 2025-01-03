@@ -29,9 +29,10 @@ export default function CallService() {
             // maxHeight: '34px',
             // alignItems: 'center',
             // lineHeight: '1rem',
-            // flex: '1',
+            // flexBasis: '1',
+            // flex: 1,
             // justifyContent: 'center',
-            width: 'initial',
+            width: '100%',
 
             sm: {},
           })

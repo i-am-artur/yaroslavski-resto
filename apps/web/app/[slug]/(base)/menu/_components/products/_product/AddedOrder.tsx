@@ -15,7 +15,9 @@ export default function AddedOrder(props: { open: boolean; onClose?: () => void 
   return (
     <div
       className={css({
-        display: props.open ? 'block' : 'none',
+        display: props.open ? 'flex' : 'none',
+        flexDirection: 'column',
+        alignItems: 'center',
         position: 'fixed',
         marginLeft: 'auto',
         marginRight: 'auto',

@@ -28,7 +28,7 @@ export default function Prices(props: { value: any }) {
           className={cx(
             stack(),
             css({
-              rowGap: 'item.v',
+              rowGap: 'unit.v',
               flexDirection: appCtx?.table ? 'row' : 'column',
               columnGap: 'unit.h',
             })
@@ -84,7 +84,7 @@ export default function Prices(props: { value: any }) {
           })}
         </ul>
 
-        {appCtx?.table && (
+        {appCtx?.table !== null && (
           <button
             onClick={() => {
               cartDispatch.setCartItems((pre) => {
@@ -102,19 +102,7 @@ export default function Prices(props: { value: any }) {
               });
               setShowAddedOrder(true);
             }}
-            className={cx(
-              button()
-              // css({
-              // display: 'flex',
-              // columnGap: 'unit.h',
-              // width: 'fit-content',
-              // padding: '5px',
-              // marginTop: '15px',
-              // background: 'none !important',
-              // color: 'primary',
-              // border: 'none',
-              // })
-            )}
+            className={cx(button())}
           >
             <FontAwesomeIcon icon={faUtensils} size='lg' />
             Додати до замовлення

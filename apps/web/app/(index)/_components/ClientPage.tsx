@@ -19,19 +19,33 @@ export default function ClientPage() {
   const tableName = tables.find((t: any) => t.id === tableId)?.name;
 
   useEffect(() => {
-    if (!!tableName && !!tableId) {
-      const table = {
-        id: tableId,
-        name: tableName,
-        time: new Date().getTime(),
-      };
-      appCtxDispatch?.setTable(table);
-      lsSaveTableInfo(table);
-    } else {
-      lsDeleteTableInfo();
-    }
+    // if (!!tableName && !!tableId) {
+    // const table = {
+    //   id: tableId,
+    //   name: tableName,
+    //   time: new Date().getTime(),
+    // };
+    // appCtxDispatch?.setTable(table);
+    // lsSaveTableInfo(table);
+    // }
+    const table =
+      !!tableName && !!tableId
+        ? {
+            id: tableId,
+            name: tableName,
+            time: new Date().getTime(),
+          }
+        : null;
+    appCtxDispatch?.setTable(table);
+    lsSaveTableInfo(table);
+    // }
 
-    setTimeout(() => router.replace(`/ua/index`), 1000);
+    // else {
+    //   lsDeleteTableInfo();
+    // }
+
+    router.replace(`/ua/index`);
+    // setTimeout(() => router.replace(`/ua/index`), 1000);
   }, [tableId]);
 
   return <p></p>;

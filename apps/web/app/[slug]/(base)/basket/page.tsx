@@ -1,7 +1,9 @@
 // 'use client';
 import { Suspense } from 'react';
-import { css } from '../../../../styled-system/css';
+import { css, cx } from '../../../../styled-system/css';
 import ClientPage from './_components/ClientPage';
+import CallService from '../../../../src/ui/buttons/CallService';
+import { stack } from '../../../../styled-system/recipes';
 // import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
 
 export default async function BasketPage() {
@@ -22,10 +24,19 @@ export default async function BasketPage() {
       </Header> */
   }
   return (
-    <div className={css({ marginLeft: 'auto', marginRight: 'auto', maxWidth: '1024px' })}>
-      {/* <Suspense> */}
-      <ClientPage />
-      {/* </Suspense> */}
+    <div
+      className={cx(
+        stack({ rGap: 'box' }),
+        css({ marginTop: 'box.v' }),
+        css({ marginLeft: 'auto', marginRight: 'auto', maxWidth: '1024px' })
+      )}
+    >
+      <CallService />
+      <main>
+        {/* <Suspense> */}
+        <ClientPage />
+        {/* </Suspense> */}
+      </main>
     </div>
   );
 }
