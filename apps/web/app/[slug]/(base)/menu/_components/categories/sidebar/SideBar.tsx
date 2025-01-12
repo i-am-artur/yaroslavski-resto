@@ -5,7 +5,8 @@ import { css, cx } from '../../../../../../../styled-system/css';
 import { button } from '../../../../../../../styled-system/recipes';
 import { useMenuContext } from '../../context/Context';
 import NextLink from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
+import type { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
 
 export default function Sidebar() {
   const appCtx = useAppContext();
@@ -13,10 +14,7 @@ export default function Sidebar() {
   const menuCtx = useMenuContext();
   const pathname = usePathname();
   const [selectedCategories, setSelectedCategories] = useState<any[]>([]);
-  console.log(
-    '🚀 ~ file: SideBar.tsx:13 ~ selectedCategories:',
-    menuCtx?.appSearchParams?.value
-  );
+  const router = useRouter();
 
   return (
     menuCtx?.appSearchParams?.value && (
@@ -34,7 +32,8 @@ export default function Sidebar() {
           selectedCategories,
           setSelectedCategories,
           pathname,
-          menuCtx?.appSearchParams
+          menuCtx?.appSearchParams,
+          router
         )}
       </div>
     )
@@ -48,7 +47,8 @@ function parseCategories(
   selectedCategories: any[],
   setSelectedCategories: Dispatch<SetStateAction<any[]>>,
   pathname: string,
-  appSearchParams: any
+  appSearchParams: any,
+  router: AppRouterInstance
 ) {
   const subCategories = categories.filter((el) => el.parentId === parentCategoryId);
   if (subCategories.length === 0) return '';
@@ -65,11 +65,11 @@ function parseCategories(
         searchParams.delete('cat1');
         return (
           <li key={subCategory.id} style={{ paddingLeft: level * 5 }}>
-            <NextLink
-              href={(() => {
-                searchParams.set('cat1', subCategory.id);
-                return pathname + '?' + searchParams.toString();
-              })()}
+            <button
+              // href={(() => {
+              //   searchParams.set('cat1', subCategory.id);
+              //   return pathname + '?' + searchParams.toString();
+              // })()}
               className={cx(
                 button({
                   color: 'primary',
@@ -81,13 +81,20 @@ function parseCategories(
                   // whiteSpace: 'nowrap',
                 })
               )}
-              onClick={() =>
+              onClick={() => {
+                if (subCategory.parentId === null) {
+                  searchParams.set('cat1', subCategory.id);
+                  router.push(pathname + '?' + searchParams.toString());
+                } else {
+                  const element = document.getElementById('' + subCategory.id);
+                  element?.scrollIntoView({ behavior: 'smooth' });
+                }
                 setSelectedCategories((pre) =>
                   pre
                     .filter((el) => el.level < level)
                     .concat({ categoryId: subCategory.id, level: level })
-                )
-              }
+                );
+              }}
             >
               <span
                 className={cx(
@@ -98,7 +105,7 @@ function parseCategories(
               >
                 {subCategory.name['ua']}
               </span>
-            </NextLink>
+            </button>
             {selected &&
               parseCategories(
                 categories,
@@ -107,7 +114,8 @@ function parseCategories(
                 selectedCategories,
                 setSelectedCategories,
                 pathname,
-                appSearchParams
+                appSearchParams,
+                router
               )}
           </li>
         );

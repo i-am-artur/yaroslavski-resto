@@ -8,7 +8,7 @@ import {
   useEffect,
   useState,
 } from 'react';
-import { lsGetTableInfo } from '../../localStorage/table';
+import { lsDeleteTableInfo, lsGetTableInfo } from '../../localStorage/table';
 import useCategories, { Categories } from '../hooks/useCategories';
 
 export type IAppContext = {
@@ -44,7 +44,22 @@ export default function AppContext({
     // setTable(lsGetTableInfo());
 
     const onPageLoad = () => {
-      setTable(lsGetTableInfo());
+      const lsTableInfo = lsGetTableInfo();
+      if (lsTableInfo) {
+        // calculate if minutes difference from now and lsTableInfo.time is not more 210 minutes
+        const minutesMoreThanAllowed =
+          new Date().getTime() - lsTableInfo.time > 1 * 60 * 1000;
+        console.log('🚀 ~ onPageLoad ~ minutesMoreThanAllowed:', minutesMoreThanAllowed);
+
+        const hoursMoreThanAllowed =
+          new Date().getTime() - lsTableInfo.time > 24 * 60 * 60 * 1000;
+        if (minutesMoreThanAllowed) {
+          setTable(null);
+          lsDeleteTableInfo();
+        } else {
+          setTable(lsGetTableInfo());
+        }
+      }
     };
 
     if (document.readyState === 'complete') {

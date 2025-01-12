@@ -51,7 +51,12 @@ export default async function MenuPage(
           })
         )}
       >
-        <header className={cx(stack(), css({ rowGap: 'inherit' }))}>
+        <header
+          className={cx(
+            stack(),
+            css({ rowGap: 'inherit', sm: { paddingRight: 'side.h' } })
+          )}
+        >
           <div
             className={css({
               marginTop: '70px',

@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "pnpm",
+      "script": "dev",
+      "path": "apps/web",
+      "problemMatcher": [],
+      "label": "pnpm: dev - apps/web",
+      "detail": "next dev --turbopack"
+    }
+  ]
+}

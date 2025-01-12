@@ -9,6 +9,7 @@ import Categories from './_components/categories/Categories';
 import Sidebar from './_components/categories/sidebar/SideBar';
 import MenuContext from './_components/context/Context';
 import Products from './_components/products/Products';
+import Options from './_components/Options';
 
 export default async function MenuPage(
   props: Readonly<{
@@ -31,7 +32,9 @@ export default async function MenuPage(
       )}
     >
       <CartContext>
-        <Header />
+        <Header>
+          <Options />
+        </Header>
         <MenuContext>
           <main
             className={cx(

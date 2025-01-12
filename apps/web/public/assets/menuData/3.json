@@ -3,7 +3,7 @@
     "categories": [13],
     "image": {
       "thumb": "129.webp",
-      "full": ["129b.jpg"]
+      "full": ["129b.webp"]
     },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
@@ -375,7 +375,7 @@
     "categories": [14],
     "image": {
       "thumb": "141.webp",
-      "full": ["141b.jpg", "141b1.jpg", "141b2.jpg"]
+      "full": ["141b.webp", "141b1.webp", "141b2.webp"]
     },
     "name": {
       "en": "Hachapuri Adjarski with cheese",

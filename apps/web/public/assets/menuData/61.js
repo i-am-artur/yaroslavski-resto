@@ -1,7 +1,7 @@
 // TODO check for duplicates ids, price capacity, price value not same
 export const products = [
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -22,7 +22,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -43,7 +43,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -64,7 +64,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -85,7 +85,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -106,7 +106,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -127,7 +127,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -148,7 +148,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -169,7 +169,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -190,7 +190,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -211,7 +211,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -232,7 +232,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -253,7 +253,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -274,7 +274,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -295,7 +295,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -316,7 +316,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -337,7 +337,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',
@@ -358,7 +358,7 @@ export const products = [
     capacityUnit: 'g',
   },
   {
-    categories: [62],
+    categories: [66],
     image: '1.jpg',
     name: {
       en: '',

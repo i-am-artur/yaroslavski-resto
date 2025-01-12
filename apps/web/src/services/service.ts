@@ -1,9 +1,9 @@
 export const telegramMessageAPI = `${process.env.basePath}/test.php`;
-export const testTelegramMessageAPI = `http://localhost/yaroslavski/test.php`;
+export const testTelegramMessageAPI = `http://localhost/assortment/test.php`;
 
 export async function telegramMessage(message: string) {
-  //   return fetch(telegramMessageAPI, {
-  return fetch(testTelegramMessageAPI, {
+  return fetch(telegramMessageAPI, {
+    // return fetch(testTelegramMessageAPI, {
     method: 'POST',
     body: JSON.stringify({ message }),
   })

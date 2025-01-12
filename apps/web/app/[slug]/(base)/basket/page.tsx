@@ -1,29 +1,13 @@
 // 'use client';
-import CallService from '../../../../src/ui/buttons/CallService';
 import { css, cx } from '../../../../styled-system/css';
 import { stack } from '../../../../styled-system/recipes';
 import CartContext from '../_components/CartContext';
 import Header from '../_components/Header';
 import ClientPage from './_components/ClientPage';
+import Options from './_components/Options';
 // import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
 
 export default async function BasketPage() {
-  //   props: Readonly<{
-  //     params: Promise<{ slug: string }>;
-  //     children: React.ReactNode;
-  //   }>
-  //   const lang = (await props.params).slug;
-  //   const t = (await import(
-  //     `../../../../src/instances/languages/translation/qr/index/${lang}`
-  //   ).then((module) => module.default)) as QrIndexT;
-  {
-    /* <Header lang={'ua'} t={{}}>
-        <CallService />
-        <h1 className={css({ marginTop: 'box.v', fontSize: '1.3rem', fontWeight: 500 })}>
-          Замовити вибране
-        </h1>
-      </Header> */
-  }
   return (
     <div
       className={cx(
@@ -34,7 +18,7 @@ export default async function BasketPage() {
     >
       <CartContext>
         <Header>
-          <CallService />
+          <Options />
         </Header>
         <main
           className={css({

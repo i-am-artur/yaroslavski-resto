@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/yaroslavski',
+  basePath: '/assortment',
   output: 'export',
   trailingSlash: true,
   typescript: {
@@ -11,7 +11,7 @@ const nextConfig = {
     styledComponents: true,
   },
   env: {
-    basePath: '/yaroslavski',
+    basePath: '/assortment',
   },
 };
 
