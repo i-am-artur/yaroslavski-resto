@@ -47,13 +47,13 @@ export default function AppContext({
       const lsTableInfo = lsGetTableInfo();
       if (lsTableInfo) {
         // calculate if minutes difference from now and lsTableInfo.time is not more 210 minutes
-        const minutesMoreThanAllowed =
-          new Date().getTime() - lsTableInfo.time > 1 * 60 * 1000;
-        console.log('🚀 ~ onPageLoad ~ minutesMoreThanAllowed:', minutesMoreThanAllowed);
+        // const minutesMoreThanAllowed =
+        //   new Date().getTime() - lsTableInfo.time > 1 * 60 * 1000;
+        // console.log('🚀 ~ onPageLoad ~ minutesMoreThanAllowed:', minutesMoreThanAllowed);
 
         const hoursMoreThanAllowed =
           new Date().getTime() - lsTableInfo.time > 24 * 60 * 60 * 1000;
-        if (minutesMoreThanAllowed) {
+        if (hoursMoreThanAllowed) {
           setTable(null);
           lsDeleteTableInfo();
         } else {

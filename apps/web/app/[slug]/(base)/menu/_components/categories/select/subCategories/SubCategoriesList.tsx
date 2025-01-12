@@ -40,7 +40,7 @@ export default function SubCategoriesList(props: {
           css({ overflowX: 'scroll', scrollbarWidth: 'none' })
         )}
       >
-        {filteredCategories.map((el: any, i: number) => {
+        {filteredCategories.map((el: any ) => {
           return (
             <li key={el.id}>
               <button
@@ -48,26 +48,6 @@ export default function SubCategoriesList(props: {
                   props.onSelect?.(el.id);
                   setSelected(el.id);
                   setClicked((pre) => pre + 1);
-                  // const categoryEl = document.getElementById(el.id);
-                  // const categoryElTop = categoryEl?.getBoundingClientRect()?.top;
-
-                  // const categoriesSelector =
-                  //   document.getElementById('categories-selector');
-                  // const heightCategoriesSelector = categoriesSelector?.offsetHeight;
-
-                  // console.log(
-                  //   '🚀 ~ file: SubCategoriesList.tsx:39 ~ heightCategoriesSelector:',
-                  //   heightCategoriesSelector,
-                  //   categoryEl?.getBoundingClientRect()?.top,
-                  //   window.scrollY
-                  // );
-
-                  // const y =
-                  //   window.scrollY +
-                  //   (categoryElTop ?? 0) -
-                  //   (heightCategoriesSelector ?? 0);
-
-                  // window.scrollTo({ top: y, behavior: 'smooth' });
                 }}
                 className={cx(
                   button({

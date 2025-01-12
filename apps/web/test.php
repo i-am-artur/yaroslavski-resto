@@ -67,9 +67,9 @@ $token  = '6158866636:AAH0a4THJqI3r20s1UMm9PcD7ERsawA6OUo'; // change for a corr
 $post_json = file_get_contents('php://input');
 $sessionJSON = json_decode($post_json, true);
 
-echo $sessionJSON["message"];
+// echo $sessionJSON["message"];
 
 // $message = 'Вызов: Стол '.$_GET['table'];
 
-// echo YourTelegramMessageFunction($chatID, $message, $token);
+echo YourTelegramMessageFunction($chatID, $sessionJSON["message"], $token);
 ?>

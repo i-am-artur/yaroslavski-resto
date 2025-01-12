@@ -4,7 +4,6 @@ import { useAppContext } from '../../../../../../../src/app/context/AppContext';
 import { css, cx } from '../../../../../../../styled-system/css';
 import { button } from '../../../../../../../styled-system/recipes';
 import { useMenuContext } from '../../context/Context';
-import NextLink from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import type { AppRouterInstance } from 'next/dist/shared/lib/app-router-context.shared-runtime';
 

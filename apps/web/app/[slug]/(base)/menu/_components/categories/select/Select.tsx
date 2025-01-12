@@ -17,7 +17,6 @@ export default function Select({ t }: { t: MenuT }) {
   const appCtx = useAppContext();
   const menuCtx = useMenuContext();
   const [showMainCategories, setShowMainCategories] = useState(false);
-  const [yOffset, setYOffset] = useState(0);
 
   return (
     <div
