@@ -15,7 +15,16 @@ export default async function SlugLayout(
 ) {
   return (
     <html lang={(await props.params).slug} className={defaultFont.className}>
-      <body className={css({ padding: 'side.h' })}>{props.children}</body>
+      <body
+        className={css({
+          padding: ' {spacing.side.h}  {spacing.side.h} 0 {spacing.side.h}',
+          sm: {
+            paddingRight: 0,
+          },
+        })}
+      >
+        {props.children}
+      </body>
     </html>
   );
 }

@@ -1,9 +1,9 @@
 'use client';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { useEffect, useLayoutEffect } from 'react';
-import { useAppContextDispatch } from '../../../src/app/context/AppContext';
-import { lsDeleteTableInfo, lsSaveTableInfo } from '../../../src/localStorage/table';
+import { useEffect } from 'react';
 import tables from '../../../public/assets/tables.json';
+import { useAppContextDispatch } from '../../../src/app/context/AppContext';
+import { lsSaveTableInfo } from '../../../src/localStorage/table';
 
 export default function ClientPage() {
   // lsDeleteTableInfo();

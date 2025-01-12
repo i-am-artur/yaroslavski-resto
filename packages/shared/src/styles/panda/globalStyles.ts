@@ -4,7 +4,7 @@ export const globalCss = defineGlobalStyles({
   'html, body': {
     maxWidth: '100vw',
     scrollBehavior: 'smooth',
-    marginBottom: '50px',
+    // marginBottom: '50px',
 
     // maxWidth: '1024px',
     // overflowX: 'hidden',

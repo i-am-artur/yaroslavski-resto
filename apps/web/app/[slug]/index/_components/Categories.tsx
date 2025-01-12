@@ -1,6 +1,6 @@
 'use client';
 import { useAppContext } from '../../../../src/app/context/AppContext';
-import { css, cx } from '../../../../styled-system/css';
+import { cx } from '../../../../styled-system/css';
 import { card, stack } from '../../../../styled-system/recipes';
 import Category from './Category';
 

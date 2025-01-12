@@ -25,7 +25,7 @@ export default function Order(props: { onOrder: (error?: any) => void }) {
       <button
         onClick={() => {
           const message = cart.cartItems.reduce(
-            (acc, curr, i) => {
+            (acc, curr) => {
               if (curr.quantity === 0) return acc;
               return {
                 value:
@@ -50,11 +50,11 @@ export default function Order(props: { onOrder: (error?: any) => void }) {
               '\n' +
               `Загальна сума: ${total} грн.`
           )
-            .then((res) => {
+            .then(() => {
               cartDispatch.setCartItems([]);
               props.onOrder();
             })
-            .catch((err) => setOrderError(true));
+            .catch(() => setOrderError(true));
         }}
         className={cx(
           button({ variant: 'solid', color: 'primary' }),

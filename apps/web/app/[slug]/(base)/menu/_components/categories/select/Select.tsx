@@ -1,13 +1,13 @@
 'use client';
 import dynamic from 'next/dynamic';
-import { useLayoutEffect, useState } from 'react';
+import { useState } from 'react';
 import { useAppContext } from '../../../../../../../src/app/context/AppContext';
 import { MenuT } from '../../../../../../../src/languages/translation/app/menu/ua';
 import { css, cx } from '../../../../../../../styled-system/css';
-import Categories from './Categories';
-import { useMenuContext } from '../../context/Context';
-import SubCategories from './subCategories/SubCategories';
 import { stack } from '../../../../../../../styled-system/recipes';
+import { useMenuContext } from '../../context/Context';
+import Categories from './Categories';
+import SubCategories from './subCategories/SubCategories';
 
 const SelectMainCategories = dynamic(
   () => import('./mainCategories/SelectMainCategories')
@@ -28,11 +28,11 @@ export default function Select({ t }: { t: MenuT }) {
           padding: '{spacing.side.v} 0',
           // top: '-1',
           // position: 'sticky',
-          //   backgroundColor: 'white',
+          backgroundColor: 'white',
           //   // zIndex: '5',
-          sm: {
-            display: 'none',
-          },
+          // sm: {
+          // display: 'none',
+          // },
         })
       )}
     >

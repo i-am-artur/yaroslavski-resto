@@ -23,8 +23,8 @@ export default function Sidebar() {
       <div
         className={css({
           display: 'none',
-          // position: 'sticky',
-          sm: { display: 'block' },
+          // position: 'fixed',
+          sm: { display: 'block', maxWidth: '200px' },
         })}
       >
         {parseCategories(
@@ -78,7 +78,7 @@ function parseCategories(
                 css({
                   textAlign: 'start',
                   fontWeight: level === 0 ? 'bold' : 'normal',
-                  whiteSpace: 'nowrap',
+                  // whiteSpace: 'nowrap',
                 })
               )}
               onClick={() =>

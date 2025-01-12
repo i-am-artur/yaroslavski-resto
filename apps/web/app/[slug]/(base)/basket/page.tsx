@@ -1,11 +1,10 @@
 // 'use client';
-import { Suspense } from 'react';
-import { css, cx } from '../../../../styled-system/css';
-import ClientPage from './_components/ClientPage';
 import CallService from '../../../../src/ui/buttons/CallService';
+import { css, cx } from '../../../../styled-system/css';
 import { stack } from '../../../../styled-system/recipes';
-import Header from '../_components/Header';
 import CartContext from '../_components/CartContext';
+import Header from '../_components/Header';
+import ClientPage from './_components/ClientPage';
 // import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
 
 export default async function BasketPage() {

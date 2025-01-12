@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useLayoutEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useMenuContext } from '../../../context/Context';
 import SubCategoriesList from './SubCategoriesList';
 
@@ -18,19 +18,7 @@ export default function SubCategories() {
 
   useEffect(() => {
     setSelectedSubCategories({ cat2: null, cat3: null, cat4: null });
-
-    //   const yOffset = 0;
   }, [menuCtx?.appSearchParams?.cat1]);
-
-  // useLayoutEffect(() => {
-  //   const yOffset = 0;
-  //   const y =
-  //     (document.getElementById('categories-selector')?.getBoundingClientRect()?.top ??
-  //       0) +
-  //     window.scrollY +
-  //     yOffset;
-  //   window.scrollTo({ top: y, behavior: 'smooth' });
-  // }, [selectedSubCategories]);
 
   return (
     <>

@@ -1,6 +1,5 @@
 'use client';
 
-import { useSearchParams } from 'next/navigation';
 import {
   createContext,
   Dispatch,
@@ -9,7 +8,7 @@ import {
   useEffect,
   useState,
 } from 'react';
-import { lsGetTableInfo, lsTableKey } from '../../localStorage/table';
+import { lsGetTableInfo } from '../../localStorage/table';
 import useCategories, { Categories } from '../hooks/useCategories';
 
 export type IAppContext = {

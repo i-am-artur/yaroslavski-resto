@@ -16,7 +16,7 @@ export default function Products({ cartItems }: { cartItems: any[] }) {
           rowGap: 'unit.v',
         })}
       >
-        {cartItems.map((item, i) => {
+        {cartItems.map((item) => {
           return (
             <Product item={item} key={item.name.ua + item.selectedPrice} lang='ua' />
           );

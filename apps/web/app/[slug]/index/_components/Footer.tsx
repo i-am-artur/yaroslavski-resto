@@ -1,7 +1,7 @@
 import { IndexT } from '../../../../src/languages/translation/app/index/ua';
 import { css } from '../../../../styled-system/css';
 import { cx } from '../../../../styled-system/css/cx';
-import { card, stack } from '../../../../styled-system/recipes';
+import { stack } from '../../../../styled-system/recipes';
 
 const s = {
   contacts: {

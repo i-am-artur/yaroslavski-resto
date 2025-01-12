@@ -72,6 +72,7 @@ export default async function MenuPage(
             stack({ cGap: 'box' }),
             css({
               rowGap: 'inherit',
+              paddingBottom: '50px',
               sm: { flexDirection: 'row', flex: '1 1 50%' },
             })
           )}

@@ -1,11 +1,10 @@
 'use client';
-import { Suspense } from 'react';
+import { MenuT } from '../../../../../../../../src/languages/translation/app/menu/ua';
 import CloseIconButton from '../../../../../../../../src/ui/buttons/CloseIconButton';
 import Modal from '../../../../../../../../src/ui/modals/Modal';
 import { css, cx } from '../../../../../../../../styled-system/css';
 import s from './index.module.css';
 import MainCategories from './MainCategories';
-import { MenuT } from '../../../../../../../../src/languages/translation/app/menu/ua';
 
 export default function SelectMainCategories(props: {
   open: boolean;

@@ -1,19 +1,17 @@
 'use client';
 // import { useSearchParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
-import { useAppContext } from '../../../../../../src/app/context/AppContext';
-import { useMenuContext, useMenuContextDispatch } from '../context/Context';
-import Product from './_product/Product';
 import { css } from '../../../../../../styled-system/css';
+import { useMenuContext } from '../context/Context';
+import Product from './_product/Product';
 
 export default function Products() {
   // const searchParams = useSearchParams();
   const menuCtx = useMenuContext();
-  const appCtx = useAppContext();
-  const menuCtxDispatch = useMenuContextDispatch();
-  const categories = appCtx?.categories.value ?? [];
-  const [structuredData, setStructuredData] = useState<any[]>([]);
-  const cat1 = menuCtx?.appSearchParams?.cat1;
+  // const appCtx = useAppContext();
+  // const menuCtxDispatch = useMenuContextDispatch();
+  // const categories = appCtx?.categories.value ?? [];
+  // const [structuredData, setStructuredData] = useState<any[]>([]);
+  // const cat1 = menuCtx?.appSearchParams?.cat1;
 
   // const cat1 = (() => {
   //   const cat1Param = searchParams.get('cat1') ?? '2';
@@ -35,8 +33,14 @@ export default function Products() {
   //   })();
   // }, [cat1, categories]);
 
-  return menuCtx?.structuredData?.length > 0 ? (
-    <div className={css({ width: '100%' })}>
+  return menuCtx?.structuredData && menuCtx?.structuredData?.length > 0 ? (
+    <div
+      className={css({
+        paddingBottom: '40px',
+        width: '100%',
+        sm: { paddingRight: 'side.h', overflowY: 'scroll', height: '87vh' },
+      })}
+    >
       {parseCategoriesAndProducts(menuCtx?.structuredData ?? [])}
     </div>
   ) : (
@@ -49,7 +53,7 @@ function parseCategoriesAndProducts(structuredData: any[]) {
 
   return (
     <ul>
-      {structuredData.map((data, i) => {
+      {structuredData.map((data) => {
         return (
           <li
             id={data.category.id}

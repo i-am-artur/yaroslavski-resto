@@ -2,13 +2,12 @@
 import { faUtensils } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import dynamic from 'next/dynamic';
+import { usePathname } from 'next/navigation';
 import { Fragment, useState } from 'react';
+import { useAppContext } from '../../../../../../../src/app/context/AppContext';
+import { capacityUnit } from '../../../../../../../src/product/utils';
 import { css, cx } from '../../../../../../../styled-system/css';
 import { button, stack } from '../../../../../../../styled-system/recipes';
-import { usePathname } from 'next/navigation';
-import { capacityUnit } from '../../../../../../../src/product/utils';
-import { useAppContext } from '../../../../../../../src/app/context/AppContext';
-import { faBasketShopping } from '@fortawesome/free-solid-svg-icons/faBasketShopping';
 import { useCartDispatch } from '../../../../_components/CartContext';
 
 const AddedOrder = dynamic(() => import('./AddedOrder'));
