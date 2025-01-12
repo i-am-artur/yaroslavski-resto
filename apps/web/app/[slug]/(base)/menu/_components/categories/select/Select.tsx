@@ -27,9 +27,9 @@ export default function Select({ t }: { t: MenuT }) {
         css({
           padding: '{spacing.side.v} 0',
           top: '-1',
-          position: 'sticky',
+          // position: 'sticky',
           backgroundColor: 'white',
-          zIndex: '5',
+          // zIndex: '5',
           sm: {
             display: 'none',
           },

@@ -13,20 +13,25 @@ export default function Sidebar() {
   const menuCtx = useMenuContext();
   const pathname = usePathname();
   const [selectedCategories, setSelectedCategories] = useState<any[]>([]);
-  console.log('🚀 ~ file: SideBar.tsx:13 ~ selectedCategories:', selectedCategories);
+  console.log(
+    '🚀 ~ file: SideBar.tsx:13 ~ selectedCategories:',
+    menuCtx?.appSearchParams?.value
+  );
 
   return (
-    <div className={css({ display: 'none', sm: { display: 'block' } })}>
-      {parseCategories(
-        categories,
-        null,
-        0,
-        selectedCategories,
-        setSelectedCategories,
-        pathname,
-        menuCtx?.appSearchParams
-      )}
-    </div>
+    menuCtx?.appSearchParams?.value && (
+      <div className={css({ display: 'none', sm: { display: 'block' } })}>
+        {parseCategories(
+          categories,
+          null,
+          0,
+          selectedCategories,
+          setSelectedCategories,
+          pathname,
+          menuCtx?.appSearchParams
+        )}
+      </div>
+    )
   );
 }
 
@@ -49,7 +54,7 @@ function parseCategories(
           (el) => el.categoryId === subCategory.id
         );
         const searchParams = new URLSearchParams(
-          Array.from(appSearchParams?.value.entries() as URLSearchParams)
+          Array.from(appSearchParams?.value?.entries() as URLSearchParams)
         );
         searchParams.delete('cat1');
         return (
@@ -67,12 +72,13 @@ function parseCategories(
                 css({
                   textAlign: 'start',
                   fontWeight: level === 0 ? 'bold' : 'normal',
+                  whiteSpace: 'nowrap',
                 })
               )}
               onClick={() =>
                 setSelectedCategories((pre) =>
                   pre
-                    .filter((el) => el.level !== level)
+                    .filter((el) => el.level < level)
                     .concat({ categoryId: subCategory.id, level: level })
                 )
               }
