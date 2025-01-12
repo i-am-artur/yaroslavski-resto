@@ -12,7 +12,7 @@ export default function Header({ children }: { children: ReactNode }) {
         stack({ dir: 'column' }),
         css({
           justifyContent: 'space-between',
-          sm: { flexDirection: 'row', alignItems: 'flex-end' },
+          sm: { flexDirection: 'row', alignItems: 'flex-end', position: 'fixed' },
         })
       )}
     >

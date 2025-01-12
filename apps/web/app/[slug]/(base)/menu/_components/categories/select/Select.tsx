@@ -26,10 +26,10 @@ export default function Select({ t }: { t: MenuT }) {
         stack({ rGap: 'unit' }),
         css({
           padding: '{spacing.side.v} 0',
-          top: '-1',
+          // top: '-1',
           // position: 'sticky',
-          backgroundColor: 'white',
-          // zIndex: '5',
+          //   backgroundColor: 'white',
+          //   // zIndex: '5',
           sm: {
             display: 'none',
           },

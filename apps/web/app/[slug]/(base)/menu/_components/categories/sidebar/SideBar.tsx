@@ -20,7 +20,13 @@ export default function Sidebar() {
 
   return (
     menuCtx?.appSearchParams?.value && (
-      <div className={css({ display: 'none', sm: { display: 'block' } })}>
+      <div
+        className={css({
+          display: 'none',
+          // position: 'sticky',
+          sm: { display: 'block' },
+        })}
+      >
         {parseCategories(
           categories,
           null,

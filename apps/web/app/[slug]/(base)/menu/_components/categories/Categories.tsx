@@ -11,16 +11,25 @@ import Sidebar from './sidebar/SideBar';
 export default function Categories({ t }: { t: MenuT }) {
   return (
     <nav
-    // className={css({
-    //   padding: '{spacing.side.v} 0',
-    //   top: '-1',
-    //   position: 'sticky',
-    //   backgroundColor: 'white',
-    //   zIndex: '5',
-    //   sm: {
-    //     display: 'none',
-    //   },
-    // })}
+      className={css({
+        // padding: '{spacing.side.v} 0',
+        top: '-1',
+        position: 'sticky',
+        // backgroundColor: 'white',
+        zIndex: '5',
+        // '& > div': { position: 'fixed' },
+
+        sm: {
+          position: 'relative',
+          top: '80',
+
+          // display: 'none',
+          '& div:nth-child(2)': {
+            position: 'sticky',
+            top: '80',
+          },
+        },
+      })}
     >
       <Select t={t} />
       <Sidebar />
