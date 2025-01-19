@@ -1,37 +1,36 @@
 'use client';
-import { faBell } from '@fortawesome/free-solid-svg-icons';
+import { faBell, faHourglassStart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useAppContext } from '../../app/context/AppContext';
 import { telegramMessage } from '../../services/service';
 import { css, cx } from '../../../styled-system/css';
 import { button } from '../../../styled-system/recipes';
+import { useRef, useState } from 'react';
 
 // TODO: add English to button
 
 export default function CallService() {
   const appCtx = useAppContext();
+  const [isCallServiceEnabled, setIsCallServiceEnabled] = useState(true);
 
   return (
     appCtx?.table?.id && (
       <button
+        disabled={!isCallServiceEnabled}
         onClick={() => {
+          setIsCallServiceEnabled(false);
           telegramMessage(`Вызов: Стол ${appCtx?.table?.name}`);
+
+          setTimeout(() => {
+            setIsCallServiceEnabled(true);
+          }, 5000);
         }}
         className={cx(
           button({
             variant: 'solid',
-            color: 'primary',
+            color: isCallServiceEnabled ? 'primary' : 'secondary',
           }),
           css({
-            // display: 'flex',
-            // columnGap: 'unit.v',
-            // flexBasis: '1',
-            // maxHeight: '34px',
-            // alignItems: 'center',
-            // lineHeight: '1rem',
-            // flexBasis: '1',
-            // flex: 1,
-            // justifyContent: 'center',
             width: '100%',
 
             sm: {
@@ -43,6 +42,7 @@ export default function CallService() {
       >
         <FontAwesomeIcon icon={faBell} />
         Виклик Офіціанта
+        {!isCallServiceEnabled && <FontAwesomeIcon icon={faHourglassStart} spin={true} />}
       </button>
     )
   );
