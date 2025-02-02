@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import tables from '../../../public/assets/tables.json';
 import { useAppContextDispatch } from '../../../src/app/context/AppContext';
 import { lsSaveTableInfo } from '../../../src/localStorage/table';
+import { lsSaveIsDeliveryInfo } from '../../../src/localStorage/isDelivery';
 
 export default function ClientPage() {
   // lsDeleteTableInfo();
@@ -18,16 +19,13 @@ export default function ClientPage() {
 
   const tableName = tables.find((t: any) => t.id === tableId)?.name;
 
+  const isDelivery = (() => {
+    const searchParamIsDelivery = searchParams.get('isDelivery');
+    const isDeliveryInt = parseInt(searchParamIsDelivery ?? '');
+    return isNaN(isDeliveryInt) ? false : true;
+  })();
+
   useEffect(() => {
-    // if (!!tableName && !!tableId) {
-    // const table = {
-    //   id: tableId,
-    //   name: tableName,
-    //   time: new Date().getTime(),
-    // };
-    // appCtxDispatch?.setTable(table);
-    // lsSaveTableInfo(table);
-    // }
     const table =
       !!tableName && !!tableId
         ? {
@@ -37,15 +35,12 @@ export default function ClientPage() {
           }
         : null;
     appCtxDispatch?.setTable(table);
+    appCtxDispatch?.setDelivery({ isDelivery, time: new Date().getTime() });
+
     lsSaveTableInfo(table);
-    // }
+    lsSaveIsDeliveryInfo({ isDelivery });
 
-    // else {
-    //   lsDeleteTableInfo();
-    // }
-
-    router.replace(`/ua/index`);
-    // setTimeout(() => router.replace(`/ua/index`), 1000);
+    router.replace(`/ua/categories`);
   }, [tableId]);
 
   return <p></p>;

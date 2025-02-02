@@ -82,6 +82,12 @@
           "capacity": 150,
           "value": 100
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
       ]
     },
     "capacityUnit": "g"
@@ -106,6 +112,12 @@
           "capacity": 150,
           "value": 100
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
       ]
     },
     "capacityUnit": "g"
@@ -126,6 +138,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 150,
+          "value": 120
+        }
+      ],
+      "delivery": [
         {
           "capacity": 150,
           "value": 120
@@ -196,6 +214,12 @@
           "capacity": 150,
           "value": 100
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
       ]
     },
     "capacityUnit": "g"
@@ -216,6 +240,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 150,
+          "value": 120
+        }
+      ],
+      "delivery": [
         {
           "capacity": 150,
           "value": 120
@@ -244,6 +274,12 @@
           "capacity": 150,
           "value": 120
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 120
+        }
       ]
     },
     "capacityUnit": "g"
@@ -264,6 +300,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ],
+      "delivery": [
         {
           "capacity": 150,
           "value": 100
@@ -292,6 +334,12 @@
           "capacity": 150,
           "value": 120
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 120
+        }
       ]
     },
     "capacityUnit": "g"
@@ -312,6 +360,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ],
+      "delivery": [
         {
           "capacity": 150,
           "value": 100
@@ -340,13 +394,22 @@
           "capacity": 150,
           "value": 100
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
       ]
     },
     "capacityUnit": "g"
   },
   {
     "categories": [66],
-    "image": "1.jpg",
+    "image": {
+      "thumb": "156.webp",
+      "full": ["156b.webp"]
+    },
     "name": {
       "en": "",
       "ua": "Торт маковий з Ірискою"
@@ -357,6 +420,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ],
+      "delivery": [
         {
           "capacity": 150,
           "value": 100
@@ -385,6 +454,12 @@
           "capacity": 150,
           "value": 100
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
       ]
     },
     "capacityUnit": "g"
@@ -405,6 +480,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 1,
+          "value": 60
+        }
+      ],
+      "delivery": [
         {
           "capacity": 1,
           "value": 60

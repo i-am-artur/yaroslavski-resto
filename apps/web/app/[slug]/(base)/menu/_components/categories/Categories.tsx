@@ -9,6 +9,7 @@ export default function Categories({ t }: { t: MenuT }) {
       className={css({
         top: '-1',
         position: 'sticky',
+        zIndex: '5',
         sm: {
           display: 'none',
         },

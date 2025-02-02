@@ -9,7 +9,13 @@ export default function Quantity({ value }: { value: any }) {
     <input
       readOnly
       size={1}
-      className={css({ width: '35px', fontSize: '1.26rem', textAlign: 'center' })}
+      placeholder='quantity'
+      className={css({
+        width: '35px',
+        fontSize: '1.26rem',
+        padding: 'initial',
+        textAlign: 'center',
+      })}
       value={value}
     />
   );

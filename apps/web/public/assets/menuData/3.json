@@ -19,6 +19,12 @@
           "capacity": 300,
           "value": 200
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 200
+        }
       ]
     },
     "capacityUnit": "g"
@@ -39,6 +45,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 300,
+          "value": 220
+        }
+      ],
+      "delivery": [
         {
           "capacity": 300,
           "value": 220
@@ -67,13 +79,22 @@
           "capacity": 200,
           "value": 150
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 150
+        }
       ]
     },
     "capacityUnit": "g"
   },
   {
     "categories": [13],
-    "image": null,
+    "image": {
+      "thumb": "155.webp",
+      "full": ["155b1.webp"]
+    },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
       "ua": "Зелений салат"
@@ -84,6 +105,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 200,
+          "value": 120
+        }
+      ],
+      "delivery": [
         {
           "capacity": 200,
           "value": 120
@@ -133,6 +160,12 @@
           "capacity": 300,
           "value": 350
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 350
+        }
       ]
     },
     "capacityUnit": "g"
@@ -157,6 +190,12 @@
           "capacity": 250,
           "value": 400
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 250,
+          "value": 400
+        }
       ]
     },
     "capacityUnit": "g"
@@ -177,6 +216,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 250,
+          "value": 400
+        }
+      ],
+      "delivery": [
         {
           "capacity": 250,
           "value": 400
@@ -226,6 +271,12 @@
           "capacity": 300,
           "value": 450
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 450
+        }
       ]
     },
     "capacityUnit": "g"
@@ -246,6 +297,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 300,
+          "value": 250
+        }
+      ],
+      "delivery": [
         {
           "capacity": 300,
           "value": 250
@@ -295,6 +352,12 @@
           "capacity": 300,
           "value": 250
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 250
+        }
       ]
     },
     "capacityUnit": "g"
@@ -319,6 +382,12 @@
           "capacity": 300,
           "value": 350
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 350
+        }
       ]
     },
     "capacityUnit": "g"
@@ -327,7 +396,7 @@
     "categories": [14],
     "image": {
       "thumb": "139.webp",
-      "full": ["139b.webp", "13b1.webp", "13b2.webp", "13b3.webp"]
+      "full": ["139b.webp", "139b1.webp", "139b2.webp", "139b3.webp"]
     },
     "name": {
       "en": "",
@@ -339,6 +408,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 350,
+          "value": 400
+        }
+      ],
+      "delivery": [
         {
           "capacity": 350,
           "value": 400
@@ -367,6 +442,12 @@
           "capacity": 200,
           "value": 170
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 170
+        }
       ]
     },
     "capacityUnit": "g"
@@ -387,6 +468,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 300,
+          "value": 300
+        }
+      ],
+      "delivery": [
         {
           "capacity": 300,
           "value": 300

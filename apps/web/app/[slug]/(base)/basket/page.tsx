@@ -12,7 +12,7 @@ export default async function BasketPage() {
     <div
       className={cx(
         stack({ rGap: 'box' }),
-        css({ marginTop: 'box.v' }),
+        css({ marginTop: 'box.v', marginBottom: '75px' }),
         css({ marginLeft: 'auto', marginRight: 'auto', maxWidth: '1024px' })
       )}
     >

@@ -1,8 +1,8 @@
 // 'use client';
 import { Fragment } from 'react';
+import Options from '../(base)/menu/_components/Options';
 import Logo from '../../../src/app/logo/Logo';
 import { IndexT } from '../../../src/languages/translation/app/index/ua';
-import CallService from '../../../src/ui/buttons/CallService';
 import { css, cx } from '../../../styled-system/css';
 import { stack } from '../../../styled-system/recipes';
 import Categories from './_components/Categories';
@@ -70,7 +70,7 @@ export default async function MenuPage(
             <h1 className={css({ fontSize: '1.3rem', fontWeight: 500 })}>{t.name}</h1>
             <address>{t.address}</address>
           </div>
-          <CallService />
+          <Options />
         </header>
         <div
           className={cx(

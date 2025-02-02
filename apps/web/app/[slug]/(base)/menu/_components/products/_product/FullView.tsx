@@ -10,24 +10,6 @@ export default function FullView(props: {
   product: any;
   lang: string;
 }) {
-  // props.onClose && useCloseModalOnHistoryPop({ action: props.onClose });
-  // console.log('🚀 ~ file: FullView.tsx:24 ~ pathname:', location);
-
-  // useEffect(() => {
-  //   window.history.pushState(null, document.title, window.location.href);
-
-  //   const handlePopState = (event) => {
-  //     window.history.pushState(null, document.title, window.location.href);
-  //     props.onClose?.();
-  //   };
-
-  //   window.addEventListener('popstate', handlePopState);
-
-  //   return () => {
-  //     window.removeEventListener('popstate', handlePopState);
-  //   };
-  // }, [router]);
-
   return (
     <Modal open={props.open} onClose={props.onClose}>
       <div

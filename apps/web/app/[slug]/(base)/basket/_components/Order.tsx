@@ -8,22 +8,59 @@ import { usePathname } from 'next/navigation';
 import { telegramMessage } from '../../../../../src/services/service';
 import { Fragment, useState } from 'react';
 import dynamic from 'next/dynamic';
+import { ClientContactsType, defaultContactError } from './ClientPage';
 
 const OrderError = dynamic(() => import('./OrderError'));
 
 // import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
 
-export default function Order(props: { onOrder: (error?: any) => void }) {
+export default function Order(props: {
+  onOrder: (error?: any) => void;
+  onContactError: (errors: any) => void;
+  clientContacts: ClientContactsType;
+}) {
   const cart = useCart();
   const cartDispatch = useCartDispatch();
   const appCtx = useAppContext();
   const lang = usePathname().split('/')[1] ?? 'ua';
   const [orderError, setOrderError] = useState(false);
 
+  const clientContacts = (() => {
+    if (appCtx?.delivery?.isDelivery) {
+      return (
+        `\nИм'я: ${props.clientContacts.name}` +
+        `\n Адреса: ${props.clientContacts.address}` +
+        `\n Номер телефону: ${props.clientContacts.phone}` +
+        `\n Email: ${props.clientContacts.email}` +
+        `\n Коментар: ${props.clientContacts.comment}`
+      );
+    }
+
+    return '';
+  })();
+
   return (
     <Fragment>
       <button
         onClick={() => {
+          props.onContactError(defaultContactError);
+          if (appCtx?.delivery?.isDelivery) {
+            if (
+              props.clientContacts.name === '' ||
+              props.clientContacts.address === '' ||
+              props.clientContacts.phone === '' ||
+              props.clientContacts.email === ''
+            ) {
+              props.onContactError({
+                name: props.clientContacts.name === '',
+                address: props.clientContacts.address === '',
+                phone: props.clientContacts.phone === '',
+                email: props.clientContacts.email === '',
+              });
+              return;
+            }
+          }
+
           const message = cart.cartItems.reduce(
             (acc, curr) => {
               if (curr.quantity === 0) return acc;
@@ -41,14 +78,21 @@ export default function Order(props: { onOrder: (error?: any) => void }) {
             0
           );
           telegramMessage(
-            'Заказ: Стол ' +
-              appCtx?.table?.name +
-              ' (' +
-              new Date().toLocaleString() +
-              ')\n' +
+            'Заказ ' +
+              (() => {
+                if (appCtx?.delivery?.isDelivery) return 'доставка. ';
+
+                return `: Стол ${appCtx?.table?.name}`;
+              })() +
+              (() => {
+                const orderDate = new Date();
+                const date = orderDate.toLocaleDateString('en-GB');
+                const time = orderDate.toLocaleTimeString('en-GB');
+                return '(' + date + ' ' + time + ')\n';
+              })() +
               message.value +
-              '\n' +
-              `Загальна сума: ${total} грн.`
+              `\nЗагальна сума: ${total} грн.\n` +
+              clientContacts
           )
             .then(() => {
               cartDispatch.setCartItems([]);

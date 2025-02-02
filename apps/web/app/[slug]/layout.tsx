@@ -1,5 +1,6 @@
 import { defaultFont } from '@repo/shared/src/styles/js/vars/font';
 import { css } from '../../styled-system/css';
+import CartContext from './(base)/_components/CartContext';
 
 export async function generateStaticParams() {
   return ['ua', 'en'].map((lang) => ({
@@ -23,7 +24,7 @@ export default async function SlugLayout(
           },
         })}
       >
-        {props.children}
+        <CartContext>{props.children}</CartContext>
       </body>
     </html>
   );

@@ -11,6 +11,7 @@ import { useRef, useState } from 'react';
 
 export default function CallService() {
   const appCtx = useAppContext();
+  console.log('🚀 ~ CallService ~ appCtx:', appCtx);
   const [isCallServiceEnabled, setIsCallServiceEnabled] = useState(true);
 
   return (

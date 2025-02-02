@@ -43,6 +43,12 @@
           "capacity": 100,
           "value": 70
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -63,6 +69,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 100,
+          "value": 50
+        }
+      ],
+      "delivery": [
         {
           "capacity": 100,
           "value": 50
@@ -88,6 +100,12 @@
           "capacity": 100,
           "value": 40
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 40
+        }
       ]
     },
     "capacityUnit": "g"
@@ -105,6 +123,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 100,
+          "value": 40
+        }
+      ],
+      "delivery": [
         {
           "capacity": 100,
           "value": 40
@@ -133,6 +157,12 @@
           "capacity": 100,
           "value": 50
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 50
+        }
       ]
     },
     "capacityUnit": "g"
@@ -153,6 +183,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 100,
+          "value": 80
+        }
+      ],
+      "delivery": [
         {
           "capacity": 100,
           "value": 80
@@ -181,6 +217,12 @@
           "capacity": 200,
           "value": 70
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 35
+        }
       ]
     },
     "capacityUnit": "g"
@@ -201,6 +243,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 1,
+          "value": 50
+        }
+      ],
+      "delivery": [
         {
           "capacity": 1,
           "value": 50
@@ -229,6 +277,12 @@
           "capacity": 2,
           "value": 70
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 1,
+          "value": 35
+        }
       ]
     },
     "capacityUnit": "qty"
@@ -246,6 +300,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 1000,
+          "value": 600
+        }
+      ],
+      "delivery": [
         {
           "capacity": 1000,
           "value": 600
@@ -274,6 +334,12 @@
           "capacity": 200,
           "value": 550
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 180
+        }
       ]
     },
     "capacityUnit": "g"
@@ -297,6 +363,12 @@
         {
           "capacity": 100,
           "value": 300
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 200
         }
       ]
     },
@@ -322,6 +394,12 @@
           "capacity": 150,
           "value": 600
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 300
+        }
       ]
     },
     "capacityUnit": "g"
@@ -345,6 +423,12 @@
         {
           "capacity": 150,
           "value": 200
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 150
         }
       ]
     },
@@ -370,6 +454,12 @@
           "capacity": 400,
           "value": 300
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 80
+        }
       ]
     },
     "capacityUnit": "g"
@@ -394,6 +484,12 @@
           "capacity": 250,
           "value": 200
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 60
+        }
       ]
     },
     "capacityUnit": "g"
@@ -414,6 +510,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 1000,
+          "value": 1500
+        }
+      ],
+      "delivery": [
         {
           "capacity": 1000,
           "value": 1500
@@ -442,6 +544,12 @@
           "capacity": 300,
           "value": 270
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 80
+        }
       ]
     },
     "capacityUnit": "g"
@@ -465,6 +573,12 @@
         {
           "capacity": 200,
           "value": 200
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
         }
       ]
     },
@@ -490,6 +604,12 @@
           "capacity": 250,
           "value": 220
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -513,6 +633,12 @@
         {
           "capacity": 250,
           "value": 220
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 65
         }
       ]
     },
@@ -601,6 +727,12 @@
           "capacity": 200,
           "value": 120
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 50
+        }
       ]
     },
     "capacityUnit": "g"
@@ -625,6 +757,12 @@
           "capacity": 300,
           "value": 100
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 35
+        }
       ]
     },
     "capacityUnit": "g"
@@ -648,6 +786,12 @@
         {
           "capacity": 300,
           "value": 120
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 40
         }
       ]
     },
@@ -694,6 +838,12 @@
           "capacity": 200,
           "value": 140
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 60
+        }
       ]
     },
     "capacityUnit": "g"
@@ -717,6 +867,12 @@
         {
           "capacity": 200,
           "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
         }
       ]
     },
@@ -742,6 +898,12 @@
           "capacity": 250,
           "value": 300
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 100
+        }
       ]
     },
     "capacityUnit": "g"
@@ -765,6 +927,12 @@
         {
           "capacity": 300,
           "value": 350
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 80
         }
       ]
     },
@@ -790,6 +958,12 @@
           "capacity": 200,
           "value": 170
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -813,6 +987,12 @@
         {
           "capacity": 200,
           "value": 180
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
         }
       ]
     },
@@ -838,6 +1018,12 @@
           "capacity": 200,
           "value": 170
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -858,6 +1044,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 1000,
+          "value": 900
+        }
+      ],
+      "delivery": [
         {
           "capacity": 1000,
           "value": 900
@@ -886,10 +1078,17 @@
           "capacity": 1000,
           "value": 700
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 1000,
+          "value": 700
+        }
       ]
     },
     "capacityUnit": "g"
   },
+
   {
     "categories": [64],
     "image": {
@@ -906,6 +1105,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 50,
+          "value": 90
+        }
+      ],
+      "delivery": [
         {
           "capacity": 50,
           "value": 90
@@ -927,6 +1132,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 50,
+          "value": 90
+        }
+      ],
+      "delivery": [
         {
           "capacity": 50,
           "value": 90
@@ -955,6 +1166,12 @@
           "capacity": 50,
           "value": 90
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 50,
+          "value": 90
+        }
       ]
     },
     "capacityUnit": "g"
@@ -975,6 +1192,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ],
+      "delivery": [
         {
           "capacity": 50,
           "value": 70
@@ -1003,6 +1226,12 @@
           "capacity": 50,
           "value": 70
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -1023,6 +1252,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ],
+      "delivery": [
         {
           "capacity": 50,
           "value": 70
@@ -1051,6 +1286,12 @@
           "capacity": 50,
           "value": 70
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -1071,6 +1312,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
+      ],
+      "delivery": [
         {
           "capacity": 50,
           "value": 70
@@ -1099,6 +1346,12 @@
           "capacity": 50,
           "value": 70
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 50,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -1119,6 +1372,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ],
+      "delivery": [
         {
           "capacity": 50,
           "value": 60
@@ -1147,6 +1406,12 @@
           "capacity": 50,
           "value": 60
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
       ]
     },
     "capacityUnit": "g"
@@ -1167,6 +1432,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
+      ],
+      "delivery": [
         {
           "capacity": 50,
           "value": 60
@@ -1195,6 +1466,12 @@
           "capacity": 50,
           "value": 60
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 50,
+          "value": 60
+        }
       ]
     },
     "capacityUnit": "g"
@@ -1219,6 +1496,12 @@
           "capacity": 50,
           "value": 50
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 50,
+          "value": 50
+        }
       ]
     },
     "capacityUnit": "g"
@@ -1239,6 +1522,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 50,
+          "value": 50
+        }
+      ],
+      "delivery": [
         {
           "capacity": 50,
           "value": 50

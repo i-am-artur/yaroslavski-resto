@@ -19,6 +19,12 @@
           "capacity": 300,
           "value": 150
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
       ]
     },
     "capacityUnit": "g"
@@ -39,6 +45,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
         {
           "capacity": 300,
           "value": 150
@@ -67,6 +79,12 @@
           "capacity": 300,
           "value": 150
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
       ]
     },
     "capacityUnit": "g"
@@ -84,6 +102,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 300,
+          "value": 200
+        }
+      ],
+      "delivery": [
         {
           "capacity": 300,
           "value": 200
@@ -112,6 +136,12 @@
           "capacity": 300,
           "value": 150
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
       ]
     },
     "capacityUnit": "g"
@@ -132,6 +162,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
         {
           "capacity": 300,
           "value": 150
@@ -160,6 +196,12 @@
           "capacity": 300,
           "value": 120
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
       ]
     },
     "capacityUnit": "g"
@@ -180,6 +222,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
         {
           "capacity": 300,
           "value": 150
@@ -208,6 +256,12 @@
           "capacity": 300,
           "value": 150
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
       ]
     },
     "capacityUnit": "g"
@@ -228,6 +282,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
         {
           "capacity": 300,
           "value": 150
@@ -256,6 +316,12 @@
           "capacity": 300,
           "value": 170
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 170
+        }
       ]
     },
     "capacityUnit": "g"
@@ -276,6 +342,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 300,
+          "value": 170
+        }
+      ],
+      "delivery": [
         {
           "capacity": 300,
           "value": 170

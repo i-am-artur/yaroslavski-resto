@@ -8,12 +8,36 @@ import Products from './Products';
 import Total from './Total';
 import { useAppContext } from '../../../../../src/app/context/AppContext';
 import { useCart } from '../../_components/CartContext';
+import ClientContacts from './ClientContacts';
 // import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
+
+export type ClientContactsType = {
+  name: string;
+  address: string;
+  phone: string;
+  email: string;
+  comment: string;
+};
+
+export const defaultContactError = {
+  name: false,
+  address: false,
+  phone: false,
+  email: false,
+};
 
 export default function ClientPage() {
   const appCtx = useAppContext();
   const cart = useCart();
   const [orderIsSent, setOrderIsSent] = useState(false);
+  const [clientContacts, setClientContacts] = useState({
+    name: '',
+    address: '',
+    phone: '',
+    email: '',
+    comment: '',
+  });
+  const [contactError, setContactError] = useState(defaultContactError);
   const total = cart.cartItems.reduce(
     (acc, curr) => acc + curr.selectedPrice.value * curr.quantity,
     0
@@ -22,57 +46,60 @@ export default function ClientPage() {
 
   return (
     <Fragment>
-      {/* <Header lang={'ua'} t={{}}>
-        <CallService />
-        {!cartIsEmpty ||
-          (!table && (
-            <h1
-              className={css({ marginTop: 'box.v', fontSize: '1.3rem', fontWeight: 500 })}
-            >
-              Замовити вибране
-            </h1>
-          ))}
-      </Header> */}
       <main className={css({ padding: 'side.h' })}>
-        {!orderIsSent && !cartIsEmpty && appCtx?.table && (
-          <Fragment>
-            <div
-              className={css({
-                //   marginBottom: 'unit.v',
-                display: 'flex',
-                justifyContent: 'space-between',
-              })}
-            >
-              <h4>Найменування</h4>
-              <h4>Кількість</h4>
-            </div>
-            <div
-              title='divider'
-              className={css({
-                marginTop: 'unit.v',
-                marginBottom: 'item.v',
-                height: 1,
-                width: '100%',
-                backgroundColor: '#ccc',
-              })}
-            />
-            <Products cartItems={cart.cartItems} />
-            <div
-              className={css({
-                display: 'flex',
-                justifyContent: 'flex-end',
-                fontSize: '1.2rem',
-                marginTop: 'unit.v',
-              })}
-            >
-              <span>
-                Сума: <Total value={total} /> &#8372;
-              </span>
-              <span className={css({ marginLeft: 'unit.h' })}> </span>
-            </div>
-            <Order onOrder={() => setOrderIsSent(true)} />
-          </Fragment>
-        )}
+        {!orderIsSent &&
+          !cartIsEmpty &&
+          (appCtx?.table?.id || appCtx?.delivery?.isDelivery) && (
+            <Fragment>
+              <div
+                className={css({
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                })}
+              >
+                <h4>Найменування</h4>
+                <h4>Кількість</h4>
+              </div>
+              <div
+                title='divider'
+                className={css({
+                  marginTop: 'unit.v',
+                  marginBottom: 'item.v',
+                  height: 1,
+                  width: '100%',
+                  backgroundColor: '#ccc',
+                })}
+              />
+              <Products cartItems={cart.cartItems} />
+
+              <div
+                className={css({
+                  display: 'flex',
+                  justifyContent: 'flex-end',
+                  fontSize: '1.2rem',
+                  marginTop: 'unit.v',
+                })}
+              >
+                <span>
+                  Сума: <Total value={total} /> &#8372;
+                </span>
+                <span className={css({ marginLeft: 'unit.h' })}> </span>
+              </div>
+              {appCtx.delivery?.isDelivery && (
+                <ClientContacts
+                  newClientContacts={clientContacts}
+                  onChange={setClientContacts}
+                  contactError={contactError}
+                />
+              )}
+
+              <Order
+                onOrder={() => setOrderIsSent(true)}
+                clientContacts={clientContacts}
+                onContactError={setContactError}
+              />
+            </Fragment>
+          )}
         {orderIsSent && (
           <h1
             className={css({ marginTop: '100px', textAlign: 'center', color: 'green' })}
@@ -80,14 +107,13 @@ export default function ClientPage() {
             Дякуємо за замовлення
           </h1>
         )}
-        {(cartIsEmpty || !appCtx?.table) && (
+        {(cartIsEmpty || (!appCtx?.table?.id && !appCtx?.delivery?.isDelivery)) && (
           <NextLink
             href={`/ua/menu`}
             className={cx(
               button({ color: 'primary', variant: 'solid' }),
               css({
                 marginTop: '100px',
-                // flex: '1',display: 'flex',
                 display: 'block',
                 textAlign: 'center',
                 width: 'initial',

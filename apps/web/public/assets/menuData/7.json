@@ -16,6 +16,12 @@
           "capacity": 400,
           "value": 170
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 400,
+          "value": 170
+        }
       ]
     },
     "capacityUnit": "g"
@@ -33,6 +39,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 400,
+          "value": 150
+        }
+      ],
+      "delivery": [
         {
           "capacity": 400,
           "value": 150
@@ -61,6 +73,12 @@
           "capacity": 400,
           "value": 170
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 400,
+          "value": 170
+        }
       ]
     },
     "capacityUnit": "g"
@@ -81,6 +99,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 400,
+          "value": 220
+        }
+      ],
+      "delivery": [
         {
           "capacity": 400,
           "value": 220
@@ -109,6 +133,12 @@
           "capacity": 400,
           "value": 250
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 400,
+          "value": 250
+        }
       ]
     },
     "capacityUnit": "g"
@@ -133,6 +163,12 @@
           "capacity": 500,
           "value": 300
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 500,
+          "value": 300
+        }
       ]
     },
     "capacityUnit": "g"
@@ -150,6 +186,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 400,
+          "value": 300
+        }
+      ],
+      "delivery": [
         {
           "capacity": 400,
           "value": 300
@@ -178,6 +220,12 @@
           "capacity": 400,
           "value": 250
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 400,
+          "value": 250
+        }
       ]
     },
     "capacityUnit": "g"
@@ -195,6 +243,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 400,
+          "value": 170
+        }
+      ],
+      "delivery": [
         {
           "capacity": 400,
           "value": 170
@@ -219,6 +273,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 400,
+          "value": 170
+        }
+      ],
+      "delivery": [
         {
           "capacity": 400,
           "value": 170
@@ -250,6 +310,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 400,
+          "value": 220
+        }
+      ],
+      "delivery": [
         {
           "capacity": 400,
           "value": 220

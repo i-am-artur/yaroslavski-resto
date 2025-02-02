@@ -17,6 +17,9 @@ export default function Select({ t }: { t: MenuT }) {
   const appCtx = useAppContext();
   const menuCtx = useMenuContext();
   const [showMainCategories, setShowMainCategories] = useState(false);
+  // const categories = appCtx?.isDelivery
+  //   ? appCtx?.categories.value.filter((cat) => !cat.delivery)
+  //   : appCtx?.categories.value;
 
   return (
     <div
@@ -49,6 +52,7 @@ export default function Select({ t }: { t: MenuT }) {
         }}
       >
         <Categories categories={appCtx?.categories.value ?? []} />
+        {/* <Categories categories={categories ?? []} /> */}
       </select>
       <SubCategories />
 

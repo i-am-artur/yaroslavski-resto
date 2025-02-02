@@ -16,6 +16,12 @@
           "capacity": 200,
           "value": 80
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -40,6 +46,12 @@
           "capacity": 200,
           "value": 80
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -60,6 +72,12 @@
         {
           "capacity": 200,
           "value": 80
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
         }
       ]
     },
@@ -82,6 +100,12 @@
           "capacity": 200,
           "value": 80
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -103,6 +127,12 @@
           "capacity": "200\\50",
           "value": 120
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 70
+        }
       ]
     },
     "capacityUnit": "g"
@@ -123,6 +153,12 @@
         {
           "capacity": 200,
           "value": 100
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 80
         }
       ]
     },
@@ -148,6 +184,12 @@
           "capacity": 300,
           "value": 120
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 100,
+          "value": 80
+        }
       ]
     },
     "capacityUnit": "g"
@@ -165,6 +207,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 200,
+          "value": 120
+        }
+      ],
+      "delivery": [
         {
           "capacity": 200,
           "value": 120
@@ -190,6 +238,12 @@
           "capacity": 200,
           "value": 120
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 120
+        }
       ]
     },
     "capacityUnit": "g"
@@ -210,6 +264,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 200,
+          "value": 120
+        }
+      ],
+      "delivery": [
         {
           "capacity": 200,
           "value": 120

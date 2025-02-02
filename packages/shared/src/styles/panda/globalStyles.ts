@@ -52,4 +52,10 @@ export const globalCss = defineGlobalStyles({
     borderRadius: '4px',
     fontSize: '1.05rem',
   },
+
+  input: {
+    padding: '6px',
+    borderColor: '#ccc',
+    fontSize: '1.05rem',
+  },
 });

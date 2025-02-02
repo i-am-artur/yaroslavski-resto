@@ -19,6 +19,12 @@
           "capacity": "300\\150\\50",
           "value": 400
         }
+      ],
+      "delivery": [
+        {
+          "capacity": "300\\150\\50",
+          "value": 400
+        }
       ]
     },
     "capacityUnit": "g"
@@ -43,6 +49,12 @@
           "capacity": "200\\150\\50",
           "value": 300
         }
+      ],
+      "delivery": [
+        {
+          "capacity": "200\\150\\50",
+          "value": 300
+        }
       ]
     },
     "capacityUnit": "g"
@@ -60,6 +72,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": "150\\150\\50",
+          "value": 400
+        }
+      ],
+      "delivery": [
         {
           "capacity": "150\\150\\50",
           "value": 400
@@ -106,6 +124,12 @@
           "capacity": "100\\150\\50",
           "value": 450
         }
+      ],
+      "delivery": [
+        {
+          "capacity": "100\\150\\50",
+          "value": 450
+        }
       ]
     },
     "capacityUnit": "g"
@@ -123,6 +147,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": "100\\150\\50",
+          "value": 450
+        }
+      ],
+      "delivery": [
         {
           "capacity": "100\\150\\50",
           "value": 450
@@ -172,6 +202,12 @@
           "capacity": "250\\150\\50",
           "value": 300
         }
+      ],
+      "delivery": [
+        {
+          "capacity": "250\\150\\50",
+          "value": 300
+        }
       ]
     },
     "capacityUnit": "g"
@@ -189,6 +225,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": "200\\150\\50",
+          "value": 300
+        }
+      ],
+      "delivery": [
         {
           "capacity": "200\\150\\50",
           "value": 300
@@ -214,6 +256,12 @@
           "capacity": "200\\150\\50",
           "value": 350
         }
+      ],
+      "delivery": [
+        {
+          "capacity": "200\\150\\50",
+          "value": 350
+        }
       ]
     },
     "capacityUnit": "g"
@@ -235,6 +283,12 @@
           "capacity": "300\\150\\50",
           "value": 300
         }
+      ],
+      "delivery": [
+        {
+          "capacity": "300\\150\\50",
+          "value": 300
+        }
       ]
     },
     "capacityUnit": "g"
@@ -252,6 +306,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": "200\\50",
+          "value": 150
+        }
+      ],
+      "delivery": [
         {
           "capacity": "200\\50",
           "value": 150

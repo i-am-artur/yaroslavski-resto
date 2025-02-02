@@ -16,24 +16,29 @@ export default function Prices(props: { value: any }) {
   const lang = usePathname().split('/')[1] ?? 'ua';
   const appCtx = useAppContext();
   const cartDispatch = useCartDispatch();
-  // const cartDispatch = useCartDispatch();
+
   const [selectedPrice, setSelectedPrice] = useState<any>(props.value.price.qr[0]);
   const [showAddedOrder, setShowAddedOrder] = useState(false);
+  const canOrder = !!appCtx?.table?.name || appCtx?.delivery;
+
+  const qrPrice = props.value.price.qr;
+  const deliveryPrice = props.value.price.delivery ?? [];
+  const price = appCtx?.delivery ? deliveryPrice : qrPrice;
 
   return (
-    props.value.price.qr.length > 0 && (
+    price.length > 0 && (
       <Fragment>
         <ul
           className={cx(
             stack(),
             css({
               rowGap: 'unit.v',
-              flexDirection: appCtx?.table ? 'row' : 'column',
+              flexDirection: canOrder ? 'row' : 'column',
               columnGap: 'unit.h',
             })
           )}
         >
-          {props.value.price.qr.map((el: any) => {
+          {price.map((el: any) => {
             return (
               <li
                 key={el.capacity}
@@ -47,12 +52,12 @@ export default function Prices(props: { value: any }) {
                   })
                 )}
               >
-                {appCtx?.table && props.value.price.qr.length > 1 ? (
+                {canOrder && price.length > 1 ? (
                   <button
                     onClick={() => setSelectedPrice(el)}
-                    disabled={appCtx?.table ? false : true}
+                    disabled={canOrder ? false : true}
                     className={cx(
-                      appCtx?.table &&
+                      canOrder &&
                         css({
                           zIndex: 0,
                           padding: '2px',
@@ -83,7 +88,7 @@ export default function Prices(props: { value: any }) {
           })}
         </ul>
 
-        {appCtx?.table !== null && (
+        {canOrder && (
           <button
             onClick={() => {
               cartDispatch.setCartItems((pre) => {
@@ -107,7 +112,7 @@ export default function Prices(props: { value: any }) {
             Додати до замовлення
           </button>
         )}
-        {showAddedOrder && appCtx?.table && (
+        {showAddedOrder && canOrder && (
           <AddedOrder open={showAddedOrder} onClose={() => setShowAddedOrder(false)} />
         )}
       </Fragment>

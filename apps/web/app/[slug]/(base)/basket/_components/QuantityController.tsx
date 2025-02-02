@@ -29,6 +29,7 @@ export default function QuantityController({ item }: { item: any }) {
   return (
     <div className={css({ display: 'flex', alignItems: 'center' })}>
       <button
+        title='-'
         onClick={() => changeQuantity(item, item.quantity - 1)}
         className={cx(css({ padding: 'calc(4/16 * 1rem)' }))}
       >
@@ -36,6 +37,7 @@ export default function QuantityController({ item }: { item: any }) {
       </button>
       <Quantity value={item.quantity} />
       <button
+        title='+'
         onClick={() => changeQuantity(item, item.quantity + 1)}
         className={cx(css({ padding: 'calc(4/16 * 1rem)' }))}
       >

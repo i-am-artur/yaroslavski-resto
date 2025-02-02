@@ -1,37 +1,10 @@
 'use client';
-// import { useSearchParams } from 'next/navigation';
 import { css } from '../../../../../../styled-system/css';
 import { useMenuContext } from '../context/Context';
 import Product from './_product/Product';
 
 export default function Products() {
-  // const searchParams = useSearchParams();
   const menuCtx = useMenuContext();
-  // const appCtx = useAppContext();
-  // const menuCtxDispatch = useMenuContextDispatch();
-  // const categories = appCtx?.categories.value ?? [];
-  // const [structuredData, setStructuredData] = useState<any[]>([]);
-  // const cat1 = menuCtx?.appSearchParams?.cat1;
-
-  // const cat1 = (() => {
-  //   const cat1Param = searchParams.get('cat1') ?? '2';
-  //   const cat1Number = parseInt(cat1Param);
-  //   return isNaN(cat1Number) ? 2 : cat1Number;
-  // })();
-
-  // useEffect(() => {
-  //   (async () => {
-  //     if (categories?.length > 0) {
-  //       const productsRes = await fetch(
-  //         `${process.env.basePath}/assets/menuData/${cat1}.json`
-  //       );
-  //       const products = await productsRes.json();
-  //       menuCtxDispatch?.setProducts(products);
-  //       const category = categories?.find((el) => el.id == cat1);
-  //       setStructuredData([structureData(categories, category, products)]);
-  //     }
-  //   })();
-  // }, [cat1, categories]);
 
   return menuCtx?.structuredData && menuCtx?.structuredData?.length > 0 ? (
     <div

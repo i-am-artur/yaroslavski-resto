@@ -9,11 +9,11 @@ import { css } from '../../../../../styled-system/css';
 export default function Options() {
   const appCtx = useAppContext();
   return (
-    appCtx?.table && (
+    (appCtx?.table?.id || appCtx?.delivery?.isDelivery) && (
       <div
         className={cx(
           stack({ dir: 'row', cGap: 'unit' }),
-          css({ margin: '{spacing.unit.v} 0' })
+          css({ margin: '{spacing.unit.v} 0', justifyContent: 'flex-end' })
         )}
       >
         <CallService />
