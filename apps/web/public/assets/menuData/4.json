@@ -103,6 +103,12 @@
           "capacity": "150\\150\\50",
           "value": 700
         }
+      ],
+      "delivery": [
+        {
+          "capacity": "150\\150\\50",
+          "value": 700
+        }
       ]
     },
     "capacityUnit": "g"
@@ -174,6 +180,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": "200\\150\\50",
+          "value": 350
+        }
+      ],
+      "delivery": [
         {
           "capacity": "200\\150\\50",
           "value": 350
@@ -337,6 +349,12 @@
           "capacity": "200\\50",
           "value": 200
         }
+      ],
+      "delivery": [
+        {
+          "capacity": "200\\50",
+          "value": 200
+        }
       ]
     },
     "capacityUnit": "g"
@@ -358,6 +376,12 @@
           "capacity": "200\\50",
           "value": 300
         }
+      ],
+      "delivery": [
+        {
+          "capacity": "200\\50",
+          "value": 300
+        }
       ]
     },
     "capacityUnit": "g"
@@ -375,6 +399,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 170,
+          "value": 120
+        }
+      ],
+      "delivery": [
         {
           "capacity": 170,
           "value": 120

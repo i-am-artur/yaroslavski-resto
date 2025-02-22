@@ -239,6 +239,7 @@
       "en": "Lazuri Khachapuri",
       "ua": "Лазурі"
     },
+    "delivery": true,
     "parentId": 6
   },
   {
@@ -265,6 +266,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Алкогольні"
     },
+    "delivery": true,
     "parentId": 30
   },
   {
@@ -273,6 +275,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Слабоалкогольні"
     },
+    "delivery": true,
     "parentId": 31
   },
   {
@@ -281,6 +284,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Міцні-алкогольні"
     },
+    "delivery": true,
     "parentId": 31
   },
   {
@@ -289,6 +293,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Вино "
     },
+    "delivery": true,
     "parentId": 31
   },
   {
@@ -305,6 +310,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Пиво кег"
     },
+    "delivery": true,
     "parentId": 33
   },
   {
@@ -313,6 +319,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Пиво пляшка"
     },
+    "delivery": true,
     "parentId": 33
   },
   {
@@ -321,6 +328,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Горілка"
     },
+    "delivery": true,
     "parentId": 34
   },
   {
@@ -329,6 +337,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Коньяк та Бренди"
     },
+    "delivery": true,
     "parentId": 34
   },
   {
@@ -386,6 +395,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Гарячі"
     },
+    "delivery": true,
     "parentId": 32
   },
   {
@@ -403,6 +413,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Напої та вода"
     },
+    "delivery": true,
     "parentId": 50
   },
   {
@@ -411,6 +422,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Кава"
     },
+    "delivery": true,
     "parentId": 51
   },
   {
@@ -427,6 +439,7 @@
       "en": "Adjarian Khachapuri",
       "ua": "Свіжовичавлений сік"
     },
+    "delivery": true,
     "parentId": 52
   },
   {

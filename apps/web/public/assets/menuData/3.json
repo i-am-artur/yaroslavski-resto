@@ -136,6 +136,12 @@
           "capacity": 200,
           "value": 150
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 150
+        }
       ]
     },
     "capacityUnit": "g"
@@ -247,6 +253,12 @@
           "capacity": 350,
           "value": 400
         }
+      ],
+      "delivery": [
+        {
+          "capacity": 350,
+          "value": 400
+        }
       ]
     },
     "capacityUnit": "g"
@@ -324,6 +336,12 @@
     },
     "price": {
       "qr": [
+        {
+          "capacity": 250,
+          "value": 250
+        }
+      ],
+      "delivery": [
         {
           "capacity": 250,
           "value": 250
