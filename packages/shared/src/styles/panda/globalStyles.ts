@@ -58,4 +58,9 @@ export const globalCss = defineGlobalStyles({
     borderColor: '#ccc',
     fontSize: '1.05rem',
   },
+  textarea: {
+    padding: '6px',
+    borderColor: '#ccc',
+    fontSize: '1.05rem',
+  },
 });

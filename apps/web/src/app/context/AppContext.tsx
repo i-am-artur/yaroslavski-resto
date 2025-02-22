@@ -50,16 +50,13 @@ export default function AppContext({
   const [table, setTable] = useState<IAppContext['table']>(null);
   const [delivery, setDelivery] = useState<IAppContext['delivery']>(null);
   const categories = useCategories();
-  console.log('🚀 ~ categories:', categories);
 
   useEffect(() => {
     const lsTableInfo = lsGetTableInfo();
-    console.log('🚀 ~ useEffect ~ lsTableInfo:', lsTableInfo);
     if (lsTableInfo) {
       const hoursMoreThanAllowed =
         new Date().getTime() - lsTableInfo.time > 24 * 60 * 60 * 1000;
       if (hoursMoreThanAllowed) {
-        console.log('🚀 ~ useEffect ~ hoursMoreThanAllowed:', hoursMoreThanAllowed);
         setTable(null);
         lsDeleteTableInfo();
       } else {
@@ -68,9 +65,6 @@ export default function AppContext({
       }
       const isLongTime =
         new Date().getTime() - lsTableInfo.time > 7 * 24 * 60 * 60 * 1000;
-      if (isLongTime) {
-        // TODO: delete qr shopping cart
-      }
     }
     const lsDeliveryInfo = lsGetIsDeliveryInfo();
     if (lsDeliveryInfo?.isDelivery) {
@@ -78,9 +72,6 @@ export default function AppContext({
       // lsDeleteTableInfo();
       const isLongTime =
         new Date().getTime() - lsDeliveryInfo.time > 7 * 24 * 60 * 60 * 1000;
-      if (isLongTime) {
-        // TODO: delete delivery cart
-      }
     } else {
       lsDeleteIsDeliveryInfo();
     }
@@ -91,9 +82,8 @@ export default function AppContext({
       value={{
         table,
         categories: {
-          value: categories.value.filter(
-            (cat) => cat
-            // delivery?.isDelivery ? cat.delivery : true
+          value: categories.value.filter((cat) =>
+            delivery?.isDelivery ? cat.delivery : true
           ),
           loading: categories.loading,
         },

@@ -3,10 +3,10 @@ export const testTelegramMessageAPI = `http://localhost/assortment/test.php`;
 
 export async function telegramMessage(message: string) {
   return fetch(telegramMessageAPI, {
-  // return fetch(testTelegramMessageAPI, {
+    // return fetch(testTelegramMessageAPI, {
     method: 'POST',
     body: JSON.stringify({ message }),
-  })
-    .then((res) => res.text())
-    .then((res) => console.log(res));
+  });
+  // .then((res) => res.text())
+  // .then((res) => console.log(res));
 }

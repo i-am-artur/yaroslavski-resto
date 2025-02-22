@@ -19,11 +19,12 @@ export default function Prices(props: { value: any }) {
 
   const [selectedPrice, setSelectedPrice] = useState<any>(props.value.price.qr[0]);
   const [showAddedOrder, setShowAddedOrder] = useState(false);
-  const canOrder = !!appCtx?.table?.name || appCtx?.delivery;
+  const canOrder = !!appCtx?.table?.name || appCtx?.delivery?.isDelivery;
+  // const canOrder = true;
 
   const qrPrice = props.value.price.qr;
   const deliveryPrice = props.value.price.delivery ?? [];
-  const price = appCtx?.delivery ? deliveryPrice : qrPrice;
+  const price = appCtx?.delivery?.isDelivery ? deliveryPrice : qrPrice;
 
   return (
     price.length > 0 && (

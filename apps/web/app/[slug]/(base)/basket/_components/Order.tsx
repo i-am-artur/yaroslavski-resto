@@ -12,8 +12,6 @@ import { ClientContactsType, defaultContactError } from './ClientPage';
 
 const OrderError = dynamic(() => import('./OrderError'));
 
-// import { QrIndexT } from '../../../../src/instances/languages/translation/qr/index/ua';
-
 export default function Order(props: {
   onOrder: (error?: any) => void;
   onContactError: (errors: any) => void;
@@ -28,11 +26,11 @@ export default function Order(props: {
   const clientContacts = (() => {
     if (appCtx?.delivery?.isDelivery) {
       return (
-        `\nИм'я: ${props.clientContacts.name}` +
-        `\n Адреса: ${props.clientContacts.address}` +
-        `\n Номер телефону: ${props.clientContacts.phone}` +
-        `\n Email: ${props.clientContacts.email}` +
-        `\n Коментар: ${props.clientContacts.comment}`
+        `Им'я: ${props.clientContacts.name}\n` +
+        `Адреса: ${props.clientContacts.address}\n` +
+        `Номер телефону: ${props.clientContacts.phone}\n ` +
+        `Email: ${props.clientContacts.email}\n` +
+        `Коментар: ${props.clientContacts.comment}`
       );
     }
 
@@ -42,20 +40,23 @@ export default function Order(props: {
   return (
     <Fragment>
       <button
-        onClick={() => {
+        onClick={async () => {
           props.onContactError(defaultContactError);
+
           if (appCtx?.delivery?.isDelivery) {
             if (
               props.clientContacts.name === '' ||
               props.clientContacts.address === '' ||
               props.clientContacts.phone === '' ||
-              props.clientContacts.email === ''
+              props.clientContacts.email === '' ||
+              props.clientContacts.acceptConditions === false
             ) {
               props.onContactError({
                 name: props.clientContacts.name === '',
                 address: props.clientContacts.address === '',
                 phone: props.clientContacts.phone === '',
                 email: props.clientContacts.email === '',
+                acceptConditions: props.clientContacts.acceptConditions === false,
               });
               return;
             }
@@ -77,10 +78,10 @@ export default function Order(props: {
             (acc, curr) => acc + curr.selectedPrice.value * curr.quantity,
             0
           );
-          telegramMessage(
+          const orderResponse = await telegramMessage(
             'Заказ ' +
               (() => {
-                if (appCtx?.delivery?.isDelivery) return 'доставка. ';
+                if (appCtx?.delivery?.isDelivery) return 'доставка. \n';
 
                 return `: Стол ${appCtx?.table?.name}`;
               })() +
@@ -93,12 +94,13 @@ export default function Order(props: {
               message.value +
               `\nЗагальна сума: ${total} грн.\n` +
               clientContacts
-          )
-            .then(() => {
-              cartDispatch.setCartItems([]);
-              props.onOrder();
-            })
-            .catch(() => setOrderError(true));
+          );
+          if (orderResponse.ok) {
+            cartDispatch.setCartItems([]);
+            props.onOrder();
+          } else {
+            setOrderError(true);
+          }
         }}
         className={cx(
           button({ variant: 'solid', color: 'primary' }),

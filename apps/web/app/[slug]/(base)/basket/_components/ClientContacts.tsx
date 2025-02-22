@@ -1,13 +1,14 @@
 'use client';
 import { css } from '../../../../../styled-system/css';
 import { ClientContactsType } from './ClientPage';
+import NextLink from 'next/link';
 
 const inputStyle = css({
   display: 'flex',
   flexDirection: 'column',
 });
 const requiredStyle = css({
-  color: 'red',
+  color: '#f24343',
 });
 
 export default function ClientContacts({
@@ -22,6 +23,7 @@ export default function ClientContacts({
     address: boolean;
     phone: boolean;
     email: boolean;
+    acceptConditions: boolean;
   };
 }) {
   return (
@@ -46,7 +48,6 @@ export default function ClientContacts({
           <span className={requiredStyle}>Поле обов'язково для заповнення</span>
         )}
       </label>
-
       <label className={inputStyle}>
         <span>
           Адрес: <span className={requiredStyle}>*</span>:
@@ -60,7 +61,6 @@ export default function ClientContacts({
           <span className={requiredStyle}>Поле обов'язково для заповнення</span>
         )}
       </label>
-
       <label className={inputStyle}>
         <span>
           Телефон <span className={requiredStyle}>*</span>:
@@ -74,7 +74,6 @@ export default function ClientContacts({
           <span className={requiredStyle}>Поле обов'язково для заповнення</span>
         )}
       </label>
-
       <label className={inputStyle}>
         <span>
           Email: <span className={requiredStyle}>*</span>:
@@ -88,15 +87,49 @@ export default function ClientContacts({
           <span className={requiredStyle}>Поле обов'язково для заповнення</span>
         )}
       </label>
-
       <label className={inputStyle}>
         Коментар:
         <textarea
           rows={3}
           value={newClientContacts.comment}
           onChange={(e) => onChange({ ...newClientContacts, comment: e.target.value })}
+          // className={css}
         />
       </label>
+      Оплата готівкою при доставці замовлення.
+      <p>
+        Ваші особисті дані будуть використовуватися для обробки ваших замовлень,
+        розширення вашої роботи з сайтом та для інших цілей, описаних у нашій{' '}
+        <NextLink href='/ua/privacyPolicy' className={css({ color: 'blue'})}>політиці конфіденційності</NextLink>
+      </p>
+      <div>
+        <label
+          // htmlFor='accept-conditions'
+          className={css({
+            display: 'flex',
+            // flexDirection: 'column',
+            alignItems: 'center',
+            columnGap: 'unit.h',
+          })}
+        >
+          <input
+            // id='accept-conditions'
+            type='checkbox'
+            required
+            className={css({ transform: 'scale(1.5)' })}
+            onChange={(e) => {
+              onChange({ ...newClientContacts, acceptConditions: e.target.checked });
+            }}
+          />{' '}
+          <span>
+            Я прочитав і погоджуюся з умовами веб-сайту{' '}
+            <span className={css({ color: 'red' })}>*</span>
+          </span>{' '}
+        </label>
+        {contactError.acceptConditions && (
+          <span className={requiredStyle}>Поле обов'язково</span>
+        )}
+      </div>
     </div>
   );
 }

@@ -17,6 +17,7 @@ export type ClientContactsType = {
   phone: string;
   email: string;
   comment: string;
+  acceptConditions: boolean;
 };
 
 export const defaultContactError = {
@@ -24,6 +25,7 @@ export const defaultContactError = {
   address: false,
   phone: false,
   email: false,
+  acceptConditions: false,
 };
 
 export default function ClientPage() {
@@ -36,6 +38,7 @@ export default function ClientPage() {
     phone: '',
     email: '',
     comment: '',
+    acceptConditions: false,
   });
   const [contactError, setContactError] = useState(defaultContactError);
   const total = cart.cartItems.reduce(

@@ -16,8 +16,8 @@ export default function Product(props: { value: any }) {
 
   const qrPrice = props.value.price.qr;
   const deliveryPrice = props.value.price.delivery ?? [];
-  // const price = appCtx?.delivery?.isDelivery ? deliveryPrice : qrPrice;
-  const price = !props.value.price.delivery ? props.value.price.qr : [];
+  const price = appCtx?.delivery?.isDelivery ? deliveryPrice : qrPrice;
+  // const price = !props.value.price.delivery ? props.value.price.qr : [];
 
   // TODO: whisky USA are not shown
 

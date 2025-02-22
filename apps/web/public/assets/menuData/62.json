@@ -130,8 +130,8 @@
       ],
       "delivery": [
         {
-          "capacity": 100,
-          "value": 70
+          "capacity": "200\\50",
+          "value": 120
         }
       ]
     },
