@@ -1,0 +1,437 @@
+[
+  {
+    "categories": [68],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Млинці з крем сиром та слабо солоним  норвезьким лососем"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 170,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 170,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [68],
+    "image": {
+      "thumb": "m2t.jpg",
+      "full": ["m2.jpg"]
+    },
+    "name": {
+      "en": "",
+      "ua": "Млинці з Червоною Ікрою"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 250
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 250
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [68],
+    "image": { "thumb": "m7t.jpg", "full": ["m7.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Млинці з м'ясом та сметаною"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [68],
+    "image": { "thumb": "m8t.jpg", "full": ["m8.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Млинці з курячим жульєном в паніровці "
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [68],
+    "image": { "thumb": "m6t.jpg", "full": ["m6.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Млинці з сиром та сметаною"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 100
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [68],
+    "image": { "thumb": "m1t.jpg", "full": ["m1.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Млинці з вишнею та сиром"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [68],
+    "image": { "thumb": "m4t.jpg", "full": ["m4.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Млинці з малиною та сиром"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [68],
+    "image": { "thumb": "m5t.jpg", "full": ["m5.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Млинці зі згущеним молоком"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 100
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [68],
+    "image": { "thumb": "m3t.jpg", "full": ["m3.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Млинці з Ірискою"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [69],
+    "image": { "thumb": "n2t.jpg", "full": ["n2.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Вареники з м'ясом та сметаною"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 200
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [69],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Вареники з сиром та сметаною"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [69],
+    "image": { "thumb": "v2t.jpg", "full": ["v2.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Вареники з тушкованою капустою з цибулевою зажаркою"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [69],
+    "image": { "thumb": "v2t.jpg", "full": ["v2.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Вареники з картоплею та грибами з цибулевою зажаркою"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [69],
+    "image": { "thumb": "v1t.jpg", "full": ["v1.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Вареники з вишнею та сметаною"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [69],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Вареники з малиною та сметаною"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [69],
+    "image": { "thumb": "n1t.jpg", "full": ["n1.jpg"] },
+    "name": {
+      "en": "",
+      "ua": "Вареники з черникою та сметаною"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  }
+]

@@ -1,5 +1,14 @@
 [
   {
+    "id": 67,
+    "name": {
+      "en": "",
+      "ua": "Масляна"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
     "id": 1,
     "name": {
       "en": "Appetizers",
@@ -491,5 +500,23 @@
       "ua": "Морозиво"
     },
     "parentId": 61
+  },
+  {
+    "id": 68,
+    "name": {
+      "en": "",
+      "ua": "Млинці"
+    },
+    "delivery": true,
+    "parentId": 67
+  },
+  {
+    "id": 69,
+    "name": {
+      "en": "",
+      "ua": "Вареники"
+    },
+    "delivery": true,
+    "parentId": 67
   }
 ]

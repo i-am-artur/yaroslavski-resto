@@ -3,6 +3,8 @@
 import CloseIconButton from '../../../../../../../src/ui/buttons/CloseIconButton';
 import Modal from '../../../../../../../src/ui/modals/Modal';
 import { css } from '../../../../../../../styled-system/css';
+import Options from '../../Options';
+import Prices from './Prices';
 
 export default function FullView(props: {
   open: boolean;
@@ -10,6 +12,7 @@ export default function FullView(props: {
   product: any;
   lang: string;
 }) {
+  console.log(props.product);
   return (
     <Modal open={props.open} onClose={props.onClose}>
       <div
@@ -29,31 +32,6 @@ export default function FullView(props: {
           // -ms-overflow-style: none;
           scrollbarWidth: 'none',
         })}
-        // when user clicks back button in browser, trigger props.onClose
-
-        // onTouchStart={(event) => {
-        //   const startY = event.touches[0].clientY;
-        //   const startX = event.touches[0].clientX;
-        //   const onTouchMove = (event: TouchEvent) => {
-        //     const endY = event.touches[0].clientY;
-        //     const endX = event.touches[0].clientX;
-        //     const directionY = endY - startY;
-        //     const directionX = endX - startX;
-        //     if (Math.abs(directionY) > Math.abs(directionX)) {
-        //       if (directionY > 0) {
-        //         props.onClose?.();
-        //       }
-        //     }
-        //   };
-        //   document.addEventListener('touchmove', onTouchMove);
-        //   document.addEventListener(
-        //     'touchend',
-        //     () => {
-        //       document.removeEventListener('touchmove', onTouchMove);
-        //     },
-        //     { once: true }
-        //   );
-        // }}
       >
         <div
           className={css({
@@ -95,8 +73,6 @@ export default function FullView(props: {
                 columnGap: 'unit.h',
                 justifyContent:
                   props.product.image?.full?.length > 1 ? 'flex-start' : 'center',
-                // overflow: 'scroll-x',
-                // width: '290px',
               })}
             >
               {props.product.image?.full?.map((el: any, i: number) => {
@@ -105,7 +81,6 @@ export default function FullView(props: {
                     <img
                       className={css({
                         maxHeight: '320px',
-                        // height: '60%'
                       })}
                       src={`${process.env.basePath}/assets/products/images/${el}`}
                       alt={props.product.name[props.lang]}
@@ -115,6 +90,13 @@ export default function FullView(props: {
                 );
               })}
             </ul>
+            <div
+              className={css({
+                marginTop: 'item.v',
+              })}
+            >
+              <Prices value={props.product} />
+            </div>
           </div>
         </div>
       </div>
