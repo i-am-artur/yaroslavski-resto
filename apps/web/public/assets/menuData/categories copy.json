@@ -1,0 +1,522 @@
+[
+  {
+    "id": 67,
+    "name": {
+      "en": "",
+      "ua": "Масляна"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 1,
+    "name": {
+      "en": "Appetizers",
+      "ua": "Смаколики"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Salads",
+      "ua": "Салати"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Soups",
+      "ua": "Перші страви"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "Main dishes",
+      "ua": "Основні страви"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 62,
+    "name": {
+      "en": "Side dishes",
+      "ua": "Додаткові страви"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 5,
+    "name": {
+      "en": "Barbecue",
+      "ua": "Мангал"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 60,
+    "name": {
+      "en": "Sauces",
+      "ua": "Соуси"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 6,
+    "name": {
+      "en": "Khachapuri",
+      "ua": "Хачапурі"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 7,
+    "name": {
+      "en": "Pizza",
+      "ua": "Піца"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 30,
+    "name": {
+      "en": "Drinks",
+      "ua": "Напитки"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 61,
+    "name": {
+      "en": "Desserts",
+      "ua": "Десерти"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 9,
+    "name": {
+      "en": "Hot Appetizers",
+      "ua": "Гарячі смаколики"
+    },
+    "delivery": true,
+    "parentId": 1
+  },
+  {
+    "id": 8,
+    "name": {
+      "en": "Cold Appetizers",
+      "ua": "Холодні смаколики"
+    },
+    "delivery": true,
+    "parentId": 1
+  },
+  {
+    "id": 11,
+    "name": {
+      "en": "Cold Appetizers",
+      "ua": "Лавашні смаколики"
+    },
+    "delivery": true,
+    "parentId": 1
+  },
+  {
+    "id": 13,
+    "name": {
+      "en": "Salads",
+      "ua": "Салати"
+    },
+    "delivery": true,
+    "parentId": 3
+  },
+  {
+    "id": 14,
+    "name": {
+      "en": "Warm Salads",
+      "ua": "Теплі Салати"
+    },
+    "delivery": true,
+    "parentId": 3
+  },
+  {
+    "id": 17,
+    "name": {
+      "en": "Main dishes",
+      "ua": "Основні страви"
+    },
+    "delivery": true,
+    "parentId": 4
+  },
+  {
+    "id": 20,
+    "name": {
+      "en": "Grilled fish",
+      "ua": "Мангал риба"
+    },
+    "delivery": true,
+    "parentId": 5
+  },
+  {
+    "id": 21,
+    "name": {
+      "en": "Barbecue pork",
+      "ua": "Мангал свинина"
+    },
+    "delivery": true,
+    "parentId": 5
+  },
+  {
+    "id": 22,
+    "name": {
+      "en": "Barbecue bird",
+      "ua": "Мангал птиця"
+    },
+    "delivery": true,
+    "parentId": 5
+  },
+  {
+    "id": 23,
+    "name": {
+      "en": "Barbecue veal, lamb and assorted",
+      "ua": "Мангал телятина баранина та асорті"
+    },
+    "delivery": true,
+    "parentId": 5
+  },
+  {
+    "id": 19,
+    "name": {
+      "en": "Vegetables on the grill",
+      "ua": "Овочі на мангалі"
+    },
+    "delivery": true,
+    "parentId": 5
+  },
+  {
+    "id": 64,
+    "name": {
+      "en": "Sauces",
+      "ua": "Соуси"
+    },
+    "delivery": true,
+    "parentId": 5
+  },
+  {
+    "id": 25,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Аджарський"
+    },
+    "delivery": true,
+    "parentId": 6
+  },
+  {
+    "id": 26,
+    "name": {
+      "en": "Megrelian Khachapuri",
+      "ua": "Мегрельський"
+    },
+    "delivery": true,
+    "parentId": 6
+  },
+  {
+    "id": 27,
+    "name": {
+      "en": "Puff pastry Khachapuri",
+      "ua": "Пеновани-листковий"
+    },
+    "delivery": true,
+    "parentId": 6
+  },
+  {
+    "id": 28,
+    "name": {
+      "en": "Lazuri Khachapuri",
+      "ua": "Лазурі"
+    },
+    "delivery": true,
+    "parentId": 6
+  },
+  {
+    "id": 29,
+    "name": {
+      "en": "Yarilo Branded",
+      "ua": "Ярило фірмовий"
+    },
+    "delivery": true,
+    "parentId": 6
+  },
+  {
+    "id": 32,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Безалкогольні"
+    },
+    "delivery": true,
+    "parentId": 30
+  },
+  {
+    "id": 31,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Алкогольні"
+    },
+    "delivery": true,
+    "parentId": 30
+  },
+  {
+    "id": 33,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Слабоалкогольні"
+    },
+    "delivery": true,
+    "parentId": 31
+  },
+  {
+    "id": 34,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Міцні-алкогольні"
+    },
+    "delivery": true,
+    "parentId": 31
+  },
+  {
+    "id": 36,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Вино "
+    },
+    "delivery": true,
+    "parentId": 31
+  },
+  {
+    "id": 37,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Коктейлі "
+    },
+    "parentId": 31
+  },
+  {
+    "id": 38,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Пиво кег"
+    },
+    "delivery": true,
+    "parentId": 33
+  },
+  {
+    "id": 39,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Пиво пляшка"
+    },
+    "delivery": true,
+    "parentId": 33
+  },
+  {
+    "id": 47,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Горілка"
+    },
+    "delivery": true,
+    "parentId": 34
+  },
+  {
+    "id": 46,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Коньяк та Бренди"
+    },
+    "delivery": true,
+    "parentId": 34
+  },
+  {
+    "id": 41,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Віскі"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 45,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Ром"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 42,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Джин"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 43,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Текіла"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 44,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Лікери, Настоянки, Вермути"
+    },
+    "parentId": 34
+  },
+  {
+    "id": 50,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Холодні"
+    },
+    "delivery": true,
+    "parentId": 32
+  },
+  {
+    "id": 51,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Гарячі"
+    },
+    "delivery": true,
+    "parentId": 32
+  },
+  {
+    "id": 52,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Напої власного виробництва"
+    },
+    "delivery": true,
+    "parentId": 50
+  },
+  {
+    "id": 53,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Напої та вода"
+    },
+    "delivery": true,
+    "parentId": 50
+  },
+  {
+    "id": 54,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Кава"
+    },
+    "delivery": true,
+    "parentId": 51
+  },
+  {
+    "id": 55,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Чай"
+    },
+    "parentId": 51
+  },
+  {
+    "id": 57,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Свіжовичавлений сік"
+    },
+    "delivery": true,
+    "parentId": 52
+  },
+  {
+    "id": 56,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Натуральні Лимонади"
+    },
+    "delivery": true,
+    "parentId": 52
+  },
+  {
+    "id": 58,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Віскі Ірландський"
+    },
+    "parentId": 41
+  },
+  {
+    "id": 59,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Шотландський Віскі"
+    },
+    "parentId": 41
+  },
+  {
+    "id": 65,
+    "name": {
+      "en": "Adjarian Khachapuri",
+      "ua": "Віскі США"
+    },
+    "parentId": 41
+  },
+  {
+    "id": 66,
+    "name": {
+      "en": "Desserts",
+      "ua": "Десерти"
+    },
+    "delivery": true,
+    "parentId": 61
+  },
+  {
+    "id": 63,
+    "name": {
+      "en": "Ice Cream",
+      "ua": "Морозиво"
+    },
+    "parentId": 61
+  },
+  {
+    "id": 68,
+    "name": {
+      "en": "",
+      "ua": "Млинці"
+    },
+    "delivery": true,
+    "parentId": 67
+  },
+  {
+    "id": 69,
+    "name": {
+      "en": "",
+      "ua": "Вареники"
+    },
+    "delivery": true,
+    "parentId": 67
+  }
+]

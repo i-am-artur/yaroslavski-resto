@@ -1,0 +1,623 @@
+[
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Борщ з квасолею"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Борщ зелений з грибами"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Харчо"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Юшка грибная з булгуром"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Юшка овочева Мінестроне"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Суп пюре з сочевиці"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Крем суп грибной"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Том Ям з креветкой"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 250
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 250
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Лобіані"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Тушкована капуста з грибами"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Баклажани в аджиці з булгуром"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Толма зі східною начинкою та соусом Баже"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Зрази з грибами"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Оджахурі з грибами"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Гарнир Єреван в аджиці"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Кус кус з морепродуктами"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 250
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 250
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Печериці під соусом Баже"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 250,
+          "value": 100
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 250,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Роли з Лобіо"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Пхали бадріджані з горіхами"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 150,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Пхали Шпинат, квасоля, буряк та морква"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 200,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Деруни з грибами"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Деруни зі шпинатом"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [70],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Деруни з королевскими креветками"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  }
+]

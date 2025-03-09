@@ -24,3 +24,13 @@ li ol > li {
 li ol > li:before {
   content: counters(item, '.') ' ';
 }
+
+ul {
+  list-style-type: disc;
+}
+
+ul li {
+  list-style-type: disc;
+  /* padding-left: 35px; */
+  margin-left: 36px;
+}
