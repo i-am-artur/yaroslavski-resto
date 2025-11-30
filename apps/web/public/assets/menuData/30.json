@@ -831,6 +831,31 @@
   },
   {
     "categories": [55],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Чай гірський трав`яний"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 500,
+          "value": 80
+        },
+        {
+          "capacity": 1000,
+          "value": 100
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [55],
     "image": "1.jpg",
     "name": {
       "en": "",

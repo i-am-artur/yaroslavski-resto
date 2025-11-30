@@ -1,14 +1,5 @@
 [
   {
-    "id": 70,
-    "name": {
-      "en": "",
-      "ua": "Пісне меню"
-    },
-    "delivery": true,
-    "parentId": null
-  },
-  {
     "id": 1,
     "name": {
       "en": "Appetizers",
@@ -103,6 +94,15 @@
     "name": {
       "en": "Desserts",
       "ua": "Десерти"
+    },
+    "delivery": true,
+    "parentId": null
+  },
+  {
+    "id": 70,
+    "name": {
+      "en": "",
+      "ua": "Пісне меню"
     },
     "delivery": true,
     "parentId": null
@@ -518,5 +518,86 @@
     },
     "delivery": true,
     "parentId": 67
+  },
+  {
+    "id": 71,
+    "name": {
+      "en": "",
+      "ua": "Перші страви"
+    },
+    "delivery": true,
+    "parentId": 70
+  },
+  {
+    "id": 72,
+    "name": {
+      "en": "",
+      "ua": "Смаколикі"
+    },
+    "delivery": true,
+    "parentId": 70
+  },
+  {
+    "id": 73,
+    "name": {
+      "en": "",
+      "ua": "Основні страви"
+    },
+    "delivery": true,
+    "parentId": 70
+  },
+  {
+    "id": 74,
+    "name": {
+      "en": "",
+      "ua": "Хачапурі"
+    },
+    "delivery": true,
+    "parentId": 70
+  },
+  {
+    "id": 75,
+    "name": {
+      "en": "",
+      "ua": "Пеновани-листковий"
+    },
+    "delivery": true,
+    "parentId": 74
+  },
+  {
+    "id": 76,
+    "name": {
+      "en": "",
+      "ua": "Імеретинський"
+    },
+    "delivery": true,
+    "parentId": 74
+  },
+  {
+    "id": 77,
+    "name": {
+      "en": "",
+      "ua": "Мегрельський"
+    },
+    "delivery": true,
+    "parentId": 74
+  },
+  {
+    "id": 78,
+    "name": {
+      "en": "",
+      "ua": "Піца"
+    },
+    "delivery": true,
+    "parentId": 70
+  },
+  {
+    "id": 79,
+    "name": {
+      "en": "",
+      "ua": "Салати"
+    },
+    "delivery": true,
+    "parentId": 70
   }
 ]

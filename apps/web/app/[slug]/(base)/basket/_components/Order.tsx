@@ -68,7 +68,7 @@ export default function Order(props: {
               return {
                 value:
                   acc.value +
-                  `${acc.index + 1}. ${curr.name.ua} ${curr.selectedPrice.capacity}${capacityUnit(curr.capacityUnit, lang)}-${curr.selectedPrice.value}грн (${curr.quantity} шт.)\n`,
+                  `${acc.index + 1}. (${curr.category}) ${curr.name.ua} ${curr.selectedPrice.capacity}${capacityUnit(curr.capacityUnit, lang)}-${curr.selectedPrice.value}грн (${curr.quantity} шт.)\n`,
                 index: acc.index + 1,
               };
             },

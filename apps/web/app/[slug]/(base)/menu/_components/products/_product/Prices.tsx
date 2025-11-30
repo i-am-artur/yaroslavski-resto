@@ -93,16 +93,37 @@ export default function Prices(props: { value: any }) {
           <button
             onClick={() => {
               cartDispatch.setCartItems((pre) => {
+                const category = appCtx?.categories.value.find(
+                  (el) => el.id === props.value.categories[0]
+                );
+                const parentCategory = appCtx?.categories.value.find(
+                  (el) => el.id === category?.parentId
+                );
+                const topCategory = appCtx?.categories.value.find(
+                  (el) => el.id === parentCategory?.parentId
+                );
                 if (
                   !pre.some((el) => {
                     const { quantity, ...productInBasket } = el;
                     return (
                       JSON.stringify(productInBasket) ===
-                      JSON.stringify({ ...props.value, selectedPrice })
+                      JSON.stringify({
+                        ...props.value,
+                        selectedPrice,
+                        category: `${topCategory ? topCategory?.name['ua'] + ', ' : ''}${parentCategory ? parentCategory?.name['ua'] + ', ' : ''}${category?.name['ua']}`,
+                      })
                     );
                   })
                 )
-                  return [...pre, { ...props.value, selectedPrice, quantity: 1 }];
+                  return [
+                    ...pre,
+                    {
+                      ...props.value,
+                      selectedPrice,
+                      quantity: 1,
+                      category: `${topCategory ? topCategory?.name['ua'] + ', ' : ''}${parentCategory ? parentCategory?.name['ua'] + ', ' : ''}${category?.name['ua']}`,
+                    },
+                  ];
                 return pre;
               });
               setShowAddedOrder(true);
