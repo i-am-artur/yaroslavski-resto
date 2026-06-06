@@ -14,7 +14,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 300
+          "value": 350
         }
       ]
     },
@@ -38,7 +38,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -68,7 +68,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 100
+          "value": 150
         }
       ],
       "delivery": [
@@ -98,7 +98,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 70
+          "value": 100
         }
       ],
       "delivery": [
@@ -125,7 +125,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 50
+          "value": 70
         }
       ],
       "delivery": [
@@ -152,7 +152,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 50
+          "value": 70
         }
       ],
       "delivery": [
@@ -182,7 +182,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 70
+          "value": 100
         }
       ],
       "delivery": [
@@ -212,7 +212,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 100
+          "value": 150
         }
       ],
       "delivery": [
@@ -242,7 +242,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 80
+          "value": 100
         }
       ],
       "delivery": [
@@ -272,7 +272,7 @@
       "qr": [
         {
           "capacity": 1,
-          "value": 50
+          "value": 60
         }
       ],
       "delivery": [
@@ -302,7 +302,7 @@
       "qr": [
         {
           "capacity": 2,
-          "value": 80
+          "value": 100
         }
       ],
       "delivery": [
@@ -329,7 +329,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 700
+          "value": 800
         }
       ],
       "delivery": [
@@ -359,7 +359,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 550
+          "value": 600
         }
       ],
       "delivery": [
@@ -389,7 +389,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -419,7 +419,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 600
+          "value": 700
         }
       ],
       "delivery": [
@@ -449,7 +449,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
@@ -479,7 +479,7 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 400
+          "value": 450
         }
       ],
       "delivery": [
@@ -509,7 +509,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
@@ -536,13 +536,34 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
         {
           "capacity": 200,
           "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [20],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Люля-кебаб з Тигрових Креветок"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 500
         }
       ]
     },
@@ -566,7 +587,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 1700
+          "value": 2000
         }
       ],
       "delivery": [
@@ -596,7 +617,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 330
+          "value": 400
         }
       ],
       "delivery": [
@@ -626,13 +647,34 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
         {
           "capacity": 100,
           "value": 70
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [21],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Гострий свинной шашлик"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 300
         }
       ]
     },
@@ -656,7 +698,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -683,7 +725,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -713,7 +755,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -740,7 +782,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -767,7 +809,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -794,7 +836,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 400
+          "value": 450
         }
       ],
       "delivery": [
@@ -821,7 +863,7 @@
       "qr": [
         {
           "capacity": 1,
-          "value": 100
+          "value": 150
         }
       ],
       "delivery": [
@@ -851,7 +893,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -881,7 +923,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 200
         }
       ],
       "delivery": [
@@ -911,7 +953,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -938,7 +980,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
@@ -965,7 +1007,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 300
+          "value": 350
         }
       ]
     },
@@ -989,7 +1031,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -1019,7 +1061,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -1049,7 +1091,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 400
+          "value": 600
         }
       ],
       "delivery": [
@@ -1097,7 +1139,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 200
+          "value": 250
         }
       ]
     },
@@ -1121,7 +1163,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 400
+          "value": 500
         }
       ],
       "delivery": [
@@ -1148,7 +1190,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 250
+          "value": 300
         }
       ]
     },
@@ -1172,7 +1214,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -1202,7 +1244,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -1232,7 +1274,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -1262,7 +1304,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 1000
+          "value": 1200
         }
       ],
       "delivery": [
@@ -1292,7 +1334,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 800
+          "value": 1000
         }
       ],
       "delivery": [
@@ -1323,7 +1365,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -1350,7 +1392,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -1380,7 +1422,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -1410,7 +1452,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 120
         }
       ],
       "delivery": [
@@ -1440,7 +1482,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 120
         }
       ],
       "delivery": [
@@ -1470,7 +1512,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 120
         }
       ],
       "delivery": [
@@ -1500,7 +1542,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ],
       "delivery": [
@@ -1530,7 +1572,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ],
       "delivery": [
@@ -1560,7 +1602,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ],
       "delivery": [
@@ -1590,7 +1632,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 120
         }
       ],
       "delivery": [
@@ -1620,7 +1662,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 80
+          "value": 90
         }
       ],
       "delivery": [
@@ -1650,7 +1692,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 80
+          "value": 90
         }
       ],
       "delivery": [
@@ -1680,7 +1722,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 80
+          "value": 90
         }
       ],
       "delivery": [
@@ -1710,7 +1752,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 80
         }
       ],
       "delivery": [
@@ -1740,7 +1782,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 80
         }
       ],
       "delivery": [

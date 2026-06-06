@@ -14,7 +14,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 150
+          "value": 200
         }
       ]
     },
@@ -35,7 +35,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 200
+          "value": 250
         }
       ]
     },
@@ -59,7 +59,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -89,7 +89,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -119,34 +119,13 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 150
+          "value": 170
         }
       ],
       "delivery": [
         {
           "capacity": 150,
           "value": 150
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [66],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Чизкейк «Дубайський»"
-    },
-    "description": {
-      "en": "",
-      "ua": "Оксамитовий крем-чиз із східними нотами, на хрусткій основі, з насиченим ароматом ванілі та легким карамельним післясмаком. Вишуканий десерт у розкішному стилі."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 150,
-          "value": 200
         }
       ]
     },
@@ -167,7 +146,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -191,7 +170,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -221,7 +200,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 150
+          "value": 170
         }
       ],
       "delivery": [
@@ -251,7 +230,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 150
+          "value": 170
         }
       ],
       "delivery": [
@@ -278,7 +257,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 150
+          "value": 170
         }
       ],
       "delivery": [
@@ -305,7 +284,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 150
+          "value": 170
         }
       ],
       "delivery": [
@@ -332,7 +311,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 150
+          "value": 170
         }
       ],
       "delivery": [
@@ -362,7 +341,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 150
+          "value": 170
         }
       ],
       "delivery": [
@@ -392,7 +371,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 150
+          "value": 170
         }
       ],
       "delivery": [
@@ -422,7 +401,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -452,7 +431,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -482,7 +461,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -509,7 +488,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -520,6 +499,48 @@
       ]
     },
     "capacityUnit": "g"
+  },
+  {
+    "categories": [66],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Тірамісу"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 150,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [66],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Тірамісу ШУ"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 1,
+          "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "qty"
   },
   {
     "categories": [66],
@@ -539,7 +560,7 @@
       "qr": [
         {
           "capacity": 1,
-          "value": 60
+          "value": 80
         }
       ],
       "delivery": [
@@ -566,7 +587,28 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 140
+          "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [63],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Вишневе"
+    },
+    "description": {
+      "en": "",
+      "ua": "вершкове морозиво, вишневий соус"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 170
         }
       ]
     },
@@ -587,7 +629,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 140
+          "value": 200
         }
       ]
     },
@@ -608,7 +650,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 140
+          "value": 170
         }
       ]
     },
@@ -629,7 +671,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 220
+          "value": 250
         }
       ]
     },
@@ -650,7 +692,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 120
+          "value": 140
         }
       ]
     },
@@ -671,10 +713,31 @@
       "qr": [
         {
           "capacity": "1 кулька",
-          "value": 30
+          "value": 50
         }
       ]
     },
     "capacityUnit": "qty"
+  },
+  {
+    "categories": [63],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Варення/Мед"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 100,
+          "value": 120
+        }
+      ]
+    },
+    "capacityUnit": "g"
   }
 ]

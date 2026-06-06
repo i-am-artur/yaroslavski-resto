@@ -44,7 +44,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 180
         }
       ],
       "delivery": [
@@ -74,7 +74,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 180
         }
       ],
       "delivery": [
@@ -104,7 +104,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 180
         }
       ],
       "delivery": [
@@ -131,7 +131,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -161,7 +161,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 180
         }
       ],
       "delivery": [
@@ -191,7 +191,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 180
         }
       ],
       "delivery": [
@@ -218,13 +218,76 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 200
         }
       ],
       "delivery": [
         {
           "capacity": 300,
           "value": 150
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [2],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Суп вершковий з Норвезьким Лососем"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [2],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Том Ям"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 350
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [2],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Креветковий Крем-суп"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 250
         }
       ]
     },
@@ -248,7 +311,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -278,7 +341,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 180
         }
       ],
       "delivery": [
@@ -308,7 +371,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 180
         }
       ],
       "delivery": [
@@ -338,7 +401,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 180
         }
       ],
       "delivery": [
@@ -368,7 +431,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -398,13 +461,76 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
         {
           "capacity": 300,
           "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [2],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Окрошка з Качкою"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 250
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [2],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Окрошка з Качкою холодного копченя"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 300
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [2],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Окрошка з Тигровими Креветками та помідорами"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 300
         }
       ]
     },
@@ -425,7 +551,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 200
+          "value": 300
         }
       ],
       "delivery": [

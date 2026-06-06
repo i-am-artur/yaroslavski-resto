@@ -17,7 +17,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -44,7 +44,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -74,7 +74,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -104,7 +104,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 120
         }
       ],
       "delivery": [
@@ -134,7 +134,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 120
         }
       ],
       "delivery": [
@@ -164,7 +164,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 120
         }
       ],
       "delivery": [
@@ -194,7 +194,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ],
       "delivery": [
@@ -224,7 +224,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ],
       "delivery": [
@@ -254,7 +254,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ],
       "delivery": [
@@ -284,7 +284,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 120
         }
       ],
       "delivery": [
@@ -314,7 +314,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 80
+          "value": 90
         }
       ],
       "delivery": [
@@ -344,7 +344,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 80
+          "value": 90
         }
       ],
       "delivery": [
@@ -374,7 +374,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 80
+          "value": 90
         }
       ],
       "delivery": [
@@ -404,7 +404,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 80
         }
       ],
       "delivery": [
@@ -434,7 +434,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 80
         }
       ],
       "delivery": [

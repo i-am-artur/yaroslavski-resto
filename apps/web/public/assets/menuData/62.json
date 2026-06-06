@@ -14,7 +14,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -44,7 +44,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -71,7 +71,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -98,7 +98,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -125,7 +125,7 @@
       "qr": [
         {
           "capacity": "200\\50",
-          "value": 140
+          "value": 170
         }
       ],
       "delivery": [
@@ -152,7 +152,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -179,7 +179,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -209,7 +209,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 200
         }
       ],
       "delivery": [
@@ -236,7 +236,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 140
+          "value": 150
         }
       ],
       "delivery": [
@@ -263,7 +263,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 140
+          "value": 180
         }
       ],
       "delivery": [
@@ -293,7 +293,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 150
+          "value": 180
         }
       ],
       "delivery": [

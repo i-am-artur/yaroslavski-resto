@@ -14,11 +14,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 100
+          "value": 150
         },
         {
           "capacity": 500,
-          "value": 150
+          "value": 200
         }
       ]
     },
@@ -39,11 +39,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 130
+          "value": 200
         },
         {
           "capacity": 500,
-          "value": 200
+          "value": 250
         }
       ]
     },
@@ -67,42 +67,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
-        },
-        {
-          "capacity": 500,
           "value": 200
-        }
-      ],
-      "delivery": [
-        {
-          "capacity": 300,
-          "value": 150
-        },
-        {
-          "capacity": 500,
-          "value": 200
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [8],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Українськи смаколикі"
-    },
-    "description": {
-      "en": "",
-      "ua": "Асорті традиційних домашніх м’ясних делікатесів, що зберігають автентичний смак української кухні. До набору входять:\nЗельц — холодна м’ясна закуска з ніжною текстурою й насиченим смаком;\nКров’янка класична — ароматна ковбаска зі спеціями;\nКров’янка з гречкою — розсипчаста та поживна, з характерною гречаною ноткою;\nКовбаса печінкова — ніжна, м’яка та пряна, із виразним смаком печінки.\nПодається з хреном і гірчицею, що підкреслюють насиченість та пікантність страви.\nСитне, пряне й по-справжньому домашнє асорті для поціновувачів українських смаків"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 500,
-          "value": 250
         },
         {
           "capacity": 500,
@@ -140,7 +105,7 @@
       "qr": [
         {
           "capacity": 800,
-          "value": 400
+          "value": 500
         }
       ],
       "delivery": [
@@ -170,7 +135,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 200
         }
       ],
       "delivery": [
@@ -197,7 +162,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -224,7 +189,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 150
+          "value": 200
         }
       ],
       "delivery": [
@@ -251,7 +216,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 150
+          "value": 200
         }
       ],
       "delivery": [
@@ -281,7 +246,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -308,7 +273,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 400
+          "value": 500
         }
       ],
       "delivery": [
@@ -338,13 +303,34 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 400
+          "value": 500
         }
       ],
       "delivery": [
         {
           "capacity": 200,
           "value": 400
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [8],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "М`ясна дошка "
+    },
+    "description": {
+      "en": "",
+      "ua": "с/к качине філе, прошутто, бастурма, оливки та маслини"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 200,
+          "value": 500
         }
       ]
     },
@@ -368,40 +354,13 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 400
+          "value": 500
         }
       ],
       "delivery": [
         {
           "capacity": 100,
           "value": 400
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [8],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Нарізка з сирокопченого качиного філе"
-    },
-    "description": {
-      "en": "",
-      "ua": "Вишукана закуска з делікатного качиного філе, приготованого методом холодного копчення. М’ясо має насичений смак, легкий димний аромат і ніжну текстуру з приємною солонуватістю. Елегантна страва, що ідеально пасує до червоного вина, соусів чи сирних тарілок"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 100,
-          "value": 200
-        }
-      ],
-      "delivery": [
-        {
-          "capacity": 100,
-          "value": 200
         }
       ]
     },
@@ -425,7 +384,7 @@
       "qr": [
         {
           "capacity": 170,
-          "value": 180
+          "value": 200
         }
       ],
       "delivery": [
@@ -452,7 +411,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -479,7 +438,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -509,7 +468,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 180
+          "value": 250
         }
       ],
       "delivery": [
@@ -536,145 +495,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 100
-        }
-      ],
-      "delivery": [
-        {
-          "capacity": 100,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [8],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Можожі мариновані свинячі ніжки"
-    },
-    "description": {
-      "en": "",
-      "ua": "Традиційна холодна закуска з ніжок, маринованих у пр пряному розсолі. М’які, ароматні та насичені смаком, подаються охолодженими. Ідеальний вибір для поціновувачів автентичної кухні."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 1,
-          "value": 100
-        }
-      ],
-      "delivery": [
-        {
-          "capacity": 1,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "qty"
-  },
-  {
-    "categories": [8],
-    "image": {
-      "thumb": "109.jpg",
-      "full": ["109b.jpg"]
-    },
-    "name": {
-      "en": "",
-      "ua": "Бастурма"
-    },
-    "description": {
-      "en": "",
-      "ua": "В’ялене м’ясо, витримане у пряному наборі спецій. Має насичений аромат, щільну текстуру та характерний пікантний смак. Класична східна закуска."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 100,
-          "value": 180
-        }
-      ],
-      "delivery": [
-        {
-          "capacity": 100,
-          "value": 180
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [8],
-    "image": "1.jpg",
-    "name": {
-      "en": "Hachapuri Adjarski with cheese",
-      "ua": "Прошуто"
-    },
-    "description": {
-      "en": "",
-      "ua": "Тонко нарізаний витриманий італійський хамон із ніжною текстурою та вишуканим солонуватим смаком. Класична делікатесна закуска."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 100,
-          "value": 180
-        }
-      ],
-      "delivery": [
-        {
-          "capacity": 100,
-          "value": 180
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [8],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Суджук"
-    },
-    "description": {
-      "en": "",
-      "ua": "Традиційна в’ялена ковбаса з насиченим гостро-пряним смаком, щільною текстурою та характерним ароматом спецій. Вишукана м’ясна закуска для поціновувачів східної кухні."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 100,
-          "value": 100
-        }
-      ],
-      "delivery": [
-        {
-          "capacity": 100,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "g"
-  },
-  {
-    "categories": [8],
-    "image": "1.jpg",
-    "name": {
-      "en": "Hachapuri Adjarski with cheese",
-      "ua": "Фісташки"
-    },
-    "description": {
-      "en": "",
-      "ua": "Підсмажені солоні горішки з ніжним горіховим смаком та приємною хрусткою текстурою. Ідеальна легка закуска."
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 100,
-          "value": 100
+          "value": 200
         }
       ],
       "delivery": [
@@ -701,7 +522,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 100
+          "value": 200
         }
       ],
       "delivery": [
@@ -731,7 +552,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -761,7 +582,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -791,7 +612,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -821,7 +642,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 220
+          "value": 300
         }
       ],
       "delivery": [
@@ -851,7 +672,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -881,7 +702,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -908,7 +729,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 100
+          "value": 150
         }
       ],
       "delivery": [
@@ -938,7 +759,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -968,7 +789,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
@@ -995,7 +816,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
@@ -1022,7 +843,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -1049,7 +870,7 @@
       "qr": [
         {
           "capacity": 175,
-          "value": 100
+          "value": 150
         }
       ],
       "delivery": [
@@ -1076,7 +897,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -1103,7 +924,7 @@
       "qr": [
         {
           "capacity": 100,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -1190,7 +1011,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 150
+          "value": 200
         }
       ],
       "delivery": [
@@ -1220,7 +1041,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -1247,7 +1068,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -1267,7 +1088,7 @@
     },
     "name": {
       "en": "Hachapuri Adjarski with cheese",
-      "ua": "Лавашбургер з сиром Чедер та Моцареллой"
+      "ua": "Лавашбургер Телячий з сиром Чедер та Моцареллой"
     },
     "description": {
       "en": "",
@@ -1277,7 +1098,34 @@
       "qr": [
         {
           "capacity": 300,
+          "value": 220
+        }
+      ],
+      "delivery": [
+        {
+          "capacity": 300,
           "value": 180
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [11],
+    "image": null,
+    "name": {
+      "en": "Hachapuri Adjarski with cheese",
+      "ua": "Лавашбургер з Креветкою з сиром Чедер"
+    },
+    "description": {
+      "en": "",
+      "ua": "Котлета з креветки тигрової, креветка тигрова, моцарела,помідори, огірок, салат айсберг, авокадо, червона цибуля"
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 300,
+          "value": 300
         }
       ],
       "delivery": [
@@ -1307,7 +1155,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [
@@ -1337,7 +1185,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 150
+          "value": 200
         }
       ],
       "delivery": [
@@ -1367,7 +1215,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 180
+          "value": 220
         }
       ],
       "delivery": [

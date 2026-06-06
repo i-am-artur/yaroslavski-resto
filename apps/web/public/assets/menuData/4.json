@@ -17,7 +17,7 @@
       "qr": [
         {
           "capacity": "300\\150\\50",
-          "value": 500
+          "value": 600
         }
       ],
       "delivery": [
@@ -47,7 +47,7 @@
       "qr": [
         {
           "capacity": "200\\150\\50",
-          "value": 400
+          "value": 450
         }
       ],
       "delivery": [
@@ -74,7 +74,7 @@
       "qr": [
         {
           "capacity": "150\\150\\50",
-          "value": 700
+          "value": 750
         }
       ],
       "delivery": [
@@ -101,7 +101,7 @@
       "qr": [
         {
           "capacity": "150\\150\\50",
-          "value": 500
+          "value": 550
         }
       ],
       "delivery": [
@@ -128,7 +128,7 @@
       "qr": [
         {
           "capacity": "150\\150\\50",
-          "value": 800
+          "value": 900
         }
       ],
       "delivery": [
@@ -155,7 +155,7 @@
       "qr": [
         {
           "capacity": "100\\150\\50",
-          "value": 500
+          "value": 600
         }
       ],
       "delivery": [
@@ -182,7 +182,7 @@
       "qr": [
         {
           "capacity": "200\\150\\50",
-          "value": 450
+          "value": 500
         }
       ],
       "delivery": [
@@ -212,7 +212,7 @@
       "qr": [
         {
           "capacity": "250\\150\\50",
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -239,7 +239,7 @@
       "qr": [
         {
           "capacity": "200\\150\\50",
-          "value": 400
+          "value": 550
         }
       ],
       "delivery": [
@@ -266,7 +266,7 @@
       "qr": [
         {
           "capacity": "200\\150\\50",
-          "value": 400
+          "value": 500
         }
       ],
       "delivery": [
@@ -293,7 +293,7 @@
       "qr": [
         {
           "capacity": "300\\150\\50",
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -320,13 +320,34 @@
       "qr": [
         {
           "capacity": "200\\50",
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
         {
           "capacity": "200\\50",
           "value": 200
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [17],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Толма з Телятини у капустному листі"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": "250",
+          "value": 250
         }
       ]
     },
@@ -347,7 +368,7 @@
       "qr": [
         {
           "capacity": "200\\50",
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
@@ -374,7 +395,7 @@
       "qr": [
         {
           "capacity": "200\\50",
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -401,7 +422,7 @@
       "qr": [
         {
           "capacity": 170,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [

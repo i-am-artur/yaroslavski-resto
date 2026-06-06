@@ -14,11 +14,11 @@
       "qr": [
         {
           "capacity": 350,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 500,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -49,7 +49,7 @@
       "qr": [
         {
           "capacity": 2000,
-          "value": 1000
+          "value": 1200
         }
       ],
       "delivery": [
@@ -79,11 +79,11 @@
       "qr": [
         {
           "capacity": 350,
-          "value": 220
+          "value": 250
         },
         {
           "capacity": 500,
-          "value": 270
+          "value": 350
         }
       ],
       "delivery": [
@@ -114,11 +114,11 @@
       "qr": [
         {
           "capacity": 350,
-          "value": 220
+          "value": 250
         },
         {
           "capacity": 500,
-          "value": 270
+          "value": 350
         }
       ],
       "delivery": [
@@ -149,11 +149,11 @@
       "qr": [
         {
           "capacity": 350,
-          "value": 220
+          "value": 250
         },
         {
           "capacity": 500,
-          "value": 270
+          "value": 300
         }
       ],
       "delivery": [
@@ -184,11 +184,11 @@
       "qr": [
         {
           "capacity": 350,
-          "value": 270
+          "value": 250
         },
         {
           "capacity": 500,
-          "value": 320
+          "value": 350
         }
       ],
       "delivery": [
@@ -218,12 +218,12 @@
     "price": {
       "qr": [
         {
-          "capacity": 350,
-          "value": 220
+          "capacity": 400,
+          "value": 250
         },
         {
-          "capacity": 500,
-          "value": 270
+          "capacity": 600,
+          "value": 300
         }
       ],
       "delivery": [
@@ -253,11 +253,11 @@
       "qr": [
         {
           "capacity": 350,
-          "value": 220
+          "value": 250
         },
         {
           "capacity": 500,
-          "value": 270
+          "value": 300
         }
       ],
       "delivery": [
@@ -284,11 +284,11 @@
       "qr": [
         {
           "capacity": 350,
-          "value": 270
+          "value": 300
         },
         {
           "capacity": 500,
-          "value": 320
+          "value": 350
         }
       ],
       "delivery": [
@@ -322,11 +322,11 @@
       "qr": [
         {
           "capacity": 350,
-          "value": 270
+          "value": 300
         },
         {
           "capacity": 500,
-          "value": 320
+          "value": 350
         }
       ],
       "delivery": [
@@ -412,7 +412,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 150
+          "value": 170
         },
         {
           "capacity": 500,
@@ -447,11 +447,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 500,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -482,11 +482,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 500,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -520,11 +520,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 500,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -558,11 +558,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 500,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -596,11 +596,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 250
+          "value": 300
         },
         {
           "capacity": 500,
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -634,11 +634,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 200
+          "value": 250
         },
         {
           "capacity": 500,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
@@ -672,11 +672,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 300
+          "value": 350
         },
         {
           "capacity": 500,
-          "value": 400
+          "value": 450
         }
       ],
       "delivery": [
@@ -710,11 +710,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 200
+          "value": 250
         },
         {
           "capacity": 500,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
@@ -748,11 +748,11 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 500,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -786,11 +786,11 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 150
+          "value": 200
         },
         {
           "capacity": 400,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -824,11 +824,11 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 150
+          "value": 170
         },
         {
           "capacity": 400,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -862,11 +862,11 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 400,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -897,11 +897,11 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 400,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -932,11 +932,11 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 400,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -970,11 +970,11 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 250
+          "value": 300
         },
         {
           "capacity": 400,
-          "value": 400
+          "value": 450
         }
       ],
       "delivery": [
@@ -1008,11 +1008,11 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 250
+          "value": 300
         },
         {
           "capacity": 400,
-          "value": 400
+          "value": 450
         }
       ],
       "delivery": [
@@ -1043,11 +1043,11 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 150
+          "value": 170
         },
         {
           "capacity": 400,
-          "value": 200
+          "value": 250
         }
       ],
       "delivery": [
@@ -1078,11 +1078,11 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 170
+          "value": 200
         },
         {
           "capacity": 400,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -1113,7 +1113,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 220
+          "value": 250
         }
       ],
       "delivery": [
@@ -1140,7 +1140,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
@@ -1167,13 +1167,34 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 250
+          "value": 300
         }
       ],
       "delivery": [
         {
           "capacity": 500,
           "value": 250
+        }
+      ]
+    },
+    "capacityUnit": "g"
+  },
+  {
+    "categories": [29],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Ярило Пряний з Качиною грудкою холодного копченя "
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 500,
+          "value": 450
         }
       ]
     },
@@ -1194,7 +1215,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 300
+          "value": 350
         }
       ],
       "delivery": [
@@ -1224,7 +1245,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 350
+          "value": 400
         }
       ],
       "delivery": [

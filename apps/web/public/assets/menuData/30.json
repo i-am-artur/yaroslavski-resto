@@ -17,7 +17,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 50
+          "value": 70
         }
       ],
       "delivery": [
@@ -47,7 +47,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 60
+          "value": 80
         }
       ],
       "delivery": [
@@ -74,7 +74,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 80
+          "value": 100
         }
       ],
       "delivery": [
@@ -101,7 +101,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 80
+          "value": 100
         }
       ],
       "delivery": [
@@ -128,7 +128,7 @@
       "qr": [
         {
           "capacity": 300,
-          "value": 60
+          "value": 100
         }
       ]
     },
@@ -152,7 +152,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 50
+          "value": 70
         }
       ],
       "delivery": [
@@ -182,11 +182,11 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -217,11 +217,11 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -252,11 +252,11 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -287,11 +287,11 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -325,11 +325,11 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -360,11 +360,11 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -395,11 +395,11 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -430,11 +430,11 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -465,11 +465,11 @@
       "qr": [
         {
           "capacity": 400,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -501,7 +501,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -528,7 +528,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 50
+          "value": 60
         }
       ],
       "delivery": [
@@ -555,13 +555,34 @@
       "qr": [
         {
           "capacity": 330,
-          "value": 80
+          "value": 90
         }
       ],
       "delivery": [
         {
           "capacity": 330,
           "value": 80
+        }
+      ]
+    },
+    "capacityUnit": "ml"
+  },
+  {
+    "categories": [53],
+    "image": null,
+    "name": {
+      "en": "",
+      "ua": "Джермук"
+    },
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "price": {
+      "qr": [
+        {
+          "capacity": 500,
+          "value": 120
         }
       ]
     },
@@ -582,7 +603,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -608,8 +629,8 @@
     "price": {
       "qr": [
         {
-          "capacity": "250/750",
-          "value": 70
+          "capacity": "250/500",
+          "value": 90
         }
       ],
       "delivery": [
@@ -640,7 +661,7 @@
       "qr": [
         {
           "capacity": 40,
-          "value": 60
+          "value": 70
         }
       ],
       "delivery": [
@@ -667,7 +688,7 @@
       "qr": [
         {
           "capacity": 130,
-          "value": 70
+          "value": 80
         }
       ],
       "delivery": [
@@ -694,7 +715,7 @@
       "qr": [
         {
           "capacity": 220,
-          "value": 140
+          "value": 150
         }
       ],
       "delivery": [
@@ -721,7 +742,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 120
+          "value": 130
         }
       ],
       "delivery": [
@@ -748,7 +769,7 @@
       "qr": [
         {
           "capacity": 160,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -775,7 +796,7 @@
       "qr": [
         {
           "capacity": 180,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -809,69 +830,6 @@
     "capacityUnit": "ml"
   },
   {
-    "categories": [54],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Молоко"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 50,
-          "value": 20
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [55],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Рубіновий чай зі східними ласощами"
-    },
-    "description": {
-      "en": "",
-      "ua": "Кизил, кориця, гвоздика, козинаки, варення, халва"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": "1000/100/100/50",
-          "value": 300
-        }
-      ]
-    },
-    "capacityUnit": ""
-  },
-  {
-    "categories": [55],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Бурштиновий чай зі східними смаколиками"
-    },
-    "description": {
-      "en": "",
-      "ua": "Обліпиха, апельсин, імбир, м'ята, кориця, бад'ян, горіхи-сухофрукти, шербет, мед"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": "1000/100/100/50",
-          "value": 300
-        }
-      ]
-    },
-    "capacityUnit": ""
-  },
-  {
     "categories": [55],
     "image": "1.jpg",
     "name": {
@@ -886,11 +844,11 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -911,11 +869,11 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 120
+          "value": 150
         },
         {
           "capacity": 1000,
-          "value": 150
+          "value": 170
         }
       ]
     },
@@ -936,11 +894,11 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -961,11 +919,11 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 100
+          "value": 120
         },
         {
           "capacity": 1000,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -986,11 +944,11 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 120
+          "value": 150
         },
         {
           "capacity": 1000,
-          "value": 150
+          "value": 170
         }
       ]
     },
@@ -1011,7 +969,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 150
+          "value": 170
         }
       ]
     },
@@ -1032,7 +990,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -1053,28 +1011,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 170
-        }
-      ]
-    },
-    "capacityUnit": "ml"
-  },
-  {
-    "categories": [55],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Чорна смородина"
-    },
-    "description": {
-      "en": "",
-      "ua": "Чорна смородина та листя, апельсин, чорний чай, мед"
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -1095,7 +1032,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -1116,7 +1053,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 150
+          "value": 200
         }
       ]
     },
@@ -1137,7 +1074,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -1158,7 +1095,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -1179,7 +1116,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 150
+          "value": 200
         }
       ]
     },
@@ -1200,7 +1137,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -1221,7 +1158,7 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 150
+          "value": 170
         }
       ]
     },
@@ -1242,32 +1179,11 @@
       "qr": [
         {
           "capacity": 1000,
-          "value": 150
+          "value": 170
         }
       ]
     },
     "capacityUnit": "ml"
-  },
-  {
-    "categories": [55],
-    "image": "1.jpg",
-    "name": {
-      "en": "",
-      "ua": "Шербет/ Сухофрукти з горіхами"
-    },
-    "description": {
-      "en": "",
-      "ua": ""
-    },
-    "price": {
-      "qr": [
-        {
-          "capacity": 100,
-          "value": 100
-        }
-      ]
-    },
-    "capacityUnit": "g"
   },
   {
     "categories": [55],
@@ -1305,11 +1221,11 @@
       "qr": [
         {
           "capacity": 330,
-          "value": 60
+          "value": 90
         },
         {
           "capacity": 500,
-          "value": 90
+          "value": 120
         }
       ],
       "delivery": [
@@ -1336,11 +1252,11 @@
       "qr": [
         {
           "capacity": 330,
-          "value": 100
+          "value": 140
         },
         {
           "capacity": 500,
-          "value": 150
+          "value": 200
         }
       ],
       "delivery": [
@@ -1367,11 +1283,11 @@
       "qr": [
         {
           "capacity": 330,
-          "value": 50
+          "value": 70
         },
         {
           "capacity": 500,
-          "value": 80
+          "value": 100
         }
       ],
       "delivery": [
@@ -1398,7 +1314,7 @@
       "qr": [
         {
           "capacity": 330,
-          "value": 120
+          "value": 130
         }
       ],
       "delivery": [
@@ -1425,7 +1341,7 @@
       "qr": [
         {
           "capacity": 330,
-          "value": 110
+          "value": 120
         }
       ],
       "delivery": [
@@ -1452,7 +1368,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 90
+          "value": 100
         }
       ],
       "delivery": [
@@ -1479,7 +1395,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 70
+          "value": 90
         }
       ],
       "delivery": [
@@ -1506,7 +1422,7 @@
       "qr": [
         {
           "capacity": 500,
-          "value": 60
+          "value": 90
         }
       ],
       "delivery": [
@@ -1533,7 +1449,7 @@
       "qr": [
         {
           "capacity": 280,
-          "value": 150
+          "value": 180
         }
       ]
     },
@@ -1554,7 +1470,7 @@
       "qr": [
         {
           "capacity": 130,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -1575,7 +1491,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -1596,7 +1512,7 @@
       "qr": [
         {
           "capacity": 190,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -1617,7 +1533,7 @@
       "qr": [
         {
           "capacity": 180,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -1638,7 +1554,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 200
+          "value": 250
         }
       ]
     },
@@ -1659,7 +1575,7 @@
       "qr": [
         {
           "capacity": 350,
-          "value": 200
+          "value": 250
         }
       ]
     },
@@ -1680,7 +1596,7 @@
       "qr": [
         {
           "capacity": 150,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -1701,7 +1617,7 @@
       "qr": [
         {
           "capacity": 200,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -1722,7 +1638,7 @@
       "qr": [
         {
           "capacity": 60,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -1743,7 +1659,7 @@
       "qr": [
         {
           "capacity": 60,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -1764,7 +1680,7 @@
       "qr": [
         {
           "capacity": 60,
-          "value": 150
+          "value": 180
         }
       ]
     },
@@ -1785,7 +1701,7 @@
       "qr": [
         {
           "capacity": 25,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -1806,7 +1722,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 150
+          "value": 180
         }
       ]
     },
@@ -1827,7 +1743,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -1848,7 +1764,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 170
+          "value": 180
         }
       ]
     },
@@ -1869,7 +1785,7 @@
       "qr": [
         {
           "capacity": 250,
-          "value": 220
+          "value": 250
         }
       ]
     },
@@ -1890,7 +1806,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 140
         }
       ]
     },
@@ -1911,7 +1827,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 60
+          "value": 70
         }
       ],
       "delivery": [
@@ -1938,7 +1854,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 65
+          "value": 75
         }
       ],
       "delivery": [
@@ -1965,7 +1881,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 40
+          "value": 50
         }
       ],
       "delivery": [
@@ -1992,7 +1908,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 50
+          "value": 60
         }
       ],
       "delivery": [
@@ -2019,7 +1935,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 30
+          "value": 40
         }
       ],
       "delivery": [
@@ -2046,7 +1962,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 85
+          "value": 95
         }
       ],
       "delivery": [
@@ -2073,7 +1989,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ],
       "delivery": [
@@ -2100,7 +2016,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 130
+          "value": 150
         }
       ],
       "delivery": [
@@ -2127,7 +2043,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 170
+          "value": 200
         }
       ],
       "delivery": [
@@ -2154,7 +2070,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 400
+          "value": 500
         }
       ]
     },
@@ -2175,7 +2091,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 400
+          "value": 500
         }
       ]
     },
@@ -2196,7 +2112,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -2223,7 +2139,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -2250,7 +2166,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -2277,7 +2193,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 150
         }
       ],
       "delivery": [
@@ -2304,7 +2220,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 60
+          "value": 70
         }
       ],
       "delivery": [
@@ -2331,7 +2247,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 90
         }
       ],
       "delivery": [
@@ -2358,7 +2274,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 60
+          "value": 70
         }
       ],
       "delivery": [
@@ -2385,7 +2301,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -2406,7 +2322,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 140
         }
       ]
     },
@@ -2427,7 +2343,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 140
         }
       ]
     },
@@ -2448,7 +2364,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 150
+          "value": 170
         }
       ]
     },
@@ -2469,7 +2385,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 90
         }
       ]
     },
@@ -2490,7 +2406,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -2511,7 +2427,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -2532,7 +2448,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 200
+          "value": 250
         }
       ]
     },
@@ -2553,7 +2469,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 80
+          "value": 90
         }
       ]
     },
@@ -2574,7 +2490,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 60
+          "value": 70
         }
       ]
     },
@@ -2595,7 +2511,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 60
+          "value": 70
         }
       ]
     },
@@ -2616,7 +2532,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -2637,7 +2553,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -2658,7 +2574,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 140
         }
       ]
     },
@@ -2679,7 +2595,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 150
+          "value": 180
         }
       ]
     },
@@ -2700,7 +2616,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 90
         }
       ]
     },
@@ -2721,7 +2637,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 80
+          "value": 100
         }
       ]
     },
@@ -2742,7 +2658,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 80
+          "value": 100
         }
       ]
     },
@@ -2763,7 +2679,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 140
         }
       ]
     },
@@ -2784,7 +2700,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -2805,7 +2721,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 170
+          "value": 200
         }
       ]
     },
@@ -2826,7 +2742,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 400
+          "value": 500
         }
       ]
     },
@@ -2847,7 +2763,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 450
+          "value": 550
         }
       ]
     },
@@ -2868,7 +2784,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 85
+          "value": 100
         }
       ]
     },
@@ -2889,7 +2805,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -2910,7 +2826,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 110
+          "value": 140
         }
       ]
     },
@@ -2931,7 +2847,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 150
         }
       ]
     },
@@ -2952,7 +2868,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -2973,7 +2889,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -2994,7 +2910,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -3015,7 +2931,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 100
+          "value": 120
         }
       ]
     },
@@ -3036,7 +2952,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 80
         }
       ]
     },
@@ -3057,7 +2973,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 80
         }
       ]
     },
@@ -3078,7 +2994,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 120
+          "value": 140
         }
       ]
     },
@@ -3099,7 +3015,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 70
+          "value": 80
         }
       ]
     },
@@ -3120,7 +3036,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 50
+          "value": 70
         }
       ]
     },
@@ -3141,7 +3057,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ]
     },
@@ -3162,7 +3078,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ]
     },
@@ -3183,7 +3099,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ]
     },
@@ -3204,7 +3120,7 @@
       "qr": [
         {
           "capacity": 50,
-          "value": 90
+          "value": 100
         }
       ]
     },
@@ -3225,7 +3141,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 1300
+          "value": 1500
         }
       ],
       "delivery": [
@@ -3252,7 +3168,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 650
+          "value": 750
         }
       ],
       "delivery": [
@@ -3279,7 +3195,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 600
+          "value": 700
         }
       ],
       "delivery": [
@@ -3306,7 +3222,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 500
+          "value": 600
         }
       ],
       "delivery": [
@@ -3333,7 +3249,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 500
+          "value": 600
         }
       ],
       "delivery": [
@@ -3360,7 +3276,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 500
+          "value": 600
         }
       ],
       "delivery": [
@@ -3387,7 +3303,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 500
+          "value": 600
         }
       ],
       "delivery": [
@@ -3414,7 +3330,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 300
+          "value": 400
         }
       ],
       "delivery": [
@@ -3441,7 +3357,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 300
+          "value": 400
         }
       ],
       "delivery": [
@@ -3468,7 +3384,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 350
+          "value": 450
         }
       ],
       "delivery": [
@@ -3495,7 +3411,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 300
+          "value": 400
         }
       ],
       "delivery": [
@@ -3522,7 +3438,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 800
+          "value": 900
         }
       ],
       "delivery": [
@@ -3549,7 +3465,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 450
+          "value": 550
         }
       ],
       "delivery": [
@@ -3576,7 +3492,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 450
+          "value": 550
         }
       ],
       "delivery": [
@@ -3603,7 +3519,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 450
+          "value": 550
         }
       ],
       "delivery": [
@@ -3630,7 +3546,7 @@
       "qr": [
         {
           "capacity": 750,
-          "value": 450
+          "value": 550
         }
       ],
       "delivery": [
