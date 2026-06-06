@@ -6,8 +6,15 @@ import { stack } from '../../../../../styled-system/recipes';
 import ShowBasket from '../_components/products/_product/ShowBasket';
 import { css } from '../../../../../styled-system/css';
 
+const announcementStyle = css({ color: 'red' });
+
 export default function Options() {
   const appCtx = useAppContext();
+
+  const curDate = new Date();
+  // check if date is between 20/12 and 02/01
+  const isChristmas = curDate.getMonth() === 0 && curDate.getDate() <= 2;
+
   return (
     (appCtx?.table?.id || appCtx?.delivery?.isDelivery) && (
       <div
@@ -17,7 +24,7 @@ export default function Options() {
         )}
       >
         <CallService />
-        <ShowBasket />
+        {isChristmas && appCtx?.delivery?.isDelivery ? '' : <ShowBasket />}
       </div>
     )
   );

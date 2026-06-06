@@ -4,20 +4,24 @@ import { ReactNode } from 'react';
 import Logo from '../../../../src/app/logo/Logo';
 import { css } from '../../../../styled-system/css';
 import { stack } from '../../../../styled-system/recipes';
+import { useAppContext } from '../../../../src/app/context/AppContext';
 
 export default function Header({ children }: { children?: ReactNode }) {
+  const appCtx = useAppContext();
+
   return (
-    <header
-      className={cx(
-        stack({ dir: 'column' }),
-        css({
-          justifyContent: 'space-between',
-          sm: { flexDirection: 'row', alignItems: 'flex-end', paddingRight: 'side.h' },
-        })
-      )}
-    >
-      <Logo lang={'ua'} className={css({ maxWidth: 200 })} />
-      {/* {appCtx?.table && (
+    <>
+      <header
+        className={cx(
+          stack({ dir: 'column' }),
+          css({
+            justifyContent: 'space-between',
+            sm: { flexDirection: 'row', alignItems: 'flex-end', paddingRight: 'side.h' },
+          })
+        )}
+      >
+        <Logo lang={'ua'} className={css({ maxWidth: 200 })} />
+        {/* {appCtx?.table && (
         <div
           className={cx(
             stack({ dir: 'row', cGap: 'unit' }),
@@ -28,7 +32,8 @@ export default function Header({ children }: { children?: ReactNode }) {
           <ShowBasket />
         </div>
       )} */}
-      {children}
-    </header>
+        {children}
+      </header>
+    </>
   );
 }

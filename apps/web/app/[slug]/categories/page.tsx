@@ -8,6 +8,7 @@ import { stack } from '../../../styled-system/recipes';
 import Categories from './_components/Categories';
 import Footer from './_components/Footer';
 import s from './index.module.css';
+import Announcemnt from './Announcment';
 
 export default async function MenuPage(
   props: Readonly<{
@@ -19,6 +20,12 @@ export default async function MenuPage(
   const t = (await import(`../../../src/languages/translation/app/index/${lang}`).then(
     (module) => module.default
   )) as IndexT;
+
+  const curDate = new Date();
+  // check if date is between 20/12 and 02/01
+  const isChristmas =
+    (curDate.getMonth() === 11 && curDate.getDate() >= 20) ||
+    (curDate.getMonth() === 0 && curDate.getDate() <= 2);
 
   return (
     <Fragment>
@@ -70,8 +77,10 @@ export default async function MenuPage(
             <h1 className={css({ fontSize: '1.3rem', fontWeight: 500 })}>{t.name}</h1>
             <address>{t.address}</address>
           </div>
+
           <Options />
         </header>
+        <Announcemnt />
         <div
           className={cx(
             stack({ cGap: 'box' }),
